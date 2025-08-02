@@ -98,8 +98,8 @@ export function getSearchResultsWithScore(query: string, entries: DictionaryEntr
 }
 
 // Search with custom threshold (not really needed for simple search, but keeping for compatibility)
-export function customSearch(query: string, entries: DictionaryEntry[], threshold: number = 0.2): DictionaryEntry[] {
-  return simpleSearch(query, entries);
+export function customSearch(query: string, entries: DictionaryEntry[], maxResults: number = 50): DictionaryEntry[] {
+  return simpleSearch(query, entries, ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de'], maxResults);
 }
 
 // Clear the cached instance (not needed for simple search, but keeping for compatibility)

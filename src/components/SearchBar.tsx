@@ -149,9 +149,9 @@ export default function SearchBar({
         <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-4 z-10">
           <h4 className="font-medium text-gray-900 dark:text-white mb-2">Search Tips:</h4>
           <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
-            <li>• Exact matches: "haus" finds "haus"</li>
-            <li>• Prefix matches: "hau" finds "haus", "haushalt"</li>
-            <li>• Contains matches: "leb" finds "lebensmittel"</li>
+            <li>• Exact matches: &ldquo;haus&rdquo; finds &ldquo;haus&rdquo;</li>
+            <li>• Prefix matches: &ldquo;hau&rdquo; finds &ldquo;haus&rdquo;, &ldquo;haushalt&rdquo;</li>
+            <li>• Contains matches: &ldquo;leb&rdquo; finds &ldquo;lebensmittel&rdquo;</li>
             <li>• Use toggles to search in specific fields only</li>
           </ul>
         </div>

@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { dictionaryData } from '../data/dictionary';
 import { simpleSearch, SearchField } from '../utils/search';
 import SearchBar from '../components/SearchBar';
 import DictionaryCard from '../components/DictionaryCard';
 
-export default function Home() {
+function HomeContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -20,11 +20,11 @@ export default function Home() {
   );
   
   // Debounce function to improve performance
-  const debounce = useCallback((func: Function, delay: number) => {
+  const debounce = useCallback(<T extends unknown[]>(func: (...args: T) => void, delay: number) => {
     let timeoutId: NodeJS.Timeout;
-    return (...args: any[]) => {
+    return (...args: T) => {
       clearTimeout(timeoutId);
-      timeoutId = setTimeout(() => func.apply(null, args), delay);
+      timeoutId = setTimeout(() => func(...args), delay);
     };
   }, []);
 
@@ -99,7 +99,7 @@ export default function Home() {
           <p className="text-gray-600 dark:text-gray-300">
             {debouncedQuery ? (
               <>
-                Found <span className="font-semibold text-gray-900 dark:text-white">{filteredEntries.length}</span> result{filteredEntries.length !== 1 ? 's' : ''} for "{debouncedQuery}"
+                Found <span className="font-semibold text-gray-900 dark:text-white">{filteredEntries.length}</span> result{filteredEntries.length !== 1 ? 's' : ''} for &ldquo;{debouncedQuery}&rdquo;
                 {selectedFields.length < 7 && (
                   <span className="ml-2 text-blue-600 dark:text-blue-400">
                     (filtered by {selectedFields.length} field{selectedFields.length !== 1 ? 's' : ''})
@@ -147,9 +147,9 @@ export default function Home() {
             <div className="text-sm text-gray-400 dark:text-gray-500">
               <p>Search tips:</p>
               <ul className="mt-2 space-y-1">
-                <li>• Try exact matches: "haus"</li>
-                <li>• Try prefix matches: "hau" for "haus"</li>
-                <li>• Try partial matches: "leb" for "lebensmittel"</li>
+                <li>• Try exact matches: &ldquo;haus&rdquo;</li>
+                <li>• Try prefix matches: &ldquo;hau&rdquo; for &ldquo;haus&rdquo;</li>
+                <li>• Try partial matches: &ldquo;leb&rdquo; for &ldquo;lebensmittel&rdquo;</li>
                 <li>• Use field filters to narrow your search</li>
               </ul>
             </div>
@@ -166,5 +166,20 @@ export default function Home() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 dark:text-gray-300">Loading...</p>
+        </div>
+      </div>
+    }>
+      <HomeContent />
+    </Suspense>
   );
 }
