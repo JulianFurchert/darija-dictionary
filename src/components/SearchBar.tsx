@@ -115,16 +115,16 @@ export default function SearchBar({
 
       {/* Field Filters - Compact horizontal layout */}
       <div className="mt-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-3">
-        <div className="flex items-center justify-between space-x-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-3 sm:space-y-0 sm:space-x-4">
           <span className="text-sm font-medium text-gray-700 dark:text-gray-300 whitespace-nowrap">Search in:</span>
-          <div className="flex items-center space-x-3 flex-wrap">
+          <div className="flex flex-wrap items-center gap-3">
             {fieldOptions.map((option) => {
               const isSelected = isOptionSelected(option.fields);
               return (
-                <div key={option.key} className="flex items-center space-x-2">
+                <div key={option.key} className="flex items-center space-x-2 min-w-0">
                   <button
                     onClick={() => handleFieldToggle(option.fields)}
-                    className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 ${
+                    className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 flex-shrink-0 ${
                       isSelected 
                         ? 'bg-blue-600' 
                         : 'bg-gray-200 dark:bg-gray-700'
@@ -136,7 +136,7 @@ export default function SearchBar({
                       }`}
                     />
                   </button>
-                  <span className="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap">{option.label}</span>
+                  <span className="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap truncate max-w-20 sm:max-w-none">{option.label}</span>
                 </div>
               );
             })}
