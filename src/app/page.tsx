@@ -1,102 +1,172 @@
-import Image from "next/image";
+'use client';
+
+import { useState, useMemo } from 'react';
+import { dictionaryData } from '../data/dictionary';
+import { enhancedSearch, customSearch } from '../utils/search';
+import SearchBar from '../components/SearchBar';
+import DictionaryCard from '../components/DictionaryCard';
+
+type SearchType = 'all' | 'darija' | 'arabic' | 'english' | 'german';
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchType, setSearchType] = useState<SearchType>('all');
+  const [searchThreshold, setSearchThreshold] = useState(0.3);
+  
+  const filteredEntries = useMemo(() => {
+    if (!searchQuery.trim()) return dictionaryData;
+    
+    // Filter by search type first
+    let filteredData = dictionaryData;
+    if (searchType !== 'all') {
+      filteredData = dictionaryData.filter(entry => {
+        switch (searchType) {
+          case 'darija':
+            return entry.n1.toLowerCase().includes(searchQuery.toLowerCase());
+          case 'arabic':
+            return entry.darija_ar.includes(searchQuery);
+          case 'english':
+            return entry.eng.toLowerCase().includes(searchQuery.toLowerCase());
+          case 'german':
+            return entry.de.toLowerCase().includes(searchQuery.toLowerCase());
+          default:
+            return true;
+        }
+      });
+    }
+    
+    // Then apply fuzzy search
+    return enhancedSearch(searchQuery, filteredData);
+  }, [searchQuery, searchType]);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const handleSearchTypeChange = (type: SearchType) => {
+    setSearchType(type);
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      {/* Header */}
+      <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
+              Darija Dictionary
+            </h1>
+            <p className="text-lg text-gray-600 dark:text-gray-300">
+              Moroccan Arabic Dictionary - قاموس الدارجة المغربية
+            </p>
+          </div>
         </div>
+      </header>
+
+      {/* Search Section */}
+      <section className="py-8 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SearchBar
+            value={searchQuery}
+            onChange={setSearchQuery}
+            onSearchTypeChange={handleSearchTypeChange}
+            searchType={searchType}
+          />
+          
+          {/* Search Settings */}
+          <div className="mt-6 flex flex-wrap justify-center items-center gap-4 text-sm text-gray-600 dark:text-gray-300">
+            <div className="flex items-center gap-2">
+              <label htmlFor="threshold" className="font-medium">Search Sensitivity:</label>
+              <input
+                id="threshold"
+                type="range"
+                min="0.1"
+                max="0.8"
+                step="0.1"
+                value={searchThreshold}
+                onChange={(e) => setSearchThreshold(parseFloat(e.target.value))}
+                className="w-24"
+              />
+              <span className="w-8 text-center">{searchThreshold}</span>
+            </div>
+            <div className="text-xs">
+              {searchThreshold <= 0.2 && "Very Strict"}
+              {searchThreshold > 0.2 && searchThreshold <= 0.4 && "Strict"}
+              {searchThreshold > 0.4 && searchThreshold <= 0.6 && "Normal"}
+              {searchThreshold > 0.6 && "Loose"}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Results Section */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Results Info */}
+        <div className="mb-6 text-center">
+          <p className="text-gray-600 dark:text-gray-300">
+            {searchQuery ? (
+              <>
+                Found <span className="font-semibold text-gray-900 dark:text-white">{filteredEntries.length}</span> result{filteredEntries.length !== 1 ? 's' : ''} for "{searchQuery}"
+                {searchType !== 'all' && (
+                  <span className="ml-2 text-blue-600 dark:text-blue-400">
+                    (filtered by {searchType})
+                  </span>
+                )}
+              </>
+            ) : (
+              <>
+                Showing all <span className="font-semibold text-gray-900 dark:text-white">{dictionaryData.length}</span> entries
+              </>
+            )}
+          </p>
+        </div>
+
+        {/* Dictionary Cards Grid */}
+        {filteredEntries.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {filteredEntries.map((entry, index) => (
+              <DictionaryCard key={`${entry.n1}-${index}`} entry={entry} />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <div className="text-gray-400 dark:text-gray-500 mb-4">
+              <svg
+                className="mx-auto h-12 w-12"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.08-2.33"
+                />
+              </svg>
+            </div>
+            <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">
+              No results found
+            </h3>
+            <p className="text-gray-500 dark:text-gray-400 mb-4">
+              Try searching with different keywords or check your spelling.
+            </p>
+            <div className="text-sm text-gray-400 dark:text-gray-500">
+              <p>Search tips:</p>
+              <ul className="mt-2 space-y-1">
+                <li>• Try shorter or partial words</li>
+                <li>• Check different spellings</li>
+                <li>• Use the language filters</li>
+                <li>• Adjust search sensitivity</li>
+              </ul>
+            </div>
+          </div>
+        )}
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      {/* Footer */}
+      <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-500 dark:text-gray-400">
+            © 2024 Darija Dictionary. Built with Next.js, Tailwind CSS, and Fuse.js for powerful fuzzy search.
+          </p>
+        </div>
       </footer>
     </div>
   );
