@@ -1,4 +1,5 @@
 export interface DictionaryEntry {
+    id: string;
     n1: string;
     n2: string | null;
     n3: string | null;
@@ -16,6 +17,7 @@ export interface DictionaryEntry {
   
   export const dictionaryData: DictionaryEntry[] = [
     {
+      id: "cc482e8c",
       n1: "moSi9a",
       n2: null,
       n3: null,
@@ -31,6 +33,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12ffef3a",
       n1: "rasm",
       n2: null,
       n3: null,
@@ -46,6 +49,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "779ae44c",
       n1: "kamanja",
       n2: null,
       n3: null,
@@ -61,6 +65,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cc59b69",
       n1: "3oud",
       n2: null,
       n3: null,
@@ -76,6 +81,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8a0e860",
       n1: "chTi7",
       n2: "chTih",
       n3: null,
@@ -91,6 +97,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f22a8db1",
       n1: "ghna",
       n2: "ghona",
       n3: null,
@@ -106,6 +113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "617a7e81",
       n1: "chi3r",
       n2: null,
       n3: null,
@@ -121,6 +129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59977436",
       n1: "fenn",
       n2: "fann",
       n3: "fnn",
@@ -136,6 +145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc8f3c1b",
       n1: "msr7",
       n2: "masra7",
       n3: "masrah",
@@ -151,6 +161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94038503",
       n1: "tSfi9",
       n2: "taSfi9",
       n3: null,
@@ -166,6 +177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a39a493e",
       n1: "tSwira",
       n2: "tSwera",
       n3: "taSwira",
@@ -181,6 +193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "222f9d60",
       n1: "ta9afa",
       n2: "taqafa",
       n3: null,
@@ -196,6 +209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c83fe7cc",
       n1: "chita",
       n2: null,
       n3: null,
@@ -211,6 +225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13bea419",
       n1: "khayal",
       n2: "5ayal",
       n3: null,
@@ -226,6 +241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f323bb0",
       n1: "DDo",
       n2: "Daw2",
       n3: null,
@@ -241,6 +257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97561ef5",
       n1: "ibda3",
       n2: "ibdaa3",
       n3: null,
@@ -256,6 +273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7e538bc",
       n1: "jamal",
       n2: "jamaal",
       n3: null,
@@ -271,6 +289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "324394df",
       n1: "raw3a",
       n2: null,
       n3: null,
@@ -286,6 +305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98b004c8",
       n1: "chaa3ir",
       n2: "cha3ir",
       n3: null,
@@ -301,6 +321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61056632",
       n1: "katib",
       n2: null,
       n3: null,
@@ -316,6 +337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e2d0942",
       n1: "riwa2i",
       n2: "riwaa2i",
       n3: null,
@@ -331,6 +353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba36f673",
       n1: "mokhrij",
       n2: "mo5rij",
       n3: null,
@@ -346,6 +369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "773b8393",
       n1: "momttil",
       n2: "momtil",
       n3: null,
@@ -361,6 +385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "881b4b16",
       n1: "mo2llif",
       n2: "mo2allif",
       n3: "mo2lif",
@@ -376,6 +401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3499302e",
       n1: "8ndasa",
       n2: "8andasa",
       n3: null,
@@ -391,6 +417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7153f60",
       n1: "rasm",
       n2: null,
       n3: null,
@@ -406,6 +433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9aa819fb",
       n1: "n7t",
       n2: "na7t",
       n3: "ne7t",
@@ -421,6 +449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "268331f5",
       n1: "Tbl",
       n2: "Tbel",
       n3: "Tbal",
@@ -436,6 +465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c329aa1",
       n1: "piano",
       n2: null,
       n3: null,
@@ -451,6 +481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b445f81",
       n1: "guitar",
       n2: "gitar",
       n3: null,
@@ -466,6 +497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b064423f",
       n1: "nghma",
       n2: "neghma",
       n3: "naghma",
@@ -481,6 +513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5925ec1",
       n1: "osloub",
       n2: "oslob",
       n3: null,
@@ -496,6 +529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1dd7d55b",
       n1: "ofo9i",
       n2: "ofoqi",
       n3: null,
@@ -511,6 +545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81d4f35c",
       n1: "3amoudi",
       n2: "3amodi",
       n3: null,
@@ -526,6 +561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d16786da",
       n1: "chm3a",
       n2: "cham3a",
       n3: "chem3a",
@@ -541,6 +577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "809de74f",
       n1: "nsijam",
       n2: "insijam",
       n3: null,
@@ -556,6 +593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fce0ec8",
       n1: "tze3zi3",
       n2: "tza3zi3",
       n3: "tz3zi3",
@@ -571,6 +609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "195cf1d6",
       n1: "i9a3",
       n2: "iy9a3",
       n3: "iqa3",
@@ -586,6 +625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6650623b",
       n1: "t2tir",
       n2: "ta2tir",
       n3: "ta2thir",
@@ -601,6 +641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94bcf567",
       n1: "t2Tir",
       n2: "ta2Tir",
       n3: "te2Tir",
@@ -616,6 +657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8394e5c3",
       n1: "tSmim",
       n2: "taSmim",
       n3: null,
@@ -631,6 +673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d017a337",
       n1: "t3bir",
       n2: null,
       n3: null,
@@ -646,6 +689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8003fc63",
       n1: "ti9nia",
       n2: null,
       n3: null,
@@ -661,6 +705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3225377d",
       n1: "tikrar",
       n2: null,
       n3: null,
@@ -676,6 +721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "354aaf95",
       n1: "m3awda",
       n2: null,
       n3: null,
@@ -691,6 +737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43a8796f",
       n1: "tamatoul",
       n2: "tamatol",
       n3: "tamathoul",
@@ -706,6 +753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71b51437",
       n1: "bou3d",
       n2: "bo3d",
       n3: null,
@@ -721,6 +769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27d7f208",
       n1: "bo3d",
       n2: null,
       n3: null,
@@ -736,6 +785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89522621",
       n1: "masafa",
       n2: null,
       n3: null,
@@ -751,6 +801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65bbfcc2",
       n1: "gnTra",
       n2: "ganTra",
       n3: "guenTra",
@@ -766,6 +817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3794bc69",
       n1: "khTT",
       n2: "khaTT",
       n3: "kheTT",
@@ -781,6 +833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d498515",
       n1: "morbba3",
       n2: "morabba3",
       n3: "morebba3",
@@ -796,6 +849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "442cd016",
       n1: "dwwara",
       n2: "da2ira",
       n3: null,
@@ -811,6 +865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3ffad06",
       n1: "motllat",
       n2: "motlat",
       n3: null,
@@ -826,6 +881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58b0a939",
       n1: "mostaTil",
       n2: null,
       n3: null,
@@ -841,6 +897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ecc6ad0",
       n1: "n9Ta",
       n2: "no9Ta",
       n3: null,
@@ -856,6 +913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6e532d8",
       n1: "SoT",
       n2: "SouT",
       n3: null,
@@ -871,6 +929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64189168",
       n1: "zwin",
       n2: null,
       n3: null,
@@ -886,6 +945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4780a529",
       n1: "zin",
       n2: null,
       n3: null,
@@ -901,6 +961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1641590f",
       n1: "khayal",
       n2: "5ayal",
       n3: null,
@@ -916,6 +977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d9a560c",
       n1: "chacha",
       n2: "chaacha",
       n3: null,
@@ -931,6 +993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4abce032",
       n1: "koumidia",
       n2: "koumidya",
       n3: "comedia",
@@ -946,6 +1009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b71230ce",
       n1: "tarikhi",
       n2: "taarikhi",
       n3: null,
@@ -961,6 +1025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2164786b",
       n1: "SoT",
       n2: "SouT",
       n3: null,
@@ -976,6 +1041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd53be73",
       n1: "adat",
       n2: "adaat",
       n3: null,
@@ -991,6 +1057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e179aec",
       n1: "m3riD",
       n2: "ma3riD",
       n3: null,
@@ -1006,6 +1073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9b1e066",
       n1: "mi8rajan",
       n2: "mihrajan",
       n3: null,
@@ -1021,6 +1089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cfc304d",
       n1: "makiaj",
       n2: "makyaj",
       n3: null,
@@ -1036,6 +1105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "055a9c96",
       n1: "baTal",
       n2: null,
       n3: null,
@@ -1051,6 +1121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ca7e189",
       n1: "ch3bi",
       n2: "che3bi",
       n3: "cha3bi",
@@ -1066,6 +1137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a893f1b7",
       n1: "riwaya",
       n2: null,
       n3: null,
@@ -1081,6 +1153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43566ba6",
       n1: "moselsal",
       n2: null,
       n3: null,
@@ -1096,6 +1169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a6fff2a",
       n1: "9anat",
       n2: "qanat",
       n3: "9anaat",
@@ -1111,6 +1185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e45ac31",
       n1: "ich8ar",
       n2: null,
       n3: null,
@@ -1126,6 +1201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf730b17",
       n1: "moghnni",
       n2: "moghenni",
       n3: "moghanni",
@@ -1141,6 +1217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf62eada",
       n1: "fer9a",
       n2: "fr9a",
       n3: null,
@@ -1156,6 +1233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdb216b3",
       n1: "jou9",
       n2: "jo9",
       n3: null,
@@ -1171,6 +1249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fff9bc28",
       n1: "kasiTa",
       n2: null,
       n3: null,
@@ -1186,6 +1265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06fbd15a",
       n1: "9anoun",
       n2: "9anon",
       n3: "9aanon",
@@ -1201,6 +1281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98963779",
       n1: "oustad",
       n2: "ostad",
       n3: null,
@@ -1216,6 +1297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "206defcf",
       n1: "tlmid",
       n2: "tilmid",
       n3: null,
@@ -1231,6 +1313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "869eae2e",
       n1: "3amid",
       n2: "aamid",
       n3: null,
@@ -1246,6 +1329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb0aa77b",
       n1: "sbbora",
       n2: "sabbora",
       n3: "sbora",
@@ -1261,6 +1345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f163387b",
       n1: "Tabachir",
       n2: null,
       n3: null,
@@ -1276,6 +1361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7882b6e4",
       n1: "fizik",
       n2: "lfizik",
       n3: null,
@@ -1291,6 +1377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cc6dbd4",
       n1: "tarikh",
       n2: null,
       n3: null,
@@ -1306,6 +1393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f02749ff",
       n1: "ryaDiat",
       n2: "riaDiat",
       n3: null,
@@ -1321,6 +1409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8df00027",
       n1: "riyaDa",
       n2: "riaDa",
       n3: null,
@@ -1336,6 +1425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5259dd41",
       n1: "joghrafia",
       n2: "joghrafya",
       n3: null,
@@ -1351,6 +1441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bae30cf3",
       n1: "ders",
       n2: "dars",
       n3: "drs",
@@ -1366,6 +1457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "985809a7",
       n1: "mti7an",
       n2: "imti7an",
       n3: "mtihan",
@@ -1381,6 +1473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f213f6df",
       n1: "ktab",
       n2: null,
       n3: null,
@@ -1396,6 +1489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87db8783",
       n1: "dftar",
       n2: "deftar",
       n3: "daftar",
@@ -1411,6 +1505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d8b0812",
       n1: "btida2i",
       n2: null,
       n3: null,
@@ -1426,6 +1521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65870883",
       n1: "t3lim",
       n2: "ta3lim",
       n3: null,
@@ -1441,6 +1537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01acaa76",
       n1: "9ism",
       n2: null,
       n3: null,
@@ -1456,6 +1553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5832f8e6",
       n1: "lafak",
       n2: "lafac",
       n3: "la fac",
@@ -1471,6 +1569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ed33077",
       n1: "i3dadi",
       n2: null,
       n3: null,
@@ -1486,6 +1585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2053d937",
       n1: "tanawi",
       n2: "tanaoui",
       n3: null,
@@ -1501,6 +1601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc65bb20",
       n1: "jami3a",
       n2: null,
       n3: null,
@@ -1516,6 +1617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd500d08",
       n1: "diplom",
       n2: "diplome",
       n3: null,
@@ -1531,6 +1633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdbf1e54",
       n1: "idara",
       n2: null,
       n3: null,
@@ -1546,6 +1649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e07b7ed1",
       n1: "Tawila",
       n2: null,
       n3: null,
@@ -1561,6 +1665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e69aaa9b",
       n1: "felsafa",
       n2: "falsafa",
       n3: "flsafa",
@@ -1576,6 +1681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15c7ecab",
       n1: "mawad",
       n2: null,
       n3: null,
@@ -1591,6 +1697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f52a200",
       n1: "3ilm",
       n2: null,
       n3: null,
@@ -1606,6 +1713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fa341e5",
       n1: "lougha",
       n2: "logha",
       n3: null,
@@ -1621,6 +1729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bec22d82",
       n1: "adab",
       n2: null,
       n3: null,
@@ -1636,6 +1745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a29f673",
       n1: "3oloum",
       n2: "3ouloum",
       n3: "3olom",
@@ -1651,6 +1761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b711eb97",
       n1: "ktba",
       n2: "kitaba",
       n3: "ktaba",
@@ -1666,6 +1777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fb22ca5",
       n1: "jabr",
       n2: null,
       n3: null,
@@ -1681,6 +1793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1160c98d",
       n1: "8ndasa",
       n2: "handasa",
       n3: "8andasa",
@@ -1696,6 +1809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3cf4dee5",
       n1: "l7sab",
       n2: "7sab",
       n3: "hsab",
@@ -1711,6 +1825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "495bd74c",
       n1: "chimi",
       n2: null,
       n3: null,
@@ -1726,6 +1841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e85cc243",
       n1: "stilo",
       n2: "stylo",
       n3: null,
@@ -1741,6 +1857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce244d47",
       n1: "misTara",
       n2: null,
       n3: null,
@@ -1756,6 +1873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c4d6e42",
       n1: "chkara",
       n2: null,
       n3: null,
@@ -1771,6 +1889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "459b3610",
       n1: "9alam",
       n2: "qalam",
       n3: null,
@@ -1786,6 +1905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0569203e",
       n1: "mim7at",
       n2: "mimhat",
       n3: null,
@@ -1801,6 +1921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "947eb8eb",
       n1: "3oTla",
       n2: null,
       n3: null,
@@ -1816,6 +1937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3dd010b0",
       n1: "7iSSa",
       n2: "7iSa",
       n3: "hiSSa",
@@ -1831,6 +1953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77ef34fb",
       n1: "Sf7a",
       n2: "Saf7a",
       n3: "Sef7a",
@@ -1846,6 +1969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7eb7f388",
       n1: "wer9a",
       n2: null,
       n3: null,
@@ -1861,6 +1985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b594d84",
       n1: "so2al",
       n2: "ce2al",
       n3: null,
@@ -1876,6 +2001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1048cee",
       n1: "jawab",
       n2: null,
       n3: null,
@@ -1891,6 +2017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6cd6f5a",
       n1: "fikra",
       n2: null,
       n3: null,
@@ -1906,6 +2033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c64bef79",
       n1: "7sab",
       n2: "7ssab",
       n3: null,
@@ -1921,6 +2049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3505f8cb",
       n1: "Tol",
       n2: null,
       n3: null,
@@ -1936,6 +2065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "800879f4",
       n1: "3rD",
       n2: "3arD",
       n3: "3erD",
@@ -1951,6 +2081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc4f5c16",
       n1: "rtifa3",
       n2: "irtifa3",
       n3: null,
@@ -1966,6 +2097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8deb8ea0",
       n1: "3lo",
       n2: "3low",
       n3: null,
@@ -1981,6 +2113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3523f2bd",
       n1: "moDo3",
       n2: "mowDo3",
       n3: "mawDou3",
@@ -1996,6 +2129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a537d782",
       n1: "da2ira",
       n2: "dwwara",
       n3: null,
@@ -2011,6 +2145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71520c6a",
       n1: "7rf",
       n2: "7arf",
       n3: "7erf",
@@ -2026,6 +2161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6cb3b9c",
       n1: "kelma",
       n2: null,
       n3: null,
@@ -2041,6 +2177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55222e58",
       n1: "jomla",
       n2: "joumla",
       n3: null,
@@ -2056,6 +2193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "837d7a2e",
       n1: "faSila",
       n2: null,
       n3: null,
@@ -2071,6 +2209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8bbc536e",
       n1: "tjriba",
       n2: "tajriba",
       n3: "tejriba",
@@ -2086,6 +2225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "051d3f5c",
       n1: "kotla",
       n2: null,
       n3: null,
@@ -2101,6 +2241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dfae429b",
       n1: "7ajm",
       n2: null,
       n3: null,
@@ -2116,6 +2257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e9b95b7",
       n1: "khaTa2",
       n2: "5aTa2",
       n3: null,
@@ -2131,6 +2273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d380353",
       n1: "Sa7i7",
       n2: "Sahih",
       n3: null,
@@ -2146,6 +2289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e4d548a",
       n1: "m9S",
       n2: "m9aSS",
       n3: "m9eSS",
@@ -2161,6 +2305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ebc66e0",
       n1: "rawD",
       n2: "raouD",
       n3: null,
@@ -2176,6 +2321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa652496",
       n1: "takhSSoS",
       n2: "ta5SSoS",
       n3: "takhaSSoS",
@@ -2191,6 +2337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "763ad62e",
       n1: "ni9ach",
       n2: null,
       n3: null,
@@ -2206,6 +2353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59779506",
       n1: "t7lil",
       n2: null,
       n3: null,
@@ -2221,6 +2369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ea80673",
       n1: "tmrin",
       n2: null,
       n3: null,
@@ -2236,6 +2385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fba486d2",
       n1: "min7a",
       n2: "minha",
       n3: null,
@@ -2251,6 +2401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2632e7a6",
       n1: "ghiyab",
       n2: null,
       n3: null,
@@ -2266,6 +2417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "815b66ce",
       n1: "7oDor",
       n2: "7oDour",
       n3: null,
@@ -2281,6 +2433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6616ac8c",
       n1: "za2id",
       n2: null,
       n3: null,
@@ -2296,6 +2449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c859b3a",
       n1: "na9iS",
       n2: "naqis",
       n3: null,
@@ -2311,6 +2465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2686aeb7",
       n1: "mDroub",
       n2: null,
       n3: null,
@@ -2326,6 +2481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b0728d5",
       n1: "m9soum",
       n2: "me9soum",
       n3: "m9som",
@@ -2341,6 +2497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d859659",
       n1: "mo3adala",
       n2: null,
       n3: null,
@@ -2356,6 +2513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45cdb259",
       n1: "kasr",
       n2: null,
       n3: null,
@@ -2371,6 +2529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed4c95c4",
       n1: "chkel",
       n2: "chkl",
       n3: null,
@@ -2386,6 +2545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "557ad27a",
       n1: "zawiya",
       n2: "zawia",
       n3: "zawya",
@@ -2401,6 +2561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d0ac796",
       n1: "Tibb",
       n2: null,
       n3: null,
@@ -2416,6 +2577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ce68654",
       n1: "7aDana",
       n2: null,
       n3: null,
@@ -2431,6 +2593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76332924",
       n1: "ddirasat l3olya",
       n2: "ddirasat l3olia",
       n3: null,
@@ -2446,6 +2609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22c24bee",
       n1: "ma38ad",
       n2: "me38ed",
       n3: "ma3had",
@@ -2461,6 +2625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b21c9f7",
       n1: "bac",
       n2: "lbac",
       n3: null,
@@ -2476,6 +2641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7535271",
       n1: "ma9al",
       n2: "ma9aal",
       n3: null,
@@ -2491,6 +2657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db2acb5f",
       n1: "ma9al",
       n2: null,
       n3: null,
@@ -2506,6 +2673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d170e7b",
       n1: "sellan",
       n2: "sllan",
       n3: null,
@@ -2521,6 +2689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13bbd4ef",
       n1: "9ala9",
       n2: "t9li9a",
       n3: "qalaq",
@@ -2536,6 +2705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8280435a",
       n1: "tbrziT",
       n2: "tberziT",
       n3: "tbarziT",
@@ -2551,6 +2721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62de7f89",
       n1: "ghaDab",
       n2: null,
       n3: null,
@@ -2566,6 +2737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f51194b3",
       n1: "nachaT",
       n2: "nachaaT",
       n3: null,
@@ -2581,6 +2753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3cba386c",
       n1: "9oboul",
       n2: "9obol",
       n3: "qoboul",
@@ -2596,6 +2769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a38c0c2",
       n1: "chaja3a",
       n2: "chajaa3a",
       n3: null,
@@ -2611,6 +2785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c24e3e3c",
       n1: "ti9a",
       n2: "tti9a",
       n3: null,
@@ -2626,6 +2801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a7ceac0",
       n1: "malal",
       n2: null,
       n3: null,
@@ -2641,6 +2817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd14d886",
       n1: "lamobalat",
       n2: null,
       n3: null,
@@ -2656,6 +2833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b392d0e2",
       n1: "fDoul",
       n2: "fDol",
       n3: null,
@@ -2671,6 +2849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1684dba",
       n1: "ka2aaba",
       n2: "ka2aba",
       n3: null,
@@ -2686,6 +2865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e29885ec",
       n1: "rghba",
       n2: "raghba",
       n3: null,
@@ -2701,6 +2881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e28e276",
       n1: "tay3yef",
       n2: null,
       n3: null,
@@ -2716,6 +2897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "210af826",
       n1: "chek",
       n2: "chk",
       n3: null,
@@ -2731,6 +2913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f2eed94",
       n1: "nchwa",
       n2: "nechwa",
       n3: "nachwa",
@@ -2746,6 +2929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1167cbce",
       n1: "i7raj",
       n2: null,
       n3: null,
@@ -2761,6 +2945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9f46dff",
       n1: "lmrig",
       n2: null,
       n3: null,
@@ -2776,6 +2961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ecb0690c",
       n1: "khawf",
       n2: "khouf",
       n3: null,
@@ -2791,6 +2977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9678f535",
       n1: "i7baaT",
       n2: null,
       n3: null,
@@ -2806,6 +2993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab6036f1",
       n1: "ta3aTof",
       n2: null,
       n3: null,
@@ -2821,6 +3009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c55761f",
       n1: "chokr",
       n2: null,
       n3: null,
@@ -2836,6 +3025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6ca2903",
       n1: "Tm3",
       n2: "Tama3",
       n3: "Tam3",
@@ -2851,6 +3041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad2f5212",
       n1: "dnb",
       n2: "denb",
       n3: "danb",
@@ -2866,6 +3057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "714fb4e4",
       n1: "ta2nib damir",
       n2: null,
       n3: null,
@@ -2881,6 +3073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9bba5a4",
       n1: "7amas",
       n2: "hamas",
       n3: null,
@@ -2896,6 +3089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d7e5640",
       n1: "sa3ada",
       n2: "saaada",
       n3: null,
@@ -2911,6 +3105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48559db0",
       n1: "lfer7a",
       n2: null,
       n3: null,
@@ -2926,6 +3121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf97feed",
       n1: "karahia",
       n2: "kara8ia",
       n3: "kor8",
@@ -2941,6 +3137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23d6c07b",
       n1: "7asad",
       n2: "hasad",
       n3: null,
@@ -2956,6 +3153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0b45306",
       n1: "ch8wa",
       n2: "cha8wa",
       n3: "che8wa",
@@ -2971,6 +3169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ea2edca",
       n1: "7obb",
       n2: "hobb",
       n3: "houb",
@@ -2986,6 +3185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb2b0b42",
       n1: "wa7da",
       n2: null,
       n3: null,
@@ -3001,6 +3201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50816d73",
       n1: "Drafat",
       n2: null,
       n3: null,
@@ -3016,6 +3217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2f149d9",
       n1: "fara7",
       n2: "farah",
       n3: null,
@@ -3031,6 +3233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddbd8cd0",
       n1: "ghira",
       n2: "ghyra",
       n3: "ghayra",
@@ -3046,6 +3249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b8f49ab",
       n1: "dell",
       n2: "ddell",
       n3: null,
@@ -3061,6 +3265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be09a24a",
       n1: "ro3b",
       n2: null,
       n3: null,
@@ -3076,6 +3281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "198962d1",
       n1: "nnadam",
       n2: null,
       n3: null,
@@ -3091,6 +3297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62b56be5",
       n1: "RRafD",
       n2: "RafD",
       n3: null,
@@ -3106,6 +3313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbc504a2",
       n1: "nnadam",
       n2: null,
       n3: null,
@@ -3121,6 +3329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d3db4c5",
       n1: "ghaDab",
       n2: null,
       n3: null,
@@ -3136,6 +3345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13f31a2c",
       n1: "fakhr",
       n2: "fa5r",
       n3: null,
@@ -3151,6 +3361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "856848fe",
       n1: "chafa9a",
       n2: "chafaqa",
       n3: null,
@@ -3166,6 +3377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f764fc2d",
       n1: "chaghaf",
       n2: null,
       n3: null,
@@ -3181,6 +3393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1754592",
       n1: "7anin",
       n2: "hanin",
       n3: null,
@@ -3196,6 +3409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2650eddf",
       n1: "7chma",
       n2: "7echma",
       n3: "7achma",
@@ -3211,6 +3425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab902c64",
       n1: "SaDma",
       n2: "SDma",
       n3: "SeDma",
@@ -3226,6 +3441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5941b1a",
       n1: "3ar",
       n2: "3aar",
       n3: null,
@@ -3241,6 +3457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a80d9b23",
       n1: "7ozn",
       n2: "hozn",
       n3: "7ouzn",
@@ -3256,6 +3473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac3df110",
       n1: "mo3anat",
       n2: "mo3aanaat",
       n3: null,
@@ -3271,6 +3489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f05ac090",
       n1: "mofaja2a",
       n2: null,
       n3: null,
@@ -3286,6 +3505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bab8c24f",
       n1: "khl3a",
       n2: "khel3a",
       n3: "khal3a",
@@ -3301,6 +3521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04f26870",
       n1: "wswas",
       n2: "waswass",
       n3: "waswas",
@@ -3316,6 +3537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "821351ed",
       n1: "f9sa",
       n2: "fa9sa",
       n3: "fe9sa",
@@ -3331,6 +3553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0df14d73",
       n1: "Tomou7",
       n2: "Tomo7",
       n3: null,
@@ -3346,6 +3569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c39dede8",
       n1: "i7sas",
       n2: "ihsas",
       n3: null,
@@ -3361,6 +3585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97d131b7",
       n1: "cho3our",
       n2: "cho3or",
       n3: null,
@@ -3376,6 +3601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0ccaef0",
       n1: "3aTifa",
       n2: "3aaTifa",
       n3: null,
@@ -3391,6 +3617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb645fb5",
       n1: "8awa2",
       n2: "8wa",
       n3: "8awa",
@@ -3406,6 +3633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "075372e3",
       n1: "wad",
       n2: "ouad",
       n3: null,
@@ -3421,6 +3649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c15acf3",
       n1: "chjra",
       n2: "chejra",
       n3: "chajra",
@@ -3436,6 +3665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57ab1ad3",
       n1: "baTo",
       n2: null,
       n3: null,
@@ -3451,6 +3681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29570445",
       n1: "talwwot",
       n2: "talwot",
       n3: "talwwout",
@@ -3466,6 +3697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09f9f57f",
       n1: "glaS",
       n2: null,
       n3: null,
@@ -3481,6 +3713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e2ef3f7",
       n1: "telj",
       n2: null,
       n3: null,
@@ -3496,6 +3729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c371443d",
       n1: "Tri9",
       n2: "Triq",
       n3: null,
@@ -3511,6 +3745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09287638",
       n1: "Dbab",
       n2: "Dbaba",
       n3: null,
@@ -3526,6 +3761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03e94a20",
       n1: "ghaba",
       n2: null,
       n3: null,
@@ -3541,6 +3777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22b26bb8",
       n1: "jrda",
       n2: "jarda",
       n3: "jerda",
@@ -3556,6 +3793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "946915d4",
       n1: "choro9",
       n2: "chorou9",
       n3: "chorouq",
@@ -3571,6 +3809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06c82c78",
       n1: "ghorob",
       n2: "ghoroub",
       n3: null,
@@ -3586,6 +3825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0eac62cb",
       n1: "chmch",
       n2: "chamch",
       n3: "chemch",
@@ -3601,6 +3841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc2fe574",
       n1: "9amar",
       n2: "l9amar",
       n3: "qamar",
@@ -3616,6 +3857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19972358",
       n1: "mrrikh",
       n2: "lmrrikh",
       n3: "marrikh",
@@ -3631,6 +3873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb97bbcb",
       n1: "sma",
       n2: null,
       n3: null,
@@ -3646,6 +3889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bab28247",
       n1: "jbel",
       n2: "jbl",
       n3: null,
@@ -3661,6 +3905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db856c73",
       n1: "chta",
       n2: null,
       n3: null,
@@ -3676,6 +3921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b366c2c",
       n1: "rr3Da",
       n2: "r3Da",
       n3: "ra3Da",
@@ -3691,6 +3937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d20178d",
       n1: "lberd",
       n2: "brd",
       n3: "berd",
@@ -3706,6 +3953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2047ef58",
       n1: "ri7",
       n2: null,
       n3: null,
@@ -3721,6 +3969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a02bcede",
       n1: "S8D",
       n2: "Sa8D",
       n3: "Se8D",
@@ -3736,6 +3985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "faaedc60",
       n1: "ti9i9t",
       n2: "ti99i9t",
       n3: null,
@@ -3751,6 +4001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "459f46b0",
       n1: "smaym",
       n2: null,
       n3: null,
@@ -3766,6 +4017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d32f188d",
       n1: "chtwa",
       n2: "chetwa",
       n3: "chatwa",
@@ -3781,6 +4033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2c786a6",
       n1: "lkhrif",
       n2: "khrif",
       n3: "5rif",
@@ -3796,6 +4049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c176c9e",
       n1: "rrbi3",
       n2: "rbi3",
       n3: null,
@@ -3811,6 +4065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e429118d",
       n1: "ljow",
       n2: "ljaw",
       n3: "ljw",
@@ -3826,6 +4081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09b1dc4d",
       n1: "zlzal",
       n2: "znzal",
       n3: "zelzal",
@@ -3841,6 +4097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "05979741",
       n1: "borkan",
       n2: "borkane",
       n3: null,
@@ -3856,6 +4113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc709581",
       n1: "fayaDan",
       n2: null,
       n3: null,
@@ -3871,6 +4129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a290bc99",
       n1: "7amla",
       n2: null,
       n3: null,
@@ -3886,6 +4145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b34bfa6",
       n1: "Ta9s",
       n2: null,
       n3: null,
@@ -3901,6 +4161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64f768c6",
       n1: "mDbbeb",
       n2: "mDabbab",
       n3: "mDebbab",
@@ -3916,6 +4177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7ef1f33",
       n1: "skhoun",
       n2: "skhon",
       n3: null,
@@ -3931,6 +4193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "153b3426",
       n1: "mchmmech",
       n2: null,
       n3: null,
@@ -3946,6 +4209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7975405",
       n1: "m3j3j",
       n2: "m3ej3ej",
       n3: "m3aj3aj",
@@ -3961,6 +4225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "333ecf83",
       n1: "khcheb",
       n2: "khchb",
       n3: "khchab",
@@ -3976,6 +4241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf10d431",
       n1: "7did",
       n2: null,
       n3: null,
@@ -3991,6 +4257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75e675ad",
       n1: "jaj",
       n2: "jjaj",
       n3: "zaj",
@@ -4006,6 +4273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01e003f5",
       n1: "aliminiom",
       n2: "aliminyom",
       n3: null,
@@ -4021,6 +4289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4936d4be",
       n1: "n7as",
       n2: null,
       n3: null,
@@ -4036,6 +4305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d220dc61",
       n1: "7jr",
       n2: "7jer",
       n3: "hjar",
@@ -4051,6 +4321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50de34f0",
       n1: "Sofa",
       n2: "SSofa",
       n3: null,
@@ -4066,6 +4337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25ea9695",
       n1: "9Ten",
       n2: null,
       n3: null,
@@ -4081,6 +4353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3621c491",
       n1: "dheb",
       n2: "dhb",
       n3: "dhab",
@@ -4096,6 +4369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f45b62aa",
       n1: "jld",
       n2: "jeld",
       n3: "jild",
@@ -4111,6 +4385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a469004",
       n1: "nnilo",
       n2: "nilou",
       n3: "nilo",
@@ -4126,6 +4401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eca86d71",
       n1: "rmla",
       n2: "remla",
       n3: "ramla",
@@ -4141,6 +4417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a511f54",
       n1: "fDDa",
       n2: "faDDa",
       n3: null,
@@ -4156,6 +4433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "643e7768",
       n1: "3afia",
       n2: "aafia",
       n3: null,
@@ -4171,6 +4449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80157d02",
       n1: "njma",
       n2: "nejma",
       n3: "najma",
@@ -4186,6 +4465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc0e18b4",
       n1: "mouja",
       n2: "mawja",
       n3: "mowja",
@@ -4201,6 +4481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d61fd47d",
       n1: "khla",
       n2: "5la",
       n3: null,
@@ -4216,6 +4497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a23ff46",
       n1: "7affa",
       n2: null,
       n3: null,
@@ -4231,6 +4513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14d89be3",
       n1: "bo7ayra",
       n2: null,
       n3: null,
@@ -4246,6 +4529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c62d49e",
       n1: "trab",
       n2: null,
       n3: null,
@@ -4261,6 +4545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13ebfaf6",
       n1: "Tabi3a",
       n2: null,
       n3: null,
@@ -4276,6 +4561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92b7d25a",
       n1: "S7ra",
       n2: "Sahra",
       n3: "Sa7ra",
@@ -4291,6 +4577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fe58f32",
       n1: "chllal",
       n2: "chellal",
       n3: "challal",
@@ -4306,6 +4593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03c5175d",
       n1: "ghar",
       n2: "ghaar",
       n3: null,
@@ -4321,6 +4609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "782e8d20",
       n1: "wa7a",
       n2: "waa7a",
       n3: null,
@@ -4336,6 +4625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af063b91",
       n1: "rmad",
       n2: "rmaad",
       n3: "ramaad",
@@ -4351,6 +4641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e6142c7",
       n1: "ghis",
       n2: "ghiss",
       n3: null,
@@ -4366,6 +4657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "709e9a2c",
       n1: "roTouba",
       n2: "roToba",
       n3: null,
@@ -4381,6 +4673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc7f78c8",
       n1: "i3Sar",
       n2: "i3Saar",
       n3: null,
@@ -4396,6 +4689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90e63062",
       n1: "kawn",
       n2: null,
       n3: null,
@@ -4411,6 +4705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a5f0285",
       n1: "flouss",
       n2: "flos",
       n3: "flous",
@@ -4426,6 +4721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7a3a80a",
       n1: "l3a9a",
       n2: "ll3a9a",
       n3: "ll3aqa",
@@ -4441,6 +4737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a8a2dff",
       n1: "raslmal",
       n2: "ras lmal",
       n3: null,
@@ -4456,6 +4753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "264b94ca",
       n1: "ttaman",
       n2: "taman",
       n3: null,
@@ -4471,6 +4769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24c7dcfb",
       n1: "Talab",
       n2: null,
       n3: null,
@@ -4486,6 +4785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f544c39",
       n1: "kra",
       n2: null,
       n3: null,
@@ -4501,6 +4801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5116faf",
       n1: "salaf",
       n2: null,
       n3: null,
@@ -4516,6 +4817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0dd3a587",
       n1: "9arD",
       n2: "9rD",
       n3: "9erD",
@@ -4531,6 +4833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ba80a71",
       n1: "kridi",
       n2: null,
       n3: null,
@@ -4546,6 +4849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55da6a52",
       n1: "9tiSad",
       n2: null,
       n3: null,
@@ -4561,6 +4865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfd67a21",
       n1: "byya3",
       n2: "beyya3",
       n3: "beya3",
@@ -4576,6 +4881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f55eacd",
       n1: "chrray",
       n2: "chray",
       n3: null,
@@ -4591,6 +4897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9c93a2c",
       n1: "lbi3",
       n2: null,
       n3: null,
@@ -4606,6 +4913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a0f0346",
       n1: "chchra",
       n2: null,
       n3: null,
@@ -4621,6 +4929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ae25c27",
       n1: "sou9",
       n2: "souk",
       n3: "souq",
@@ -4636,6 +4945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7349133",
       n1: "charika",
       n2: null,
       n3: null,
@@ -4651,6 +4961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1c766d5",
       n1: "dr8m",
       n2: "drhm",
       n3: "der8am",
@@ -4666,6 +4977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f119436",
       n1: "jma3a",
       n2: null,
       n3: null,
@@ -4681,6 +4993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72fdd060",
       n1: "7tikar",
       n2: "htikar",
       n3: null,
@@ -4696,6 +5009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ece094cf",
       n1: "7tiyaT",
       n2: "i7tiaT",
       n3: "ihtiaT",
@@ -4711,6 +5025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21000436",
       n1: "khdma",
       n2: "khedma",
       n3: "kahdma",
@@ -4726,6 +5041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5e05da6",
       n1: "3omla",
       n2: null,
       n3: null,
@@ -4741,6 +5057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da12bc29",
       n1: "rrb7",
       n2: "rrba7",
       n3: null,
@@ -4756,6 +5073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f35b0933",
       n1: "kriz",
       n2: "criz",
       n3: null,
@@ -4771,6 +5089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a62035bf",
       n1: "stachr",
       n2: "istachar",
       n3: null,
@@ -4786,6 +5105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "184e0271",
       n1: "sti9rar",
       n2: "isti9rar",
       n3: "stiqrar",
@@ -4801,6 +5121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a8741d8",
       n1: "sti8lak",
       n2: "stihlak",
       n3: "istihlak",
@@ -4816,6 +5137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2578ba69",
       n1: "iSla7",
       n2: null,
       n3: null,
@@ -4831,6 +5153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27e61b1d",
       n1: "sa2i7",
       n2: "saih",
       n3: "ra2ih",
@@ -4846,6 +5169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7a9b1b9",
       n1: "biznis",
       n2: null,
       n3: null,
@@ -4861,6 +5185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "918ab7e9",
       n1: "tijara",
       n2: "ttijara",
       n3: null,
@@ -4876,6 +5201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9daee2fd",
       n1: "fayit",
       n2: "fayyit",
       n3: null,
@@ -4891,6 +5217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "036e1ce2",
       n1: "dawli",
       n2: null,
       n3: null,
@@ -4906,6 +5233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02e38e96",
       n1: "3alami",
       n2: "aalami",
       n3: null,
@@ -4921,6 +5249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de32fa8e",
       n1: "D3if",
       n2: null,
       n3: null,
@@ -4936,6 +5265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e90d49b",
       n1: "fa9ir",
       n2: "faqir",
       n3: null,
@@ -4951,6 +5281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85a5abde",
       n1: "mntouj",
       n2: "mantouj",
       n3: "mantoj",
@@ -4966,6 +5297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "866f4ec9",
       n1: "bernamaj",
       n2: "barnamaj",
       n3: "brnamaj",
@@ -4981,6 +5313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d40aea1",
       n1: "banka",
       n2: null,
       n3: null,
@@ -4996,6 +5329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2458233c",
       n1: "borSa",
       n2: "bourSa",
       n3: null,
@@ -5011,6 +5345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01ccedb2",
       n1: "lasorans",
       n2: "lassourans",
       n3: "lasourans",
@@ -5026,6 +5361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "faba4cb3",
       n1: "tkhzin",
       n2: "takhzin",
       n3: "tekhzine",
@@ -5041,6 +5377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad55b2e4",
       n1: "tkhTiT",
       n2: "takhTiT",
       n3: "tekhTiT",
@@ -5056,6 +5393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef861709",
       n1: "lma3icha",
       n2: null,
       n3: null,
@@ -5071,6 +5409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4299c76",
       n1: "Dariba",
       n2: null,
       n3: null,
@@ -5086,6 +5425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd627c9e",
       n1: "moka",
       n2: "mouka",
       n3: null,
@@ -5101,6 +5441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbf167f3",
       n1: "serbiss",
       n2: null,
       n3: null,
@@ -5116,6 +5457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4211101a",
       n1: "blan",
       n2: "blane",
       n3: null,
@@ -5131,6 +5473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12064d52",
       n1: "da3m",
       n2: null,
       n3: null,
@@ -5146,6 +5489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "086fad10",
       n1: "ch8ria",
       n2: "cha8ria",
       n3: "chahria",
@@ -5161,6 +5505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0ea9e37",
       n1: "bznas",
       n2: "beznas",
       n3: null,
@@ -5176,6 +5521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43dd8a42",
       n1: "mo9awala",
       n2: "moqawala",
       n3: null,
@@ -5191,6 +5537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd315619",
       n1: "factoura",
       n2: null,
       n3: null,
@@ -5206,6 +5553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7146142d",
       n1: "mizania",
       n2: null,
       n3: null,
@@ -5221,6 +5569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49f6d574",
       n1: "Sina3a",
       n2: null,
       n3: null,
@@ -5236,6 +5585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac3dca29",
       n1: "zira3a",
       n2: null,
       n3: null,
@@ -5251,6 +5601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "055bb1ab",
       n1: "SSayd",
       n2: "SSeyd",
       n3: null,
@@ -5266,6 +5617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6917ae6a",
       n1: "l9iTa3 lkhaS",
       n2: null,
       n3: null,
@@ -5281,6 +5633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "920e03bf",
       n1: "l9iTa3 l3amm",
       n2: null,
       n3: null,
@@ -5296,6 +5649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eea5082c",
       n1: "tmwil",
       n2: "tamwil",
       n3: "tmouil",
@@ -5311,6 +5665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d3c3e16",
       n1: "3amal",
       n2: null,
       n3: null,
@@ -5326,6 +5681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c571b89e",
       n1: "sti9ala",
       n2: "isti9ala",
       n3: "sti9aala",
@@ -5341,6 +5697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75235b5b",
       n1: "ta9a3od",
       n2: null,
       n3: null,
@@ -5356,6 +5713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d23aa37",
       n1: "mdkhoul",
       n2: "medkhoul",
       n3: "mad5oul",
@@ -5371,6 +5729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c89d77fc",
       n1: "mchro3",
       n2: "mchrou3",
       n3: "mechrou3",
@@ -5386,6 +5745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e04a74a7",
       n1: "tterwa",
       n2: "ttrwa",
       n3: "ttarwa",
@@ -5401,6 +5761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59ec1af5",
       n1: "Talab",
       n2: null,
       n3: null,
@@ -5416,6 +5777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e6bf32a",
       n1: "mblagh",
       n2: "meblegh",
       n3: "mblegh",
@@ -5431,6 +5793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70287f37",
       n1: "soyoula",
       n2: "soyola",
       n3: "souyoula",
@@ -5446,6 +5809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8397f503",
       n1: "iflas",
       n2: null,
       n3: null,
@@ -5461,6 +5825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0c0d133b",
       n1: "rbe3",
       n2: "rb3",
       n3: null,
@@ -5476,6 +5841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b4f7e08",
       n1: "sanadat",
       n2: null,
       n3: null,
@@ -5491,6 +5857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7cd56a0",
       n1: "ashom",
       n2: null,
       n3: null,
@@ -5506,6 +5873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6d0bdc0",
       n1: "lwert",
       n2: "lwart",
       n3: "lwrt",
@@ -5521,6 +5889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e8b074e",
       n1: "7anout",
       n2: null,
       n3: null,
@@ -5536,6 +5905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47f2b2b3",
       n1: "ma7al",
       n2: null,
       n3: null,
@@ -5551,6 +5921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "870b5069",
       n1: "sel3a",
       n2: "sl3a",
       n3: null,
@@ -5566,6 +5937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20535668",
       n1: "kliyan",
       n2: null,
       n3: null,
@@ -5581,6 +5953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c2b3bc1",
       n1: "siya7a",
       n2: null,
       n3: null,
@@ -5596,6 +5969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b4a7c50",
       n1: "stawred",
       n2: "stewred",
       n3: "stawrd",
@@ -5611,6 +5985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b59d38c4",
       n1: "Sader",
       n2: "Seder",
       n3: "Sadar",
@@ -5626,6 +6001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9d2b2fd",
       n1: "tesbi9",
       n2: "tasbi9",
       n3: "tsbi9",
@@ -5641,6 +6017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41bcff27",
       n1: "3ajz",
       n2: "3ejz",
       n3: null,
@@ -5656,6 +6033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d56c5310",
       n1: "tanwi3",
       n2: "tenwi3",
       n3: null,
@@ -5671,6 +6049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41a7dc10",
       n1: "tadakhom",
       n2: null,
       n3: null,
@@ -5686,6 +6065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d3ebbe4",
       n1: "fabour",
       n2: null,
       n3: null,
@@ -5701,6 +6081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "37408f62",
       n1: "kridi",
       n2: null,
       n3: null,
@@ -5716,6 +6097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7d858c9",
       n1: "sl3a",
       n2: "sl3a",
       n3: null,
@@ -5731,6 +6113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80add576",
       n1: "nkimash",
       n2: "nkimach",
       n3: null,
@@ -5746,6 +6129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8367130e",
       n1: "lfa2ida",
       n2: "lfayda",
       n3: null,
@@ -5761,6 +6145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c23133da",
       n1: "SSla",
       n2: "SSala",
       n3: "Sala",
@@ -5776,6 +6161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79aaae28",
       n1: "Syam",
       n2: "Siam",
       n3: null,
@@ -5791,6 +6177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "919bfe84",
       n1: "lhej",
       n2: "lhajj",
       n3: "7ejj",
@@ -5806,6 +6193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f48b03c",
       n1: "zakat",
       n2: null,
       n3: null,
@@ -5821,6 +6209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "866884be",
       n1: "jam3",
       n2: "jama3",
       n3: "jame3",
@@ -5836,6 +6225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f192fed",
       n1: "lihoud",
       n2: "li8oud",
       n3: "li8od",
@@ -5851,6 +6241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc5fcdb6",
       n1: "nSara",
       n2: null,
       n3: null,
@@ -5866,6 +6257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e08ca23b",
       n1: "koffar",
       n2: null,
       n3: null,
@@ -5881,6 +6273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0228844b",
       n1: "rou7",
       n2: "rouh",
       n3: null,
@@ -5896,6 +6289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c23b75b",
       n1: "jenna",
       n2: "janna",
       n3: null,
@@ -5911,6 +6305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4782dd0a",
       n1: "nnar",
       n2: "nar",
       n3: null,
@@ -5926,6 +6321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71171f8c",
       n1: "jahnam",
       n2: "ja8nnam",
       n3: "jahennam",
@@ -5941,6 +6337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a66b86d",
       n1: "lakhra",
       n2: "akhira",
       n3: "lakhira",
@@ -5956,6 +6353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6414a69b",
       n1: "chrab",
       n2: null,
       n3: null,
@@ -5971,6 +6369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33459acc",
       n1: "malak",
       n2: null,
       n3: null,
@@ -5986,6 +6385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72b8622b",
       n1: "ddin",
       n2: "dine",
       n3: "ddine",
@@ -6001,6 +6401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e3d6e04",
       n1: "loDo",
       n2: "woDou",
       n3: "woDou2",
@@ -6016,6 +6417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00643a65",
       n1: "3ti9ad",
       n2: "i3ti9ad",
       n3: null,
@@ -6031,6 +6433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6efbc462",
       n1: "chiTan",
       n2: "chayTan",
       n3: null,
@@ -6046,6 +6449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "629916f0",
       n1: "jnn",
       n2: "jenn",
       n3: null,
@@ -6061,6 +6465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffe4ed0b",
       n1: "3issa",
       n2: "3isa",
       n3: null,
@@ -6076,6 +6481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a9ee804",
       n1: "ibrahim",
       n2: null,
       n3: null,
@@ -6091,6 +6497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "955ee0d9",
       n1: "moussa",
       n2: "mossa",
       n3: null,
@@ -6106,6 +6513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88aa7470",
       n1: "khalifa",
       n2: "5alifa",
       n3: null,
@@ -6121,6 +6529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f1b81cd",
       n1: "kanisa",
       n2: null,
       n3: null,
@@ -6136,6 +6545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7669b8e0",
       n1: "fir3awn",
       n2: null,
       n3: null,
@@ -6151,6 +6561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19477c4c",
       n1: "jibril",
       n2: null,
       n3: null,
@@ -6166,6 +6577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0c9ce9c0",
       n1: "3zrayl",
       n2: "3zaryn",
       n3: null,
@@ -6181,6 +6593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f30b5a99",
       n1: "chaba7",
       n2: "chabah",
       n3: null,
@@ -6196,6 +6609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06cca319",
       n1: "lboudia",
       n2: null,
       n3: null,
@@ -6211,6 +6625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "410f295d",
       n1: "daoud",
       n2: null,
       n3: null,
@@ -6226,6 +6641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6afee704",
       n1: "nou7",
       n2: "nouh",
       n3: null,
@@ -6241,6 +6657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6249d55",
       n1: "jaza2",
       n2: "jazaa",
       n3: null,
@@ -6256,6 +6673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcb25b6e",
       n1: "Salib",
       n2: "Salyb",
       n3: null,
@@ -6271,6 +6689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbc1e919",
       n1: "T8ara",
       n2: "Thara",
       n3: null,
@@ -6286,6 +6705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d3b3b44",
       n1: "khtana",
       n2: "5tana",
       n3: null,
@@ -6301,6 +6721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4e6955f",
       n1: "SSa7aba",
       n2: "Sa7aba",
       n3: null,
@@ -6316,6 +6737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09bb5003",
       n1: "fi98",
       n2: "fi9h",
       n3: "fiqh",
@@ -6331,6 +6753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e459e1f4",
       n1: "chari3a",
       n2: "chariaa",
       n3: null,
@@ -6346,6 +6769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "068ead63",
       n1: "ftwa",
       n2: "fatwa",
       n3: "fetwa",
@@ -6361,6 +6785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6323e88b",
       n1: "khayr",
       n2: "khair",
       n3: "5ayr",
@@ -6376,6 +6801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3fd8b2fa",
       n1: "charr",
       n2: "cherr",
       n3: null,
@@ -6391,6 +6817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "650b8150",
       n1: "9or2an",
       n2: null,
       n3: null,
@@ -6406,6 +6833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d70a7452",
       n1: "mo9ddas",
       n2: "mo9addas",
       n3: null,
@@ -6421,6 +6849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "677afdd7",
       n1: "9ods",
       n2: "l9ods",
       n3: null,
@@ -6436,6 +6865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c55f1af",
       n1: "rou7",
       n2: null,
       n3: null,
@@ -6451,6 +6881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d5e014c",
       n1: "rou7ania",
       n2: "rouhania",
       n3: null,
@@ -6466,6 +6897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0003d9f",
       n1: "9iama",
       n2: "l9iama",
       n3: "9yama",
@@ -6481,6 +6913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63fc29b8",
       n1: "janaza",
       n2: "gnaza",
       n3: null,
@@ -6496,6 +6929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ce15ba9",
       n1: "dnb",
       n2: "denb",
       n3: "danb",
@@ -6511,6 +6945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d4dab22",
       n1: "Sob7",
       n2: "Sobh",
       n3: null,
@@ -6526,6 +6961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e81b05b7",
       n1: "Do8r",
       n2: "Dohr",
       n3: "Doher",
@@ -6541,6 +6977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ee08b02",
       n1: "l3aSr",
       n2: "l3aSer",
       n3: "3aser",
@@ -6556,6 +6993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19fc5540",
       n1: "lmghrb",
       n2: "lmghreb",
       n3: "lmoghrab",
@@ -6571,6 +7009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e999775",
       n1: "l3cha",
       n2: "laacha",
       n3: "3cha",
@@ -6586,6 +7025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8dfc74ff",
       n1: "zawia",
       n2: "zaouia",
       n3: null,
@@ -6601,6 +7041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50bd4bf3",
       n1: "injil",
       n2: null,
       n3: null,
@@ -6616,6 +7057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb6901f6",
       n1: "masi7",
       n2: "masy7",
       n3: "masih",
@@ -6631,6 +7073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "893315eb",
       n1: "rassoul",
       n2: "rasoul",
       n3: null,
@@ -6646,6 +7089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbac6f24",
       n1: "mslm",
       n2: "meslem",
       n3: "moslim",
@@ -6661,6 +7105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39039510",
       n1: "sonni",
       n2: null,
       n3: null,
@@ -6676,6 +7121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b586b90d",
       n1: "chi3i",
       n2: null,
       n3: null,
@@ -6691,6 +7137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff8b1dd3",
       n1: "mol7id",
       n2: "molhid",
       n3: null,
@@ -6706,6 +7153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63f3f3f7",
       n1: "il7ad",
       n2: "ilhad",
       n3: null,
@@ -6721,6 +7169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edc77c04",
       n1: "Sm3a",
       n2: "Sem3a",
       n3: "Sam3a",
@@ -6736,6 +7185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c80f877a",
       n1: "adan",
       n2: "adaan",
       n3: null,
@@ -6751,6 +7201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04664264",
       n1: "7lal",
       n2: "hlal",
       n3: null,
@@ -6766,6 +7217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0b86c41",
       n1: "7ram",
       n2: "hram",
       n3: null,
@@ -6781,6 +7233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "203f54b4",
       n1: "mo3jiza",
       n2: null,
       n3: null,
@@ -6796,6 +7249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a363cfad",
       n1: "zrbia tSSla",
       n2: "zrbia t SSla",
       n3: "zerbia t SSla",
@@ -6811,6 +7265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c14412e6",
       n1: "7jjam",
       n2: "7ejjam",
       n3: "7ajjam",
@@ -6826,6 +7281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72936bec",
       n1: "7lla9",
       n2: "7ella9",
       n3: "7alla9",
@@ -6841,6 +7297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "17a57b97",
       n1: "gzzar",
       n2: "guezzar",
       n3: "gazzar",
@@ -6856,6 +7313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1184e9f0",
       n1: "Tbib",
       n2: null,
       n3: null,
@@ -6871,6 +7329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6814603e",
       n1: "frmlia",
       n2: "fermlia",
       n3: "farmlia",
@@ -6886,6 +7345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "657086a8",
       n1: "fnnan",
       n2: "fennan",
       n3: "fannan",
@@ -6901,6 +7361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5252e0a",
       n1: "trisyan",
       n2: "trician",
       n3: null,
@@ -6916,6 +7377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b96283c0",
       n1: "mo8ndis",
       n2: "mohndis",
       n3: null,
@@ -6931,6 +7393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc5fe67b",
       n1: "flla7",
       n2: "fella7",
       n3: "falla7",
@@ -6946,6 +7409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c843e41",
       n1: "Sa7afi",
       n2: "Sahafi",
       n3: null,
@@ -6961,6 +7425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a66ceee5",
       n1: "9aDi",
       n2: null,
       n3: null,
@@ -6976,6 +7441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6599f1a4",
       n1: "mo7ami",
       n2: "mou7ami",
       n3: "mohami",
@@ -6991,6 +7457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ef697b3",
       n1: "mikanisyan",
       n2: "mikanician",
       n3: "mecanician",
@@ -7006,6 +7473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92c87088",
       n1: "wakil",
       n2: "ouakil",
       n3: null,
@@ -7021,6 +7489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78857d00",
       n1: "bolisi",
       n2: "bolissi",
       n3: null,
@@ -7036,6 +7505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4c30ee3",
       n1: "jadarmi",
       n2: null,
       n3: null,
@@ -7051,6 +7521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f426d145",
       n1: "rssam",
       n2: "rassam",
       n3: null,
@@ -7066,6 +7537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6c97da9",
       n1: "moSwwir",
       n2: null,
       n3: null,
@@ -7081,6 +7553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1de9897",
       n1: "srbay",
       n2: "serbay",
       n3: "sarbay",
@@ -7096,6 +7569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bbba13b",
       n1: "srbaya",
       n2: "serbaya",
       n3: "sarbaya",
@@ -7111,6 +7585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d5a28b4",
       n1: "khyyaT",
       n2: "khiaT",
       n3: "5ayyaT",
@@ -7126,6 +7601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22f99524",
       n1: "safir",
       n2: "safyr",
       n3: null,
@@ -7141,6 +7617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e614cfe3",
       n1: "mostachar",
       n2: "mostachaar",
       n3: null,
@@ -7156,6 +7633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dfd9f2a1",
       n1: "plombi",
       n2: null,
       n3: null,
@@ -7171,6 +7649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f93ae03",
       n1: "mo9awil",
       n2: null,
       n3: null,
@@ -7186,6 +7665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c4479e4",
       n1: "mowDDaf",
       n2: null,
       n3: null,
@@ -7201,6 +7681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "feadd595",
       n1: "sikritira",
       n2: null,
       n3: null,
@@ -7216,6 +7697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a77e7c19",
       n1: "khDDar",
       n2: null,
       n3: null,
@@ -7231,6 +7713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c752b0d9",
       n1: "njjar",
       n2: null,
       n3: null,
@@ -7246,6 +7729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a01e329b",
       n1: "7rayfi",
       n2: null,
       n3: null,
@@ -7261,6 +7745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8b0f3fb",
       n1: "Sbbagh",
       n2: null,
       n3: null,
@@ -7276,6 +7761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "462ea05f",
       n1: "n77at",
       n2: null,
       n3: null,
@@ -7291,6 +7777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ecef07a4",
       n1: "mol ddjaj",
       n2: null,
       n3: null,
@@ -7306,6 +7793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b796d055",
       n1: "mol l7out",
       n2: null,
       n3: null,
@@ -7321,6 +7809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9e715a9",
       n1: "oustad",
       n2: "ostad",
       n3: null,
@@ -7336,6 +7825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f563c4dd",
       n1: "mol taxi",
       n2: null,
       n3: null,
@@ -7351,6 +7841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba4215dc",
       n1: "kherraz",
       n2: "khrraz",
       n3: "5rraz",
@@ -7366,6 +7857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af36592d",
       n1: "wrda",
       n2: "warda",
       n3: null,
@@ -7381,6 +7873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6db6af2e",
       n1: "nbta",
       n2: "nabta",
       n3: "nebta",
@@ -7396,6 +7889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45af9128",
       n1: "chouk",
       n2: null,
       n3: null,
@@ -7411,6 +7905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7e4a717",
       n1: "nkhla",
       n2: "nakhla",
       n3: "na5la",
@@ -7426,6 +7921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3278948a",
       n1: "chjr",
       n2: "chjer",
       n3: "chjar",
@@ -7441,6 +7937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0c6b4db6",
       n1: "Sbbar",
       n2: null,
       n3: null,
@@ -7456,6 +7953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c9b6a1f",
       n1: "SafSaf",
       n2: "SefSaf",
       n3: null,
@@ -7471,6 +7969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f9b3309",
       n1: "Sanawbar",
       n2: null,
       n3: null,
@@ -7486,6 +7985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f01b57bf",
       n1: "3rsh",
       n2: "3orsh",
       n3: "3arsh",
@@ -7501,6 +8001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c4f1954",
       n1: "sawsan",
       n2: null,
       n3: null,
@@ -7516,6 +8017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b1ce8ed",
       n1: "zrri3a",
       n2: "zarri3a",
       n3: "zerri3a",
@@ -7531,6 +8033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e8d87eb",
       n1: "gazo",
       n2: "gazon",
       n3: "lgazo",
@@ -7546,6 +8049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d35ad8f",
       n1: "rbi3",
       n2: "rrbi3",
       n3: null,
@@ -7561,6 +8065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32a179dd",
       n1: "jdr",
       n2: "jder",
       n3: null,
@@ -7576,6 +8081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1d95fa2",
       n1: "khDra",
       n2: "khoDra",
       n3: null,
@@ -7591,6 +8097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b505ee5",
       n1: "bsla",
       n2: "basla",
       n3: "besla",
@@ -7606,6 +8113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "525bcf49",
       n1: "maticha",
       n2: "matecha",
       n3: null,
@@ -7621,6 +8129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "402a0b55",
       n1: "jelbana",
       n2: "jlbana",
       n3: null,
@@ -7636,6 +8145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39b91592",
       n1: "dnjal",
       n2: "denjal",
       n3: null,
@@ -7651,6 +8161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c99b54a1",
       n1: "gar3a",
       n2: "gr3a",
       n3: null,
@@ -7666,6 +8177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b7e7624",
       n1: "mkowwr",
       n2: "mkowwer",
       n3: "mkowwar",
@@ -7681,6 +8193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e722c27",
       n1: "btata",
       n2: "batata",
       n3: null,
@@ -7696,6 +8209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2958e0ca",
       n1: "khyar",
       n2: "khiar",
       n3: "5iar",
@@ -7711,6 +8225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ac362c0",
       n1: "khizo",
       n2: "5izo",
       n3: null,
@@ -7726,6 +8241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81366295",
       n1: "touma",
       n2: "ttouma",
       n3: null,
@@ -7741,6 +8257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1dfb52d",
       n1: "chiflour",
       n2: "chiflor",
       n3: null,
@@ -7756,6 +8273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf04846e",
       n1: "9o9",
       n2: "9ou9",
       n3: "qoq",
@@ -7771,6 +8289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22c93ab2",
       n1: "khrchouf",
       n2: "kherchouf",
       n3: "kharchof",
@@ -7786,6 +8305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f97bb02",
       n1: "flfla",
       n2: "felfla",
       n3: "falfla",
@@ -7801,6 +8321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8221fa1c",
       n1: "fjl",
       n2: "fjel",
       n3: null,
@@ -7816,6 +8337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0172e3fd",
       n1: "loubia",
       n2: null,
       n3: null,
@@ -7831,6 +8353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00c04103",
       n1: "bsbas",
       n2: "besbas",
       n3: "basbas",
@@ -7846,6 +8369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f611f19",
       n1: "khoss",
       n2: "khos",
       n3: "5oss",
@@ -7861,6 +8385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f6426cc",
       n1: "lft",
       n2: "left",
       n3: "laft",
@@ -7876,6 +8401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bfb4e3d9",
       n1: "kbal",
       n2: null,
       n3: null,
@@ -7891,6 +8417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5da2f43a",
       n1: "9zbour",
       n2: "9azbour",
       n3: "9ezbor",
@@ -7906,6 +8433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a411893",
       n1: "m3dnous",
       n2: "m3adnous",
       n3: "m3ednous",
@@ -7921,6 +8449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ba440a4",
       n1: "zitoun",
       n2: "zitoune",
       n3: null,
@@ -7936,6 +8465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42cb68ad",
       n1: "barba",
       n2: null,
       n3: null,
@@ -7951,6 +8481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70fc1ad2",
       n1: "krafS",
       n2: "krafes",
       n3: "krafas",
@@ -7966,6 +8497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9a646d2",
       n1: "kourjiT",
       n2: "korjiT",
       n3: null,
@@ -7981,6 +8513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f9de032",
       n1: "dissir",
       n2: "ddissir",
       n3: "ddisser",
@@ -7996,6 +8529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa9834ee",
       n1: "tfa7",
       n2: "tfah",
       n3: null,
@@ -8011,6 +8545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fe3a0cb",
       n1: "bou3ouid",
       n2: "bou3wid",
       n3: "bouaouid",
@@ -8026,6 +8561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7c02050",
       n1: "friz",
       n2: "frez",
       n3: null,
@@ -8041,6 +8577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "554227e0",
       n1: "avoka",
       n2: "avoca",
       n3: "lavoka",
@@ -8056,6 +8593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02cd2382",
       n1: "3nb",
       n2: "3anb",
       n3: "3enb",
@@ -8071,6 +8609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0656f247",
       n1: "krmous",
       n2: "karmous",
       n3: "kermous",
@@ -8086,6 +8625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8627079",
       n1: "limoun",
       n2: "limon",
       n3: null,
@@ -8101,6 +8641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a590a946",
       n1: "7amd",
       n2: "hamd",
       n3: null,
@@ -8116,6 +8657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f0f5f89",
       n1: "rman",
       n2: "rmman",
       n3: "reman",
@@ -8131,6 +8673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f3448e5",
       n1: "dla7",
       n2: "dela7",
       n3: "dlah",
@@ -8146,6 +8689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61639fb2",
       n1: "khoukh",
       n2: null,
       n3: null,
@@ -8161,6 +8705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6898fb28",
       n1: "kiwi",
       n2: "kioui",
       n3: null,
@@ -8176,6 +8721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "393f99ae",
       n1: "7blmlouk",
       n2: "7eb lemlouk",
       n3: "hab lamlouk",
@@ -8191,6 +8737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8382e326",
       n1: "ananas",
       n2: null,
       n3: null,
@@ -8206,6 +8753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "461c6693",
       n1: "mnoun",
       n2: null,
       n3: null,
@@ -8221,6 +8769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe3b1988",
       n1: "swi8la",
       n2: "swihla",
       n3: "souihla",
@@ -8236,6 +8785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2ed0877",
       n1: "banan",
       n2: "banane",
       n3: null,
@@ -8251,6 +8801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "591cc37d",
       n1: "mchmach",
       n2: "mechmach",
       n3: "machmach",
@@ -8266,6 +8817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5520a0bc",
       n1: "mang",
       n2: "mangue",
       n3: null,
@@ -8281,6 +8833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6241079",
       n1: "mandarine",
       n2: "mandarin",
       n3: null,
@@ -8296,6 +8849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36bd904e",
       n1: "tmr",
       n2: "tmar",
       n3: "tmer",
@@ -8311,6 +8865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26aad5a5",
       n1: "br9o9",
       n2: "ber9o9",
       n3: "br9ou9",
@@ -8326,6 +8881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62145681",
       n1: "3ds",
       n2: "l3ds",
       n3: null,
@@ -8341,6 +8897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "369903f8",
       n1: "nbg",
       n2: "nbag",
       n3: "nbeg",
@@ -8356,6 +8913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "839515d9",
       n1: "blloT",
       n2: "balloT",
       n3: null,
@@ -8371,6 +8929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f78b6722",
       n1: "llouz",
       n2: "louz",
       n3: null,
@@ -8386,6 +8945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f85e7b9c",
       n1: "n3na3",
       n2: "naanaa",
       n3: "ne3na3",
@@ -8401,6 +8961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f61ee43",
       n1: "zbib",
       n2: "zzbib",
       n3: null,
@@ -8416,6 +8977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "728e7978",
       n1: "biD",
       n2: "bayD",
       n3: null,
@@ -8431,6 +8993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebffcba9",
       n1: "biDa",
       n2: "bayDa",
       n3: null,
@@ -8446,6 +9009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e69e30c9",
       n1: "zbda",
       n2: "zabda",
       n3: "zebda",
@@ -8461,6 +9025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7bae9ddb",
       n1: "khobz",
       n2: "khbz",
       n3: null,
@@ -8476,6 +9041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4f8578c",
       n1: "mska",
       n2: "maska",
       n3: "meska",
@@ -8491,6 +9057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5a81228",
       n1: "skkar",
       n2: "sokkar",
       n3: "skar",
@@ -8506,6 +9073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bf93226",
       n1: "ml7a",
       n2: "mel7a",
       n3: "mal7a",
@@ -8521,6 +9089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36bc6c78",
       n1: "zit",
       n2: null,
       n3: null,
@@ -8536,6 +9105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45342a2b",
       n1: "7mmS",
       n2: "7ammaS",
       n3: "7mmeS",
@@ -8551,6 +9121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a33ead3",
       n1: "7rira",
       n2: "hrira",
       n3: null,
@@ -8566,6 +9137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67394bfb",
       n1: "chlaDa",
       n2: null,
       n3: null,
@@ -8581,6 +9153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a9ff468",
       n1: "l7em",
       n2: "l7m",
       n3: "l7am",
@@ -8596,6 +9169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1578c62",
       n1: "khmira",
       n2: "5mira",
       n3: null,
@@ -8611,6 +9185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce326dc9",
       n1: "3jina",
       n2: null,
       n3: null,
@@ -8626,6 +9201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2adcc730",
       n1: "frmaj",
       n2: "fromaj",
       n3: "formaj",
@@ -8641,6 +9217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6069f11",
       n1: "ch3ria",
       n2: "che3ria",
       n3: "cha3ria",
@@ -8656,6 +9233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9f3d252",
       n1: "disir",
       n2: "dicir",
       n3: "dissir",
@@ -8671,6 +9249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21131537",
       n1: "laglas",
       n2: "laglass",
       n3: null,
@@ -8686,6 +9265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64c6b477",
       n1: "kika",
       n2: null,
       n3: null,
@@ -8701,6 +9281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "396cead7",
       n1: "3Tria",
       n2: "3aTria",
       n3: "3Trya",
@@ -8716,6 +9297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "684929ba",
       n1: "gm7",
       n2: "gam7",
       n3: "guem7",
@@ -8731,6 +9313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ac969c8",
       n1: "dgig",
       n2: "d9i9",
       n3: null,
@@ -8746,6 +9329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cd3a101",
       n1: "ch3ir",
       n2: null,
       n3: null,
@@ -8761,6 +9345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cea6f731",
       n1: "9rfa",
       n2: "9arfa",
       n3: "9erfa",
@@ -8776,6 +9361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1918a4d9",
       n1: "kmmon",
       n2: "kmmoun",
       n3: "kammoun",
@@ -8791,6 +9377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e800ebf",
       n1: "9ronfl",
       n2: "9ronfel",
       n3: "9ronfal",
@@ -8806,6 +9393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b4742b0",
       n1: "z3fran",
       n2: "z3efran",
       n3: "z3afran",
@@ -8821,6 +9409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47d1fa2f",
       n1: "z3tr",
       n2: "ze3tr",
       n3: "za3ter",
@@ -8836,6 +9425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "835ea36c",
       n1: "chrab",
       n2: null,
       n3: null,
@@ -8851,6 +9441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "561fbb1e",
       n1: "chchrab",
       n2: null,
       n3: null,
@@ -8866,6 +9457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fe13c78",
       n1: "birra",
       n2: null,
       n3: null,
@@ -8881,6 +9473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a922c981",
       n1: "7lib",
       n2: null,
       n3: null,
@@ -8896,6 +9489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8746bfa7",
       n1: "3aSir",
       n2: null,
       n3: null,
@@ -8911,6 +9505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbfecb2c",
       n1: "fTor",
       n2: null,
       n3: null,
@@ -8926,6 +9521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbc46c00",
       n1: "ghda",
       n2: null,
       n3: null,
@@ -8941,6 +9537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "148ab87c",
       n1: "3cha",
       n2: null,
       n3: null,
@@ -8956,6 +9553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9bf6312",
       n1: "ma9adir",
       n2: "maqadir",
       n3: null,
@@ -8971,6 +9569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50259b9f",
       n1: "jo3",
       n2: "jou3",
       n3: null,
@@ -8986,6 +9585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc7f276f",
       n1: "3Tch",
       n2: "3Tech",
       n3: "3Tach",
@@ -9001,6 +9601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8db9b39f",
       n1: "rijim",
       n2: null,
       n3: null,
@@ -9016,6 +9617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1d72af1",
       n1: "cha8ia",
       n2: "cha8iyya",
       n3: "chahia",
@@ -9031,6 +9633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb3ade08",
       n1: "mchwi",
       n2: "mechwi",
       n3: "machwi",
@@ -9046,6 +9649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7dd20e1",
       n1: "m9li",
       n2: "me9li",
       n3: "ma9li",
@@ -9061,6 +9665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1897f9f9",
       n1: "m7mmr",
       n2: "m7ammar",
       n3: "m7emmer",
@@ -9076,6 +9681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2bca4ad",
       n1: "mgrml",
       n2: "mgermel",
       n3: "mgarmel",
@@ -9091,6 +9697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26399bea",
       n1: "khDr",
       n2: "khDer",
       n3: "khDar",
@@ -9106,6 +9713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa7d9625",
       n1: "bnin",
       n2: null,
       n3: null,
@@ -9121,6 +9729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b145268",
       n1: "nachf",
       n2: "nachef",
       n3: "nachaf",
@@ -9136,6 +9745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8d6b3c2",
       n1: "7lo",
       n2: "7low",
       n3: "7lou",
@@ -9151,6 +9761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db9fce8f",
       n1: "7arr",
       n2: null,
       n3: null,
@@ -9166,6 +9777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18f20b7b",
       n1: "morr",
       n2: "marr",
       n3: null,
@@ -9181,6 +9793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41bb252a",
       n1: "7amD",
       n2: "7ameD",
       n3: "7amaD",
@@ -9196,6 +9809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f897f80",
       n1: "m7roug",
       n2: "m7rog",
       n3: "m7rog",
@@ -9211,6 +9825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c193566",
       n1: "lkhell",
       n2: "khell",
       n3: "5ell",
@@ -9226,6 +9841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad3f0875",
       n1: "bTaTa frit",
       n2: "bTaTafrit",
       n3: null,
@@ -9241,6 +9857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "438fe812",
       n1: "s99aTa",
       n2: null,
       n3: null,
@@ -9256,6 +9873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6746f756",
       n1: "mada9",
       n2: "madaq",
       n3: null,
@@ -9271,6 +9889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfc2e3bf",
       n1: "Tajin",
       n2: "Tagine",
       n3: null,
@@ -9286,6 +9905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa487e91",
       n1: "Tanjia",
       n2: "Tnjia",
       n3: "Tnjyya",
@@ -9301,6 +9921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a90e3766",
       n1: "bsTila",
       n2: "besTila",
       n3: "basTila",
@@ -9316,6 +9937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "335284fb",
       n1: "m7nncha",
       n2: "m7enncha",
       n3: "m7anncha",
@@ -9331,6 +9953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ef4d76f",
       n1: "f99as",
       n2: "fe99as",
       n3: null,
@@ -9346,6 +9969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01a9a005",
       n1: "k3bghzal",
       n2: "k3b ghzal",
       n3: "ke3b lghzal",
@@ -9361,6 +9985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fc1690e",
       n1: "sellou",
       n2: "sllou",
       n3: "sello",
@@ -9376,6 +10001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8dedfc2",
       n1: "briwat",
       n2: "briouat",
       n3: null,
@@ -9391,6 +10017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4ee1835",
       n1: "chbbakia",
       n2: "chebbakia",
       n3: "chbakia",
@@ -9406,6 +10033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30b4e3c4",
       n1: "ghriba",
       n2: "ghoriba",
       n3: null,
@@ -9421,6 +10049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b576abe",
       n1: "9richlat",
       n2: "qrichlat",
       n3: null,
@@ -9436,6 +10065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df39f000",
       n1: "rzzt l9aDi",
       n2: "razzat l9aDi",
       n3: "rezzat l9aDi",
@@ -9451,6 +10081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba83ddc4",
       n1: "zrodya",
       n2: "zroudya",
       n3: null,
@@ -9466,6 +10097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8bba936e",
       n1: "kawkab",
       n2: "kaoukab",
       n3: null,
@@ -9481,6 +10113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ff3a886",
       n1: "9aarra",
       n2: "9arra",
       n3: "qaarra",
@@ -9496,6 +10129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edcf6ea7",
       n1: "ifri9ia",
       n2: "ifriqia",
       n3: null,
@@ -9511,6 +10145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58b33093",
       n1: "europa",
       n2: "oroppa",
       n3: null,
@@ -9526,6 +10161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2521cf82",
       n1: "blad",
       n2: "bilad",
       n3: null,
@@ -9541,6 +10177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b761f2c9",
       n1: "dowla",
       n2: null,
       n3: null,
@@ -9556,6 +10193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "389fb10a",
       n1: "mghrib",
       n2: "maghrib",
       n3: null,
@@ -9571,6 +10209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65be5bfa",
       n1: "ssa3oudia",
       n2: null,
       n3: null,
@@ -9586,6 +10225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2c583a2",
       n1: "9atar",
       n2: null,
       n3: null,
@@ -9601,6 +10241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "149b8d04",
       n1: "imarat",
       n2: null,
       n3: null,
@@ -9616,6 +10257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c3ebd20",
       n1: "dzair",
       n2: null,
       n3: null,
@@ -9631,6 +10273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9c3504a",
       n1: "jaza2ir",
       n2: "ljaza2ir",
       n3: "ljazayr",
@@ -9646,6 +10289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3576591a",
       n1: "fransa",
       n2: null,
       n3: null,
@@ -9661,6 +10305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c23554d",
       n1: "Sbania",
       n2: null,
       n3: null,
@@ -9676,6 +10321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6919997a",
       n1: "brT9iz",
       n2: "lbart9iz",
       n3: null,
@@ -9691,6 +10337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82b71395",
       n1: "bortoghal",
       n2: "lbortoghal",
       n3: null,
@@ -9706,6 +10353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a33fec22",
       n1: "almania",
       n2: "almanya",
       n3: null,
@@ -9721,6 +10369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a24d21a",
       n1: "swisra",
       n2: "souisra",
       n3: null,
@@ -9736,6 +10385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e79a3d6",
       n1: "japoun",
       n2: "jjapoun",
       n3: "jjapon",
@@ -9751,6 +10401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f32be1ec",
       n1: "mirikan",
       n2: "lmirikan",
       n3: null,
@@ -9766,6 +10417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e787f0e5",
       n1: "ngliz",
       n2: "negliz",
       n3: "ingliz",
@@ -9781,6 +10433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbee9fff",
       n1: "bljika",
       n2: "beljika",
       n3: "baljika",
@@ -9796,6 +10449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc3fe99e",
       n1: "talyan",
       n2: "talian",
       n3: null,
@@ -9811,6 +10465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afdf6897",
       n1: "misr",
       n2: "misra",
       n3: "mesr",
@@ -9826,6 +10481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d4bc031",
       n1: "touns",
       n2: null,
       n3: null,
@@ -9841,6 +10497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93d89de0",
       n1: "moritania",
       n2: "mouritania",
       n3: null,
@@ -9856,6 +10513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d609a777",
       n1: "filistin",
       n2: "filistine",
       n3: null,
@@ -9871,6 +10529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0bef2f5c",
       n1: "chinwa",
       n2: null,
       n3: null,
@@ -9886,6 +10545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f494811",
       n1: "SSin",
       n2: null,
       n3: null,
@@ -9901,6 +10561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "beb08ae1",
       n1: "younan",
       n2: "yonan",
       n3: null,
@@ -9916,6 +10577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9702de4e",
       n1: "mdina",
       n2: null,
       n3: null,
@@ -9931,6 +10593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f381d35",
       n1: "3aSima",
       n2: null,
       n3: null,
@@ -9946,6 +10609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7419f98c",
       n1: "fas",
       n2: "faas",
       n3: "fes",
@@ -9961,6 +10625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19eb7291",
       n1: "sla",
       n2: "sala",
       n3: null,
@@ -9976,6 +10641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d79e211",
       n1: "mknas",
       n2: "meknes",
       n3: "meknas",
@@ -9991,6 +10657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bfe8640",
       n1: "oujda",
       n2: "wejda",
       n3: "ouajda",
@@ -10006,6 +10673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce17ee61",
       n1: "9niTra",
       n2: "qniTra",
       n3: null,
@@ -10021,6 +10689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0786d0a3",
       n1: "agadir",
       n2: null,
       n3: null,
@@ -10036,6 +10705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2b1a612",
       n1: "tetouan",
       n2: "TiTwan",
       n3: "TeTwan",
@@ -10051,6 +10721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7ec1f3f",
       n1: "tmara",
       n2: "temara",
       n3: null,
@@ -10066,6 +10737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26faff5c",
       n1: "asfi",
       n2: "safi",
       n3: null,
@@ -10081,6 +10753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef8821e1",
       n1: "mo7mmadia",
       n2: "mohammadia",
       n3: "mo7mmedia",
@@ -10096,6 +10769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c92d5cb",
       n1: "khribga",
       n2: "khouribga",
       n3: "khoribga",
@@ -10111,6 +10785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d92908db",
       n1: "kaza",
       n2: "casa",
       n3: null,
@@ -10126,6 +10801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83eb4050",
       n1: "darbida",
       n2: "ddar lbida",
       n3: "dar bida",
@@ -10141,6 +10817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "733358dd",
       n1: "Tanja",
       n2: null,
       n3: null,
@@ -10156,6 +10833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0d68994",
       n1: "mrrakch",
       n2: "mrrakech",
       n3: "mrrakach",
@@ -10171,6 +10849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac26dae4",
       n1: "rbaT",
       n2: null,
       n3: null,
@@ -10186,6 +10865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b734b37",
       n1: "jdida",
       n2: "el jadida",
       n3: "jjdida",
@@ -10201,6 +10881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "940493f3",
       n1: "bnimllal",
       n2: "bni mllal",
       n3: "bni mellal",
@@ -10216,6 +10897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af210de1",
       n1: "ait melloul",
       n2: null,
       n3: null,
@@ -10231,6 +10913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4bfa94f",
       n1: "nnador",
       n2: "nador",
       n3: null,
@@ -10246,6 +10929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62e7374b",
       n1: "dar bo3zza",
       n2: "dar bouazza",
       n3: "darbo3zza",
@@ -10261,6 +10945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26678851",
       n1: "taza",
       n2: null,
       n3: null,
@@ -10276,6 +10961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "297b8a83",
       n1: "settat",
       n2: "sttat",
       n3: "stat",
@@ -10291,6 +10977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f35e8d05",
       n1: "berrchid",
       n2: "brrchid",
       n3: "brchid",
@@ -10306,6 +10993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01a8afd9",
       n1: "khmisat",
       n2: "khemisset",
       n3: "khomisat",
@@ -10321,6 +11009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "feb5b307",
       n1: "inzggan",
       n2: "inzegane",
       n3: "inezgane",
@@ -10336,6 +11025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48315810",
       n1: "9Sr lkbir",
       n2: "l9Ser lkbir",
       n3: "9Sar lkbir",
@@ -10351,6 +11041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4dd977cb",
       n1: "l3raich",
       n2: "l3raych",
       n3: "laaraich",
@@ -10366,6 +11057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c67d76b5",
       n1: "glmim",
       n2: "golmim",
       n3: "guelmim",
@@ -10381,6 +11073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df2a7dd5",
       n1: "khnifra",
       n2: "khonifra",
       n3: "khenifra",
@@ -10396,6 +11089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec15ae22",
       n1: "brkan",
       n2: "berkane",
       n3: "berkan",
@@ -10411,6 +11105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98e9d844",
       n1: "taourirt",
       n2: "tawrirt",
       n3: null,
@@ -10426,6 +11121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "663247bb",
       n1: "boskkora",
       n2: "boskora",
       n3: "bouskoura",
@@ -10441,6 +11137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a25b2df",
       n1: "lf9ih bn Sal7",
       n2: "f9ih bn Sal7",
       n3: "lf9ih ben sale7",
@@ -10456,6 +11153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bad10bd3",
       n1: "dchira",
       n2: "dcheira",
       n3: "dchyra",
@@ -10471,6 +11169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1249701d",
       n1: "wadzm",
       n2: "wad zem",
       n3: "ouad zem",
@@ -10486,6 +11185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cca203c8",
       n1: "9l3a tsraghna",
       n2: "9el3a t sraghna",
       n3: "9al3a tsraghna",
@@ -10501,6 +11201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff4b5a13",
       n1: "sidi sliman",
       n2: "sidi slimane",
       n3: null,
@@ -10516,6 +11217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2597e15",
       n1: "rrachidia",
       n2: "errachidia",
       n3: null,
@@ -10531,6 +11233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "919a566e",
       n1: "grsif",
       n2: "guersif",
       n3: "garsif",
@@ -10546,6 +11249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1706171f",
       n1: "wlad tayma",
       n2: "oulad teima",
       n3: "ouled teima",
@@ -10561,6 +11265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df8731d8",
       n1: "ben grir",
       n2: "bngrir",
       n3: "bengrir",
@@ -10576,6 +11281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca4c84a0",
       n1: "tiflt",
       n2: "tifelt",
       n3: null,
@@ -10591,6 +11297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8dafab3",
       n1: "l9li3a",
       n2: "lqli3a",
       n3: "la9li3a",
@@ -10606,6 +11313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1845f47",
       n1: "taroudant",
       n2: null,
       n3: null,
@@ -10621,6 +11329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "629488b8",
       n1: "Sfro",
       n2: "sfrou",
       n3: "sefrou",
@@ -10636,6 +11345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac05acb7",
       n1: "Swira",
       n2: "SSwira",
       n3: "souira",
@@ -10651,6 +11361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f35abf05",
       n1: "fnide9",
       n2: "lfnide9",
       n3: "fnid9",
@@ -10666,6 +11377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41a50868",
       n1: "sidi 9assem",
       n2: "sidi 9asm",
       n3: "sidi 9asem",
@@ -10681,6 +11393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67052294",
       n1: "tiznit",
       n2: null,
       n3: null,
@@ -10696,6 +11409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0650bc33",
       n1: "TanTan",
       n2: "Tan Tan",
       n3: null,
@@ -10711,6 +11425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "efe86dcb",
       n1: "warzazat",
       n2: "ouarzazat",
       n3: "ouerzazat",
@@ -10726,6 +11441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d328988a",
       n1: "sou9larb3a",
       n2: "sou9 lab3a",
       n3: null,
@@ -10741,6 +11457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7859af7",
       n1: "youssoufia",
       n2: "yousoufia",
       n3: "yosofia",
@@ -10756,6 +11473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7402c82d",
       n1: "l8rawiyin",
       n2: "lahraouiyine",
       n3: "la8rawiyin",
@@ -10771,6 +11489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22a829af",
       n1: "martil",
       n2: null,
       n3: null,
@@ -10786,6 +11505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "954fbcdb",
       n1: "3in 7rrouda",
       n2: "3in 7arouda",
       n3: "3ayn 7errouda",
@@ -10801,6 +11521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5e04e65",
       n1: "Skhirat",
       n2: "SSkhirat",
       n3: null,
@@ -10816,6 +11537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74021abb",
       n1: "wazzan",
       n2: "ouazzan",
       n3: null,
@@ -10831,6 +11553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0c49a01",
       n1: "bnsliman",
       n2: "bensliman",
       n3: "benslimane",
@@ -10846,6 +11569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35ffaf60",
       n1: "l7ouceima",
       n2: "lhouceima",
       n3: "l7ousayma",
@@ -10861,6 +11585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6d789f7",
       n1: "bni nsar",
       n2: "beni ansar",
       n3: "beni nsar",
@@ -10876,6 +11601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e408881",
       n1: "mdye9",
       n2: "lmDye9",
       n3: "lmdyeq",
@@ -10891,6 +11617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "559b0980",
       n1: "sidi bennour",
       n2: "sidibnnour",
       n3: "sidi benour",
@@ -10906,6 +11633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eba8f42b",
       n1: "midelt",
       n2: "midlt",
       n3: null,
@@ -10921,6 +11649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fef2511",
       n1: "azro",
       n2: "azrou",
       n3: null,
@@ -10936,6 +11665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5703fc0d",
       n1: "blaSa",
       n2: null,
       n3: null,
@@ -10951,6 +11681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcea4c2f",
       n1: "jam3lfna",
       n2: "jam3 lafna",
       n3: null,
@@ -10966,6 +11697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04c13e06",
       n1: "khariTa",
       n2: "5ariTa",
       n3: null,
@@ -10981,6 +11713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82d0f280",
       n1: "l3alam",
       n2: "3alam",
       n3: null,
@@ -10996,6 +11729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c38a826e",
       n1: "sbiTar",
       n2: null,
       n3: null,
@@ -11011,6 +11745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5963f9ec",
       n1: "boSTa",
       n2: "bouSTa",
       n3: "lboSTa",
@@ -11026,6 +11761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa4c05df",
       n1: "lkharij",
       n2: "l5arij",
       n3: null,
@@ -11041,6 +11777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5a3b7fe",
       n1: "maTar",
       n2: null,
       n3: null,
@@ -11056,6 +11793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "385cd6af",
       n1: "fada2",
       n2: null,
       n3: null,
@@ -11071,6 +11809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1a336e9",
       n1: "3onwan",
       n2: null,
       n3: null,
@@ -11086,6 +11825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e23c34e",
       n1: "finmma",
       n2: "finemma",
       n3: "finamma",
@@ -11101,6 +11841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "513d72b0",
       n1: "llor",
       n2: "llour",
       n3: null,
@@ -11116,6 +11857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18486223",
       n1: "mkhbaza",
       n2: "makhbaza",
       n3: null,
@@ -11131,6 +11873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fa7bea7",
       n1: "t7t",
       n2: "ta7t",
       n3: "te7t",
@@ -11146,6 +11889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35bd57a8",
       n1: "7odoud",
       n2: null,
       n3: null,
@@ -11161,6 +11905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f270b60e",
       n1: "frmasian",
       n2: "frmacian",
       n3: "frmasyan",
@@ -11176,6 +11921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1044bb73",
       n1: "firma",
       n2: null,
       n3: null,
@@ -11191,6 +11937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7dfda9a",
       n1: "cher9",
       n2: "char9",
       n3: "chr9",
@@ -11206,6 +11953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46a81f7f",
       n1: "gharb",
       n2: "ghrb",
       n3: "gherb",
@@ -11221,6 +11969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "022d8013",
       n1: "chamal",
       n2: null,
       n3: null,
@@ -11236,6 +11985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29f9ac0e",
       n1: "janoub",
       n2: "janob",
       n3: null,
@@ -11251,6 +12001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a57071d",
       n1: "mnTa9a",
       n2: "minTa9a",
       n3: null,
@@ -11266,6 +12017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb4dadd1",
       n1: "ma7TTa",
       n2: "ma7aTTa",
       n3: "ma7eTTa",
@@ -11281,6 +12033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60eded2b",
       n1: "chari3",
       n2: "chaari3",
       n3: null,
@@ -11296,6 +12049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d848d52",
       n1: "Tri9",
       n2: "Triq",
       n3: null,
@@ -11311,6 +12065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "baabdf8c",
       n1: "lotorot",
       n2: "lotorout",
       n3: null,
@@ -11326,6 +12081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "130a0c1e",
       n1: "sikteur",
       n2: "siktour",
       n3: null,
@@ -11341,6 +12097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0593a93a",
       n1: "saa7a",
       n2: "sa7a",
       n3: "saaha",
@@ -11356,6 +12113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f29640dd",
       n1: "9hwa",
       n2: "9ahwa",
       n3: "9ehwa",
@@ -11371,6 +12129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31a2854c",
       n1: "borj",
       n2: null,
       n3: null,
@@ -11386,6 +12145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "233ef28f",
       n1: "mktaba",
       n2: "mektaba",
       n3: "maktaba",
@@ -11401,6 +12161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "192b0c40",
       n1: "otil",
       n2: "hotel",
       n3: "otel",
@@ -11416,6 +12177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f07d0553",
       n1: "klinik",
       n2: "clinique",
       n3: null,
@@ -11431,6 +12193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d3751cc",
       n1: "pisin",
       n2: "picin",
       n3: "piscine",
@@ -11446,6 +12209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d735aa53",
       n1: "tritwar",
       n2: "trotwar",
       n3: "tritouar",
@@ -11461,6 +12225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "728adc59",
       n1: "ttija8",
       n2: "ittija8",
       n3: "ttijah",
@@ -11476,6 +12241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8a4e6bb",
       n1: "limn",
       n2: "limen",
       n3: "liman",
@@ -11491,6 +12257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3834d62",
       n1: "lisr",
       n2: "lisser",
       n3: "lissar",
@@ -11506,6 +12273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "365460ee",
       n1: "misa7a",
       n2: null,
       n3: null,
@@ -11521,6 +12289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d76173f",
       n1: "sifara",
       n2: null,
       n3: null,
@@ -11536,6 +12305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d28be51d",
       n1: "saidia",
       n2: "saaidia",
       n3: null,
@@ -11551,6 +12321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b39a902",
       n1: "kora",
       n2: "koura",
       n3: "lfout",
@@ -11566,6 +12337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd39fa04",
       n1: "box",
       n2: "boux",
       n3: null,
@@ -11581,6 +12353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31efe5af",
       n1: "jjra",
       n2: null,
       n3: null,
@@ -11596,6 +12369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "284c8b8b",
       n1: "tirane",
       n2: "tiran",
       n3: "lmel3eb",
@@ -11611,6 +12385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee945d67",
       n1: "touni",
       n2: "ttouni",
       n3: null,
@@ -11626,6 +12401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0248e2d9",
       n1: "lasal",
       n2: "lassal",
       n3: null,
@@ -11641,6 +12417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bcd74ca0",
       n1: "l7did",
       n2: "le7did",
       n3: "la7did",
@@ -11656,6 +12433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2289ead6",
       n1: "mo3lli9",
       n2: "mo3alli9",
       n3: null,
@@ -11671,6 +12449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31410907",
       n1: "8iwaya",
       n2: "8iwaia",
       n3: null,
@@ -11686,6 +12465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "317465d6",
       n1: "lo3ba",
       n2: "l3ba",
       n3: "le3ba",
@@ -11701,6 +12481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "376bf619",
       n1: "fr9a",
       n2: "fer9a",
       n3: "far9a",
@@ -11716,6 +12497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fea385b",
       n1: "hadaf",
       n2: null,
       n3: null,
@@ -11731,6 +12513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "647da278",
       n1: "goul",
       n2: "gol",
       n3: "l7aris",
@@ -11746,6 +12529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71edce93",
       n1: "mo8ajim",
       n2: null,
       n3: null,
@@ -11761,6 +12545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3db7f37a",
       n1: "modafi3",
       n2: null,
       n3: null,
@@ -11776,6 +12561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2318b7b",
       n1: "7akam",
       n2: "hakam",
       n3: null,
@@ -11791,6 +12577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a07a17ed",
       n1: "modrrib",
       n2: "modarrib",
       n3: "modarib",
@@ -11806,6 +12593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "632f29c3",
       n1: "kofra",
       n2: null,
       n3: null,
@@ -11821,6 +12609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d9cac40a",
       n1: "mobachir",
       n2: null,
       n3: null,
@@ -11836,6 +12625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c69b436",
       n1: "rb7",
       n2: "rba7",
       n3: "rbe7",
@@ -11851,6 +12641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f791bd31",
       n1: "khsr",
       n2: "5sar",
       n3: "khasara",
@@ -11866,6 +12657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f83fecfe",
       n1: "ta3adoul",
       n2: "ta3adol",
       n3: null,
@@ -11881,6 +12673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27a60251",
       n1: "3oman",
       n2: null,
       n3: null,
@@ -11896,6 +12689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f23a820c",
       n1: "karta",
       n2: "carta",
       n3: null,
@@ -11911,6 +12705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "845db279",
       n1: "ghchach",
       n2: "ghchchach",
       n3: null,
@@ -11926,6 +12721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6b3e375",
       n1: "7fla",
       n2: "7efla",
       n3: "hafla",
@@ -11941,6 +12737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c3fce22c",
       n1: "siba9",
       n2: "sibaq",
       n3: null,
@@ -11956,6 +12753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66a38f65",
       n1: "boTola",
       n2: "lboTola",
       n3: "boToula",
@@ -11971,6 +12769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a05dec53",
       n1: "boTola",
       n2: "lboTola",
       n3: "boToula",
@@ -11986,6 +12785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fe56366",
       n1: "baskit",
       n2: "basket",
       n3: null,
@@ -12001,6 +12801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5893a856",
       n1: "bizbol",
       n2: null,
       n3: null,
@@ -12016,6 +12817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0c190111",
       n1: "kas",
       n2: "ka2s",
       n3: null,
@@ -12031,6 +12833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fbdab1f1",
       n1: "kasl3alam",
       n2: "kas l3alam",
       n3: null,
@@ -12046,6 +12849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b6e152b",
       n1: "rigbi",
       n2: null,
       n3: null,
@@ -12061,6 +12865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81833a0a",
       n1: "chTrnj",
       n2: "chTranj",
       n3: "chaTranj",
@@ -12076,6 +12881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7dc8ef38",
       n1: "stronj",
       n2: null,
       n3: null,
@@ -12091,6 +12897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4afb8da8",
       n1: "insan",
       n2: null,
       n3: null,
@@ -12106,6 +12913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "28343026",
       n1: "bnadm",
       n2: "bnadem",
       n3: null,
@@ -12121,6 +12929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1fa9a15",
       n1: "rjel",
       n2: "rjl",
       n3: null,
@@ -12136,6 +12945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0795cfc6",
       n1: "yedd",
       n2: "yed",
       n3: "idd",
@@ -12151,6 +12961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcdb64f0",
       n1: "3in",
       n2: "3ayn",
       n3: null,
@@ -12166,6 +12977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fec5c5d",
       n1: "nif",
       n2: null,
       n3: null,
@@ -12181,6 +12993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1611949f",
       n1: "mnakher",
       n2: "menkher",
       n3: "mnkhr",
@@ -12196,6 +13009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4835d414",
       n1: "fom",
       n2: "fmm",
       n3: "fm",
@@ -12211,6 +13025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50e1b837",
       n1: "dmagh",
       n2: null,
       n3: null,
@@ -12226,6 +13041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "065b407e",
       n1: "kbda",
       n2: "kebda",
       n3: null,
@@ -12241,6 +13057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4925470a",
       n1: "riyya",
       n2: "ria",
       n3: "riya",
@@ -12256,6 +13073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fafde82",
       n1: "klwa",
       n2: "kalwa",
       n3: "kelwa",
@@ -12271,6 +13089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba1fd7ad",
       n1: "m3da",
       n2: "me3da",
       n3: "ma3da",
@@ -12286,6 +13105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa0c67d5",
       n1: "3Dm",
       n2: "3Dam",
       n3: null,
@@ -12301,6 +13121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cceda50",
       n1: "mSarn",
       n2: "mSaren",
       n3: "mSaran",
@@ -12316,6 +13137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a241b30",
       n1: "9elb",
       n2: "9alb",
       n3: null,
@@ -12331,6 +13153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "730d02f1",
       n1: "wdn",
       n2: "oden",
       n3: "wden",
@@ -12346,6 +13169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "865f27ca",
       n1: "rass",
       n2: null,
       n3: null,
@@ -12361,6 +13185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30530be3",
       n1: "jasad",
       n2: "jassad",
       n3: null,
@@ -12376,6 +13201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac2de308",
       n1: "3oDw",
       n2: null,
       n3: null,
@@ -12391,6 +13217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aba33b53",
       n1: "jld",
       n2: "jeld",
       n3: "jald",
@@ -12406,6 +13233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d622469e",
       n1: "jmjoma",
       n2: "jomjoma",
       n3: "jmjouma",
@@ -12421,6 +13249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2ebe7cd",
       n1: "ch3er",
       n2: "ch3ar",
       n3: null,
@@ -12436,6 +13265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b63d19a7",
       n1: "mostach",
       n2: null,
       n3: null,
@@ -12451,6 +13281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c24d9c43",
       n1: "l7ya",
       n2: "le7ya",
       n3: "la7ya",
@@ -12466,6 +13297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed53a03f",
       n1: "wjh",
       n2: null,
       n3: null,
@@ -12481,6 +13313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfadcdc5",
       n1: "7ajb",
       n2: "hajb",
       n3: null,
@@ -12496,6 +13329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "334dfb1f",
       n1: "chfar",
       n2: null,
       n3: null,
@@ -12511,6 +13345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fce1f423",
       n1: "dfal",
       n2: "ddfal",
       n3: null,
@@ -12526,6 +13361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db6b119a",
       n1: "chwarb",
       n2: "chouarb",
       n3: "chwareb",
@@ -12541,6 +13377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39a1b5e9",
       n1: "lsan",
       n2: "lisan",
       n3: "lissan",
@@ -12556,6 +13393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6004f3b3",
       n1: "snna",
       n2: "senna",
       n3: null,
@@ -12571,6 +13409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0292e76",
       n1: "3n9",
       n2: "3on9",
       n3: null,
@@ -12586,6 +13425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f3daef9",
       n1: "9rjoTa",
       n2: "9arjoTa",
       n3: null,
@@ -12601,6 +13441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1bfadf2",
       n1: "ktef",
       n2: "ktf",
       n3: null,
@@ -12616,6 +13457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f60eaa39",
       n1: "Sdr",
       n2: "Sdar",
       n3: "Sder",
@@ -12631,6 +13473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3413197",
       n1: "dra3",
       n2: null,
       n3: null,
@@ -12646,6 +13489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ad443a7",
       n1: "7nk",
       n2: "7ank",
       n3: "7enk",
@@ -12661,6 +13505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03e4a787",
       n1: "jb8a",
       n2: "jab8a",
       n3: "jeb8a",
@@ -12676,6 +13521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c547c964",
       n1: "rmouch",
       n2: null,
       n3: null,
@@ -12691,6 +13537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3780c9b3",
       n1: "7la9m",
       n2: "7la9em",
       n3: "hlaqem",
@@ -12706,6 +13553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "436d4645",
       n1: "baT",
       n2: null,
       n3: null,
@@ -12721,6 +13569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4125bdd",
       n1: "mrf9",
       n2: "mrfg",
       n3: "marfa9",
@@ -12736,6 +13585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f6e88dc",
       n1: "Sb3",
       n2: "Sbe3",
       n3: null,
@@ -12751,6 +13601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "885714ef",
       n1: "Dfr",
       n2: "Dfer",
       n3: null,
@@ -12766,6 +13617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fece82a",
       n1: "krch",
       n2: "kerch",
       n3: "karch",
@@ -12781,6 +13633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0237da14",
       n1: "rjel",
       n2: "rjl",
       n3: null,
@@ -12796,6 +13649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c5c246c",
       n1: "fkhD",
       n2: "fkheD",
       n3: null,
@@ -12811,6 +13665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d868cec",
       n1: "rkba",
       n2: "rokba",
       n3: null,
@@ -12826,6 +13681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1126e181",
       n1: "gdm",
       n2: "gdem",
       n3: null,
@@ -12841,6 +13697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "008aa66b",
       n1: "D8r",
       n2: "D8ar",
       n3: "D8er",
@@ -12856,6 +13713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb26affe",
       n1: "Dl3a",
       n2: "Dal3a",
       n3: "Del3a",
@@ -12871,6 +13729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "256a8129",
       n1: "dem",
       n2: "dmm",
       n3: "dm",
@@ -12886,6 +13745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd84a078",
       n1: "3r9",
       n2: "3ar9",
       n3: "3er9",
@@ -12901,6 +13761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0db40f02",
       n1: "3aDala",
       n2: null,
       n3: null,
@@ -12916,6 +13777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5790f840",
       n1: "3amoud lfi9ari",
       n2: "3amoud fi9ari",
       n3: "3amod fi9ari",
@@ -12931,6 +13793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d001d948",
       n1: "chchouf",
       n2: null,
       n3: null,
@@ -12946,6 +13809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60c5adb3",
       n1: "ssm3",
       n2: "ssem3",
       n3: "ssam3",
@@ -12961,6 +13825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3be4de0e",
       n1: "chchmm",
       n2: "chchemm",
       n3: "chchamm",
@@ -12976,6 +13841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f560437",
       n1: "ddou9",
       n2: null,
       n3: null,
@@ -12991,6 +13857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8077a466",
       n1: "llms",
       n2: "llems",
       n3: "llams",
@@ -13006,6 +13873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0a9dd48",
       n1: "tanffous",
       n2: "tanffos",
       n3: "tanaffos",
@@ -13021,6 +13889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ee787e7",
       n1: "tgrr3",
       n2: "tgerre3",
       n3: "tgarra3",
@@ -13036,6 +13905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ea726b2",
       n1: "tfww8",
       n2: "tfawwa8",
       n3: "tfewwe8",
@@ -13051,6 +13921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7ae7520",
       n1: "chkhr",
       n2: "chkher",
       n3: "chkhar",
@@ -13066,6 +13937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eab7fed5",
       n1: "7sana",
       n2: "hsana",
       n3: null,
@@ -13081,6 +13953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2c7ee50",
       n1: "7ssn",
       n2: "7ssen",
       n3: null,
@@ -13096,6 +13969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ade33f3",
       n1: "mchT",
       n2: "mcheT",
       n3: "mchaT",
@@ -13111,6 +13985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae5e07a0",
       n1: "wchm",
       n2: "wchem",
       n3: "wcham",
@@ -13126,6 +14001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eafd101a",
       n1: "khal",
       n2: "khala",
       n3: null,
@@ -13141,6 +14017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8093101d",
       n1: "ra9m",
       n2: "raqm",
       n3: null,
@@ -13156,6 +14033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6221d61f",
       n1: "3adad",
       n2: null,
       n3: null,
@@ -13171,6 +14049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4796baf",
       n1: "Sifr",
       n2: null,
       n3: null,
@@ -13186,6 +14065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a235b157",
       n1: "ziro",
       n2: "zero",
       n3: null,
@@ -13201,6 +14081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72f795ea",
       n1: "wahd",
       n2: "wa7d",
       n3: null,
@@ -13216,6 +14097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "564a301b",
       n1: "jouj",
       n2: "joj",
       n3: "zouj",
@@ -13231,6 +14113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44edfd74",
       n1: "tlata",
       n2: null,
       n3: null,
@@ -13246,6 +14129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b293fb0c",
       n1: "rb3a",
       n2: "reb3a",
       n3: "rab3a",
@@ -13261,6 +14145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14014f22",
       n1: "khmsa",
       n2: "5msa",
       n3: "khamsa",
@@ -13276,6 +14161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d4c520a",
       n1: "stta",
       n2: "seta",
       n3: "setta",
@@ -13291,6 +14177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bf6f35d",
       n1: "sb3a",
       n2: "sab3a",
       n3: "seb3a",
@@ -13306,6 +14193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa8a76d8",
       n1: "tmnia",
       n2: "tmenia",
       n3: "tmania",
@@ -13321,6 +14209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60d9efa5",
       n1: "ts3oud",
       n2: "ts3od",
       n3: "tas3oud",
@@ -13336,6 +14225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15125e34",
       n1: "ts3a",
       n2: null,
       n3: null,
@@ -13351,6 +14241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab604c81",
       n1: "3chra",
       n2: "3achra",
       n3: "aachra",
@@ -13366,6 +14257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96678fe2",
       n1: "7Dach",
       n2: "hdach",
       n3: null,
@@ -13381,6 +14273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8a6d268",
       n1: "Tnach",
       n2: null,
       n3: null,
@@ -13396,6 +14289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3cae5c7f",
       n1: "TlTTach",
       n2: "telTach",
       n3: "tleTTach",
@@ -13411,6 +14305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a323020",
       n1: "rb3Tach",
       n2: "rba3Tach",
       n3: "rbe3Tach",
@@ -13426,6 +14321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7ab8aa1",
       n1: "khmsTach",
       n2: "5msTach",
       n3: "khamsTach",
@@ -13441,6 +14337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bb4ddbb",
       n1: "sTTach",
       n2: "seTach",
       n3: "sTach",
@@ -13456,6 +14353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4c10d41",
       n1: "sb3Tach",
       n2: "sbe3Tach",
       n3: "sba3Tach",
@@ -13471,6 +14369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4e0c7d0",
       n1: "tmnTach",
       n2: "tmenTach",
       n3: "tmanTach",
@@ -13486,6 +14385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bbacb1c",
       n1: "ts3Tach",
       n2: "tsa3Tach",
       n3: "tse3Tach",
@@ -13501,6 +14401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db5b61cb",
       n1: "3chrin",
       n2: "3achrin",
       n3: "3echrin",
@@ -13516,6 +14417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52a901e0",
       n1: "wahd o 3chrin",
       n2: "wahd w 3chrin",
       n3: "wahdo3chrin",
@@ -13531,6 +14433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0849aada",
       n1: "tnayn o 3chrin",
       n2: "tnayn w 3chrin",
       n3: "tnayno3chrin",
@@ -13546,6 +14449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3affb1bc",
       n1: "tlata o 3chrin",
       n2: "tlata w 3chrin",
       n3: "tlatao3chrin",
@@ -13561,6 +14465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a4341c8",
       n1: "rb3a o 3chrin",
       n2: "rb3a w 3chrin",
       n3: "rb3ao3chrin",
@@ -13576,6 +14481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30ee15e6",
       n1: "khmsa o 3chrin",
       n2: "khmsa w 3chrin",
       n3: "khmsao3chrin",
@@ -13591,6 +14497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "86711bcc",
       n1: "stta o 3chrin",
       n2: "stta w 3chrin",
       n3: "sttao3chrin",
@@ -13606,6 +14513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5e22696",
       n1: "sb3a o 3chrin",
       n2: "sb3a w 3chrin",
       n3: "sb3ao3chrin",
@@ -13621,6 +14529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76c5681a",
       n1: "tmnya o 3chrin",
       n2: "tmnya w 3chrin",
       n3: "tmnyao3chrin",
@@ -13636,6 +14545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be2d9337",
       n1: "ts3oud o 3chrin",
       n2: "ts3oud w 3chrin",
       n3: "ts3oudo3chrin",
@@ -13651,6 +14561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4c7a25b",
       n1: "tlatin",
       n2: null,
       n3: null,
@@ -13666,6 +14577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "452e6245",
       n1: "rb3in",
       n2: "rab3in",
       n3: "reb3in",
@@ -13681,6 +14593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "703b7b47",
       n1: "khmsin",
       n2: "5amsin",
       n3: "khamsin",
@@ -13696,6 +14609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da496ac9",
       n1: "stin",
       n2: "settin",
       n3: "sattin",
@@ -13711,6 +14625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "782bd54b",
       n1: "sb3in",
       n2: "seb3in",
       n3: "sab3in",
@@ -13726,6 +14641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2709e4a",
       n1: "tmanin",
       n2: "tamanin",
       n3: null,
@@ -13741,6 +14657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "472555c3",
       n1: "ts3in",
       n2: "tes3in",
       n3: "tas3in",
@@ -13756,6 +14673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bec75d7e",
       n1: "wahd o ts3in",
       n2: "wahd w ts3in",
       n3: "wahdots3in",
@@ -13771,6 +14689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c475af0",
       n1: "tnayn o ts3in",
       n2: "tnayn w ts3in",
       n3: "tnaynots3in",
@@ -13786,6 +14705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3d790bf",
       n1: "tlata o ts3in",
       n2: "tlata w ts3in",
       n3: "tlataots3in",
@@ -13801,6 +14721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09879bce",
       n1: "rb3a o ts3in",
       n2: "rb3a w ts3in",
       n3: "rb3aots3in",
@@ -13816,6 +14737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65fd8ace",
       n1: "khmsa o ts3in",
       n2: "khmsa w ts3in",
       n3: "khmsaots3in",
@@ -13831,6 +14753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a07bed6",
       n1: "stta o ts3in",
       n2: "stta w ts3in",
       n3: "sttaots3in",
@@ -13846,6 +14769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5a74a03",
       n1: "sb3a o ts3in",
       n2: "sb3a w ts3in",
       n3: "sb3aots3in",
@@ -13861,6 +14785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74ed1859",
       n1: "tmnya o ts3in",
       n2: "tmnya w ts3in",
       n3: "tmnyaots3in",
@@ -13876,6 +14801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6282d408",
       n1: "ts3oud o ts3in",
       n2: "ts3oud w ts3in",
       n3: "ts3oudots3in",
@@ -13891,6 +14817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53fd1ae4",
       n1: "myya",
       n2: "mya",
       n3: "mia",
@@ -13906,6 +14833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb781ae6",
       n1: "alf",
       n2: null,
       n3: null,
@@ -13921,6 +14849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b903e36a",
       n1: "alaf",
       n2: "l2alaf",
       n3: null,
@@ -13936,6 +14865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8a81024",
       n1: "mlyon",
       n2: "melyoun",
       n3: "mlyoun",
@@ -13951,6 +14881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10ac7a97",
       n1: "mlyar",
       n2: "malyar",
       n3: "melyar",
@@ -13966,6 +14897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e65d53e5",
       n1: "w",
       n2: "ou",
       n3: "o",
@@ -13981,6 +14913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9bc576c",
       n1: "lwwl",
       n2: "lowwl",
       n3: "lowel",
@@ -13996,6 +14929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "707d030d",
       n1: "ttani",
       n2: null,
       n3: null,
@@ -14011,6 +14945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02b468e0",
       n1: "ttalt",
       n2: null,
       n3: null,
@@ -14026,6 +14961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f333148",
       n1: "rrab3",
       n2: "rrabe3",
       n3: "rraba3",
@@ -14041,6 +14977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0d0cbbb",
       n1: "lkhams",
       n2: "lkhames",
       n3: null,
@@ -14056,6 +14993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d83bf3b6",
       n1: "ssads",
       n2: "ssades",
       n3: null,
@@ -14071,6 +15009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8dff971",
       n1: "ssab3",
       n2: "ssabe3",
       n3: null,
@@ -14086,6 +15025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ab175ea",
       n1: "ttamn",
       n2: "ttamen",
       n3: null,
@@ -14101,6 +15041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c14263b9",
       n1: "ttas3",
       n2: "ttase3",
       n3: null,
@@ -14116,6 +15057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d3683b8",
       n1: "l3achr",
       n2: "l3acher",
       n3: null,
@@ -14131,6 +15073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2f62c1c",
       n1: "llkher",
       n2: "llkhar",
       n3: "lkher",
@@ -14146,6 +15089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50f8ba25",
       n1: "ttolot",
       n2: "ttolout",
       n3: null,
@@ -14161,6 +15105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca3c1d60",
       n1: "rrobo3",
       n2: "rrobou3",
       n3: null,
@@ -14176,6 +15121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c26a93e0",
       n1: "lkhomos",
       n2: "lkhomous",
       n3: null,
@@ -14191,6 +15137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3743b294",
       n1: "ssodos",
       n2: "ssodous",
       n3: null,
@@ -14206,6 +15153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13984446",
       n1: "ssobo3",
       n2: "ssobou3",
       n3: null,
@@ -14221,6 +15169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bd2f749",
       n1: "ttomon",
       n2: "ttomoun",
       n3: null,
@@ -14236,6 +15185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f273c60d",
       n1: "l3ochor",
       n2: "l3ochour",
       n3: null,
@@ -14251,6 +15201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d329209",
       n1: "loun",
       n2: "lawn",
       n3: "laoun",
@@ -14266,6 +15217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "684630bc",
       n1: "7mr",
       n2: "7mer",
       n3: null,
@@ -14281,6 +15233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22c375c4",
       n1: "khdr",
       n2: "5dr",
       n3: "khdar",
@@ -14296,6 +15249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7a764c1",
       n1: "zr9",
       n2: "zra9",
       n3: "zre9",
@@ -14311,6 +15265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30212a00",
       n1: "byed",
       n2: "byad",
       n3: null,
@@ -14326,6 +15281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73fe233f",
       n1: "k7l",
       n2: "k7al",
       n3: "k7el",
@@ -14341,6 +15297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcad8903",
       n1: "limouni",
       n2: null,
       n3: null,
@@ -14356,6 +15313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e325afaa",
       n1: "gri",
       n2: null,
       n3: null,
@@ -14371,6 +15329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47ad703e",
       n1: "9hwi",
       n2: "9ahwi",
       n3: "qahwi",
@@ -14386,6 +15345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9856e2a8",
       n1: "bonni",
       n2: null,
       n3: null,
@@ -14401,6 +15361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aaa4cd1c",
       n1: "fanidi",
       n2: null,
       n3: null,
@@ -14416,6 +15377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "370e1136",
       n1: "wardi",
       n2: "werdi",
       n3: "ouardi",
@@ -14431,6 +15393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fb10d24",
       n1: "banafsaji",
       n2: null,
       n3: null,
@@ -14446,6 +15409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc681b21",
       n1: "9ou9i",
       n2: "9o9i",
       n3: null,
@@ -14461,6 +15425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88406419",
       n1: "Sfr",
       n2: "Sfar",
       n3: "Sfer",
@@ -14476,6 +15441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22dc9191",
       n1: "maro",
       n2: "lmaro",
       n3: null,
@@ -14491,6 +15457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04c6ad5f",
       n1: "bij",
       n2: "beige",
       n3: "baaj",
@@ -14506,6 +15473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33969d66",
       n1: "d8bi",
       n2: "de8bi",
       n3: "dehbi",
@@ -14521,6 +15489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ff3e0c6",
       n1: "khzzi",
       n2: "khezzi",
       n3: "khassi",
@@ -14536,6 +15505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0858243a",
       n1: "mghlou9",
       n2: "maghlou9",
       n3: "maghlouq",
@@ -14551,6 +15521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8af72bf2",
       n1: "mftou7",
       n2: "meftou7",
       n3: "maftouh",
@@ -14566,6 +15537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2373666c",
       n1: "3ajri",
       n2: "3ajri",
       n3: "3ajri",
@@ -14581,6 +15553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5ea5040",
       n1: "zalami",
       n2: "zalami",
       n3: "zalami",
@@ -14596,6 +15569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92d862e9",
       n1: "fekhri",
       n2: "fekhri",
       n3: "fekhri",
@@ -14611,6 +15585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14afcd66",
       n1: "taya",
       n2: "taya",
       n3: "taya",
@@ -14626,6 +15601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3773a941",
       n1: "bousfi",
       n2: "bousfi",
       n3: "bousfi",
@@ -14641,6 +15617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be238a0f",
       n1: "zwaydi",
       n2: "zwaydi",
       n3: "zwaydi",
@@ -14656,6 +15633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8702691",
       n1: "zitouni",
       n2: "zitouni",
       n3: "zitouni",
@@ -14671,6 +15649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa65ce1e",
       n1: "safsari",
       n2: "safsari",
       n3: "safsari",
@@ -14686,6 +15665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "123b3f79",
       n1: "khobz",
       n2: "khobz",
       n3: "khobz",
@@ -14701,6 +15681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9bd8b00a",
       n1: "bardawi",
       n2: "bardawi",
       n3: "bardawi",
@@ -14716,6 +15697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ceb31035",
       n1: "7wayj",
       n2: "7wayej",
       n3: "7wayaj",
@@ -14731,6 +15713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcd382d4",
       n1: "khatm",
       n2: "5atm",
       n3: "khatem",
@@ -14746,6 +15729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccbd90d0",
       n1: "9amija",
       n2: "qamija",
       n3: null,
@@ -14761,6 +15745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1c10ab5",
       n1: "srwal",
       n2: "serwal",
       n3: "sarwal",
@@ -14776,6 +15761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbb1d2e5",
       n1: "kaskita",
       n2: "kasketa",
       n3: null,
@@ -14791,6 +15777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6793cd6a",
       n1: "sbbat",
       n2: "sebbat",
       n3: null,
@@ -14806,6 +15793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82d0c0e3",
       n1: "t9achr",
       n2: "t9acher",
       n3: "tqacher",
@@ -14821,6 +15809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2527324",
       n1: "chort",
       n2: "short",
       n3: null,
@@ -14836,6 +15825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44528a58",
       n1: "kbbot",
       n2: "kabbot",
       n3: "kebbot",
@@ -14851,6 +15841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc9b135e",
       n1: "grafaTa",
       n2: null,
       n3: null,
@@ -14866,6 +15857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41c940ab",
       n1: "Trbouch",
       n2: "Tarbouch",
       n3: "Terbouch",
@@ -14881,6 +15873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d6b9338",
       n1: "tjakiTa",
       n2: "jakiTa",
       n3: "jakiT",
@@ -14896,6 +15889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d7b0542",
       n1: "Saya",
       n2: null,
       n3: null,
@@ -14911,6 +15905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce1eb237",
       n1: "slip",
       n2: null,
       n3: null,
@@ -14926,6 +15921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bb5c4f7",
       n1: "chal",
       n2: null,
       n3: null,
@@ -14941,6 +15937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b17af504",
       n1: "djin",
       n2: null,
       n3: null,
@@ -14956,6 +15953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eec80e97",
       n1: "keswa",
       n2: "kswa",
       n3: null,
@@ -14971,6 +15969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3eddbe38",
       n1: "kostim",
       n2: "koustim",
       n3: null,
@@ -14986,6 +15985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "925b006b",
       n1: "pijama",
       n2: "pyjama",
       n3: null,
@@ -15001,6 +16001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e3bcc94",
       n1: "likouch",
       n2: "likoch",
       n3: null,
@@ -15016,6 +16017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b92c5d7",
       n1: "ligat",
       n2: null,
       n3: null,
@@ -15031,6 +16033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "636c55b7",
       n1: "smTa",
       n2: "samTa",
       n3: "semTa",
@@ -15046,6 +16049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bff27de3",
       n1: "SDfa",
       n2: "SaDfa",
       n3: "SeDfa",
@@ -15061,6 +16065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ee8639f",
       n1: "jib",
       n2: "jayb",
       n3: null,
@@ -15076,6 +16081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c785005b",
       n1: "Twang",
       n2: "Twaneg",
       n3: "Twanag",
@@ -15091,6 +16097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1f66e59",
       n1: "snsla",
       n2: "sensla",
       n3: "selsla",
@@ -15106,6 +16113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f45d3a9d",
       n1: "gormiT",
       n2: "gourmiT",
       n3: "gourmeT",
@@ -15121,6 +16129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "437c2dd2",
       n1: "bsTam",
       n2: "bzTam",
       n3: "besTam",
@@ -15136,6 +16145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "993c079c",
       n1: "mDll",
       n2: "mDall",
       n3: "mDell",
@@ -15151,6 +16161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "05269f02",
       n1: "Tagia",
       n2: "Taguia",
       n3: "Tagyya",
@@ -15166,6 +16177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23cc9127",
       n1: "touni",
       n2: "toni",
       n3: null,
@@ -15181,6 +16193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfd0ea22",
       n1: "jellaba",
       n2: "jllaba",
       n3: null,
@@ -15196,6 +16209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ab43ca2",
       n1: "blgha",
       n2: "belgha",
       n3: "cherbil",
@@ -15211,6 +16225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10fa2d38",
       n1: "drra3ia",
       n2: "Drra3ia",
       n3: null,
@@ -15226,6 +16241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80cd9cf7",
       n1: "jabador",
       n2: "jabadour",
       n3: null,
@@ -15241,6 +16257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b2fb9e1",
       n1: "9fTan",
       n2: "9efTan",
       n3: "9afTan",
@@ -15256,6 +16273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "229c18db",
       n1: "tkchiTa",
       n2: "tekchiTa",
       n3: "takchiTa",
@@ -15271,6 +16289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c25414f",
       n1: "sl8am",
       n2: "sel8am",
       n3: "slham",
@@ -15286,6 +16305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddaea140",
       n1: "rrwa7",
       n2: null,
       n3: null,
@@ -15301,6 +16321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8a7fa0d",
       n1: "skkar",
       n2: null,
       n3: null,
@@ -15316,6 +16337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba38b670",
       n1: "Sda3",
       n2: null,
       n3: null,
@@ -15331,6 +16353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "843600f5",
       n1: "7asasia",
       n2: "hassasia",
       n3: "7assasia",
@@ -15346,6 +16369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9038cc20",
       n1: "DDi9a",
       n2: "DDe9a",
       n3: null,
@@ -15361,6 +16385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bafd2770",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -15376,6 +16401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cda09fd0",
       n1: "mriD",
       n2: null,
       n3: null,
@@ -15391,6 +16417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ddbc277",
       n1: "labilanS",
       n2: null,
       n3: null,
@@ -15406,6 +16433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b01294b",
       n1: "marad",
       n2: "mard",
       n3: "mrd",
@@ -15421,6 +16449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fddd1339",
       n1: "konSir",
       n2: null,
       n3: null,
@@ -15436,6 +16465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "811afd13",
       n1: "taw77oud",
       n2: "taw77od",
       n3: null,
@@ -15451,6 +16481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5aa8362b",
       n1: "bouchwika",
       n2: "bochwika",
       n3: null,
@@ -15466,6 +16497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69f0f5cf",
       n1: "ara9",
       n2: null,
       n3: null,
@@ -15481,6 +16513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0cac9a41",
       n1: "ss8al",
       n2: null,
       n3: null,
@@ -15496,6 +16529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af17d7e3",
       n1: "SriSra",
       n2: null,
       n3: null,
@@ -15511,6 +16545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5173fded",
       n1: "jr7a",
       n2: "jr7",
       n3: "jer7a",
@@ -15526,6 +16561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45c43264",
       n1: "t9ya",
       n2: "te9ya",
       n3: "t9ia",
@@ -15541,6 +16577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f25f3ee",
       n1: "dwa",
       n2: "ddwa",
       n3: null,
@@ -15556,6 +16593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c3c2e600",
       n1: "ghrza",
       n2: "ghorza",
       n3: "gherza",
@@ -15571,6 +16609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15eea0e4",
       n1: "3kkaz",
       n2: "3okkaz",
       n3: null,
@@ -15586,6 +16625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "474cf3fa",
       n1: "bnj",
       n2: "benj",
       n3: "lbnj",
@@ -15601,6 +16641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f933e1e",
       n1: "tchri7",
       n2: "tachri7",
       n3: null,
@@ -15616,6 +16657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2437cd3",
       n1: "S77a",
       n2: "Si77a",
       n3: "Sa77a",
@@ -15631,6 +16673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66916241",
       n1: "3Tsa",
       n2: "3eTsa",
       n3: "3aTsa",
@@ -15646,6 +16689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab2bd0f9",
       n1: "k7ba",
       n2: "ka7ba",
       n3: "ke7ba",
@@ -15661,6 +16705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fabc009d",
       n1: "khalia",
       n2: "khaliya",
       n3: "5alia",
@@ -15676,6 +16721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d45f7398",
       n1: "maraD mozmin",
       n2: null,
       n3: null,
@@ -15691,6 +16737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "448a0853",
       n1: "maraD mo3di",
       n2: null,
       n3: null,
@@ -15706,6 +16753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e21c77a2",
       n1: "gzima",
       n2: "lgzima",
       n3: null,
@@ -15721,6 +16769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b8beddd",
       n1: "SSr3",
       n2: "SSara3",
       n3: null,
@@ -15736,6 +16785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bad80c7",
       n1: "Ta3oun",
       n2: "Ta3on",
       n3: null,
@@ -15751,6 +16801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48fff3b8",
       n1: "romatizm",
       n2: "rromatizm",
       n3: "roumatizm",
@@ -15766,6 +16817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c72994a3",
       n1: "l7la9m",
       n2: "7la9m",
       n3: "7la9em",
@@ -15781,6 +16833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca501e81",
       n1: "skhana",
       n2: "s5ana",
       n3: "sskhana",
@@ -15796,6 +16849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4c43e73",
       n1: "7kka",
       n2: "7ekka",
       n3: null,
@@ -15811,6 +16865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4f38f1c",
       n1: "chalal",
       n2: null,
       n3: null,
@@ -15826,6 +16881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e331eeaa",
       n1: "gui7",
       n2: "gi7",
       n3: null,
@@ -15841,6 +16897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73c857a0",
       n1: "lti8ab",
       n2: "ilti8ab",
       n3: "ltihab",
@@ -15856,6 +16913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f470d631",
       n1: "lbbaser",
       n2: "lbbasr",
       n3: null,
@@ -15871,6 +16929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f79364a",
       n1: "l9ebT",
       n2: "l9bT",
       n3: null,
@@ -15886,6 +16945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff32628b",
       n1: "boul",
       n2: null,
       n3: null,
@@ -15901,6 +16961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3690ee31",
       n1: "lgholD",
       n2: "gholD",
       n3: "lghlD",
@@ -15916,6 +16977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33c8acfa",
       n1: "7ma9",
       n2: "l7ma9",
       n3: null,
@@ -15931,6 +16993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffc890c9",
       n1: "ij8aD",
       n2: "ijhaD",
       n3: null,
@@ -15946,6 +17009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94358a19",
       n1: "jjdam",
       n2: null,
       n3: null,
@@ -15961,6 +17025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bba5fca6",
       n1: "7bb chchbab",
       n2: "7ebb chbab",
       n3: "7ebb chchbab",
@@ -15976,6 +17041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1b3effc",
       n1: "7ri9 rass",
       n2: "alam d rass",
       n3: null,
@@ -15991,6 +17057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "243b1baa",
       n1: "mheress",
       n2: "m8aress",
       n3: "mharres",
@@ -16006,6 +17073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56b63c79",
       n1: "thrisa",
       n2: "tehrisa",
       n3: "te8rissa",
@@ -16021,6 +17089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac84e0bc",
       n1: "boumzwi",
       n2: "bomzwi",
       n3: null,
@@ -16036,6 +17105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db57d00c",
       n1: "kelb",
       n2: "klb",
       n3: "kalb",
@@ -16051,6 +17121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d8cac02f",
       n1: "mech",
       n2: "mesh",
       n3: "msh",
@@ -16066,6 +17137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29ddc37b",
       n1: "7mar",
       n2: "hmar",
       n3: "himar",
@@ -16081,6 +17153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64a795af",
       n1: "zarafa",
       n2: null,
       n3: null,
@@ -16096,6 +17169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ed7ef28",
       n1: "sb3",
       n2: "sbe3",
       n3: "sbaa",
@@ -16111,6 +17185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "923f2f40",
       n1: "djaja",
       n2: null,
       n3: null,
@@ -16126,6 +17201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d05f5791",
       n1: "frouj",
       n2: "farrouj",
       n3: "farouj",
@@ -16141,6 +17217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf54e6e6",
       n1: "ghzala",
       n2: null,
       n3: null,
@@ -16156,6 +17233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62d2a471",
       n1: "nmr",
       n2: "nmer",
       n3: "nmar",
@@ -16171,6 +17249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00561ea1",
       n1: "Db3",
       n2: "Dbe3",
       n3: "Dbaa",
@@ -16186,6 +17265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bea7b6ff",
       n1: "7out",
       n2: "hout",
       n3: "houte",
@@ -16201,6 +17281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2226c78",
       n1: "nmla",
       n2: "nemla",
       n3: null,
@@ -16216,6 +17297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "121ade8a",
       n1: "fkroun",
       n2: "fekroun",
       n3: "fakroun",
@@ -16231,6 +17313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73433ba9",
       n1: "brbouch",
       n2: "beboch",
       n3: "babbouch",
@@ -16246,6 +17329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d39bc5f5",
       n1: "bghl",
       n2: "bghel",
       n3: "bghal",
@@ -16261,6 +17345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6ce9902",
       n1: "3awd",
       n2: "aawd",
       n3: "3aoud",
@@ -16276,6 +17361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5996f78b",
       n1: "khrouf",
       n2: "5rouf",
       n3: "5rof",
@@ -16291,6 +17377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e0ba9ec",
       n1: "7awli",
       n2: "hawli",
       n3: "hewli",
@@ -16306,6 +17393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6937ec64",
       n1: "n3ja",
       n2: "ne3ja",
       n3: "na3ja",
@@ -16321,6 +17409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b5121bf",
       n1: "m3za",
       n2: "ma3za",
       n3: "me3za",
@@ -16336,6 +17425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d455ff2",
       n1: "timsa7",
       n2: "timsah",
       n3: null,
@@ -16351,6 +17441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bb54793",
       n1: "fil",
       n2: "fyl",
       n3: null,
@@ -16366,6 +17457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4445927",
       n1: "3jl",
       n2: "3jel",
       n3: "3jal",
@@ -16381,6 +17473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "767c83df",
       n1: "dib",
       n2: "dyb",
       n3: null,
@@ -16396,6 +17489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98e013e8",
       n1: "7llouf",
       n2: "7allouf",
       n3: "hallouf",
@@ -16411,6 +17505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87c3756f",
       n1: "9rd",
       n2: "9ard",
       n3: "qard",
@@ -16426,6 +17521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3aded088",
       n1: "Tobba",
       n2: null,
       n3: null,
@@ -16441,6 +17537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08d4364a",
       n1: "jml",
       n2: "jmal",
       n3: "jmel",
@@ -16456,6 +17553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01b34a03",
       n1: "dlfin",
       n2: "delfin",
       n3: "dalfine",
@@ -16471,6 +17569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f53f03da",
       n1: "moka",
       n2: "mouka",
       n3: null,
@@ -16486,6 +17585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bdc2a04",
       n1: "t3lb",
       n2: "the3leb",
       n3: "ta3lab",
@@ -16501,6 +17601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35b8963f",
       n1: "bgra",
       n2: "bagra",
       n3: "begra",
@@ -16516,6 +17617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a7fb109",
       n1: "dobb",
       n2: "dob",
       n3: null,
@@ -16531,6 +17633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09236bef",
       n1: "9niwna",
       n2: "9nia",
       n3: "qnia",
@@ -16546,6 +17649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "770afac6",
       n1: "Twiyer",
       n2: "Twyer",
       n3: "Ter",
@@ -16561,6 +17665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eca094d0",
       n1: "ti9lit",
       n2: "ti9lita",
       n3: "tiqlit",
@@ -16576,6 +17681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4db94470",
       n1: "babbagha",
       n2: "babbaghio",
       n3: "babaghyo",
@@ -16591,6 +17697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4c5fe2d",
       n1: "far",
       n2: null,
       n3: null,
@@ -16606,6 +17713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8a5e888",
       n1: "bTTa",
       n2: "baTTa",
       n3: "beTTa",
@@ -16621,6 +17729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bb06887",
       n1: "crevit",
       n2: null,
       n3: null,
@@ -16636,6 +17745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "108b6983",
       n1: "bibi",
       n2: null,
       n3: null,
@@ -16651,6 +17761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07f9871b",
       n1: "n7la",
       n2: "na7la",
       n3: "ne7la",
@@ -16666,6 +17777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc0cccb0",
       n1: "ghrab",
       n2: "ghorab",
       n3: null,
@@ -16681,6 +17793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e1ab9cd",
       n1: "7mama",
       n2: "hmama",
       n3: null,
@@ -16696,6 +17809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12767f4b",
       n1: "bllarj",
       n2: "bellarj",
       n3: "belarj",
@@ -16711,6 +17825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fbef16af",
       n1: "n3ama",
       n2: "naama",
       n3: null,
@@ -16726,6 +17841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "237d7344",
       n1: "gnfoud",
       n2: "ganfoud",
       n3: null,
@@ -16741,6 +17857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5339f62a",
       n1: "khffach",
       n2: "khoffach",
       n3: "5ofach",
@@ -16756,6 +17873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98ac4aee",
       n1: "jrana",
       n2: null,
       n3: null,
@@ -16771,6 +17889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42f7e73d",
       n1: "sinjab",
       n2: null,
       n3: null,
@@ -16786,6 +17905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c2d72e3",
       n1: "7nch",
       n2: "7ench",
       n3: "7anch",
@@ -16801,6 +17921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc1f2196",
       n1: "okhToboT",
       n2: null,
       n3: null,
@@ -16816,6 +17937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f80cac9",
       n1: "9irch",
       n2: "qirch",
       n3: null,
@@ -16831,6 +17953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49f695e0",
       n1: "nsr",
       n2: "nser",
       n3: null,
@@ -16846,6 +17969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec45a3a7",
       n1: "biTri9",
       n2: "biTriq",
       n3: null,
@@ -16861,6 +17985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fba2c5b1",
       n1: "faracha",
       n2: null,
       n3: null,
@@ -16876,6 +18001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "178b68c6",
       n1: "rtila",
       n2: null,
       n3: null,
@@ -16891,6 +18017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d00992e",
       n1: "3grba",
       n2: "aagrba",
       n3: "3garba",
@@ -16906,6 +18033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbb24576",
       n1: "namousa",
       n2: "namosa",
       n3: null,
@@ -16921,6 +18049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e28a3a2",
       n1: "dbbana",
       n2: "debana",
       n3: "dbana",
@@ -16936,6 +18065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5805d70",
       n1: "dbban",
       n2: "deban",
       n3: "dban",
@@ -16951,6 +18081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a958cac",
       n1: "jrada",
       n2: null,
       n3: null,
@@ -16966,6 +18097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f63600b",
       n1: "jrad",
       n2: null,
       n3: null,
@@ -16981,6 +18113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e4c0dac",
       n1: "douda",
       n2: null,
       n3: null,
@@ -16996,6 +18129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98a35a98",
       n1: "doud",
       n2: null,
       n3: null,
@@ -17011,6 +18145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eadff0d9",
       n1: "7ayawan",
       n2: null,
       n3: null,
@@ -17026,6 +18161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0671144",
       n1: "7achara",
       n2: "hachara",
       n3: null,
@@ -17041,6 +18177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e494e675",
       n1: "7acharat",
       n2: "hacharat",
       n3: null,
@@ -17056,6 +18193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26db9a8e",
       n1: "7ayawanat",
       n2: "hayawanat",
       n3: null,
@@ -17071,6 +18209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01684ae0",
       n1: "3oSfor",
       n2: null,
       n3: null,
@@ -17086,6 +18225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1286868",
       n1: "tour",
       n2: "thour",
       n3: "thor",
@@ -17101,6 +18241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "377096d9",
       n1: "samaka",
       n2: null,
       n3: null,
@@ -17116,6 +18257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4401f5cc",
       n1: "daynaSour",
       n2: "daynaSor",
       n3: null,
@@ -17131,6 +18273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dab81e71",
       n1: "bobris",
       n2: "boubris",
       n3: "bobriss",
@@ -17146,6 +18289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "304efdb1",
       n1: "9ondos",
       n2: null,
       n3: null,
@@ -17161,6 +18305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fadb394",
       n1: "b8ima",
       n2: "bhima",
       n3: null,
@@ -17176,6 +18321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e01af380",
       n1: "wzza",
       n2: "wezza",
       n3: null,
@@ -17191,6 +18337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66787c6d",
       n1: "Taws",
       n2: "Taawous",
       n3: "Tawous",
@@ -17206,6 +18353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d3c82d4",
       n1: "srdin",
       n2: null,
       n3: null,
@@ -17221,6 +18369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75775fb8",
       n1: "smTa",
       n2: "semTa",
       n3: "samTa",
@@ -17236,6 +18385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e270a82f",
       n1: "fo9ma",
       n2: "foqma",
       n3: null,
@@ -17251,6 +18401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76df21cd",
       n1: "srra9zzit",
       n2: "srra9 zzit",
       n3: "srra9 zit",
@@ -17266,6 +18417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5616a43",
       n1: "boj3ran",
       n2: "bouj3ran",
       n3: null,
@@ -17281,6 +18433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3db7f2e",
       n1: "gml",
       n2: "gmel",
       n3: "gmal",
@@ -17296,6 +18449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01d9208e",
       n1: "mn9ar",
       n2: "man9ar",
       n3: "men9ar",
@@ -17311,6 +18465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "739a5e08",
       n1: "jna7",
       n2: "jnah",
       n3: null,
@@ -17326,6 +18481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f3f15dd",
       n1: "richa",
       n2: "rycha",
       n3: null,
@@ -17341,6 +18497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f1f53f8",
       n1: "ghoul",
       n2: "ghol",
       n3: null,
@@ -17356,6 +18513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ba22561",
       n1: "faras nna8r",
       n2: "faras nnahr",
       n3: null,
@@ -17371,6 +18529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1566333",
       n1: "wa7id l9arn",
       n2: "wahid l9arn",
       n3: "wahid lqarn",
@@ -17386,6 +18545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29aaa874",
       n1: "7imar wa7chi",
       n2: "7imar w7chi",
       n3: null,
@@ -17401,6 +18561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8927400c",
       n1: "ghzala",
       n2: null,
       n3: null,
@@ -17416,6 +18577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54f4e633",
       n1: "fa8d",
       n2: "fahd",
       n3: "fehd",
@@ -17431,6 +18593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22d65b7f",
       n1: "ferrouj",
       n2: "frroj",
       n3: "farouj",
@@ -17446,6 +18609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7ac650a",
       n1: "8od8od",
       n2: "hodhod",
       n3: null,
@@ -17461,6 +18625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4101396c",
       n1: "hamster",
       n2: "8amster",
       n3: null,
@@ -17476,6 +18641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d7ab6fc",
       n1: "panda",
       n2: "ppanda",
       n3: null,
@@ -17491,6 +18657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74dfa16b",
       n1: "llama",
       n2: null,
       n3: null,
@@ -17506,6 +18673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3f4b95d",
       n1: "koala",
       n2: "kwala",
       n3: "kowala",
@@ -17521,6 +18689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bca5858",
       n1: "tania",
       n2: "thania",
       n3: null,
@@ -17536,6 +18705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa0bf516",
       n1: "d9i9a",
       n2: "daqiqa",
       n3: "da9i9a",
@@ -17551,6 +18721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f75d5136",
       n1: "sa3a",
       n2: null,
       n3: null,
@@ -17566,6 +18737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b89dd6d3",
       n1: "yawm",
       n2: "youm",
       n3: "nhar",
@@ -17581,6 +18753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9961d5bb",
       n1: "lbar7",
       n2: "lbare7",
       n3: "lbareh",
@@ -17596,6 +18769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "764f6e25",
       n1: "daba",
       n2: "drok",
       n3: null,
@@ -17611,6 +18785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80ca5caa",
       n1: "ghdda",
       n2: "ghedda",
       n3: "ghadda",
@@ -17626,6 +18801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a80b0414",
       n1: "wellbar7",
       n2: "wallbare7",
       n3: "wllbare7",
@@ -17641,6 +18817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3fe387c7",
       n1: "b3d ghdda",
       n2: "ba3d ghdda",
       n3: "be3d ghdda",
@@ -17656,6 +18833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af9ff6db",
       n1: "Simana",
       n2: "simana",
       n3: null,
@@ -17671,6 +18849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35e0fa86",
       n1: "ch8er",
       n2: null,
       n3: null,
@@ -17686,6 +18865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "394371ea",
       n1: "3am",
       n2: "aam",
       n3: null,
@@ -17701,6 +18881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87606099",
       n1: "9arn",
       n2: "9ern",
       n3: null,
@@ -17716,6 +18897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3f9158d",
       n1: "tnin",
       n2: "ttnin",
       n3: null,
@@ -17731,6 +18913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11204d42",
       n1: "tlat",
       n2: "ttlat",
       n3: null,
@@ -17746,6 +18929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1982d89",
       n1: "larb3",
       n2: "larba3",
       n3: "larbe3",
@@ -17761,6 +18945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e418c2b",
       n1: "lkhmis",
       n2: "l5miss",
       n3: "lakhmis",
@@ -17776,6 +18961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf0af73e",
       n1: "jm3a",
       n2: "jam3a",
       n3: "jem3a",
@@ -17791,6 +18977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7bbef841",
       n1: "sbt",
       n2: "ssbt",
       n3: "sabt",
@@ -17806,6 +18993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1175ea38",
       n1: "l7d",
       n2: "l7ed",
       n3: "l7add",
@@ -17821,6 +19009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6eab7ed4",
       n1: "yanayir",
       n2: "yanayr",
       n3: null,
@@ -17836,6 +19025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e32c577",
       n1: "fibrayr",
       n2: "fibrayer",
       n3: null,
@@ -17851,6 +19041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3cef482d",
       n1: "mars",
       n2: null,
       n3: null,
@@ -17866,6 +19057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5755a7b",
       n1: "abril",
       n2: "avril",
       n3: null,
@@ -17881,6 +19073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5ad1744",
       n1: "may",
       n2: null,
       n3: null,
@@ -17896,6 +19089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43875d15",
       n1: "yonyo",
       n2: null,
       n3: null,
@@ -17911,6 +19105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a1680a9",
       n1: "yolyoz",
       n2: "youlyouz",
       n3: null,
@@ -17926,6 +19121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ac54e4f",
       n1: "ghocht",
       n2: null,
       n3: null,
@@ -17941,6 +19137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b925d8b3",
       n1: "chotanbir",
       n2: null,
       n3: null,
@@ -17956,6 +19153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97cbeca8",
       n1: "oktoubr",
       n2: "oktobr",
       n3: null,
@@ -17971,6 +19169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afebe758",
       n1: "nowanbir",
       n2: null,
       n3: null,
@@ -17986,6 +19185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0595d26b",
       n1: "dojanbir",
       n2: "doujanbir",
       n3: null,
@@ -18001,6 +19201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5873c04",
       n1: "ch8er wahd",
       n2: "ch8ar wahd",
       n3: "ch8r wa7d",
@@ -18016,6 +19217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a321efc8",
       n1: "ch8er jouj",
       n2: "ch8ar jouj",
       n3: "ch8r jouj",
@@ -18031,6 +19233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da60ea26",
       n1: "chher tlata",
       n2: "ch8er tlata",
       n3: null,
@@ -18046,6 +19249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88d492a1",
       n1: "ch8er rb3a",
       n2: "ch8ar rb3a",
       n3: "ch8r rb3a",
@@ -18061,6 +19265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e023ee1",
       n1: "ch8er khmsa",
       n2: "ch8er khamsa",
       n3: "ch8er khemsa",
@@ -18076,6 +19281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "255092ab",
       n1: "ch8er stta",
       n2: "ch8ar stta",
       n3: "ch8r stta",
@@ -18091,6 +19297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15cb31e2",
       n1: "ch8er sb3a",
       n2: "ch8ar sb3a",
       n3: "ch8r sb3a",
@@ -18106,6 +19313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4651c64",
       n1: "ch8er tmnia",
       n2: "ch8ar tmnia",
       n3: "ch8r tmnia",
@@ -18121,6 +19329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04e876a3",
       n1: "ch8er ts3oud",
       n2: "ch8ar ts3oud",
       n3: "ch8r ts3oud",
@@ -18136,6 +19345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb15af35",
       n1: "ch8er 3chra",
       n2: "ch8ar 3chra",
       n3: "ch8r 3chra",
@@ -18151,6 +19361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb18cd5f",
       n1: "ch8er 7Dach",
       n2: "ch8ar 7Dach",
       n3: "ch8r 7Dach",
@@ -18166,6 +19377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5892a962",
       n1: "ch8er Tnach",
       n2: "ch8ar Tnach",
       n3: "ch8r Tnach",
@@ -18181,6 +19393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c02c1229",
       n1: "7aDir",
       n2: null,
       n3: null,
@@ -18196,6 +19409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d81c12cf",
       n1: "mosta9bal",
       n2: "most9bal",
       n3: null,
@@ -18211,6 +19425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "134d20de",
       n1: "llarob",
       n2: "llaroub",
       n3: null,
@@ -18226,6 +19441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c9cb1e9",
       n1: "o 9sem",
       n2: "o9sem",
       n3: "oqsem",
@@ -18241,6 +19457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90f962d0",
       n1: "o 9smayn",
       n2: "o9smayn",
       n3: "oqsmayn",
@@ -18256,6 +19473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fe4e0a7",
       n1: "o rb3",
       n2: "orb3",
       n3: "orba3",
@@ -18271,6 +19489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "723e803f",
       n1: "o ness",
       n2: "oness",
       n3: "onss",
@@ -18286,6 +19505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dcf9e5e",
       n1: "o sb3 9sam",
       n2: "osb39sam",
       n3: "o sbaa qsam",
@@ -18301,6 +19521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c07f4756",
       n1: "9ll toulout",
       n2: "9ll tolot",
       n3: null,
@@ -18316,6 +19537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7218acdb",
       n1: "9ll 9smayn",
       n2: "9ll9smayn",
       n3: null,
@@ -18331,6 +19553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6939ed9",
       n1: "9ll 9sm",
       n2: "9ll9sm",
       n3: null,
@@ -18346,6 +19569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4295dd3c",
       n1: "mn",
       n2: "men",
       n3: null,
@@ -18361,6 +19585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7507446c",
       n1: "lil",
       n2: null,
       n3: null,
@@ -18376,6 +19601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "656b030b",
       n1: "3chia",
       n2: "aachia",
       n3: null,
@@ -18391,6 +19617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf5cb42c",
       n1: "wst nhar",
       n2: "wstnhar",
       n3: null,
@@ -18406,6 +19633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "483adbcc",
       n1: "ftra",
       n2: "fatra",
       n3: "fetra",
@@ -18421,6 +19649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edfac817",
       n1: "magana",
       n2: "sa3a",
       n3: null,
@@ -18436,6 +19665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f8daedf",
       n1: "monasaba",
       n2: "mounasaba",
       n3: "monaasaba",
@@ -18451,6 +19681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c427f8aa",
       n1: "nssa3a",
       n2: "nss sa3a",
       n3: "ness sa3a",
@@ -18466,6 +19697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83429970",
       n1: "robo3sa3a",
       n2: "robo3 sa3a",
       n3: "rba3 sa3a",
@@ -18481,6 +19713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "644cff0b",
       n1: "tolotsa3a",
       n2: "tolot sa3a",
       n3: "tolout sa3a",
@@ -18496,6 +19729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0d35db9",
       n1: "8chich",
       n2: null,
       n3: null,
@@ -18511,6 +19745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d80ee519",
       n1: "cha3l",
       n2: null,
       n3: null,
@@ -18526,6 +19761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "baad7c56",
       n1: "DaSr",
       n2: null,
       n3: null,
@@ -18541,6 +19777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2dd9e70f",
       n1: "modmin",
       n2: "moudmin",
       n3: "moudmine",
@@ -18556,6 +19793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93fff5c4",
       n1: "ghabyy",
       n2: "ghaby",
       n3: null,
@@ -18571,6 +19809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6f83f40",
       n1: "mkllkh",
       n2: "mkallakh",
       n3: "mkellekh",
@@ -18586,6 +19825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c2c410e",
       n1: "mjllj",
       n2: "mjellej",
       n3: "mjallaj",
@@ -18601,6 +19841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccd1f278",
       n1: "kbir",
       n2: "kabir",
       n3: null,
@@ -18616,6 +19857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af01407f",
       n1: "Sghir",
       n2: "saghir",
       n3: null,
@@ -18631,6 +19873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b23b09f",
       n1: "m8rrs",
       n2: "mhrrs",
       n3: "m8arras",
@@ -18646,6 +19889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59ad69f5",
       n1: "momill",
       n2: null,
       n3: null,
@@ -18661,6 +19905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9d68696",
       n1: "Sl3",
       n2: "Sla3",
       n3: "Sle3",
@@ -18676,6 +19921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50df4073",
       n1: "ghliD",
       n2: null,
       n3: null,
@@ -18691,6 +19937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39ff8158",
       n1: "Tebbouzi",
       n2: null,
       n3: null,
@@ -18706,6 +19953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "793ae35f",
       n1: "r9i9",
       n2: "rqiq",
       n3: null,
@@ -18721,6 +19969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "894fa6fc",
       n1: "Twil",
       n2: "Twel",
       n3: null,
@@ -18736,6 +19985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4af5b1a2",
       n1: "9Sir",
       n2: "9ssir",
       n3: null,
@@ -18751,6 +20001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01624b3e",
       n1: "bogos",
       n2: null,
       n3: null,
@@ -18766,6 +20017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74f81185",
       n1: "khayb",
       n2: "khayeb",
       n3: "5ayb",
@@ -18781,6 +20033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7905c282",
       n1: "8bil",
       n2: "hbil",
       n3: null,
@@ -18796,6 +20049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d26b086",
       n1: "mSTTi",
       n2: "mSaTTi",
       n3: "mSeTTi",
@@ -18811,6 +20065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5917b723",
       n1: "3aamr",
       n2: "aamr",
       n3: "3amer",
@@ -18826,6 +20081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8921dbed",
       n1: "jdid",
       n2: null,
       n3: null,
@@ -18841,6 +20097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53308830",
       n1: "9dim",
       n2: "qdim",
       n3: null,
@@ -18856,6 +20113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d75db3ea",
       n1: "charf",
       n2: "chaarf",
       n3: null,
@@ -18871,6 +20129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd6a2428",
       n1: "S3ib",
       n2: null,
       n3: null,
@@ -18886,6 +20145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbe35fbd",
       n1: "9as7",
       n2: "9aas7",
       n3: null,
@@ -18901,6 +20161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7337ad6d",
       n1: "sa8l",
       n2: "sahl",
       n3: null,
@@ -18916,6 +20177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f586f56e",
       n1: "m3TTl",
       n2: "m3TTel",
       n3: "m3aTTal",
@@ -18931,6 +20193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b25f55b",
       n1: "7a9i9ia",
       n2: "haqiqia",
       n3: null,
@@ -18946,6 +20209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b6d7add",
       n1: "3adi",
       n2: null,
       n3: null,
@@ -18961,6 +20225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "374c420a",
       n1: "gadd",
       n2: null,
       n3: null,
@@ -18976,6 +20241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d670d445",
       n1: "bsiT",
       n2: "basiT",
       n3: null,
@@ -18991,6 +20257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c0ca895",
       n1: "m399d",
       n2: "m3a99ad",
       n3: "m3e99ed",
@@ -19006,6 +20273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52b63c56",
       n1: "t9il",
       n2: "tqil",
       n3: null,
@@ -19021,6 +20289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db67b248",
       n1: "t9il",
       n2: "tqil",
       n3: null,
@@ -19036,6 +20305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "890b6570",
       n1: "was3",
       n2: "waas3",
       n3: "wase3",
@@ -19051,6 +20321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5c680f0",
       n1: "nachT",
       n2: "nacheT",
       n3: null,
@@ -19066,6 +20337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5aae895",
       n1: "n9i",
       n2: "nqi",
       n3: null,
@@ -19081,6 +20353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c06c837",
       n1: "khayb",
       n2: "khayeb",
       n3: "5ayb",
@@ -19096,6 +20369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ed28ff0",
       n1: "3aadil",
       n2: "3adil",
       n3: null,
@@ -19111,6 +20385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "831aa1e6",
       n1: "ghany",
       n2: "ghani",
       n3: null,
@@ -19126,6 +20401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f1c6c0d",
       n1: "Tabi3i",
       n2: "Taby3i",
       n3: null,
@@ -19141,6 +20417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "293f1246",
       n1: "mfrou9",
       n2: "mafrou9",
       n3: "mefro9",
@@ -19156,6 +20433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d2a5243",
       n1: "mch8our",
       n2: "mech8our",
       n3: "mch8or",
@@ -19171,6 +20449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e41f394",
       n1: "fr7an",
       n2: "far7an",
       n3: "fer7an",
@@ -19186,6 +20465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0cf91c7e",
       n1: "dourijin",
       n2: "dorijin",
       n3: null,
@@ -19201,6 +20481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "115f58bd",
       n1: "khayf",
       n2: "5ayf",
       n3: "khayef",
@@ -19216,6 +20497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14ed33d4",
       n1: "Dakhm",
       n2: "Da5m",
       n3: null,
@@ -19231,6 +20513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51e25457",
       n1: "3imla9",
       n2: null,
       n3: null,
@@ -19246,6 +20529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03a9fd0f",
       n1: "za8i",
       n2: "zaa8i",
       n3: "zahi",
@@ -19261,6 +20545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42af315b",
       n1: "fakhour",
       n2: "fakhor",
       n3: "fa5our",
@@ -19276,6 +20561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01db8d07",
       n1: "raDi",
       n2: "raaDi",
       n3: null,
@@ -19291,6 +20577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca0b34a4",
       n1: "7azin",
       n2: null,
       n3: null,
@@ -19306,6 +20593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f97cc286",
       n1: "nadm",
       n2: "naadm",
       n3: "naadem",
@@ -19321,6 +20609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ffc03cd",
       n1: "mkta2b",
       n2: "mkta2b",
       n3: "mekta2eb",
@@ -19336,6 +20625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "effe9e29",
       n1: "mskin",
       n2: "meskin",
       n3: "maskin",
@@ -19351,6 +20641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5259f62b",
       n1: "mrta7",
       n2: "merta7",
       n3: "marta7",
@@ -19366,6 +20657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a85a01a",
       n1: "mchghoul",
       n2: "mchghol",
       n3: "mechghoul",
@@ -19381,6 +20673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dab0b922",
       n1: "mchTon",
       n2: "mchToun",
       n3: "mechTon",
@@ -19396,6 +20689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5d06f6c",
       n1: "m3SSb",
       n2: "m3eSSeb",
       n3: "m3aSSab",
@@ -19411,6 +20705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ad1a534",
       n1: "mochaghib",
       n2: "mochaaghib",
       n3: null,
@@ -19426,6 +20721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fafadf1",
       n1: "ghDban",
       n2: "ghaDban",
       n3: "gheDban",
@@ -19441,6 +20737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8a52822",
       n1: "mrg",
       n2: "mreg",
       n3: "mrag",
@@ -19456,6 +20753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb7837d1",
       n1: "7chman",
       n2: "7echman",
       n3: "7achman",
@@ -19471,6 +20769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1922d5ca",
       n1: "kalm",
       n2: "calm",
       n3: null,
@@ -19486,6 +20785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9c49d44",
       n1: "wa7id",
       n2: "wa7yd",
       n3: "wahid",
@@ -19501,6 +20801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ff3b5c3",
       n1: "mnba8er",
       n2: "mnba8ar",
       n3: "mnba8r",
@@ -19516,6 +20817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed5fd5fd",
       n1: "mstghrb",
       n2: "msteghreb",
       n3: "mstaghreb",
@@ -19531,6 +20833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cd62a4b",
       n1: "mchoki",
       n2: null,
       n3: null,
@@ -19546,6 +20849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e59f640",
       n1: "mrwwn",
       n2: "mrewwen",
       n3: "mrawwen",
@@ -19561,6 +20865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0f46771",
       n1: "mtredded",
       n2: "mtradded",
       n3: "mtraddad",
@@ -19576,6 +20881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93dda81e",
       n1: "3yyan",
       n2: "3eyyan",
       n3: "msekhsekh",
@@ -19591,6 +20897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27392a16",
       n1: "Tmma3",
       n2: "Tamma3",
       n3: "Temma3",
@@ -19606,6 +20913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a78531d8",
       n1: "anani",
       n2: "anaani",
       n3: null,
@@ -19621,6 +20929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc5c9520",
       n1: "skhi",
       n2: "s5i",
       n3: null,
@@ -19636,6 +20945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3a28703",
       n1: "s9ram",
       n2: "se9ram",
       n3: null,
@@ -19651,6 +20961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8caee8ac",
       n1: "bakhil",
       n2: "ba5il",
       n3: null,
@@ -19666,6 +20977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ba0b793",
       n1: "Drief",
       n2: "Drayaf",
       n3: "Drayef",
@@ -19681,6 +20993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "894cf6a1",
       n1: "Sbbar",
       n2: "Sabbar",
       n3: null,
@@ -19696,6 +21009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a9cc780",
       n1: "m2ddb",
       n2: "m2ddeb",
       n3: "m2eddeb",
@@ -19711,6 +21025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5b1fa5c",
       n1: "m3gaz",
       n2: "me3gaz",
       n3: "ma3gaz",
@@ -19726,6 +21041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54d921a5",
       n1: "mojta8id",
       n2: "mojtahid",
       n3: "moujta8id",
@@ -19741,6 +21057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e367906a",
       n1: "choja3",
       n2: "chojaa3",
       n3: null,
@@ -19756,6 +21073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cf4fc21",
       n1: "za3em",
       n2: "zaa3em",
       n3: "za3m",
@@ -19771,6 +21089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bf30664",
       n1: "fDoli",
       n2: "fDouli",
       n3: null,
@@ -19786,6 +21105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1cd538d",
       n1: "mghrour",
       n2: "mghror",
       n3: null,
@@ -19801,6 +21121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c75962d",
       n1: "mtwaD3",
       n2: "metwaDe3",
       n3: "mtwaDa3",
@@ -19816,6 +21137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc950e4e",
       n1: "ja8il",
       n2: "jaa8il",
       n3: "jahil",
@@ -19831,6 +21153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76de4a97",
       n1: "3abiT",
       n2: null,
       n3: null,
@@ -19846,6 +21169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac267413",
       n1: "dki",
       n2: null,
       n3: null,
@@ -19861,6 +21185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd02ee0d",
       n1: "7akim",
       n2: "hakim",
       n3: null,
@@ -19876,6 +21201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5aca3fdb",
       n1: "nabigha",
       n2: "naabigha",
       n3: null,
@@ -19891,6 +21217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b75f20cc",
       n1: "amine",
       n2: null,
       n3: null,
@@ -19906,6 +21233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a1c1f3a",
       n1: "kddab",
       n2: "keddab",
       n3: "kaddab",
@@ -19921,6 +21249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aee02c08",
       n1: "ghddar",
       n2: "gheddar",
       n3: "ghaddar",
@@ -19936,6 +21265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46576f34",
       n1: "nSSab",
       n2: "neSSab",
       n3: "naSSab",
@@ -19951,6 +21281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a481f621",
       n1: "nyya",
       n2: "nia",
       n3: "nya",
@@ -19966,6 +21297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c3437b8",
       n1: "mtfa2l",
       n2: "mtfa2el",
       n3: "motafa2il",
@@ -19981,6 +21313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e876593c",
       n1: "mtcha2m",
       n2: "mtcha2em",
       n3: "motacha2im",
@@ -19996,6 +21329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09138a92",
       n1: "komik",
       n2: "comic",
       n3: null,
@@ -20011,6 +21345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80f606b1",
       n1: "ytim",
       n2: "yatim",
       n3: "itym",
@@ -20026,6 +21361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afa29274",
       n1: "7amla",
       n2: "hamla",
       n3: null,
@@ -20041,6 +21377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a04349c3",
       n1: "ijabi",
       n2: null,
       n3: null,
@@ -20056,6 +21393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72a6b064",
       n1: "silbi",
       n2: null,
       n3: null,
@@ -20071,6 +21409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7a111e8",
       n1: "waa9i3i",
       n2: "wa9i3i",
       n3: null,
@@ -20086,6 +21425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe6084df",
       n1: "tay3yyef",
       n2: "tay3yyf",
       n3: "kay3iyyef",
@@ -20101,6 +21441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d2ceca6",
       n1: "tay3adi",
       n2: "kay3adi",
       n3: null,
@@ -20116,6 +21457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc0e9003",
       n1: "3ma",
       n2: null,
       n3: null,
@@ -20131,6 +21473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bcdac2b4",
       n1: "Smk",
       n2: "Smek",
       n3: "Smak",
@@ -20146,6 +21489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e41f19d8",
       n1: "zizoun",
       n2: "zizon",
       n3: null,
@@ -20161,6 +21505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99a2e84d",
       n1: "mchllel",
       n2: "mchallal",
       n3: "mchellal",
@@ -20176,6 +21521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "685af8d5",
       n1: "mo3wwa9",
       n2: "mo3a9",
       n3: "mo3aa9",
@@ -20191,6 +21537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7492119c",
       n1: "3agr",
       n2: "3ager",
       n3: "3agar",
@@ -20206,6 +21553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "998dbc09",
       n1: "mj8oul",
       n2: "mj8ol",
       n3: "mjhoul",
@@ -20221,6 +21569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88b1f4f5",
       n1: "m9boul",
       n2: "ma9boul",
       n3: "m9bol",
@@ -20236,6 +21585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f86fed9",
       n1: "m39ol",
       n2: "m39oul",
       n3: null,
@@ -20251,6 +21601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5336a35c",
       n1: "mn7az",
       n2: "men7az",
       n3: "ma7az",
@@ -20266,6 +21617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ce15ced",
       n1: "mo7ayid",
       n2: "mo7aayid",
       n3: null,
@@ -20281,6 +21633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5dbaf26",
       n1: "waaD7",
       n2: "waaDe7",
       n3: null,
@@ -20296,6 +21649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a03e44fa",
       n1: "mojrim",
       n2: "moujrim",
       n3: null,
@@ -20311,6 +21665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47daeb29",
       n1: "9ttal",
       n2: "9ettal",
       n3: null,
@@ -20326,6 +21681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8c1a476",
       n1: "ghali",
       n2: null,
       n3: null,
@@ -20341,6 +21697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a65bd59f",
       n1: "rkhiS",
       n2: null,
       n3: null,
@@ -20356,6 +21713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20a638e2",
       n1: "ga3",
       n2: null,
       n3: null,
@@ -20371,6 +21729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4436cfc",
       n1: "lkhrin",
       n2: "khrin",
       n3: null,
@@ -20386,6 +21745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0bf31071",
       n1: "zwin",
       n2: null,
       n3: null,
@@ -20401,6 +21761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03d749ea",
       n1: "lkher",
       n2: null,
       n3: null,
@@ -20416,6 +21777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0c0e2c7",
       n1: "b7al",
       n2: null,
       n3: null,
@@ -20431,6 +21793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56b462af",
       n1: "sghir",
       n2: null,
       n3: null,
@@ -20446,6 +21809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec75be26",
       n1: "mghyyer",
       n2: null,
       n3: null,
@@ -20461,6 +21825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dad5605d",
       n1: "lli mora",
       n2: null,
       n3: null,
@@ -20476,6 +21841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e337b64",
       n1: "3aDim",
       n2: null,
       n3: null,
@@ -20491,6 +21857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43b38a22",
       n1: "ma7lli",
       n2: "ma7alli",
       n3: null,
@@ -20506,6 +21873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8611c31",
       n1: "jtima3i",
       n2: "jtimaa3i",
       n3: null,
@@ -20521,6 +21889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74f4e5c7",
       n1: "mo8im",
       n2: "mohim",
       n3: "mohimm",
@@ -20536,6 +21905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20f29787",
       n1: "waTani",
       n2: null,
       n3: null,
@@ -20551,6 +21921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf950790",
       n1: "3aali",
       n2: "3ali",
       n3: null,
@@ -20566,6 +21937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ec8ac3a",
       n1: "Twil",
       n2: null,
       n3: null,
@@ -20581,6 +21953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ba7569a",
       n1: "waas3",
       n2: "was3",
       n3: null,
@@ -20596,6 +21969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2999194b",
       n1: "3aamm",
       n2: "3amm",
       n3: null,
@@ -20611,6 +21985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c21d9e80",
       n1: "momkin",
       n2: "moumkin",
       n3: null,
@@ -20626,6 +22001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a209d7de",
       n1: "chaabb",
       n2: null,
       n3: null,
@@ -20641,6 +22017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1730a29d",
       n1: "syasi",
       n2: "siasi",
       n3: "siyasi",
@@ -20656,6 +22033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb2a24c3",
       n1: "3omoumi",
       n2: "3omomi",
       n3: null,
@@ -20671,6 +22049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c575d63",
       n1: "mo7ddad",
       n2: null,
       n3: null,
@@ -20686,6 +22065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea17ea98",
       n1: "mojoud",
       n2: "mojod",
       n3: null,
@@ -20701,6 +22081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae6e905b",
       n1: "bkri",
       n2: "bekri",
       n3: null,
@@ -20716,6 +22097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56434463",
       n1: "asaasi",
       n2: "asasi",
       n3: null,
@@ -20731,6 +22113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4631898",
       n1: "ra2isi",
       n2: null,
       n3: null,
@@ -20746,6 +22129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bfb35e9",
       n1: "9tiSadi",
       n2: "i9tiSadi",
       n3: null,
@@ -20761,6 +22145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63f4e81f",
       n1: "mo2kkad",
       n2: null,
       n3: null,
@@ -20776,6 +22161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6206b11",
       n1: "ghaliban",
       n2: "ghaaliban",
       n3: null,
@@ -20791,6 +22177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd119f76",
       n1: "wa7id",
       n2: "wa7iid",
       n3: null,
@@ -20806,6 +22193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a0afd9a",
       n1: "m2kked",
       n2: "mo2kkad",
       n3: null,
@@ -20821,6 +22209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0453a3b1",
       n1: "mo3yyan",
       n2: null,
       n3: null,
@@ -20836,6 +22225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df550949",
       n1: "mo3yyan",
       n2: null,
       n3: null,
@@ -20851,6 +22241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f08b237e",
       n1: "momyyaz",
       n2: null,
       n3: null,
@@ -20866,6 +22257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21459b9a",
       n1: "S3ib",
       n2: null,
       n3: null,
@@ -20881,6 +22273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03e2ee07",
       n1: "m7loul",
       n2: null,
       n3: null,
@@ -20896,6 +22289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6e4dc26",
       n1: "kollchi",
       n2: null,
       n3: null,
@@ -20911,6 +22305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26209dd5",
       n1: "neSS",
       n2: null,
       n3: null,
@@ -20926,6 +22321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25227064",
       n1: "7orr",
       n2: null,
       n3: null,
@@ -20941,6 +22337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbeae08d",
       n1: "markazi",
       n2: null,
       n3: null,
@@ -20956,6 +22353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "acd14778",
       n1: "mochtarak",
       n2: null,
       n3: null,
@@ -20971,6 +22369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d75ff58",
       n1: "cha2i3",
       n2: "chaa2i3",
       n3: null,
@@ -20986,6 +22385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e9707d4",
       n1: "mtchab8",
       n2: null,
       n3: null,
@@ -21001,6 +22401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e803f71f",
       n1: "Darouri",
       n2: "Darori",
       n3: null,
@@ -21016,6 +22417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72e9eb7a",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -21031,6 +22433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63ebbbb1",
       n1: "3aazib",
       n2: "3azib",
       n3: null,
@@ -21046,6 +22449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8819d292",
       n1: "wa7id",
       n2: null,
       n3: null,
@@ -21061,6 +22465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25683c89",
       n1: "khaSS",
       n2: "khaaSS",
       n3: null,
@@ -21076,6 +22481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8f3c846",
       n1: "chkhSi",
       n2: "chekhSi",
       n3: "chakhSi",
@@ -21091,6 +22497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd1df289",
       n1: "maali",
       n2: null,
       n3: null,
@@ -21106,6 +22513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89f859d0",
       n1: "ajnabi",
       n2: null,
       n3: null,
@@ -21121,6 +22529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2a81322",
       n1: "chdid",
       n2: null,
       n3: null,
@@ -21136,6 +22545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e12c5713",
       n1: "naa9S",
       n2: null,
       n3: null,
@@ -21151,6 +22561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c41f567e",
       n1: "mtnwwe3",
       n2: "mtnowwe3",
       n3: null,
@@ -21166,6 +22577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32f442e7",
       n1: "7aaDir",
       n2: "7aDir",
       n3: null,
@@ -21181,6 +22593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1c2be9f",
       n1: "malaki",
       n2: null,
       n3: null,
@@ -21196,6 +22609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e238bc9a",
       n1: "khaT2",
       n2: "khaTi2",
       n3: "khaaT2",
@@ -21211,6 +22625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99850925",
       n1: "bo7do",
       n2: null,
       n3: null,
@@ -21226,6 +22641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "578cac8d",
       n1: "7aali",
       n2: "7ali",
       n3: null,
@@ -21241,6 +22657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d642f88",
       n1: "9aanouni",
       n2: "9anouni",
       n3: "9anoni",
@@ -21256,6 +22673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8a1d208",
       n1: "7adit",
       n2: null,
       n3: null,
@@ -21271,6 +22689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbc11eac",
       n1: "lkher",
       n2: "llekher",
       n3: null,
@@ -21286,6 +22705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb627ba9",
       n1: "zwin",
       n2: null,
       n3: null,
@@ -21301,6 +22721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85c12d44",
       n1: "mzyan",
       n2: "mzian",
       n3: "mezian",
@@ -21316,6 +22737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca2b71ed",
       n1: "9rib",
       n2: null,
       n3: null,
@@ -21331,6 +22753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a28510bf",
       n1: "m39ol",
       n2: "m39oul",
       n3: null,
@@ -21346,6 +22769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2c69eed",
       n1: "saabi9",
       n2: "sabi9",
       n3: null,
@@ -21361,6 +22785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55f39ed8",
       n1: "mo3tabar",
       n2: null,
       n3: null,
@@ -21376,6 +22801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15b132c8",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -21391,6 +22817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0297dcc0",
       n1: "Sinaa3i",
       n2: "Sina3i",
       n3: null,
@@ -21406,6 +22833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b2d4421",
       n1: "mo7ddad",
       n2: null,
       n3: null,
@@ -21421,6 +22849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c7c2230",
       n1: "monaasib",
       n2: "monasib",
       n3: null,
@@ -21436,6 +22865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "447d0004",
       n1: "3aali",
       n2: null,
       n3: null,
@@ -21451,6 +22881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0238c1f6",
       n1: "myyet",
       n2: null,
       n3: null,
@@ -21466,6 +22897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a54b88b",
       n1: "mt2ssef",
       n2: null,
       n3: null,
@@ -21481,6 +22913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78d02f46",
       n1: "naaj7",
       n2: "naj7",
       n3: null,
@@ -21496,6 +22929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "86a825c8",
       n1: "7rbi",
       n2: "7arbi",
       n3: "7erbi",
@@ -21511,6 +22945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c882425d",
       n1: "asaasi",
       n2: "asasi",
       n3: null,
@@ -21526,6 +22961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23ef194f",
       n1: "wa3i",
       n2: "waa3i",
       n3: null,
@@ -21541,6 +22977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eab7d888",
       n1: "mch8our",
       n2: "mch8or",
       n3: null,
@@ -21556,6 +22993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b27bae89",
       n1: "mi8ani",
       n2: null,
       n3: null,
@@ -21571,6 +23009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a066e4ff",
       n1: "mobachir",
       n2: "mobaachir",
       n3: null,
@@ -21586,6 +23025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75dc59b1",
       n1: "mofid",
       n2: null,
       n3: null,
@@ -21601,6 +23041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6221a30d",
       n1: "f33al",
       n2: "f33aal",
       n3: null,
@@ -21616,6 +23057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8da9caf3",
       n1: "wajd",
       n2: null,
       n3: null,
@@ -21631,6 +23073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a54790c8",
       n1: "mDllem",
       n2: "mDellem",
       n3: "mDallem",
@@ -21646,6 +23089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "525406f1",
       n1: "mosta9ill",
       n2: null,
       n3: null,
@@ -21661,6 +23105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aec839ab",
       n1: "t9lidi",
       n2: null,
       n3: null,
@@ -21676,6 +23121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95be0b2f",
       n1: "ghrbi",
       n2: "gherbi",
       n3: "gharbi",
@@ -21691,6 +23137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c85f779b",
       n1: "mo3tabar",
       n2: null,
       n3: null,
@@ -21706,6 +23153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8816beea",
       n1: "bard",
       n2: "baard",
       n3: null,
@@ -21721,6 +23169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4db5648",
       n1: "ms2oul",
       n2: "ms2ol",
       n3: null,
@@ -21736,6 +23185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a530de5",
       n1: "kaml",
       n2: "kaaml",
       n3: null,
@@ -21751,6 +23201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f5a9fc5",
       n1: "Tibbi",
       n2: null,
       n3: null,
@@ -21766,6 +23217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a1ace00",
       n1: "mo8imm",
       n2: "mohimm",
       n3: null,
@@ -21781,6 +23233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26b6cdbe",
       n1: "dakari",
       n2: null,
       n3: null,
@@ -21796,6 +23249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc67dc2b",
       n1: "awwali",
       n2: null,
       n3: null,
@@ -21811,6 +23265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f2d5f3f",
       n1: "madani",
       n2: null,
       n3: null,
@@ -21826,6 +23281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcb0970d",
       n1: "most9bali",
       n2: null,
       n3: null,
@@ -21841,6 +23297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27c893fa",
       n1: "by2i",
       n2: "bi2i",
       n3: null,
@@ -21856,6 +23313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "269b9e3e",
       n1: "waD7",
       n2: null,
       n3: null,
@@ -21871,6 +23329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c1051d5",
       n1: "lkbir",
       n2: null,
       n3: null,
@@ -21886,6 +23345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cffa4d94",
       n1: "nawawi",
       n2: null,
       n3: null,
@@ -21901,6 +23361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c9e93d6",
       n1: "sanawi",
       n2: null,
       n3: null,
@@ -21916,6 +23377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32008f7b",
       n1: "jihawi",
       n2: "ji8awi",
       n3: null,
@@ -21931,6 +23393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55b22606",
       n1: "tijari",
       n2: "tijaari",
       n3: null,
@@ -21946,6 +23409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bff74177",
       n1: "llekher",
       n2: null,
       n3: null,
@@ -21961,6 +23425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7753f6e0",
       n1: "taTbi9i",
       n2: null,
       n3: null,
@@ -21976,6 +23441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7231f52b",
       n1: "3amali",
       n2: null,
       n3: null,
@@ -21991,6 +23457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62d96734",
       n1: "3ami9",
       n2: null,
       n3: null,
@@ -22006,6 +23473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b00094f",
       n1: "rsmi",
       n2: "rasmi",
       n3: "resmi",
@@ -22021,6 +23489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bb0beb0",
       n1: "ra2isi",
       n2: null,
       n3: null,
@@ -22036,6 +23505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26d4e2b7",
       n1: "montaDim",
       n2: null,
       n3: null,
@@ -22051,6 +23521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ef74a69",
       n1: "m2louf",
       n2: "m2lof",
       n3: null,
@@ -22066,6 +23537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3030cf05",
       n1: "zayd",
       n2: null,
       n3: null,
@@ -22081,6 +23553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80080521",
       n1: "nachT",
       n2: null,
       n3: null,
@@ -22096,6 +23569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed0b8054",
       n1: "standar",
       n2: null,
       n3: null,
@@ -22111,6 +23585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af0acea8",
       n1: "9wi",
       n2: null,
       n3: null,
@@ -22126,6 +23601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "766b2b6e",
       n1: "wasaT",
       n2: "wsT",
       n3: null,
@@ -22141,6 +23617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b836619",
       n1: "gddami",
       n2: null,
       n3: null,
@@ -22156,6 +23633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32aa2e1c",
       n1: "mosta7il",
       n2: null,
       n3: null,
@@ -22171,6 +23649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d70aa7cb",
       n1: "mnzili",
       n2: null,
       n3: null,
@@ -22186,6 +23665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2cbe47e9",
       n1: "fi3li",
       n2: null,
       n3: null,
@@ -22201,6 +23681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f43eb3b1",
       n1: "ti9ni",
       n2: null,
       n3: null,
@@ -22216,6 +23697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1eda747c",
       n1: "3adi",
       n2: "3aadi",
       n3: null,
@@ -22231,6 +23713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d521cba3",
       n1: "dakhili",
       n2: "daakhili",
       n3: null,
@@ -22246,6 +23729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aef626ab",
       n1: "momtaz",
       n2: "momtaaz",
       n3: null,
@@ -22261,6 +23745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5889d0e1",
       n1: "Tri",
       n2: null,
       n3: null,
@@ -22276,6 +23761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40854465",
       n1: "b3id",
       n2: null,
       n3: null,
@@ -22291,6 +23777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f789b03",
       n1: "mo7tamal",
       n2: null,
       n3: null,
@@ -22306,6 +23793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4ae34a1",
       n1: "chamali",
       n2: null,
       n3: null,
@@ -22321,6 +23809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c5c346e",
       n1: "dini",
       n2: "dyni",
       n3: "diini",
@@ -22336,6 +23825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca7c301b",
       n1: "ta9afi",
       n2: "ta9aafi",
       n3: null,
@@ -22351,6 +23841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf8eeb46",
       n1: "mochtarak",
       n2: null,
       n3: null,
@@ -22366,6 +23857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9021339",
       n1: "bo7do",
       n2: null,
       n3: null,
@@ -22381,6 +23873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b1a383c",
       n1: "aamin",
       n2: "2aamin",
       n3: null,
@@ -22396,6 +23889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "067be2c4",
       n1: "mo7afiD",
       n2: "mo7aafiD",
       n3: null,
@@ -22411,6 +23905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b7a2806",
       n1: "chkli",
       n2: null,
       n3: null,
@@ -22426,6 +23921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7ae7603",
       n1: "monasib",
       n2: null,
       n3: null,
@@ -22441,6 +23937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8f5ed0a",
       n1: "bzzaf",
       n2: null,
       n3: null,
@@ -22456,6 +23953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "567f231d",
       n1: "9arawi",
       n2: null,
       n3: null,
@@ -22471,6 +23969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd49160a",
       n1: "mbda2i",
       n2: null,
       n3: null,
@@ -22486,6 +23985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "218632d9",
       n1: "magaddch",
       n2: null,
       n3: null,
@@ -22501,6 +24001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f66ee45",
       n1: "mo3ddal",
       n2: null,
       n3: null,
@@ -22516,6 +24017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a0c1dc9",
       n1: "dafi",
       n2: "daafi",
       n3: null,
@@ -22531,6 +24033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c7993be",
       n1: "ghrib",
       n2: "gharib",
       n3: null,
@@ -22546,6 +24049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cdaef410",
       n1: "mola2im",
       n2: "molaa2im",
       n3: null,
@@ -22561,6 +24065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b485a4c7",
       n1: "m7bob",
       n2: "m7boub",
       n3: null,
@@ -22576,6 +24081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a45f8711",
       n1: "fawri",
       n2: null,
       n3: null,
@@ -22591,6 +24097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42ace8c0",
       n1: "ijmali",
       n2: "ijmaali",
       n3: null,
@@ -22606,6 +24113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "868ec66d",
       n1: "msawi",
       n2: null,
       n3: null,
@@ -22621,6 +24129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b90b558d",
       n1: "kafi",
       n2: null,
       n3: null,
@@ -22636,6 +24145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7c097fb",
       n1: "dimo9raTi",
       n2: "dimou9raaTi",
       n3: null,
@@ -22651,6 +24161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "968372d3",
       n1: "chr9i",
       n2: "cher9i",
       n3: "char9i",
@@ -22666,6 +24177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "965e6287",
       n1: "8adi2",
       n2: "8aadi2",
       n3: null,
@@ -22681,6 +24193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb8f7afb",
       n1: "t3limi",
       n2: "t3liimi",
       n3: null,
@@ -22696,6 +24209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d808b872",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -22711,6 +24225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c2638fe",
       n1: "3ilmi",
       n2: null,
       n3: null,
@@ -22726,6 +24241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d248c53b",
       n1: "ontawi",
       n2: null,
       n3: null,
@@ -22741,6 +24257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aad57280",
       n1: "39li",
       n2: null,
       n3: null,
@@ -22756,6 +24273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b852572b",
       n1: "khaTir",
       n2: null,
       n3: null,
@@ -22771,6 +24289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6fcc378",
       n1: "7arij",
       n2: null,
       n3: null,
@@ -22786,6 +24305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59acbb8a",
       n1: "mDobl",
       n2: "mDoubl",
       n3: null,
@@ -22801,6 +24321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fbb2adf0",
       n1: "sri3",
       n2: null,
       n3: null,
@@ -22816,6 +24337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d60ccb03",
       n1: "mamo7tamalch",
       n2: null,
       n3: null,
@@ -22831,6 +24353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdd0de1d",
       n1: "m2lof",
       n2: "m2louf",
       n3: null,
@@ -22846,6 +24369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca39e437",
       n1: "janoubi",
       n2: "janobi",
       n3: null,
@@ -22861,6 +24385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79dd901e",
       n1: "mitaali",
       n2: "mitali",
       n3: null,
@@ -22876,6 +24401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "933433c4",
       n1: "mSro3",
       n2: "mSrou3",
       n3: null,
@@ -22891,6 +24417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a69fca77",
       n1: "yawmi",
       n2: null,
       n3: null,
@@ -22906,6 +24433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cda85ded",
       n1: "mota7rrir",
       n2: null,
       n3: null,
@@ -22921,6 +24449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d89b657b",
       n1: "liberali",
       n2: null,
       n3: null,
@@ -22936,6 +24465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4dc55a97",
       n1: "7aDari",
       n2: null,
       n3: null,
@@ -22951,6 +24481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "080ce325",
       n1: "fogani",
       n2: "fo9ani",
       n3: null,
@@ -22966,6 +24497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d44d6a2",
       n1: "bayn",
       n2: "bayen",
       n3: null,
@@ -22981,6 +24513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "393ae527",
       n1: "khaD3",
       n2: "khaaD3",
       n3: null,
@@ -22996,6 +24529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cab27cc0",
       n1: "sghiwwer",
       n2: "sghiwwr",
       n3: null,
@@ -23011,6 +24545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88496a4e",
       n1: "mDwwi",
       n2: "mDoowi",
       n3: null,
@@ -23026,6 +24561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a424ad32",
       n1: "akhla9i",
       n2: "akhlaa9i",
       n3: null,
@@ -23041,6 +24577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4e2640f",
       n1: "badil",
       n2: "badiil",
       n3: null,
@@ -23056,6 +24593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a7e98dc",
       n1: "jddab",
       n2: null,
       n3: null,
@@ -23071,6 +24609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bc28317",
       n1: "radd lbal",
       n2: null,
       n3: null,
@@ -23086,6 +24625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc1586ec",
       n1: "7ayawi",
       n2: null,
       n3: null,
@@ -23101,6 +24641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0dbd1a8",
       n1: "8amaji",
       n2: null,
       n3: null,
@@ -23116,6 +24657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f9f19d3",
       n1: "khawi",
       n2: null,
       n3: null,
@@ -23131,6 +24673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13c4424c",
       n1: "damawi",
       n2: null,
       n3: null,
@@ -23146,6 +24689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "17df4c85",
       n1: "khariji",
       n2: null,
       n3: null,
@@ -23161,6 +24705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74144b87",
       n1: "charf",
       n2: null,
       n3: null,
@@ -23176,6 +24721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27a92cc5",
       n1: "nisbi",
       n2: null,
       n3: null,
@@ -23191,6 +24737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "858e026e",
       n1: "9dim",
       n2: null,
       n3: null,
@@ -23206,6 +24753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67d1aa48",
       n1: "mkhtaSr",
       n2: "mkhtaSer",
       n3: null,
@@ -23221,6 +24769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07f2331f",
       n1: "gadd",
       n2: "9add",
       n3: null,
@@ -23236,6 +24785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42fbf469",
       n1: "namoudaji",
       n2: null,
       n3: null,
@@ -23251,6 +24801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "202d3e2f",
       n1: "mtisse3",
       n2: "mtiss3",
       n3: null,
@@ -23266,6 +24817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b514d398",
       n1: "mDyye9",
       n2: null,
       n3: null,
@@ -23281,6 +24833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f44e6db",
       n1: "kollo",
       n2: null,
       n3: null,
@@ -23296,6 +24849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b879adc",
       n1: "ra2i3",
       n2: "raa2i3",
       n3: null,
@@ -23311,6 +24865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aad46464",
       n1: "tabt",
       n2: null,
       n3: null,
@@ -23326,6 +24881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "281d3b49",
       n1: "mitali",
       n2: "mitaali",
       n3: null,
@@ -23341,6 +24897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbd93830",
       n1: "akadimi",
       n2: null,
       n3: null,
@@ -23356,6 +24913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d5e508c",
       n1: "9aaser",
       n2: "9aaSir",
       n3: null,
@@ -23371,6 +24929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19be5839",
       n1: "mamo8immch",
       n2: null,
       n3: null,
@@ -23386,6 +24945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cba6bead",
       n1: "was3",
       n2: null,
       n3: null,
@@ -23401,6 +24961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6f1ce6f",
       n1: "naadir",
       n2: "nadir",
       n3: null,
@@ -23416,6 +24977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "201a94d1",
       n1: "7aadd",
       n2: null,
       n3: null,
@@ -23431,6 +24993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71693724",
       n1: "asaasi",
       n2: "asasi",
       n3: null,
@@ -23446,6 +25009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42623a99",
       n1: "daym",
       n2: null,
       n3: null,
@@ -23461,6 +25025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6c62e34",
       n1: "ra8ib",
       n2: "ra8iib",
       n3: null,
@@ -23476,6 +25041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24bda59e",
       n1: "ghliD",
       n2: null,
       n3: null,
@@ -23491,6 +25057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35a6b469",
       n1: "maSiri",
       n2: "maSiiri",
       n3: null,
@@ -23506,6 +25073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c07b00f",
       n1: "daakhili",
       n2: "dakhili",
       n3: null,
@@ -23521,6 +25089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d86fb640",
       n1: "taab3",
       n2: null,
       n3: null,
@@ -23536,6 +25105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1472a039",
       n1: "mo3aSir",
       n2: "mo3aaSir",
       n3: null,
@@ -23551,6 +25121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd649ec8",
       n1: "kbir",
       n2: null,
       n3: null,
@@ -23566,6 +25137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c323e6a8",
       n1: "sab9",
       n2: null,
       n3: null,
@@ -23581,6 +25153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7986514b",
       n1: "taanawi",
       n2: "tanawi",
       n3: null,
@@ -23596,6 +25169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "842df252",
       n1: "fchkel",
       n2: "fchkl",
       n3: "fchkal",
@@ -23611,6 +25185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33bdccc4",
       n1: "8a2il",
       n2: "8aa2il",
       n3: "haa2il",
@@ -23626,6 +25201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "111537ee",
       n1: "bo7do",
       n2: null,
       n3: null,
@@ -23641,6 +25217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afddb809",
       n1: "7aadd",
       n2: null,
       n3: null,
@@ -23656,6 +25233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b6a07ad",
       n1: "mriD",
       n2: null,
       n3: null,
@@ -23671,6 +25249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2493a10",
       n1: "choyou3i",
       n2: null,
       n3: null,
@@ -23686,6 +25265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4287876d",
       n1: "Saafi",
       n2: null,
       n3: null,
@@ -23701,6 +25281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c80a19d",
       n1: "mTwwel",
       n2: null,
       n3: null,
@@ -23716,6 +25297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "075f7607",
       n1: "modnib",
       n2: null,
       n3: null,
@@ -23731,6 +25313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e27d5ac",
       n1: "chaamil",
       n2: "chamil",
       n3: null,
@@ -23746,6 +25329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "318e57a0",
       n1: "Dakhm",
       n2: null,
       n3: null,
@@ -23761,6 +25345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "227cd5e4",
       n1: "7yy",
       n2: "7eyy",
       n3: "7ayy",
@@ -23776,6 +25361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b448d236",
       n1: "zira3i",
       n2: "ziraa3i",
       n3: null,
@@ -23791,6 +25377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "673a8a29",
       n1: "ra2isi",
       n2: null,
       n3: null,
@@ -23806,6 +25393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6541cb10",
       n1: "f33al",
       n2: "f33aal",
       n3: null,
@@ -23821,6 +25409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "552e531c",
       n1: "mz8ar",
       n2: "mz8aar",
       n3: null,
@@ -23836,6 +25425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44b7c26d",
       n1: "3orfi",
       n2: null,
       n3: null,
@@ -23851,6 +25441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b817104",
       n1: "taTwwo3i",
       n2: "taTawwo3i",
       n3: null,
@@ -23866,6 +25457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d36203b",
       n1: "dramatiki",
       n2: null,
       n3: null,
@@ -23881,6 +25473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4533f693",
       n1: "mo299at",
       n2: "mow99at",
       n3: null,
@@ -23896,6 +25489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18888916",
       n1: "da8abi",
       n2: null,
       n3: null,
@@ -23911,6 +25505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5497072d",
       n1: "7ibbi",
       n2: null,
       n3: null,
@@ -23926,6 +25521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "135c9ba2",
       n1: "m3tamd",
       n2: null,
       n3: null,
@@ -23941,6 +25537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10b98160",
       n1: "tanafosi",
       n2: "tanaafosi",
       n3: null,
@@ -23956,6 +25553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d2dbe46",
       n1: "jdri",
       n2: "jedri",
       n3: "jadri",
@@ -23971,6 +25569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed91b77c",
       n1: "7ssas",
       n2: "7essas",
       n3: null,
@@ -23986,6 +25585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d768c8ed",
       n1: "kharj",
       n2: "khaarij",
       n3: "khaarj",
@@ -24001,6 +25601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54e7100b",
       n1: "msTT7",
       n2: "mseTTa7",
       n3: "msaTTe7",
@@ -24016,6 +25617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "741f0439",
       n1: "3aaTifi",
       n2: "3aTifi",
       n3: null,
@@ -24031,6 +25633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef80b1c4",
       n1: "khaT2",
       n2: "khaaTe2",
       n3: null,
@@ -24046,6 +25649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfe513ee",
       n1: "monasib",
       n2: "monaasib",
       n3: null,
@@ -24061,6 +25665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1dff407c",
       n1: "Si77i",
       n2: null,
       n3: null,
@@ -24076,6 +25681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8bb179f9",
       n1: "chaamil",
       n2: "chamil",
       n3: null,
@@ -24091,6 +25697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5946996",
       n1: "sri3",
       n2: null,
       n3: null,
@@ -24106,6 +25713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98de1f27",
       n1: "idaari",
       n2: "idari",
       n3: null,
@@ -24121,6 +25729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58827666",
       n1: "skkouti",
       n2: "skkoti",
       n3: null,
@@ -24136,6 +25745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2093cd11",
       n1: "l7dd",
       n2: "l7edd",
       n3: null,
@@ -24151,6 +25761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4392d181",
       n1: "ml7ouD",
       n2: null,
       n3: null,
@@ -24166,6 +25777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd533b51",
       n1: "sirri",
       n2: null,
       n3: null,
@@ -24181,6 +25793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49018406",
       n1: "3ziz",
       n2: null,
       n3: null,
@@ -24196,6 +25809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "833555ef",
       n1: "jama3i",
       n2: null,
       n3: null,
@@ -24211,6 +25825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45c0806d",
       n1: "fazg",
       n2: "faazg",
       n3: null,
@@ -24226,6 +25841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "403ab030",
       n1: "9as7",
       n2: "9ase7",
       n3: null,
@@ -24241,6 +25857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd6e36e2",
       n1: "mota2lli9",
       n2: "mt2elle9",
       n3: "mt2alla9",
@@ -24256,6 +25873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42872f4c",
       n1: "electroni",
       n2: "iliktroni",
       n3: "elektroni",
@@ -24271,6 +25889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "526efdb3",
       n1: "moTla9",
       n2: null,
       n3: null,
@@ -24286,6 +25905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6904d2c2",
       n1: "kaytchaf",
       n2: null,
       n3: null,
@@ -24301,6 +25921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10eec79b",
       n1: "tlkhcheb",
       n2: "tlkhchab",
       n3: null,
@@ -24316,6 +25937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf3b2fa5",
       n1: "Saarim",
       n2: "Sarim",
       n3: null,
@@ -24331,6 +25953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19e1d486",
       n1: "tDDo",
       n2: null,
       n3: null,
@@ -24346,6 +25969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f086db27",
       n1: "kimya2i",
       n2: null,
       n3: null,
@@ -24361,6 +25985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70f0159d",
       n1: "saami",
       n2: "sami",
       n3: null,
@@ -24376,6 +26001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d7747f2",
       n1: "adabi",
       n2: null,
       n3: null,
@@ -24391,6 +26017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e910137",
       n1: "khaaliS",
       n2: null,
       n3: null,
@@ -24406,6 +26033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5520375b",
       n1: "9as7",
       n2: "9aas7",
       n3: null,
@@ -24421,6 +26049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7de8038",
       n1: "mojrrad",
       n2: null,
       n3: null,
@@ -24436,6 +26065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b7f18bc",
       n1: "aSiil",
       n2: null,
       n3: null,
@@ -24451,6 +26081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0453930",
       n1: "a9Saa",
       n2: "a9Sa",
       n3: null,
@@ -24466,6 +26097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6eda14ae",
       n1: "ba8t",
       n2: null,
       n3: null,
@@ -24481,6 +26113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27a00a87",
       n1: "mntachr",
       n2: "mentacher",
       n3: "mntacher",
@@ -24496,6 +26129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e80c223a",
       n1: "katoliki",
       n2: "catoliki",
       n3: null,
@@ -24511,6 +26145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca3ae957",
       n1: "klasiki",
       n2: "classiki",
       n3: null,
@@ -24526,6 +26161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1400b6ae",
       n1: "mofDDal",
       n2: null,
       n3: null,
@@ -24541,6 +26177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7d049e4",
       n1: "chtiraki",
       n2: null,
       n3: null,
@@ -24556,6 +26193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73740c3c",
       n1: "3rram",
       n2: null,
       n3: null,
@@ -24571,6 +26209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55ea652b",
       n1: "mkhtalf",
       n2: "mkhtalef",
       n3: null,
@@ -24586,6 +26225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0008ce22",
       n1: "tay9",
       n2: null,
       n3: null,
@@ -24601,6 +26241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fa3202b",
       n1: "Dedd",
       n2: null,
       n3: null,
@@ -24616,6 +26257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f28d95e9",
       n1: "mofid",
       n2: null,
       n3: null,
@@ -24631,6 +26273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95093f67",
       n1: "S3ib",
       n2: null,
       n3: null,
@@ -24646,6 +26289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18a080d9",
       n1: "mtnas9",
       n2: "mtnase9",
       n3: null,
@@ -24661,6 +26305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9512d90",
       n1: "sri3",
       n2: null,
       n3: null,
@@ -24676,6 +26321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23990533",
       n1: "msta9err",
       n2: "msta9arr",
       n3: null,
@@ -24691,6 +26337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8ea49aa",
       n1: "goud",
       n2: null,
       n3: null,
@@ -24706,6 +26353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cba24a1b",
       n1: "kaykhle3",
       n2: null,
       n3: null,
@@ -24721,6 +26369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "177e1de6",
       n1: "stratiji",
       n2: null,
       n3: null,
@@ -24736,6 +26385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2aca20f8",
       n1: "momtaz",
       n2: null,
       n3: null,
@@ -24751,6 +26401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1a3ec04",
       n1: "kliniki",
       n2: null,
       n3: null,
@@ -24766,6 +26417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4680ff17",
       n1: "a9all haja",
       n2: "a9all 7aja",
       n3: null,
@@ -24781,6 +26433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2db5047",
       n1: "wa3i",
       n2: "waa3i",
       n3: null,
@@ -24796,6 +26449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6de1a9d3",
       n1: "msyTer",
       n2: "msiTer",
       n3: null,
@@ -24811,6 +26465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e42565b",
       n1: "bard",
       n2: null,
       n3: null,
@@ -24826,6 +26481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b067699c",
       n1: "dostouri",
       n2: "dostori",
       n3: null,
@@ -24841,6 +26497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ef6367e",
       n1: "ghDban",
       n2: "gheDban",
       n3: "ghaDban",
@@ -24856,6 +26513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "067a59dd",
       n1: "naDari",
       n2: null,
       n3: null,
@@ -24871,6 +26529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af742a8d",
       n1: "m8moum",
       n2: "mhmoum",
       n3: "m8mom",
@@ -24886,6 +26545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d70a7452",
       n1: "mo9ddas",
       n2: null,
       n3: null,
@@ -24901,6 +26561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd3a9e76",
       n1: "sakani",
       n2: null,
       n3: null,
@@ -24916,6 +26577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e1f556b",
       n1: "monasib",
       n2: "monaasib",
       n3: null,
@@ -24931,6 +26593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1e55ab5",
       n1: "7eyy",
       n2: "7ayy",
       n3: null,
@@ -24946,6 +26609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "caf7c9af",
       n1: "las9",
       n2: null,
       n3: null,
@@ -24961,6 +26625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cb92a68",
       n1: "mousi9i",
       n2: "mosi9i",
       n3: null,
@@ -24976,6 +26641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30f49c76",
       n1: "fo9 l3ada",
       n2: "faw9 l3ada",
       n3: "fo9 l3aada",
@@ -24991,6 +26657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e8457a9",
       n1: "khari9 lil3ada",
       n2: "khar9 ll3ada",
       n3: null,
@@ -25006,6 +26673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35221c0b",
       n1: "nazih",
       n2: "nazi8",
       n3: null,
@@ -25021,6 +26689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bab05a70",
       n1: "d9i9",
       n2: null,
       n3: null,
@@ -25036,6 +26705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15d2a554",
       n1: "bayn",
       n2: null,
       n3: null,
@@ -25051,6 +26721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2edbb61a",
       n1: "9lil",
       n2: null,
       n3: null,
@@ -25066,6 +26737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e64b2230",
       n1: "dyal lflous",
       n2: null,
       n3: null,
@@ -25081,6 +26753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2254f11",
       n1: "3an bo3d",
       n2: null,
       n3: null,
@@ -25096,6 +26769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de4fe864",
       n1: "Sari7",
       n2: "Sarii7",
       n3: null,
@@ -25111,6 +26785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7dbb587",
       n1: "b3id",
       n2: null,
       n3: null,
@@ -25126,6 +26801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "252fd9e8",
       n1: "chomour",
       n2: "chomor",
       n3: null,
@@ -25141,6 +26817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcccf3b5",
       n1: "mchomer",
       n2: "mchomr",
       n3: null,
@@ -25156,6 +26833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fb28942",
       n1: "wagf",
       n2: null,
       n3: null,
@@ -25171,6 +26849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db69978f",
       n1: "Drief",
       n2: "Driyef",
       n3: null,
@@ -25186,6 +26865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb113d88",
       n1: "nefsi",
       n2: "nfsi",
       n3: null,
@@ -25201,6 +26881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae517d79",
       n1: "SSghir",
       n2: null,
       n3: null,
@@ -25216,6 +26897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25f3d90e",
       n1: "mles",
       n2: null,
       n3: null,
@@ -25231,6 +26913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a8c28bc",
       n1: "3anif",
       n2: "3aniif",
       n3: null,
@@ -25246,6 +26929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5498b37b",
       n1: "haykali",
       n2: "8aykali",
       n3: null,
@@ -25261,6 +26945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "248691e3",
       n1: "mdwwer",
       n2: "mdowwer",
       n3: "mdowwar",
@@ -25276,6 +26961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1bd73818",
       n1: "7ssas",
       n2: null,
       n3: null,
@@ -25291,6 +26977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a17c96bd",
       n1: "mol99ab",
       n2: null,
       n3: null,
@@ -25306,6 +26993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a718d326",
       n1: "mttaSel",
       n2: null,
       n3: null,
@@ -25321,6 +27009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95e422d6",
       n1: "9rib",
       n2: null,
       n3: null,
@@ -25336,6 +27025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97d30b78",
       n1: "momtann",
       n2: null,
       n3: null,
@@ -25351,6 +27041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2a699e5",
       n1: "zwin",
       n2: null,
       n3: null,
@@ -25366,6 +27057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d8f6889",
       n1: "waD7",
       n2: null,
       n3: null,
@@ -25381,6 +27073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97a3e81f",
       n1: "mawsimi",
       n2: null,
       n3: null,
@@ -25396,6 +27089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "38543d52",
       n1: "momti3",
       n2: null,
       n3: null,
@@ -25411,6 +27105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d82aa965",
       n1: "kawni",
       n2: null,
       n3: null,
@@ -25426,6 +27121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61af124a",
       n1: "zamil",
       n2: null,
       n3: null,
@@ -25441,6 +27137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5d00aed",
       n1: "klasiki",
       n2: null,
       n3: null,
@@ -25456,6 +27153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0adc94a2",
       n1: "mossekh",
       n2: "mmossekh",
       n3: null,
@@ -25471,6 +27169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "559accec",
       n1: "kaykaafe2",
       n2: null,
       n3: null,
@@ -25486,6 +27185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f70a1da",
       n1: "mrkhi",
       n2: null,
       n3: null,
@@ -25501,6 +27201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c747bfaf",
       n1: "mobdi3",
       n2: null,
       n3: null,
@@ -25516,6 +27217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5261af01",
       n1: "ni8aa2i",
       n2: null,
       n3: null,
@@ -25531,6 +27233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fcfec78",
       n1: "loghawi",
       n2: null,
       n3: null,
@@ -25546,6 +27249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a0539f6",
       n1: "taabt",
       n2: "tabt",
       n3: null,
@@ -25561,6 +27265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d8ac1fb",
       n1: "fikri",
       n2: null,
       n3: null,
@@ -25576,6 +27281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5592ed24",
       n1: "fa9d l2amal",
       n2: null,
       n3: null,
@@ -25591,6 +27297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f01712eb",
       n1: "9aDaa2i",
       n2: null,
       n3: null,
@@ -25606,6 +27313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "477b52a6",
       n1: "tawri",
       n2: null,
       n3: null,
@@ -25621,6 +27329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e089455c",
       n1: "imbraTouri",
       n2: null,
       n3: null,
@@ -25636,6 +27345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf824f80",
       n1: "ghayr 9anoni",
       n2: "ghayr 9aanouni",
       n3: "ghayr 9aanoni",
@@ -25651,6 +27361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9392cbf",
       n1: "khaam",
       n2: null,
       n3: null,
@@ -25666,6 +27377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f354227d",
       n1: "khaariji",
       n2: "khariji",
       n3: null,
@@ -25681,6 +27393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c56cfb9",
       n1: "ghayr rsmi",
       n2: null,
       n3: null,
@@ -25696,6 +27409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "864b4825",
       n1: "tjribi",
       n2: null,
       n3: null,
@@ -25711,6 +27425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de73a5bb",
       n1: "jama3i",
       n2: null,
       n3: null,
@@ -25726,6 +27441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ecd5593",
       n1: "kayt3awd",
       n2: null,
       n3: null,
@@ -25741,6 +27457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fef8299",
       n1: "rou7i",
       n2: null,
       n3: null,
@@ -25756,6 +27473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e65b624c",
       n1: "mcharji",
       n2: null,
       n3: null,
@@ -25771,6 +27489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8a1af0e",
       n1: "taarikhi",
       n2: "tarikhi",
       n3: null,
@@ -25786,6 +27505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3b7856f",
       n1: "m39oul",
       n2: "m39ol",
       n3: null,
@@ -25801,6 +27521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "902251b2",
       n1: "mamnasbch",
       n2: "mamnasebch",
       n3: null,
@@ -25816,6 +27537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69a639d5",
       n1: "7add",
       n2: null,
       n3: null,
@@ -25831,6 +27553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "767949c8",
       n1: "mnTi9i",
       n2: null,
       n3: null,
@@ -25846,6 +27569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a81863fb",
       n1: "m9bol",
       n2: null,
       n3: null,
@@ -25861,6 +27585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdcc2e65",
       n1: "osbou3i",
       n2: null,
       n3: null,
@@ -25876,6 +27601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35b2c3af",
       n1: "3chwa2i",
       n2: null,
       n3: null,
@@ -25891,6 +27617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbe18847",
       n1: "mtwaD3",
       n2: null,
       n3: null,
@@ -25906,6 +27633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c573bf11",
       n1: "mzyyer",
       n2: "mzayyar",
       n3: "mzeyyer",
@@ -25921,6 +27649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89969256",
       n1: "automatic",
       n2: null,
       n3: null,
@@ -25936,6 +27665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1a662f6",
       n1: "na3s",
       n2: "na3es",
       n3: null,
@@ -25951,6 +27681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ff19057",
       n1: "dki",
       n2: "dky",
       n3: null,
@@ -25966,6 +27697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36abb05c",
       n1: "ms2oul",
       n2: "mes2oul",
       n3: null,
@@ -25981,6 +27713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a35dbd0",
       n1: "motabaadal",
       n2: "motabadal",
       n3: null,
@@ -25996,6 +27729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4aa7e791",
       n1: "moDa3af",
       n2: null,
       n3: null,
@@ -26011,6 +27745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5440ea2f",
       n1: "ti9a",
       n2: null,
       n3: null,
@@ -26026,6 +27761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9eb6d03",
       n1: "bo7do",
       n2: null,
       n3: null,
@@ -26041,6 +27777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71ee4d5a",
       n1: "nnawa7i",
       n2: null,
       n3: null,
@@ -26056,6 +27793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8679e40b",
       n1: "8aamichi",
       n2: "8amichi",
       n3: null,
@@ -26071,6 +27809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "221a9652",
       n1: "mTab9",
       n2: null,
       n3: null,
@@ -26086,6 +27825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03ba0943",
       n1: "bDDbT",
       n2: "bDDebT",
       n3: "bDDabT",
@@ -26101,6 +27841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6af5d46",
       n1: "ntikhabi",
       n2: null,
       n3: null,
@@ -26116,6 +27857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c56ae400",
       n1: "momyyiz",
       n2: null,
       n3: null,
@@ -26131,6 +27873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49bbef50",
       n1: "chafawi",
       n2: null,
       n3: null,
@@ -26146,6 +27889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90395437",
       n1: "3ryan",
       n2: null,
       n3: null,
@@ -26161,6 +27905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7d34349",
       n1: "ri2aasi",
       n2: "ri2asi",
       n3: null,
@@ -26176,6 +27921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6612776",
       n1: "3oDwi",
       n2: null,
       n3: null,
@@ -26191,6 +27937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a734f932",
       n1: "bl7sab",
       n2: null,
       n3: null,
@@ -26206,6 +27953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07dfd0d4",
       n1: "3ajil",
       n2: "3aajil",
       n3: null,
@@ -26221,6 +27969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a63ffba",
       n1: "mrghoub",
       n2: null,
       n3: null,
@@ -26236,6 +27985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af995570",
       n1: "7Sri",
       n2: "7eSri",
       n3: null,
@@ -26251,6 +28001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b1b62c2",
       n1: "yawmi",
       n2: null,
       n3: null,
@@ -26266,6 +28017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f06d7b4e",
       n1: "ra2i3",
       n2: null,
       n3: null,
@@ -26281,6 +28033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "abcfeec7",
       n1: "Saarim",
       n2: null,
       n3: null,
@@ -26296,6 +28049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26ecab3e",
       n1: "mamtwe99e3ch",
       n2: "mamto99e3ch",
       n3: null,
@@ -26311,6 +28065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "936da170",
       n1: "barii2",
       n2: "bari2",
       n3: null,
@@ -26326,6 +28081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94273c9a",
       n1: "b7ri",
       n2: "be7ri",
       n3: null,
@@ -26341,6 +28097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0cfab9b1",
       n1: "romansi",
       n2: null,
       n3: null,
@@ -26356,6 +28113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc89f873",
       n1: "mSTane3",
       n2: null,
       n3: null,
@@ -26371,6 +28129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffcf8c01",
       n1: "mo2ssasati",
       n2: null,
       n3: null,
@@ -26386,6 +28145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fabb2bf",
       n1: "ra2i3",
       n2: null,
       n3: null,
@@ -26401,6 +28161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72d7d24f",
       n1: "bioloji",
       n2: "biologi",
       n3: null,
@@ -26416,6 +28177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1349496c",
       n1: "diplomasi",
       n2: null,
       n3: null,
@@ -26431,6 +28193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "347dc9b7",
       n1: "monaasib",
       n2: "monasib",
       n3: null,
@@ -26446,6 +28209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13e32736",
       n1: "8a2il",
       n2: "8aa2il",
       n3: null,
@@ -26461,6 +28225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d930230",
       n1: "ra2smali",
       n2: "ra2smaali",
       n3: null,
@@ -26476,6 +28241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6919882",
       n1: "khddam",
       n2: null,
       n3: null,
@@ -26491,6 +28257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9ce2520",
       n1: "mikaniki",
       n2: null,
       n3: null,
@@ -26506,6 +28273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6399374",
       n1: "mobaachir",
       n2: null,
       n3: null,
@@ -26521,6 +28289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2ce4e40",
       n1: "mami99ench",
       n2: "mamty99ench",
       n3: null,
@@ -26536,6 +28305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39ac089a",
       n1: "r9mi",
       n2: null,
       n3: null,
@@ -26551,6 +28321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "16f48990",
       n1: "mod8il",
       n2: null,
       n3: null,
@@ -26566,6 +28337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d186ba5",
       n1: "3odwani",
       n2: null,
       n3: null,
@@ -26581,6 +28353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0e8618a",
       n1: "3ryan",
       n2: null,
       n3: null,
@@ -26596,6 +28369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0d1b9ff",
       n1: "machi 3aadil",
       n2: null,
       n3: null,
@@ -26611,6 +28385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89227edd",
       n1: "mtfowwe9",
       n2: null,
       n3: null,
@@ -26626,6 +28401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87612955",
       n1: "kolla ch8er",
       n2: null,
       n3: null,
@@ -26641,6 +28417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59c92773",
       n1: "tchri3i",
       n2: null,
       n3: null,
@@ -26656,6 +28433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0ef645a",
       n1: "iDafi",
       n2: null,
       n3: null,
@@ -26671,6 +28449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4e5a69b",
       n1: "Sarii7",
       n2: "Sari7",
       n3: null,
@@ -26686,6 +28465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4d5d5b8",
       n1: "mo2lim",
       n2: null,
       n3: null,
@@ -26701,6 +28481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3efb73eb",
       n1: "mtab3",
       n2: null,
       n3: null,
@@ -26716,6 +28497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d52ba4bb",
       n1: "dki",
       n2: null,
       n3: null,
@@ -26731,6 +28513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26083e77",
       n1: "m9lle9",
       n2: "m9alla9",
       n3: "m9ll9",
@@ -26746,6 +28529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cff525e",
       n1: "jiini",
       n2: null,
       n3: null,
@@ -26761,6 +28545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9aee601f",
       n1: "maDarorich",
       n2: null,
       n3: null,
@@ -26776,6 +28561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eba3f102",
       n1: "mo2ttir",
       n2: null,
       n3: null,
@@ -26791,6 +28577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "296c5527",
       n1: "ghir",
       n2: null,
       n3: null,
@@ -26806,6 +28593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "540c147e",
       n1: "hir",
       n2: "8ir",
       n3: null,
@@ -26821,6 +28609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cffab9f",
       n1: "just",
       n2: null,
       n3: null,
@@ -26836,6 +28625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fd720da",
       n1: "ji3an",
       n2: null,
       n3: null,
@@ -26851,6 +28641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbc08039",
       n1: "mokttaf",
       n2: null,
       n3: null,
@@ -26866,6 +28657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cb4392c",
       n1: "stiwa2i",
       n2: null,
       n3: null,
@@ -26881,6 +28673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03a8e340",
       n1: "mowazi",
       n2: "mwazi",
       n3: null,
@@ -26896,6 +28689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "100a77e6",
       n1: "mabaynch",
       n2: null,
       n3: null,
@@ -26911,6 +28705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6dcbe388",
       n1: "2aamin",
       n2: "aamin",
       n3: null,
@@ -26926,6 +28721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c29b7506",
       n1: "lt7tani",
       n2: null,
       n3: null,
@@ -26941,6 +28737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a18bd953",
       n1: "ra2i3",
       n2: null,
       n3: null,
@@ -26956,6 +28753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1db7688",
       n1: "ftitaa7i",
       n2: "iftitat7i",
       n3: null,
@@ -26971,6 +28769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afc04cb5",
       n1: "joz2i",
       n2: null,
       n3: null,
@@ -26986,6 +28785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "589079a6",
       n1: "a9all",
       n2: null,
       n3: null,
@@ -27001,6 +28801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44c31c2d",
       n1: "mosa3id",
       n2: null,
       n3: null,
@@ -27016,6 +28817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14515151",
       n1: "tdriiji",
       n2: "tdriji",
       n3: null,
@@ -27031,6 +28833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5da65582",
       n1: "9aarri",
       n2: null,
       n3: null,
@@ -27046,6 +28849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9292e5f",
       n1: "kay3yyef",
       n2: "kay3yyf",
       n3: null,
@@ -27061,6 +28865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01e8ff66",
       n1: "raa9i",
       n2: null,
       n3: null,
@@ -27076,6 +28881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "027e34ee",
       n1: "mlmous",
       n2: "melmous",
       n3: "mlmos",
@@ -27091,6 +28897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3625f17",
       n1: "mo299at",
       n2: null,
       n3: null,
@@ -27106,6 +28913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6d26f59",
       n1: "ilzami",
       n2: "ilzaami",
       n3: null,
@@ -27121,6 +28929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0d7f131",
       n1: "mozmin",
       n2: null,
       n3: null,
@@ -27136,6 +28945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e66e8662",
       n1: "kaytkhlleS",
       n2: null,
       n3: null,
@@ -27151,6 +28961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d17d241b",
       n1: "mn8aji",
       n2: "mnhaji",
       n3: "man8aji",
@@ -27166,6 +28977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2611bda0",
       n1: "mawDou3i",
       n2: "moDo3i",
       n3: "mowDo3i",
@@ -27181,6 +28993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71532d12",
       n1: "momyyiz",
       n2: null,
       n3: null,
@@ -27196,6 +29009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f673d7eb",
       n1: "fazg",
       n2: null,
       n3: null,
@@ -27211,6 +29025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af559914",
       n1: "7ssas",
       n2: null,
       n3: null,
@@ -27226,6 +29041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec5bcee0",
       n1: "momill",
       n2: null,
       n3: null,
@@ -27241,6 +29057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dccd5580",
       n1: "si7ri",
       n2: null,
       n3: null,
@@ -27256,6 +29073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a66133ab",
       n1: "mnirvi",
       n2: null,
       n3: null,
@@ -27271,6 +29089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ab5b2ae",
       n1: "awwal",
       n2: null,
       n3: null,
@@ -27286,6 +29105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e43aea7",
       n1: "kayD77ek",
       n2: null,
       n3: null,
@@ -27301,6 +29121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab1e07f5",
       n1: "ra2i3",
       n2: null,
       n3: null,
@@ -27316,6 +29137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a44b351",
       n1: "khddam",
       n2: null,
       n3: null,
@@ -27331,6 +29153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc270ee9",
       n1: "stichaari",
       n2: "stichari",
       n3: null,
@@ -27346,6 +29169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd46ba0a",
       n1: "bida2i",
       n2: "bidaa2i",
       n3: null,
@@ -27361,6 +29185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cb651d3",
       n1: "idioloji",
       n2: "idyoloji",
       n3: null,
@@ -27376,6 +29201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e919029",
       n1: "tiknoloji",
       n2: null,
       n3: null,
@@ -27391,6 +29217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d37bc10b",
       n1: "ani9",
       n2: null,
       n3: null,
@@ -27406,6 +29233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96ae09a1",
       n1: "mo3akis",
       n2: null,
       n3: null,
@@ -27421,6 +29249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e9748d2",
       n1: "mlas9",
       n2: null,
       n3: null,
@@ -27436,6 +29265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fce0ae35",
       n1: "3odwani",
       n2: null,
       n3: null,
@@ -27451,6 +29281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8003d5e",
       n1: "mitli",
       n2: null,
       n3: null,
@@ -27466,6 +29297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12d124ce",
       n1: "2aamn",
       n2: null,
       n3: null,
@@ -27481,6 +29313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cda8e6a2",
       n1: "kaykhle3",
       n2: null,
       n3: null,
@@ -27496,6 +29329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5bfa6ee",
       n1: "joghrafi",
       n2: null,
       n3: null,
@@ -27511,6 +29345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f6cd7ed",
       n1: "dinamiki",
       n2: null,
       n3: null,
@@ -27526,6 +29361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f404fc7b",
       n1: "mota7rrik",
       n2: null,
       n3: null,
@@ -27541,6 +29377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01ec73cf",
       n1: "momtaz",
       n2: null,
       n3: null,
@@ -27556,6 +29393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b73fbc7f",
       n1: "ghayr mobachir",
       n2: null,
       n3: null,
@@ -27571,6 +29409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c0dd177",
       n1: "tamiin",
       n2: "tamin",
       n3: null,
@@ -27586,6 +29425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2dbdaaf",
       n1: "ghali",
       n2: "ghaali",
       n3: null,
@@ -27601,6 +29441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "826a3530",
       n1: "ml7ouD",
       n2: null,
       n3: null,
@@ -27616,6 +29457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88d11275",
       n1: "mo7ddad",
       n2: null,
       n3: null,
@@ -27631,6 +29473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5ec2fb8",
       n1: "mo2sif",
       n2: null,
       n3: null,
@@ -27646,6 +29489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1bd45d19",
       n1: "fnni",
       n2: "fenni",
       n3: "fanni",
@@ -27661,6 +29505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65b8ef58",
       n1: "mighnaTisi",
       n2: "mighnaaTisi",
       n3: null,
@@ -27676,6 +29521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77d78970",
       n1: "makayt9adach",
       n2: null,
       n3: null,
@@ -27691,6 +29537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "503b537b",
       n1: "charis",
       n2: null,
       n3: null,
@@ -27706,6 +29553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f087e1e",
       n1: "khfif",
       n2: null,
       n3: null,
@@ -27721,6 +29569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d6857b4",
       n1: "mj88d",
       n2: "mje88ed",
       n3: null,
@@ -27736,6 +29585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7d80e6a",
       n1: "Tamou7",
       n2: null,
       n3: null,
@@ -27751,6 +29601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "423f716c",
       n1: "bl8Dra",
       n2: null,
       n3: null,
@@ -27766,6 +29617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9495b193",
       n1: "naDj",
       n2: "naaDj",
       n3: null,
@@ -27781,6 +29633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "641d2866",
       n1: "chr3i",
       n2: "char3i",
       n3: "cher3i",
@@ -27796,6 +29649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4dcf7b5",
       n1: "m3rouf",
       n2: "m3rof",
       n3: null,
@@ -27811,6 +29665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45a994e1",
       n1: "mo7rij",
       n2: null,
       n3: null,
@@ -27826,6 +29681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41568ab4",
       n1: "raDi",
       n2: null,
       n3: null,
@@ -27841,6 +29697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c4a51ae",
       n1: "tjribi",
       n2: null,
       n3: null,
@@ -27856,6 +29713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4342da0",
       n1: "S3ib",
       n2: null,
       n3: null,
@@ -27871,6 +29729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e9600a4",
       n1: "9as7",
       n2: null,
       n3: null,
@@ -27886,6 +29745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c161c508",
       n1: "mt3aaTf",
       n2: "mt3aTef",
       n3: null,
@@ -27901,6 +29761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdb88cda",
       n1: "sti3mari",
       n2: null,
       n3: null,
@@ -27916,6 +29777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcefa425",
       n1: "khbit",
       n2: null,
       n3: null,
@@ -27931,6 +29793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a867991",
       n1: "chirrir",
       n2: null,
       n3: null,
@@ -27946,6 +29809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "480d3090",
       n1: "b7ri",
       n2: "be7ri",
       n3: null,
@@ -27961,6 +29825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2a3a217",
       n1: "mlaa2em",
       n2: "mla2m",
       n3: null,
@@ -27976,6 +29841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5be30861",
       n1: "wsT",
       n2: "wesT",
       n3: "wasT",
@@ -27991,6 +29857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76d705c4",
       n1: "ghayb",
       n2: null,
       n3: null,
@@ -28006,6 +29873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "369c837e",
       n1: "was3",
       n2: "waas3",
       n3: null,
@@ -28021,6 +29889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc745d46",
       n1: "3ir9i",
       n2: null,
       n3: null,
@@ -28036,6 +29905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3fe58cbf",
       n1: "tmtiili",
       n2: "tmtili",
       n3: "temtiili",
@@ -28051,6 +29921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f56f6582",
       n1: "ba8t",
       n2: null,
       n3: null,
@@ -28066,6 +29937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fc46872",
       n1: "7ayawi",
       n2: null,
       n3: null,
@@ -28081,6 +29953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fae2875",
       n1: "saa7ili",
       n2: "sa7ili",
       n3: null,
@@ -28096,6 +29969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6c3a73a",
       n1: "mt7mmes",
       n2: "met7emmes",
       n3: "met7ammes",
@@ -28111,6 +29985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bc20e34",
       n1: "feminist",
       n2: null,
       n3: null,
@@ -28126,6 +30001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95bf8103",
       n1: "Solb",
       n2: null,
       n3: null,
@@ -28141,6 +30017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e9922751",
       n1: "3ami9",
       n2: null,
       n3: null,
@@ -28156,6 +30033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33cd9069",
       n1: "8aa2il",
       n2: null,
       n3: null,
@@ -28171,6 +30049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5e24265",
       n1: "nisbi",
       n2: null,
       n3: null,
@@ -28186,6 +30065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08606bf4",
       n1: "gharib",
       n2: null,
       n3: null,
@@ -28201,6 +30081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47d620d8",
       n1: "mofid",
       n2: null,
       n3: null,
@@ -28216,6 +30097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb466dd5",
       n1: "motan99il",
       n2: null,
       n3: null,
@@ -28231,6 +30113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08b7666d",
       n1: "montij",
       n2: null,
       n3: null,
@@ -28246,6 +30129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b944d11",
       n1: "sT7i",
       n2: null,
       n3: null,
@@ -28261,6 +30145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42f9daef",
       n1: "7ariiS",
       n2: "7ariS",
       n3: null,
@@ -28276,6 +30161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4074bb8d",
       n1: "remzi",
       n2: "ramzi",
       n3: null,
@@ -28291,6 +30177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75faadff",
       n1: "m3tadl",
       n2: null,
       n3: null,
@@ -28306,6 +30193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "198604f0",
       n1: "9aatil",
       n2: null,
       n3: null,
@@ -28321,6 +30209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "984db4ec",
       n1: "mjmou3",
       n2: null,
       n3: null,
@@ -28336,6 +30225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15895c8f",
       n1: "morbi7",
       n2: null,
       n3: null,
@@ -28351,6 +30241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cedaa2ff",
       n1: "monafis",
       n2: null,
       n3: null,
@@ -28366,6 +30257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f473ed48",
       n1: "jozay2i",
       n2: null,
       n3: null,
@@ -28381,6 +30273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d07c8d0",
       n1: "idaari",
       n2: null,
       n3: null,
@@ -28396,6 +30289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61f6574c",
       n1: "ddakhili",
       n2: null,
       n3: null,
@@ -28411,6 +30305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d685242",
       n1: "khTTi",
       n2: null,
       n3: null,
@@ -28426,6 +30321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30a3f182",
       n1: "makafich",
       n2: null,
       n3: null,
@@ -28441,6 +30337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a429d685",
       n1: "mo288al",
       n2: null,
       n3: null,
@@ -28456,6 +30353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78baba3e",
       n1: "m3nfj",
       n2: null,
       n3: null,
@@ -28471,6 +30369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60d0aa31",
       n1: "mamori7ch",
       n2: null,
       n3: null,
@@ -28486,6 +30385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4921db90",
       n1: "mokhliS",
       n2: null,
       n3: null,
@@ -28501,6 +30401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57c21093",
       n1: "morta9ab",
       n2: null,
       n3: null,
@@ -28516,6 +30417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63acb14f",
       n1: "tlwalidin",
       n2: null,
       n3: null,
@@ -28531,6 +30433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ebbfcd5",
       n1: "maali",
       n2: null,
       n3: null,
@@ -28546,6 +30449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68aa88ea",
       n1: "tlflous",
       n2: null,
       n3: null,
@@ -28561,6 +30465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07d3e53c",
       n1: "khawi",
       n2: null,
       n3: null,
@@ -28576,6 +30481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c93226c",
       n1: "9aasi",
       n2: null,
       n3: null,
@@ -28591,6 +30497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31904d92",
       n1: "w7chi",
       n2: "we7chi",
       n3: null,
@@ -28606,6 +30513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44d343d0",
       n1: "mtnww3",
       n2: "mtnowwe3",
       n3: null,
@@ -28621,6 +30529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a587310",
       n1: "nabil",
       n2: null,
       n3: null,
@@ -28636,6 +30545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29fdbd59",
       n1: "motaghyyir",
       n2: null,
       n3: null,
@@ -28651,6 +30561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "479dddce",
       n1: "mt2aSSel",
       n2: "mt2SSal",
       n3: null,
@@ -28666,6 +30577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eea4c8ca",
       n1: "kham",
       n2: null,
       n3: null,
@@ -28681,6 +30593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04719c53",
       n1: "mchbou8",
       n2: "mchbo8",
       n3: null,
@@ -28696,6 +30609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a02f5215",
       n1: "nti9a2i",
       n2: "nti9aa2i",
       n3: null,
@@ -28711,6 +30625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92419f51",
       n1: "mfSSl",
       n2: null,
       n3: null,
@@ -28726,6 +30641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7885fbc8",
       n1: "mtwsseT",
       n2: "mtwesseT",
       n3: null,
@@ -28741,6 +30657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "524ba616",
       n1: "ghaamiD",
       n2: "ghamiD",
       n3: null,
@@ -28756,6 +30673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5be81e7a",
       n1: "flsafi",
       n2: "falsafi",
       n3: "felsafi",
@@ -28771,6 +30689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad337195",
       n1: "mt3mmed",
       n2: null,
       n3: null,
@@ -28786,6 +30705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3833747e",
       n1: "7anoun",
       n2: null,
       n3: null,
@@ -28801,6 +30721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75def286",
       n1: "m7DouD",
       n2: "m7DoD",
       n3: null,
@@ -28816,6 +30737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee3d7a70",
       n1: "m7mi",
       n2: null,
       n3: null,
@@ -28831,6 +30753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0d23a4a",
       n1: "mo9ddas",
       n2: null,
       n3: null,
@@ -28846,6 +30769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84b100c2",
       n1: "sa2il",
       n2: "saa2il",
       n3: null,
@@ -28861,6 +30785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2cba39f6",
       n1: "chmsi",
       n2: "chmsy",
       n3: "chemsi",
@@ -28876,6 +30801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3818ab2e",
       n1: "mamofri7ch",
       n2: null,
       n3: null,
@@ -28891,6 +30817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "556e387c",
       n1: "ryaDyati",
       n2: "ryaDyaati",
       n3: null,
@@ -28906,6 +30833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4971ff12",
       n1: "difaa3i",
       n2: "difa3i",
       n3: null,
@@ -28921,6 +30849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70002d9d",
       n1: "mi3maari",
       n2: "mi3mari",
       n3: null,
@@ -28936,6 +30865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72bbf8ce",
       n1: "ghayr monaasib",
       n2: "ghayr monasib",
       n3: null,
@@ -28951,6 +30881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f81822a2",
       n1: "yadawi",
       n2: null,
       n3: null,
@@ -28966,6 +30897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98e7792d",
       n1: "da2iri",
       n2: "daa2iri",
       n3: null,
@@ -28981,6 +30913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0060d5e",
       n1: "moSirr",
       n2: null,
       n3: null,
@@ -28996,6 +30929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4722de01",
       n1: "motaabir",
       n2: null,
       n3: null,
@@ -29011,6 +30945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4890058b",
       n1: "ilaahi",
       n2: "ilaa8i",
       n3: "ilahi",
@@ -29026,6 +30961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6254f98",
       n1: "makaani",
       n2: null,
       n3: null,
@@ -29041,6 +30977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c16dc0c",
       n1: "mam9bolch",
       n2: "mam9boulch",
       n3: null,
@@ -29056,6 +30993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4160b94",
       n1: "msmoum",
       n2: null,
       n3: null,
@@ -29071,6 +31009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63e8a5a9",
       n1: "mo288al",
       n2: null,
       n3: null,
@@ -29086,6 +31025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1871b32c",
       n1: "mtkaml",
       n2: "mtkaaml",
       n3: null,
@@ -29101,6 +31041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13103f3c",
       n1: "mam9yousch",
       n2: "mam9yosch",
       n3: null,
@@ -29116,6 +31057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0e148fe",
       n1: "mkhtar",
       n2: null,
       n3: null,
@@ -29131,6 +31073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4323d781",
       n1: "m3awd",
       n2: null,
       n3: null,
@@ -29146,6 +31089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb0ee417",
       n1: "zayd",
       n2: null,
       n3: null,
@@ -29161,6 +31105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36d84115",
       n1: "za3m",
       n2: "za3em",
       n3: null,
@@ -29176,6 +31121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cdc9aba6",
       n1: "8aawi",
       n2: "8awi",
       n3: null,
@@ -29191,6 +31137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "103598ee",
       n1: "gddami",
       n2: "gddaami",
       n3: null,
@@ -29206,6 +31153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a1638a9",
       n1: "9ddami",
       n2: "9ddaami",
       n3: null,
@@ -29221,6 +31169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6067567",
       n1: "mabaynch",
       n2: "mabayench",
       n3: "mabayanch",
@@ -29236,6 +31185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3225d44a",
       n1: "idraaki",
       n2: "idraki",
       n3: null,
@@ -29251,6 +31201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2113f96",
       n1: "m2sawi",
       n2: "m2saawi",
       n3: null,
@@ -29266,6 +31217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ca58f1c",
       n1: "mofji3",
       n2: "mofji3",
       n3: null,
@@ -29281,6 +31233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a81a3079",
       n1: "tnDimi",
       n2: "tanDiimi",
       n3: "tenDiimi",
@@ -29296,6 +31249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb91d340",
       n1: "7aasim",
       n2: "7asim",
       n3: null,
@@ -29311,6 +31265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c7bd547",
       n1: "i9limi",
       n2: null,
       n3: null,
@@ -29326,6 +31281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "137baf3e",
       n1: "mnTa9i",
       n2: null,
       n3: null,
@@ -29341,6 +31297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dd14a31",
       n1: "fay9",
       n2: "faye9",
       n3: "faya9",
@@ -29356,6 +31313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "247ae3ae",
       n1: "daakhili",
       n2: null,
       n3: null,
@@ -29371,6 +31329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f4d1907",
       n1: "mo7tamal",
       n2: null,
       n3: null,
@@ -29386,6 +31345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34bd616c",
       n1: "3ksi",
       n2: "3eksi",
       n3: null,
@@ -29401,6 +31361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "191b6476",
       n1: "mo7taram",
       n2: null,
       n3: null,
@@ -29416,6 +31377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e6bfc18",
       n1: "sakn",
       n2: "saakn",
       n3: null,
@@ -29431,6 +31393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b871a5ec",
       n1: "mo9iim",
       n2: "mo9im",
       n3: null,
@@ -29446,6 +31409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a89e2d76",
       n1: "madani",
       n2: null,
       n3: null,
@@ -29461,6 +31425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07b4ee57",
       n1: "ortodoxi",
       n2: null,
       n3: null,
@@ -29476,6 +31441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2ce3104",
       n1: "mt3SSeb",
       n2: null,
       n3: null,
@@ -29491,6 +31457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63b845af",
       n1: "tabt",
       n2: "taabt",
       n3: null,
@@ -29506,6 +31473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bc88e67",
       n1: "wagf",
       n2: null,
       n3: null,
@@ -29521,6 +31489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6011f4cc",
       n1: "mtwaf9",
       n2: "mtwaaf9",
       n3: null,
@@ -29536,6 +31505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d39963a",
       n1: "sababi",
       n2: null,
       n3: null,
@@ -29551,6 +31521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "baa86a2a",
       n1: "Dimni",
       n2: null,
       n3: null,
@@ -29566,6 +31537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22cbf9c3",
       n1: "mamfrouchch",
       n2: null,
       n3: null,
@@ -29581,6 +31553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b96acd96",
       n1: "9diim",
       n2: null,
       n3: null,
@@ -29596,6 +31569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5f2e01a",
       n1: "jamaali",
       n2: "jamali",
       n3: null,
@@ -29611,6 +31585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1063f8c0",
       n1: "mbogs",
       n2: null,
       n3: null,
@@ -29626,6 +31601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f99563eb",
       n1: "mjmo3",
       n2: "mjmou3",
       n3: null,
@@ -29641,6 +31617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6cc3d5b",
       n1: "r9i9",
       n2: null,
       n3: null,
@@ -29656,6 +31633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22881de2",
       n1: "Twil",
       n2: null,
       n3: null,
@@ -29671,6 +31649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3bc8379",
       n1: "mozdawij",
       n2: null,
       n3: null,
@@ -29686,6 +31665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4744e190",
       n1: "machi mawDoo3i",
       n2: "machi mawDo3i",
       n3: null,
@@ -29701,6 +31681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6fcd8fb",
       n1: "ra2i3",
       n2: null,
       n3: null,
@@ -29716,6 +31697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f791c5c",
       n1: "mafrasoch",
       n2: null,
       n3: null,
@@ -29731,6 +31713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb904511",
       n1: "mawa3ich",
       n2: null,
       n3: null,
@@ -29746,6 +31729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6f99dc8",
       n1: "akhla9i",
       n2: "akhlaa9i",
       n3: null,
@@ -29761,6 +31745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fd62e45",
       n1: "mstili",
       n2: "mstyli",
       n3: null,
@@ -29776,6 +31761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a084940",
       n1: "mjhoul",
       n2: "mj8oul",
       n3: "mj8ol",
@@ -29791,6 +31777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afd43eff",
       n1: "fchkel",
       n2: null,
       n3: null,
@@ -29806,6 +31793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4449cab",
       n1: "gharib",
       n2: null,
       n3: null,
@@ -29821,6 +31809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b27a385e",
       n1: "moraa8i9",
       n2: "mora8i9",
       n3: "morahi9",
@@ -29836,6 +31825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "389efd5d",
       n1: "ghali",
       n2: null,
       n3: null,
@@ -29851,6 +31841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8fae55af",
       n1: "kaariti",
       n2: "kariti",
       n3: null,
@@ -29866,6 +31857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c852f1a",
       n1: "msta9ll",
       n2: "msta9ell",
       n3: null,
@@ -29881,6 +31873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe0fe1d6",
       n1: "automatic",
       n2: "otomatik",
       n3: null,
@@ -29896,6 +31889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0bbc0e6",
       n1: "radd lbal",
       n2: null,
       n3: null,
@@ -29911,6 +31905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f312c1a",
       n1: "dyal ddarra",
       n2: null,
       n3: null,
@@ -29926,6 +31921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19ebdbb1",
       n1: "sirri",
       n2: null,
       n3: null,
@@ -29941,6 +31937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83df446d",
       n1: "7m9",
       n2: "7me9",
       n3: null,
@@ -29956,6 +31953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "847668d5",
       n1: "mlwwen",
       n2: "mlwwn",
       n3: null,
@@ -29971,6 +31969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c84c6d8d",
       n1: "3ami9",
       n2: null,
       n3: null,
@@ -29986,6 +31985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75756056",
       n1: "moghram",
       n2: null,
       n3: null,
@@ -30001,6 +32001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19851911",
       n1: "jdid",
       n2: null,
       n3: null,
@@ -30016,6 +32017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b462a191",
       n1: "mntaDm",
       n2: "mntaDem",
       n3: null,
@@ -30031,6 +32033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43d90fe3",
       n1: "mtnas9",
       n2: "mtnase9",
       n3: null,
@@ -30046,6 +32049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70139614",
       n1: "majiid",
       n2: "majid",
       n3: null,
@@ -30061,6 +32065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67a82849",
       n1: "nfsi",
       n2: "nefsi",
       n3: null,
@@ -30076,6 +32081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed38db0b",
       n1: "mo3jami",
       n2: null,
       n3: null,
@@ -30091,6 +32097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f7ac29e",
       n1: "tTawwori",
       n2: null,
       n3: null,
@@ -30106,6 +32113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a370adf",
       n1: "kayrbbi",
       n2: null,
       n3: null,
@@ -30121,6 +32129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba76ba8c",
       n1: "t2dibi",
       n2: null,
       n3: null,
@@ -30136,6 +32145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7745c904",
       n1: "3tibaaTyan",
       n2: null,
       n3: null,
@@ -30151,6 +32161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c1b7748",
       n1: "kayfrre7",
       n2: "kayfrr7",
       n3: "kayfarra7",
@@ -30166,6 +32177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "341d578a",
       n1: "mtchrred",
       n2: null,
       n3: null,
@@ -30181,6 +32193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69bbe561",
       n1: "chmkar",
       n2: null,
       n3: null,
@@ -30196,6 +32209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c569d3bd",
       n1: "gharib",
       n2: "ghariib",
       n3: null,
@@ -30211,6 +32225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "37d38b5e",
       n1: "fa2iD",
       n2: null,
       n3: null,
@@ -30226,6 +32241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6deb830d",
       n1: "zyada",
       n2: null,
       n3: null,
@@ -30241,6 +32257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b67e979",
       n1: "7amimi",
       n2: "7amiimi",
       n3: null,
@@ -30256,6 +32273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96879fe1",
       n1: "8a2il",
       n2: null,
       n3: null,
@@ -30271,6 +32289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6b9aaff",
       n1: "tdriji",
       n2: "tdriiji",
       n3: "tedriiji",
@@ -30286,6 +32305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02501c5c",
       n1: "flkharj",
       n2: null,
       n3: null,
@@ -30301,6 +32321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85ba55cd",
       n1: "mi8ani",
       n2: null,
       n3: null,
@@ -30316,6 +32337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef1f0c40",
       n1: "tlkhdma",
       n2: null,
       n3: null,
@@ -30331,6 +32353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "403b806b",
       n1: "3aalami",
       n2: "3alami",
       n3: null,
@@ -30346,6 +32369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "611c40fb",
       n1: "7chman",
       n2: null,
       n3: null,
@@ -30361,6 +32385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3ca6df3",
       n1: "tnDimi",
       n2: null,
       n3: null,
@@ -30376,6 +32401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea3f4dc8",
       n1: "khbit",
       n2: null,
       n3: null,
@@ -30391,6 +32417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cac9eec4",
       n1: "takhayyoli",
       n2: null,
       n3: null,
@@ -30406,6 +32433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8233429",
       n1: "3ajib",
       n2: "3ajiib",
       n3: null,
@@ -30421,6 +32449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83d943da",
       n1: "ni8a2i",
       n2: "ni8aa2i",
       n3: null,
@@ -30436,6 +32465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6a267cd",
       n1: "mrtajl",
       n2: null,
       n3: null,
@@ -30451,6 +32481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3864765c",
       n1: "makaytSnne3ch",
       n2: null,
       n3: null,
@@ -30466,6 +32497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46103fbe",
       n1: "wizari",
       n2: "wizaari",
       n3: null,
@@ -30481,6 +32513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b6e7705",
       n1: "mobtakar",
       n2: null,
       n3: null,
@@ -30496,6 +32529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f33d77a7",
       n1: "mafaa8iimi",
       n2: null,
       n3: null,
@@ -30511,6 +32545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93072bb6",
       n1: "madani",
       n2: null,
       n3: null,
@@ -30526,6 +32561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f6697c7",
       n1: "7eyy",
       n2: null,
       n3: null,
@@ -30541,6 +32577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02029412",
       n1: "tnna7w",
       n2: null,
       n3: null,
@@ -30556,6 +32593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73f3e930",
       n1: "mokhliS",
       n2: null,
       n3: null,
@@ -30571,6 +32609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5aa5f85",
       n1: "mtwsseT",
       n2: "mtwesseT",
       n3: "motawssiT",
@@ -30586,6 +32625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8882486",
       n1: "tkmili",
       n2: "tkmiili",
       n3: null,
@@ -30601,6 +32641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0c6379a5",
       n1: "jyoloji",
       n2: "jyolouji",
       n3: null,
@@ -30616,6 +32657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02f5cb4f",
       n1: "bnnaa2",
       n2: "bnna2",
       n3: null,
@@ -30631,6 +32673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ac39481",
       n1: "kaybni",
       n2: null,
       n3: null,
@@ -30646,6 +32689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f2ccf20",
       n1: "ghayr mnTi9i",
       n2: "ghayr manTi9i",
       n3: null,
@@ -30661,6 +32705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99bb900e",
       n1: "Darori",
       n2: "Darouri",
       n3: null,
@@ -30676,6 +32721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "608b35c8",
       n1: "ta3aawoni",
       n2: null,
       n3: null,
@@ -30691,6 +32737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56834110",
       n1: "solouki",
       n2: "soloki",
       n3: null,
@@ -30706,6 +32753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83237f7a",
       n1: "mabaghich",
       n2: null,
       n3: null,
@@ -30721,6 +32769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ed40298",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -30736,6 +32785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7469943",
       n1: "khtiyari",
       n2: "khtiari",
       n3: null,
@@ -30751,6 +32801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2be4c6a5",
       n1: "aSli",
       n2: null,
       n3: null,
@@ -30766,6 +32817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b70d52d5",
       n1: "manaje7ch",
       n2: null,
       n3: null,
@@ -30781,6 +32833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65fcc874",
       n1: "mam2ddebch",
       n2: "mam2eddebch",
       n3: null,
@@ -30796,6 +32849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fd59137",
       n1: "mamrbbich",
       n2: "mamrebbich",
       n3: null,
@@ -30811,6 +32865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3835304",
       n1: "borjwazi",
       n2: "bourjwazi",
       n3: null,
@@ -30826,6 +32881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "112d3d6c",
       n1: "3ilmani",
       n2: null,
       n3: null,
@@ -30841,6 +32897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f567e749",
       n1: "momti3",
       n2: null,
       n3: null,
@@ -30856,6 +32913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be914c2b",
       n1: "mo299at",
       n2: "mow99at",
       n3: null,
@@ -30871,6 +32929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "022d0446",
       n1: "mosaa8im",
       n2: "mosa8im",
       n3: "mosaahim",
@@ -30886,6 +32945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f71560d2",
       n1: "akhir",
       n2: "akhiir",
       n3: null,
@@ -30901,6 +32961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a2dd240",
       n1: "ni8aa2i",
       n2: "ni8a2i",
       n3: "niha2i",
@@ -30916,6 +32977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9d00857",
       n1: "3amali",
       n2: null,
       n3: null,
@@ -30931,6 +32993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "faeaf39b",
       n1: "mokttaf",
       n2: null,
       n3: null,
@@ -30946,6 +33009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9bad18bb",
       n1: "fotoghrafi",
       n2: null,
       n3: null,
@@ -30961,6 +33025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "abfac770",
       n1: "tlbaladia",
       n2: null,
       n3: null,
@@ -30976,6 +33041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3fd9a78e",
       n1: "mt7mmes",
       n2: "mt7mms",
       n3: "mt7emmes",
@@ -30991,6 +33057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55913ed4",
       n1: "m7doud",
       n2: null,
       n3: null,
@@ -31006,6 +33073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43e0ffa2",
       n1: "wa7id",
       n2: null,
       n3: null,
@@ -31021,6 +33089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47242e4c",
       n1: "daakhili",
       n2: null,
       n3: null,
@@ -31036,6 +33105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "644e09ba",
       n1: "mtwetter",
       n2: "mtwtter",
       n3: "mtwttr",
@@ -31051,6 +33121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26675c32",
       n1: "blcontra",
       n2: null,
       n3: null,
@@ -31066,6 +33137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "adf254f6",
       n1: "ta3aa9odi",
       n2: null,
       n3: null,
@@ -31081,6 +33153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd576ae1",
       n1: "ftiraDi",
       n2: "ftiraaDi",
       n3: null,
@@ -31096,6 +33169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0e85470",
       n1: "khaTir",
       n2: null,
       n3: null,
@@ -31111,6 +33185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53fc26bc",
       n1: "atari",
       n2: null,
       n3: null,
@@ -31126,6 +33201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcc65548",
       n1: "bayn",
       n2: null,
       n3: null,
@@ -31141,6 +33217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb821119",
       n1: "kay8ezz",
       n2: null,
       n3: null,
@@ -31156,6 +33233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42494a75",
       n1: "tafaa3oli",
       n2: "tafa3oli",
       n3: null,
@@ -31171,6 +33249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93572617",
       n1: "w7chi",
       n2: "we7chi",
       n3: null,
@@ -31186,6 +33265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63c81825",
       n1: "chkli",
       n2: "chekli",
       n3: null,
@@ -31201,6 +33281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83b0ac1d",
       n1: "makattnsach",
       n2: null,
       n3: null,
@@ -31216,6 +33297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64ba9cbc",
       n1: "ka2ib",
       n2: null,
       n3: null,
@@ -31231,6 +33313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6cd7b788",
       n1: "t7tani",
       n2: null,
       n3: null,
@@ -31246,6 +33329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d53281d",
       n1: "tlmSaren",
       n2: null,
       n3: null,
@@ -31261,6 +33345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6a64142",
       n1: "mokmmil",
       n2: null,
       n3: null,
@@ -31276,6 +33361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f2b846a",
       n1: "mo8oub",
       n2: "mohoub",
       n3: "mow8ob",
@@ -31291,6 +33377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcf39f26",
       n1: "abadi",
       n2: null,
       n3: null,
@@ -31306,6 +33393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc623438",
       n1: "jasadi",
       n2: null,
       n3: null,
@@ -31321,6 +33409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf2b3d90",
       n1: "si7ri",
       n2: null,
       n3: null,
@@ -31336,6 +33425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3559fc35",
       n1: "mf8oum",
       n2: "mfhoum",
       n3: "mfhom",
@@ -31351,6 +33441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "86e932d0",
       n1: "bayn",
       n2: null,
       n3: null,
@@ -31366,6 +33457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "618e76f3",
       n1: "mawaD7ch",
       n2: null,
       n3: null,
@@ -31381,6 +33473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd0e7003",
       n1: "aSli",
       n2: null,
       n3: null,
@@ -31396,6 +33489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd7dd763",
       n1: "momkina",
       n2: null,
       n3: null,
@@ -31411,6 +33505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a906c234",
       n1: "magaddch",
       n2: null,
       n3: null,
@@ -31426,6 +33521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2af32bc7",
       n1: "ma9aderch",
       n2: "ma9adrch",
       n3: null,
@@ -31441,6 +33537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97e1a2ca",
       n1: "komik",
       n2: null,
       n3: null,
@@ -31456,6 +33553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "976cdfd6",
       n1: "moD7ik",
       n2: null,
       n3: null,
@@ -31471,6 +33569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be6d9006",
       n1: "komidi",
       n2: null,
       n3: null,
@@ -31486,6 +33585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45f9f4b3",
       n1: "mn3azl",
       n2: null,
       n3: null,
@@ -31501,6 +33601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6686432",
       n1: "3abati",
       n2: null,
       n3: null,
@@ -31516,6 +33617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb5f4934",
       n1: "moDirr",
       n2: null,
       n3: null,
@@ -31531,6 +33633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6cbd1bcf",
       n1: "ghamD",
       n2: null,
       n3: null,
@@ -31546,6 +33649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fab4fe07",
       n1: "khawi",
       n2: null,
       n3: null,
@@ -31561,6 +33665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b032d0d",
       n1: "chyaTa",
       n2: null,
       n3: null,
@@ -31576,6 +33681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a499da77",
       n1: "kaytlSS9",
       n2: "kaytlSSe9",
       n3: null,
@@ -31591,6 +33697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe8356d7",
       n1: "khfif",
       n2: null,
       n3: null,
@@ -31606,6 +33713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d223b753",
       n1: "sri3",
       n2: null,
       n3: null,
@@ -31621,6 +33729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bced994a",
       n1: "moSghghara",
       n2: null,
       n3: null,
@@ -31636,6 +33745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "533b7b28",
       n1: "bzzaf",
       n2: null,
       n3: null,
@@ -31651,6 +33761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db287c81",
       n1: "machi Tabi3i",
       n2: null,
       n3: null,
@@ -31666,6 +33777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4bcfabb",
       n1: "3orfi",
       n2: null,
       n3: null,
@@ -31681,6 +33793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe6b97f6",
       n1: "kayDerr",
       n2: "kaydrr",
       n3: null,
@@ -31696,6 +33809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7d3adce",
       n1: "mochi33",
       n2: null,
       n3: null,
@@ -31711,6 +33825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d2483bc",
       n1: "kay9tel",
       n2: "kay9tl",
       n3: "kay9tal",
@@ -31726,6 +33841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de4bd9f3",
       n1: "m9boul",
       n2: "m9bol",
       n3: null,
@@ -31741,6 +33857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea90693f",
       n1: "9aabil",
       n2: null,
       n3: null,
@@ -31756,6 +33873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63fe00c5",
       n1: "jtima3i",
       n2: "jtimaa3i",
       n3: null,
@@ -31771,6 +33889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb6aeba3",
       n1: "magaddch",
       n2: null,
       n3: null,
@@ -31786,6 +33905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccc2f7d5",
       n1: "radd lbal",
       n2: null,
       n3: null,
@@ -31801,6 +33921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2432c29",
       n1: "mam3rofch",
       n2: null,
       n3: null,
@@ -31816,6 +33937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5af6c4dc",
       n1: "jira7i",
       n2: "jiraa7i",
       n3: null,
@@ -31831,6 +33953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74b602e4",
       n1: "mo3awin",
       n2: null,
       n3: null,
@@ -31846,6 +33969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99ab5508",
       n1: "mo2nnat",
       n2: null,
       n3: null,
@@ -31861,6 +33985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb54f8fb",
       n1: "kayfrchekh",
       n2: "kayferchekh",
       n3: "kayfrchkh",
@@ -31876,6 +34001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4b808f7",
       n1: "kiwalo",
       n2: null,
       n3: null,
@@ -31891,6 +34017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70311b18",
       n1: "tonaa2i",
       n2: "tona2i",
       n3: null,
@@ -31906,6 +34033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dd69bf7",
       n1: "baghi",
       n2: null,
       n3: null,
@@ -31921,6 +34049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30c11075",
       n1: "naatj",
       n2: null,
       n3: null,
@@ -31936,6 +34065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ca63152",
       n1: "9wi",
       n2: null,
       n3: null,
@@ -31951,6 +34081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4326face",
       n1: "wa3r",
       n2: null,
       n3: null,
@@ -31966,6 +34097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f1d4924",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -31981,6 +34113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc3a2d3a",
       n1: "fasd",
       n2: "faasd",
       n3: null,
@@ -31996,6 +34129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e31ca438",
       n1: "m3foun",
       n2: "m3fon",
       n3: null,
@@ -32011,6 +34145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4ecd224",
       n1: "waa9i3i",
       n2: "wa9i3i",
       n3: null,
@@ -32026,6 +34161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25b07bcd",
       n1: "3amali",
       n2: null,
       n3: null,
@@ -32041,6 +34177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5c97e5c",
       n1: "pragmati",
       n2: null,
       n3: null,
@@ -32056,6 +34193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9a6f3de",
       n1: "ghayr morDi",
       n2: null,
       n3: null,
@@ -32071,6 +34209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5b74e34",
       n1: "w9t joz2i",
       n2: null,
       n3: null,
@@ -32086,6 +34225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2d052de",
       n1: "mi8ani",
       n2: null,
       n3: null,
@@ -32101,6 +34241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d4dff8e",
       n1: "marin",
       n2: null,
       n3: null,
@@ -32116,6 +34257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a2bf0e8",
       n1: "mch8or",
       n2: null,
       n3: null,
@@ -32131,6 +34273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71b58e2a",
       n1: "m3aarD",
       n2: "m3arD",
       n3: null,
@@ -32146,6 +34289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3339f202",
       n1: "mojrrad",
       n2: null,
       n3: null,
@@ -32161,6 +34305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0743794",
       n1: "laa2i9",
       n2: null,
       n3: null,
@@ -32176,6 +34321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb7dd1af",
       n1: "jjay",
       n2: null,
       n3: null,
@@ -32191,6 +34337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dd8672b",
       n1: "mn7adr",
       n2: null,
       n3: null,
@@ -32206,6 +34353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa553483",
       n1: "kaytTbbe9",
       n2: "kaytTebbe9",
       n3: null,
@@ -32221,6 +34369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c26aa30",
       n1: "kasoul",
       n2: "kasol",
       n3: null,
@@ -32236,6 +34385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee2dbc47",
       n1: "9bi7",
       n2: null,
       n3: null,
@@ -32251,6 +34401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41bd6ce8",
       n1: "ch8eb",
       n2: "ch8b",
       n3: null,
@@ -32266,6 +34417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1639978",
       n1: "droka",
       n2: "drok",
       n3: null,
@@ -32281,6 +34433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4aa083f",
       n1: "D3if",
       n2: null,
       n3: null,
@@ -32296,6 +34449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d2e627c",
       n1: "mobrziT",
       n2: null,
       n3: null,
@@ -32311,6 +34465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6b8ee38",
       n1: "frra3",
       n2: null,
       n3: null,
@@ -32326,6 +34481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "358fbd1a",
       n1: "mozwwir",
       n2: null,
       n3: null,
@@ -32341,6 +34497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21d3e0c9",
       n1: "mo8jjij",
       n2: null,
       n3: null,
@@ -32356,6 +34513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fa960f0",
       n1: "mo3nfij",
       n2: null,
       n3: null,
@@ -32371,6 +34529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5ae997d",
       n1: "msbiTr",
       n2: null,
       n3: null,
@@ -32386,6 +34545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d75dfe2",
       n1: "m7chchech",
       n2: null,
       n3: null,
@@ -32401,6 +34561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5483fb99",
       n1: "mSr8eT",
       n2: "mSer8eT",
       n3: "mSer8aT",
@@ -32416,6 +34577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ab45d0b",
       n1: "9walbi",
       n2: null,
       n3: null,
@@ -32431,6 +34593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41e9e2c8",
       n1: "bkkay",
       n2: null,
       n3: null,
@@ -32446,6 +34609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e12eb4da",
       n1: "mokhlwiD",
       n2: null,
       n3: null,
@@ -32461,6 +34625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45b8136f",
       n1: "7rayfi",
       n2: null,
       n3: null,
@@ -32476,6 +34641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "579f6b2e",
       n1: "7rayfi",
       n2: null,
       n3: null,
@@ -32491,6 +34657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "565f34fb",
       n1: "mawaD7ch",
       n2: null,
       n3: null,
@@ -32506,6 +34673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f14761e",
       n1: "8aamichi",
       n2: "hamichi",
       n3: null,
@@ -32521,6 +34689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9db6f78d",
       n1: "motaw99a3",
       n2: null,
       n3: null,
@@ -32536,6 +34705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aecf25a7",
       n1: "8ojoumi",
       n2: "8ojomi",
       n3: null,
@@ -32551,6 +34721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af17344d",
       n1: "mtna9D",
       n2: null,
       n3: null,
@@ -32566,6 +34737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fabbb5f",
       n1: "mawsimi",
       n2: null,
       n3: null,
@@ -32581,6 +34753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7facea95",
       n1: "jbbar",
       n2: "jbbaar",
       n3: null,
@@ -32596,6 +34769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ccaea20",
       n1: "mrowwen",
       n2: "mrwwen",
       n3: null,
@@ -32611,6 +34785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f51555c",
       n1: "baSari",
       n2: null,
       n3: null,
@@ -32626,6 +34801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b81bb653",
       n1: "lani8a2i",
       n2: "laani8aa2i",
       n3: null,
@@ -32641,6 +34817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0348fe4b",
       n1: "mdikori",
       n2: null,
       n3: null,
@@ -32656,6 +34833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ddeba4f",
       n1: "kammi",
       n2: null,
       n3: null,
@@ -32671,6 +34849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebf13533",
       n1: "mtnaasb",
       n2: null,
       n3: null,
@@ -32686,6 +34865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b9c59cf",
       n1: "biro9raTi",
       n2: null,
       n3: null,
@@ -32701,6 +34881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b1a2304",
       n1: "kayghir",
       n2: null,
       n3: null,
@@ -32716,6 +34897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89d3a9a8",
       n1: "khayali",
       n2: null,
       n3: null,
@@ -32731,6 +34913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10cfccf2",
       n1: "mghyar",
       n2: null,
       n3: null,
@@ -32746,6 +34929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4072ccb",
       n1: "ldid",
       n2: null,
       n3: null,
@@ -32761,6 +34945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5adca04",
       n1: "bayn",
       n2: null,
       n3: null,
@@ -32776,6 +34961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e5aa1cf",
       n1: "mftou7",
       n2: "meftou7",
       n3: null,
@@ -32791,6 +34977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45cd7fbe",
       n1: "sad",
       n2: "sadd",
       n3: null,
@@ -32806,6 +34993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f29f28b3",
       n1: "mesdoud",
       n2: "msdoud",
       n3: "msdod",
@@ -32821,6 +35009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e431483",
       n1: "ghaleT",
       n2: "ghaaleT",
       n3: null,
@@ -32836,6 +35025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "207dad1c",
       n1: "mbeddel",
       n2: "mbddl",
       n3: null,
@@ -32851,6 +35041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b4ddd03",
       n1: "S7i7",
       n2: null,
       n3: null,
@@ -32866,6 +35057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdff5671",
       n1: "mwellef",
       n2: null,
       n3: null,
@@ -32881,6 +35073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f3a2ce0",
       n1: "mriguel",
       n2: null,
       n3: null,
@@ -32896,6 +35089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b7c00a7",
       n1: "dayekh",
       n2: null,
       n3: null,
@@ -32911,6 +35105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cef86739",
       n1: "mdowwakh",
       n2: null,
       n3: null,
@@ -32926,6 +35121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6f47558",
       n1: "mberrer",
       n2: "mbrrer",
       n3: "mberrar",
@@ -32941,6 +35137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "173a4620",
       n1: "mrtabT",
       n2: "mrtabeT",
       n3: "mertabeT",
@@ -32956,6 +35153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "86c55e8a",
       n1: "mol8im",
       n2: "molhim",
       n3: null,
@@ -32971,6 +35169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4caf30d5",
       n1: "mchttet",
       n2: "mchettat",
       n3: "mchattet",
@@ -32986,6 +35185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "469affac",
       n1: "3aDim",
       n2: "3aDym",
       n3: "3aDiim",
@@ -33001,6 +35201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aab1ddaf",
       n1: "boul7ya",
       n2: "bol7ya",
       n3: "boul7ia",
@@ -33016,6 +35217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29082d64",
       n1: "zayd",
       n2: "zaid",
       n3: null,
@@ -33031,6 +35233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75780a75",
       n1: "khari9",
       n2: "khaari9",
       n3: "5ari9",
@@ -33046,6 +35249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab08bee7",
       n1: "stitna2i",
       n2: "istitna2i",
       n3: "stitnaa2i",
@@ -33061,6 +35265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e06eb6a6",
       n1: "fransawi",
       n2: "fransaoui",
       n3: null,
@@ -33076,6 +35281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2abaa00",
       n1: "sblyoni",
       n2: "sbelioni",
       n3: "sbalioni",
@@ -33091,6 +35297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c7ef0c1",
       n1: "mirikani",
       n2: null,
       n3: null,
@@ -33106,6 +35313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "933741e8",
       n1: "chinwi",
       n2: null,
       n3: null,
@@ -33121,6 +35329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a892fc1",
       n1: "3rbi",
       n2: "3arbi",
       n3: "3erbi",
@@ -33136,6 +35345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9ebfb47",
       n1: "mkhbbi",
       n2: "mkhebbi",
       n3: "mkhabbi",
@@ -33151,6 +35361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "257dad2a",
       n1: "mti99en",
       n2: "mtye99en",
       n3: "mtya99an",
@@ -33166,6 +35377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f64fcea4",
       n1: "dima",
       n2: "dayman",
       n3: "da2iman",
@@ -33181,6 +35393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4580b06",
       n1: "machi",
       n2: null,
       n3: null,
@@ -33196,6 +35409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa5200f0",
       n1: "ghaliban",
       n2: "ghaaliban",
       n3: null,
@@ -33211,6 +35425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "665d396f",
       n1: "9ariban",
       n2: "9aryban",
       n3: "qaryban",
@@ -33226,6 +35441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae6e905b",
       n1: "bkri",
       n2: "bekri",
       n3: "barki",
@@ -33241,6 +35457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bdb3e32",
       n1: "bchwia",
       n2: null,
       n3: null,
@@ -33256,6 +35473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12c588f2",
       n1: "bl8adawa",
       n2: null,
       n3: null,
@@ -33271,6 +35489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d3680d3",
       n1: "imkn",
       n2: "yemken",
       n3: "imken",
@@ -33286,6 +35505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "efe83a4d",
       n1: "8na",
       n2: null,
       n3: null,
@@ -33301,6 +35521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e336e2b4",
       n1: "8naya",
       n2: null,
       n3: null,
@@ -33316,6 +35537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fee8cbab",
       n1: "l8i8",
       n2: "lhih",
       n3: null,
@@ -33331,6 +35553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8dfe858f",
       n1: "9rib",
       n2: null,
       n3: null,
@@ -33346,6 +35569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "adde25fd",
       n1: "lfo9",
       n2: "lfou9",
       n3: "lfog",
@@ -33361,6 +35585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84e39c19",
       n1: "mn b3d",
       n2: "men be3d",
       n3: "mn be3d",
@@ -33376,6 +35601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "764f6e25",
       n1: "daba",
       n2: null,
       n3: null,
@@ -33391,6 +35617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98af5310",
       n1: "chwia",
       n2: null,
       n3: null,
@@ -33406,6 +35633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c23214c0",
       n1: "bzzaf",
       n2: "bzaf",
       n3: null,
@@ -33421,6 +35649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "baa3e5d0",
       n1: "kolliyan",
       n2: null,
       n3: null,
@@ -33436,6 +35665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f30000a4",
       n1: "flblaSa",
       n2: null,
       n3: null,
@@ -33451,6 +35681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a27fff6",
       n1: "t9riban",
       n2: "ta9riban",
       n3: "te9riban",
@@ -33466,6 +35697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1327c77",
       n1: "mrra mrra",
       n2: null,
       n3: null,
@@ -33481,6 +35713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c740fde",
       n1: "b3d lmrrat",
       n2: "b3d lmerrat",
       n3: "be3d lmerrat",
@@ -33496,6 +35729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1019ee26",
       n1: "naadiran",
       n2: "nadiran",
       n3: null,
@@ -33511,6 +35745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50c32bbc",
       n1: "walakin",
       n2: null,
       n3: null,
@@ -33526,6 +35761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fbd0660",
       n1: "walakin",
       n2: null,
       n3: null,
@@ -33541,6 +35777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2623cb2e",
       n1: "zid 3liha",
       n2: null,
       n3: null,
@@ -33556,6 +35793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "852e9f21",
       n1: "kafi",
       n2: "kaafi",
       n3: null,
@@ -33571,6 +35809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8070231c",
       n1: "ga3",
       n2: null,
       n3: null,
@@ -33586,6 +35825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cd1b4c5",
       n1: "batatan",
       n2: null,
       n3: null,
@@ -33601,6 +35841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e51e3ef6",
       n1: "dghya",
       n2: "deghya",
       n3: "dghia",
@@ -33616,6 +35857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35c8aed5",
       n1: "bzzrba",
       n2: "bzzerba",
       n3: "bzzarba",
@@ -33631,6 +35873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65fa6f71",
       n1: "9bel",
       n2: "9bl",
       n3: null,
@@ -33646,6 +35889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8125ef87",
       n1: "mnb3d",
       n2: "mn b3d",
       n3: "mn be3d",
@@ -33661,6 +35905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18f30a4b",
       n1: "mazal",
       n2: null,
       n3: null,
@@ -33676,6 +35921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dfb8cacf",
       n1: "mazal",
       n2: null,
       n3: null,
@@ -33691,6 +35937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b73263b7",
       n1: "akhiran",
       n2: null,
       n3: null,
@@ -33706,6 +35953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccfb2e7a",
       n1: "7rfyyan",
       n2: "7arfyyan",
       n3: "7erfian",
@@ -33721,6 +35969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ed54a18",
       n1: "ghaliban",
       n2: "ghaaliban",
       n3: null,
@@ -33736,6 +35985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bfd6ae1",
       n1: "yawmian",
       n2: "yawmiyyan",
       n3: "yawmyyan",
@@ -33751,6 +36001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cf9077e",
       n1: "mo2khkharan",
       n2: "mo2kharan",
       n3: "mo255aran",
@@ -33766,6 +36017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9f078d5",
       n1: "mjmou3in",
       n2: "mjmo3in",
       n3: "mejmou3in",
@@ -33781,6 +36033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "514e4852",
       n1: "Sara7atan",
       n2: "Saraa7atan",
       n3: null,
@@ -33796,6 +36049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c832ae49",
       n1: "bisalam",
       n2: "bi salam",
       n3: null,
@@ -33811,6 +36065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "642ecf91",
       n1: "3awttani",
       n2: "3awtani",
       n3: "3awdtani",
@@ -33826,6 +36081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c3aceb16",
       n1: "lil2asaf",
       n2: "lil asaf",
       n3: "lilasaf",
@@ -33841,6 +36097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35f2f555",
       n1: "khoSoSan",
       n2: "khoSouSan",
       n3: null,
@@ -33856,6 +36113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "213cacd2",
       n1: "za2id",
       n2: null,
       n3: null,
@@ -33871,6 +36129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8f5ed0a",
       n1: "bzzaf",
       n2: "bzaf",
       n3: "bezzaf",
@@ -33886,6 +36145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1929e77",
       n1: "bzzaf",
       n2: "bzaf",
       n3: "bezzaf",
@@ -33901,6 +36161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "859faed5",
       n1: "3adatan",
       n2: "3aadatan",
       n3: null,
@@ -33916,6 +36177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f483187b",
       n1: "bi basaTa",
       n2: "b basaTa",
       n3: "bibasaTa",
@@ -33931,6 +36193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e7466a0",
       n1: "3ammatan",
       n2: "3aammatan",
       n3: "3amatan",
@@ -33946,6 +36209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8fe169ee",
       n1: "fl7a9i9a",
       n2: "fl 7a9i9a",
       n3: "fel7a9i9a",
@@ -33961,6 +36225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffa34e63",
       n1: "bl a7ra",
       n2: "bl2a7ra",
       n3: "bl a7raa",
@@ -33976,6 +36241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f1c0b69",
       n1: "abadan",
       n2: null,
       n3: null,
@@ -33991,6 +36257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2656e50",
       n1: "sabi9an",
       n2: "saabi9an",
       n3: "sabiqan",
@@ -34006,6 +36273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "117d64be",
       n1: "dirikt",
       n2: "dirict",
       n3: "direct",
@@ -34021,6 +36289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d159a116",
       n1: "idan",
       n2: "2idan",
       n3: null,
@@ -34036,6 +36305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7afa440c",
       n1: "akhr",
       n2: "akhor",
       n3: "akher",
@@ -34051,6 +36321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d68e40dc",
       n1: "bttali",
       n2: "bittali",
       n3: null,
@@ -34066,6 +36337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cea3d69",
       n1: "bso8oula",
       n2: "bso8ola",
       n3: "bsou8oula",
@@ -34081,6 +36353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "626d7acb",
       n1: "flkhr",
       n2: "flkher",
       n3: "flekher",
@@ -34096,6 +36369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "067a82b6",
       n1: "tamaman",
       n2: "tamaaman",
       n3: null,
@@ -34111,6 +36385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82ef07df",
       n1: "9aT3an",
       n2: null,
       n3: null,
@@ -34126,6 +36401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8f738a7",
       n1: "3adatan",
       n2: "3aadatan",
       n3: null,
@@ -34141,6 +36417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a05f1b6",
       n1: "7alian",
       n2: "7alyan",
       n3: "7aalian",
@@ -34156,6 +36433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fea162b",
       n1: "bzzaf",
       n2: "bzaf",
       n3: "bezaf",
@@ -34171,6 +36449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1067552d",
       n1: "bstimrar",
       n2: "b stimrar",
       n3: "bistimrar",
@@ -34186,6 +36465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93429368",
       n1: "bl9a3ida",
       n2: "bel9a3ida",
       n3: null,
@@ -34201,6 +36481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6318cef",
       n1: "khaSatan",
       n2: "khaaSatan",
       n3: "khaSSatan",
@@ -34216,6 +36497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84bded79",
       n1: "lgddam",
       n2: "l9ddam",
       n3: "lgeddam",
@@ -34231,6 +36513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1096d9a",
       n1: "flblaSa",
       n2: "flblasa",
       n3: "felblasa",
@@ -34246,6 +36529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72f71580",
       n1: "nisbyan",
       n2: "nisbyyan",
       n3: "nisbian",
@@ -34261,6 +36545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9515e384",
       n1: "bl3adl",
       n2: "bl 3adl",
       n3: "b l3adl",
@@ -34276,6 +36561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "780b4274",
       n1: "awwalan",
       n2: "awalan",
       n3: null,
@@ -34291,6 +36577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf6845a9",
       n1: "blkamil",
       n2: "belkamil",
       n3: "bl kamil",
@@ -34306,6 +36593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eea293b2",
       n1: "blm39ol",
       n2: "blm39oul",
       n3: "belm39oul",
@@ -34321,6 +36609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85b7ad04",
       n1: "3omoman",
       n2: "3omouman",
       n3: null,
@@ -34336,6 +36625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cbb57c6",
       n1: "Tab3an",
       n2: null,
       n3: null,
@@ -34351,6 +36641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45f40a97",
       n1: "t9riban",
       n2: "ta9riban",
       n3: "t9ryba",
@@ -34366,6 +36657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d07a6a8a",
       n1: "a7yanan",
       n2: null,
       n3: null,
@@ -34381,6 +36673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd12c7b4",
       n1: "bchwia",
       n2: "bchwiyya",
       n3: "bchwyya",
@@ -34396,6 +36689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d93b89f3",
       n1: "bwoDou7",
       n2: "bwoDo7",
       n3: null,
@@ -34411,6 +36705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a094009a",
       n1: "asasan",
       n2: "asaasan",
       n3: null,
@@ -34426,6 +36721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d442c24f",
       n1: "gdgd",
       n2: "gedged",
       n3: "gd gd",
@@ -34441,6 +36737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bbdc8b9",
       n1: "bDDarora",
       n2: "bdarora",
       n3: "bDarora",
@@ -34456,6 +36753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69942eb3",
       n1: "chkhSyya",
       n2: "chkhSyan",
       n3: "chkhSian",
@@ -34471,6 +36769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce486a01",
       n1: "bntiDam",
       n2: "bintiDam",
       n3: "b ntiDam",
@@ -34486,6 +36785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c11da51e",
       n1: "b7al",
       n2: null,
       n3: null,
@@ -34501,6 +36801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "607e85df",
       n1: "fl asas",
       n2: "fl2asas",
       n3: "fel asas",
@@ -34516,6 +36817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4782ade",
       n1: "fi3lian",
       n2: "fi3lyyan",
       n3: "fi3liyyan",
@@ -34531,6 +36833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8cb79bbf",
       n1: "flbdya",
       n2: "fl bdya",
       n3: "f lbdya",
@@ -34546,6 +36849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8e9e2d4",
       n1: "3l 3omoum",
       n2: "3ll 3omoum",
       n3: "3l3omom",
@@ -34561,6 +36865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ef2a964",
       n1: "aSlan",
       n2: null,
       n3: null,
@@ -34576,6 +36881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7acdfd07",
       n1: "joj mrrat",
       n2: "jojmrrat",
       n3: "jouj mrrat",
@@ -34591,6 +36897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "027b27c9",
       n1: "finmma",
       n2: "finemma",
       n3: null,
@@ -34606,6 +36913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e53c676",
       n1: "bayna",
       n2: null,
       n3: null,
@@ -34621,6 +36929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e82a19d",
       n1: "bnaja7",
       n2: "b naja7",
       n3: "binaja7",
@@ -34636,6 +36945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "646a7000",
       n1: "faj2atan",
       n2: null,
       n3: null,
@@ -34651,6 +36961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6879f14",
       n1: "Sara7atan",
       n2: "Saraa7atan",
       n3: null,
@@ -34666,6 +36977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ebfa72b",
       n1: "otomatikyan",
       n2: "automatikian",
       n3: "otomatikian",
@@ -34681,6 +36993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e4ad410",
       n1: "b3om9",
       n2: "b 3om9",
       n3: null,
@@ -34696,6 +37009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a9e4c90",
       n1: "9aT3an",
       n2: null,
       n3: null,
@@ -34711,6 +37025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c605ab4",
       n1: "3amdan",
       n2: null,
       n3: null,
@@ -34726,6 +37041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6b6ea05",
       n1: "sabi9an",
       n2: "saabi9an",
       n3: null,
@@ -34741,6 +37057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c2746a2",
       n1: "aghlab",
       n2: "aghlabia",
       n3: null,
@@ -34756,6 +37073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2d72ca4",
       n1: "bjoj",
       n2: "bjouj",
       n3: null,
@@ -34771,6 +37089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f14de10c",
       n1: "9ahwa",
       n2: "9hwa",
       n3: "9ehwa",
@@ -34786,6 +37105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2eacc24",
       n1: "korsi",
       n2: "krsi",
       n3: null,
@@ -34801,6 +37121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e55a0812",
       n1: "tabla",
       n2: "tbla",
       n3: null,
@@ -34816,6 +37137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a1e02ad",
       n1: "kas",
       n2: null,
       n3: null,
@@ -34831,6 +37153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a96bbb36",
       n1: "ma",
       n2: "lma",
       n3: null,
@@ -34846,6 +37169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bc9192d",
       n1: "8wa",
       n2: "8awa",
       n3: null,
@@ -34861,6 +37185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa3c1c83",
       n1: "9r3a",
       n2: "9ar3a",
       n3: null,
@@ -34876,6 +37201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21f9d229",
       n1: "dar",
       n2: null,
       n3: null,
@@ -34891,6 +37217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b8dfb59",
       n1: "bit",
       n2: null,
       n3: null,
@@ -34906,6 +37233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "261f8609",
       n1: "mdrasa",
       n2: "medrasa",
       n3: null,
@@ -34921,6 +37249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06c90ee2",
       n1: "Tomobil",
       n2: "tomobil",
       n3: "Tomobila",
@@ -34936,6 +37265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "121681d5",
       n1: "motor",
       n2: "moteur",
       n3: null,
@@ -34951,6 +37281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c11cd90c",
       n1: "chffar",
       n2: "cheffar",
       n3: null,
@@ -34966,6 +37297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f69d028",
       n1: "mol7anout",
       n2: "moll7anout",
       n3: null,
@@ -34981,6 +37313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cf57d48",
       n1: "molpisri",
       n2: null,
       n3: null,
@@ -34996,6 +37329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "430d8fda",
       n1: "3imara",
       n2: null,
       n3: null,
@@ -35011,6 +37345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6fe7349",
       n1: "partma",
       n2: "prtma",
       n3: null,
@@ -35026,6 +37361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58175c71",
       n1: "jrda",
       n2: "jerda",
       n3: "jarda",
@@ -35041,6 +37377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49935309",
       n1: "n3as",
       n2: "naas",
       n3: null,
@@ -35056,6 +37393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb0d5912",
       n1: "wld",
       n2: "wald",
       n3: "weld",
@@ -35071,6 +37409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45c73bf2",
       n1: "bnt",
       n2: "bent",
       n3: null,
@@ -35086,6 +37425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0dd9cf5",
       n1: "pikala",
       n2: "picala",
       n3: null,
@@ -35101,6 +37441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d54b24a",
       n1: "tobis",
       n2: "Tobis",
       n3: null,
@@ -35116,6 +37457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eca1e041",
       n1: "chari3",
       n2: "chare3",
       n3: null,
@@ -35131,6 +37473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a25f0483",
       n1: "drb",
       n2: "derb",
       n3: "darb",
@@ -35146,6 +37489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed3cbaa6",
       n1: "7ouma",
       n2: "7oma",
       n3: "houma",
@@ -35161,6 +37505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e77bd176",
       n1: "drouj",
       n2: "droj",
       n3: null,
@@ -35176,6 +37521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "37821e1d",
       n1: "nkhla",
       n2: "nekhla",
       n3: "nakhla",
@@ -35191,6 +37537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "42af315b",
       n1: "fakhour",
       n2: "fakhor",
       n3: "fa5our",
@@ -35206,6 +37553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "735dcc51",
       n1: "lyom",
       n2: "lioma",
       n3: "liom",
@@ -35221,6 +37569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b612a4e",
       n1: "ghdda",
       n2: "gheda",
       n3: "ghada",
@@ -35236,6 +37585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe8b1a33",
       n1: "namousia",
       n2: null,
       n3: null,
@@ -35251,6 +37601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54e1801d",
       n1: "Se8d",
       n2: "Sa8d",
       n3: "Sahd",
@@ -35266,6 +37617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9728d93",
       n1: "3aada",
       n2: "3ada",
       n3: null,
@@ -35281,6 +37633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e430e12",
       n1: "ntikhabat",
       n2: "intikhabat",
       n3: "inti5abat",
@@ -35296,6 +37649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e08280ae",
       n1: "brlaman",
       n2: "barlaman",
       n3: "barlamane",
@@ -35311,6 +37665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c325db4a",
       n1: "malik",
       n2: null,
       n3: null,
@@ -35326,6 +37681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2912f0d",
       n1: "wzir",
       n2: "wazir",
       n3: null,
@@ -35341,6 +37697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fe589ba",
       n1: "brlamani",
       n2: null,
       n3: null,
@@ -35356,6 +37713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "099cd94c",
       n1: "gdd",
       n2: null,
       n3: null,
@@ -35371,6 +37729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f8d455c",
       n1: "ktichaf",
       n2: null,
       n3: null,
@@ -35386,6 +37745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f1e72a8",
       n1: "chi haja",
       n2: null,
       n3: null,
@@ -35401,6 +37761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0124e663",
       n1: "chaark",
       n2: "chark",
       n3: null,
@@ -35416,6 +37777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f8cf940",
       n1: "Sa7b",
       n2: "Sahb",
       n3: null,
@@ -35431,6 +37793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48a64537",
       n1: "3chir",
       n2: "3cher",
       n3: "aachir",
@@ -35446,6 +37809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "241c2456",
       n1: "Sa7bi",
       n2: "Sahbi",
       n3: null,
@@ -35461,6 +37825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aec36381",
       n1: "3chiri",
       n2: "aachiri",
       n3: null,
@@ -35476,6 +37841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48a22684",
       n1: "marchi",
       n2: null,
       n3: null,
@@ -35491,6 +37857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26395261",
       n1: "frassi",
       n2: "frasi",
       n3: null,
@@ -35506,6 +37873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5529851",
       n1: "frask",
       n2: "frasek",
       n3: "frassek",
@@ -35521,6 +37889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff512c7c",
       n1: "ta3",
       n2: "nta3",
       n3: null,
@@ -35536,6 +37905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45d60f14",
       n1: "dyal",
       n2: "dial",
       n3: "diyal",
@@ -35551,6 +37921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fba824c8",
       n1: "khlaS",
       n2: "5laS",
       n3: null,
@@ -35566,6 +37937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "91d8876d",
       n1: "nhar",
       n2: "n8ar",
       n3: null,
@@ -35581,6 +37953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d794ce2",
       n1: "7arb",
       n2: "harb",
       n3: "7erb",
@@ -35596,6 +37969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f1ef6d2",
       n1: "7bs",
       n2: "7abs",
       n3: "7ebs",
@@ -35611,6 +37985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "259befa8",
       n1: "7bbas",
       n2: "habbas",
       n3: "hebbas",
@@ -35626,6 +38001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ce89f26",
       n1: "jarima",
       n2: null,
       n3: null,
@@ -35641,6 +38017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c11a1c44",
       n1: "frdi",
       n2: "ferdi",
       n3: "fardi",
@@ -35656,6 +38033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7816b182",
       n1: "mk7la",
       n2: "mok7la",
       n3: null,
@@ -35671,6 +38049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc35f8f1",
       n1: "9rtas",
       n2: "9artas",
       n3: "qartass",
@@ -35686,6 +38065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87ec19d3",
       n1: "mous",
       n2: null,
       n3: null,
@@ -35701,6 +38081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fa17e76",
       n1: "m3il9a",
       n2: null,
       n3: null,
@@ -35716,6 +38097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "37002602",
       n1: "3ach9a",
       n2: null,
       n3: null,
@@ -35731,6 +38113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a18f2cd",
       n1: "frchiTa",
       n2: "forchita",
       n3: "forchiTa",
@@ -35746,6 +38129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f5baca6",
       n1: "biro",
       n2: "lbiro",
       n3: null,
@@ -35761,6 +38145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26d05591",
       n1: "chrjm",
       n2: "cherjem",
       n3: "charjam",
@@ -35776,6 +38161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "988c8979",
       n1: "jar",
       n2: null,
       n3: null,
@@ -35791,6 +38177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f73f150",
       n1: "jiran",
       n2: null,
       n3: null,
@@ -35806,6 +38193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19083669",
       n1: "fya9",
       n2: "fia9",
       n3: "fiaq",
@@ -35821,6 +38209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dad2577a",
       n1: "Sda3",
       n2: null,
       n3: null,
@@ -35836,6 +38225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c7f46a7",
       n1: "tanffos",
       n2: null,
       n3: null,
@@ -35851,6 +38241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3df9307",
       n1: "7araka",
       n2: "haraka",
       n3: null,
@@ -35866,6 +38257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b62abcfd",
       n1: "wo9ouf",
       n2: "woqof",
       n3: "wo9of",
@@ -35881,6 +38273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83a9c1ba",
       n1: "t7m7ima",
       n2: "t7am7ima",
       n3: "thamhima",
@@ -35896,6 +38289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f088c93",
       n1: "7mmam",
       n2: "hammam",
       n3: null,
@@ -35911,6 +38305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1135067",
       n1: "bitn3as",
       n2: "bit nn3as",
       n3: "bit n3as",
@@ -35926,6 +38321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d26f93d",
       n1: "kouzina",
       n2: "kozina",
       n3: null,
@@ -35941,6 +38337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c199dd6",
       n1: "Twalit",
       n2: "Twalet",
       n3: null,
@@ -35956,6 +38353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d857651a",
       n1: "trikko",
       n2: "triko",
       n3: null,
@@ -35971,6 +38369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2ecd144",
       n1: "nDadr",
       n2: "nDader",
       n3: null,
@@ -35986,6 +38385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5dc72152",
       n1: "3amalia",
       n2: null,
       n3: null,
@@ -36001,6 +38401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1b620b0",
       n1: "3amaliat",
       n2: null,
       n3: null,
@@ -36016,6 +38417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4392a1b3",
       n1: "Tibibt",
       n2: null,
       n3: null,
@@ -36031,6 +38433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7d8e889",
       n1: "Sa7afa",
       n2: null,
       n3: null,
@@ -36046,6 +38449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53cc71d8",
       n1: "mSdar",
       n2: "maSdar",
       n3: null,
@@ -36061,6 +38465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae0f46d3",
       n1: "mnb3",
       n2: "manba3",
       n3: "manbaa",
@@ -36076,6 +38481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef06cf77",
       n1: "3adawa",
       n2: null,
       n3: null,
@@ -36091,6 +38497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c4f6338",
       n1: "3onf",
       n2: "3ounf",
       n3: null,
@@ -36106,6 +38513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cde91a0",
       n1: "mamlaka",
       n2: "memlaka",
       n3: null,
@@ -36121,6 +38529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27752d01",
       n1: "jomhoria",
       n2: "jom8oria",
       n3: "jomhorya",
@@ -36136,6 +38545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84881d98",
       n1: "jm8or",
       n2: "jom8our",
       n3: "jomhor",
@@ -36151,6 +38561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "621d9022",
       n1: "mowatin",
       n2: null,
       n3: null,
@@ -36166,6 +38577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d2071be",
       n1: "tsrkila",
       n2: null,
       n3: null,
@@ -36181,6 +38593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "525406f1",
       n1: "mosta9ill",
       n2: "mosta9il",
       n3: "mostaqill",
@@ -36196,6 +38609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5383aea2",
       n1: "3skr",
       n2: "3askar",
       n3: "3esker",
@@ -36211,6 +38625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e5ab2df",
       n1: "3arabia",
       n2: "l3arabia",
       n3: null,
@@ -36226,6 +38641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e375c7fd",
       n1: "ni9ach",
       n2: "niqach",
       n3: null,
@@ -36241,6 +38657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6f2d394",
       n1: "mzian",
       n2: "mezian",
       n3: "mziane",
@@ -36256,6 +38673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2d345dd",
       n1: "moSala7a",
       n2: "moSalaha",
       n3: null,
@@ -36271,6 +38689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26d37cf5",
       n1: "rafD",
       n2: null,
       n3: null,
@@ -36286,6 +38705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9cb1eb35",
       n1: "khibra",
       n2: "5ibra",
       n3: null,
@@ -36301,6 +38721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54363c92",
       n1: "ljna",
       n2: "lajna",
       n3: "lejna",
@@ -36316,6 +38737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "405a24e7",
       n1: "dawla",
       n2: "doula",
       n3: null,
@@ -36331,6 +38753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85fb69d7",
       n1: "7o9o9",
       n2: "7o9ou9",
       n3: "hoqouq",
@@ -36346,6 +38769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eaddf4da",
       n1: "7e99",
       n2: "7a9",
       n3: "7e9",
@@ -36361,6 +38785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb73e484",
       n1: "9owwa",
       n2: "qowa",
       n3: "9oaw",
@@ -36376,6 +38801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "624373e4",
       n1: "Tbsil",
       n2: "Tabsil",
       n3: "Tebsil",
@@ -36391,6 +38817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4878cc59",
       n1: "mma3n",
       n2: "mmwa3n",
       n3: "mma3en",
@@ -36406,6 +38833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c6f6217",
       n1: "clim",
       n2: "laclim",
       n3: "laklim",
@@ -36421,6 +38849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9ebab03",
       n1: "mochkil",
       n2: "mouchkil",
       n3: null,
@@ -36436,6 +38865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2ee7b61",
       n1: "tsalim",
       n2: null,
       n3: null,
@@ -36451,6 +38881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c92214e1",
       n1: "l8ja",
       n2: "le8ja",
       n3: "la8ja",
@@ -36466,6 +38897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6f74816",
       n1: "ksida",
       n2: null,
       n3: null,
@@ -36481,6 +38913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ce0a315",
       n1: "Tyyara",
       n2: "Teyyara",
       n3: null,
@@ -36496,6 +38929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0d1dd3a",
       n1: "faDa2i",
       n2: null,
       n3: null,
@@ -36511,6 +38945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ffc46c6",
       n1: "moghamara",
       n2: null,
       n3: null,
@@ -36526,6 +38961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb53ac42",
       n1: "naSi7a",
       n2: null,
       n3: null,
@@ -36541,6 +38977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0eb486e",
       n1: "atar",
       n2: "2atar",
       n3: null,
@@ -36556,6 +38993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "307ac710",
       n1: "3mr",
       n2: "3omor",
       n3: null,
@@ -36571,6 +39009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98151ab6",
       n1: "lanTir",
       n2: null,
       n3: null,
@@ -36586,6 +39025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18efd35c",
       n1: "fas",
       n2: null,
       n3: null,
@@ -36601,6 +39041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e86b3d4",
       n1: "nffakha",
       n2: "neffakha",
       n3: "naffa5a",
@@ -36616,6 +39057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a22c0e0",
       n1: "taSrrof",
       n2: "taSarrof",
       n3: "taSarrouf",
@@ -36631,6 +39073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b72a9049",
       n1: "SoniT",
       n2: null,
       n3: null,
@@ -36646,6 +39089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89361bf8",
       n1: "a7san",
       n2: "ahsan",
       n3: null,
@@ -36661,6 +39105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "851d66c0",
       n1: "wlada",
       n2: "oulada",
       n3: null,
@@ -36676,6 +39121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "644f5ff0",
       n1: "mout",
       n2: "mawt",
       n3: "maout",
@@ -36691,6 +39137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97efce12",
       n1: "wafat",
       n2: "wafaat",
       n3: null,
@@ -36706,6 +39153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f857e39",
       n1: "3idmilad",
       n2: "3id milad",
       n3: null,
@@ -36721,6 +39169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79b70ddb",
       n1: "3id",
       n2: null,
       n3: null,
@@ -36736,6 +39185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75370494",
       n1: "3DDa",
       n2: "3aDDa",
       n3: "3eDDa",
@@ -36751,6 +39201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea434739",
       n1: "mlaya",
       n2: null,
       n3: null,
@@ -36766,6 +39217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "749199bb",
       n1: "manTa",
       n2: null,
       n3: null,
@@ -36781,6 +39233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fca8425a",
       n1: "ghTa",
       n2: null,
       n3: null,
@@ -36796,6 +39249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "687d7238",
       n1: "sTl",
       n2: "sTal",
       n3: "sTel",
@@ -36811,6 +39265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0788788",
       n1: "nchoufouk",
       n2: "nchofok",
       n3: null,
@@ -36826,6 +39281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e445bbab",
       n1: "gardkor",
       n2: "gardkour",
       n3: null,
@@ -36841,6 +39297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14216e63",
       n1: "chaff",
       n2: "chef",
       n3: null,
@@ -36856,6 +39313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad2828c6",
       n1: "Sndo9",
       n2: "Sandou9",
       n3: "Sndou9",
@@ -36871,6 +39329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7580ac2f",
       n1: "flouka",
       n2: "floka",
       n3: null,
@@ -36886,6 +39345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cfc24eb",
       n1: "smia",
       n2: "smya",
       n3: "smyya",
@@ -36901,6 +39361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fe8ed35",
       n1: "knia",
       n2: "knya",
       n3: "knyya",
@@ -36916,6 +39377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a390a0b",
       n1: "sabab",
       n2: null,
       n3: null,
@@ -36931,6 +39393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3d3918a",
       n1: "tlfaza",
       n2: "telfaza",
       n3: null,
@@ -36946,6 +39409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b82fba3f",
       n1: "3om9",
       n2: "3oum9",
       n3: "3omq",
@@ -36961,6 +39425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae304530",
       n1: "tghyir",
       n2: "taghyir",
       n3: "teghyir",
@@ -36976,6 +39441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b7c1a74",
       n1: "khTwa",
       n2: "khoTwa",
       n3: "5Twa",
@@ -36991,6 +39457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8639a6ec",
       n1: "Tari9a",
       n2: "Tariqa",
       n3: null,
@@ -37006,6 +39473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19e94da3",
       n1: "Tri9",
       n2: "Triq",
       n3: null,
@@ -37021,6 +39489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bd704a4",
       n1: "bidaya",
       n2: null,
       n3: null,
@@ -37036,6 +39505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54115f49",
       n1: "ni8aya",
       n2: "nihaya",
       n3: null,
@@ -37051,6 +39521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "efdcc429",
       n1: "9iSSa",
       n2: "9isa",
       n3: "qissa",
@@ -37066,6 +39537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4025d74",
       n1: "mnchar",
       n2: "menchar",
       n3: "manchar",
@@ -37081,6 +39553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e1b4e57",
       n1: "Sara7a",
       n2: null,
       n3: null,
@@ -37096,6 +39569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b713303",
       n1: "mital",
       n2: null,
       n3: null,
@@ -37111,6 +39585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b0ac089",
       n1: "3alama",
       n2: null,
       n3: null,
@@ -37126,6 +39601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de1325de",
       n1: "bka",
       n2: null,
       n3: null,
@@ -37141,6 +39617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76e12258",
       n1: "mSla7a",
       n2: "meSla7a",
       n3: "maSla7a",
@@ -37156,6 +39633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1853b3b",
       n1: "safar",
       n2: null,
       n3: null,
@@ -37171,6 +39649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0dcb729b",
       n1: "bachar",
       n2: null,
       n3: null,
@@ -37186,6 +39665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2245b291",
       n1: "mDarba",
       n2: null,
       n3: null,
@@ -37201,6 +39681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4f7f62d",
       n1: "mdabza",
       n2: null,
       n3: null,
@@ -37216,6 +39697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f128fbde",
       n1: "mTayfa",
       n2: null,
       n3: null,
@@ -37231,6 +39713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1b45fb8",
       n1: "Trf",
       n2: "Tarf",
       n3: "Terf",
@@ -37246,6 +39729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "922b92ca",
       n1: "7iT",
       n2: "7ayT",
       n3: "7eT",
@@ -37261,6 +39745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f67a9db",
       n1: "maw9if",
       n2: "mou9if",
       n3: null,
@@ -37276,6 +39761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6915626e",
       n1: "armala",
       n2: null,
       n3: null,
@@ -37291,6 +39777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "741a3d8e",
       n1: "7kma",
       n2: "7ikma",
       n3: null,
@@ -37306,6 +39793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae2ea7ca",
       n1: "mtla",
       n2: null,
       n3: null,
@@ -37321,6 +39809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5102478",
       n1: "dakar",
       n2: null,
       n3: null,
@@ -37336,6 +39825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51815b70",
       n1: "ounta",
       n2: null,
       n3: null,
@@ -37351,6 +39841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d51e408",
       n1: "ri7la",
       n2: "rihla",
       n3: null,
@@ -37366,6 +39857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7ab6917",
       n1: "rmz",
       n2: "ramz",
       n3: "remz",
@@ -37381,6 +39873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "968b18e9",
       n1: "7aala",
       n2: "7ala",
       n3: "hala",
@@ -37396,6 +39889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc5eedc2",
       n1: "sarout",
       n2: "sarot",
       n3: null,
@@ -37411,6 +39905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e9c686cf",
       n1: "vilaj",
       n2: null,
       n3: null,
@@ -37426,6 +39921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a88acbda",
       n1: "nou3",
       n2: "naw3",
       n3: "now3",
@@ -37441,6 +39937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "810a9c0f",
       n1: "9anoun",
       n2: "9anon",
       n3: "qanon",
@@ -37456,6 +39953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5052727",
       n1: "9yma",
       n2: "9ima",
       n3: "qima",
@@ -37471,6 +39969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "150c937b",
       n1: "m3na",
       n2: "me3na",
       n3: "ma3na",
@@ -37486,6 +39985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd006059",
       n1: "khaTar",
       n2: "5aTar",
       n3: null,
@@ -37501,6 +40001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50e9cd8d",
       n1: "3skri",
       n2: "3askri",
       n3: "3eskri",
@@ -37516,6 +40017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5447d5e0",
       n1: "skka",
       n2: "sekka",
       n3: null,
@@ -37531,6 +40033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "794ffbb6",
       n1: "t9lab",
       n2: "te9lab",
       n3: "taqlab",
@@ -37546,6 +40049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "430be90b",
       n1: "ttiSal",
       n2: "ittiSal",
       n3: null,
@@ -37561,6 +40065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca37bbef",
       n1: "mokalama",
       n2: "mokaalama",
       n3: null,
@@ -37576,6 +40081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db273303",
       n1: "3adow",
       n2: "3dow",
       n3: "3do",
@@ -37591,6 +40097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b62d8df0",
       n1: "dkhan",
       n2: "dokhan",
       n3: "d55an",
@@ -37606,6 +40113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "35c99c4e",
       n1: "bokhar",
       n2: "boukhar",
       n3: "bo5ar",
@@ -37621,6 +40129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "adc8378b",
       n1: "masar",
       n2: "masaar",
       n3: null,
@@ -37636,6 +40145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f5885c1",
       n1: "7lma",
       n2: "7elma",
       n3: "7alma",
@@ -37651,6 +40161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a38253b2",
       n1: "DDoble",
       n2: "Doble",
       n3: null,
@@ -37666,6 +40177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "05299778",
       n1: "mokhyyam",
       n2: "mo5yam",
       n3: "mokhayyam",
@@ -37681,6 +40193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b583c02",
       n1: "kamio",
       n2: "camio",
       n3: null,
@@ -37696,6 +40209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6a12a1a",
       n1: "iTaj",
       n2: "eTaj",
       n3: "Taj",
@@ -37711,6 +40225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d9c9233",
       n1: "bab",
       n2: null,
       n3: null,
@@ -37726,6 +40241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64f467ff",
       n1: "s9f",
       n2: "s9ef",
       n3: "sa9f",
@@ -37741,6 +40257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b015a0ee",
       n1: "STa7",
       n2: null,
       n3: null,
@@ -37756,6 +40273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b727edd",
       n1: "sansour",
       n2: "sansor",
       n3: null,
@@ -37771,6 +40289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5ff0cef",
       n1: "banko",
       n2: "balko",
       n3: "balcon",
@@ -37786,6 +40305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfdb9790",
       n1: "frach",
       n2: null,
       n3: null,
@@ -37801,6 +40321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2afd5dad",
       n1: "khamia",
       n2: "5amia",
       n3: null,
@@ -37816,6 +40337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c792026d",
       n1: "tilikomond",
       n2: "telekomond",
       n3: null,
@@ -37831,6 +40353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cb0a234",
       n1: "BoLa",
       n2: null,
       n3: null,
@@ -37846,6 +40369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26173f00",
       n1: "DDo",
       n2: "Do",
       n3: null,
@@ -37861,6 +40385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32375572",
       n1: "zrbia",
       n2: "zerbia",
       n3: "zarbia",
@@ -37876,6 +40401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dde40cc3",
       n1: "brika",
       n2: null,
       n3: null,
@@ -37891,6 +40417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14b2d788",
       n1: "chTTaba",
       n2: "cheTTaba",
       n3: "chaTTaba",
@@ -37906,6 +40433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "539518b0",
       n1: "mkhdda",
       n2: "mkhadda",
       n3: "mkhedda",
@@ -37921,6 +40449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2d66ecf",
       n1: "mraya",
       n2: "meraya",
       n3: "maraya",
@@ -37936,6 +40465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e1e8887",
       n1: "mchTa",
       n2: "machTa",
       n3: "mechTa",
@@ -37951,6 +40481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffe52d0c",
       n1: "douch",
       n2: null,
       n3: null,
@@ -37966,6 +40497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f576e514",
       n1: "kabina",
       n2: null,
       n3: null,
@@ -37981,6 +40513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b4ace4b",
       n1: "papijinik",
       n2: null,
       n3: null,
@@ -37996,6 +40529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "526713bf",
       n1: "lavabo",
       n2: null,
       n3: null,
@@ -38011,6 +40545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0349cdf9",
       n1: "foTa",
       n2: "fouTa",
       n3: null,
@@ -38026,6 +40561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4985e146",
       n1: "Sabon",
       n2: "Sabona",
       n3: null,
@@ -38041,6 +40577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b93cc7d5",
       n1: "tllaja",
       n2: "tellaja",
       n3: "tallaja",
@@ -38056,6 +40593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b5ee2a9",
       n1: "frran",
       n2: "farran",
       n3: "ferran",
@@ -38071,6 +40609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3454e852",
       n1: "mTr9a",
       n2: "mTar9a",
       n3: "mTir9a",
@@ -38086,6 +40625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3acbe66d",
       n1: "msmar",
       n2: "masmar",
       n3: "mesmar",
@@ -38101,6 +40641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ee984a4",
       n1: "dodan",
       n2: null,
       n3: null,
@@ -38116,6 +40657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7bd9e6a",
       n1: "Srb",
       n2: "Serb",
       n3: "Sarb",
@@ -38131,6 +40673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d1d42fa",
       n1: "z7am",
       n2: "zz7am",
       n3: null,
@@ -38146,6 +40689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9faa0ce3",
       n1: "rwina",
       n2: "rwena",
       n3: "rouina",
@@ -38161,6 +40705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2abeee4",
       n1: "zbl",
       n2: "zbel",
       n3: "zbal",
@@ -38176,6 +40721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "221ee687",
       n1: "rwiDa",
       n2: "rweDa",
       n3: "rouiDa",
@@ -38191,6 +40737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a17ad3a",
       n1: "fran",
       n2: null,
       n3: null,
@@ -38206,6 +40753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "254543ab",
       n1: "pirmi",
       n2: "ppirmi",
       n3: null,
@@ -38221,6 +40769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f63c050",
       n1: "chifor",
       n2: "chifour",
       n3: null,
@@ -38236,6 +40785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c576337",
       n1: "zyara",
       n2: "ziara",
       n3: null,
@@ -38251,6 +40801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ee5286a",
       n1: "dmou3",
       n2: "dmo3",
       n3: null,
@@ -38266,6 +40817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2863f1e",
       n1: "nas",
       n2: "nnas",
       n3: "nass",
@@ -38281,6 +40833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "334fbefd",
       n1: "7ayat",
       n2: "hayat",
       n3: null,
@@ -38296,6 +40849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a4ba2ad",
       n1: "mora8i9",
       n2: "moraa8i9",
       n3: null,
@@ -38311,6 +40865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4acde75b",
       n1: "chabb",
       n2: "chaabb",
       n3: "chaab",
@@ -38326,6 +40881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2db2d1a8",
       n1: "chabab",
       n2: "chabaab",
       n3: null,
@@ -38341,6 +40897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f217393",
       n1: "rajl",
       n2: null,
       n3: null,
@@ -38356,6 +40913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59b5cb59",
       n1: "mra",
       n2: null,
       n3: null,
@@ -38371,6 +40929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eaead2d5",
       n1: "rjal",
       n2: null,
       n3: null,
@@ -38386,6 +40945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a06b008",
       n1: "3yalat",
       n2: "3ialat",
       n3: null,
@@ -38401,6 +40961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c527348",
       n1: "twam",
       n2: "twama",
       n3: null,
@@ -38416,6 +40977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92fc9563",
       n1: "3rs",
       n2: "3ers",
       n3: "3ars",
@@ -38431,6 +40993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3473040b",
       n1: "Sda9",
       n2: "Sdaa9",
       n3: null,
@@ -38446,6 +41009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3c698d5",
       n1: "khaTiba",
       n2: "5aTyba",
       n3: "5aTiba",
@@ -38461,6 +41025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b768d85",
       n1: "3rousa",
       n2: "3rosa",
       n3: null,
@@ -38476,6 +41041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0b50649",
       n1: "Tla9",
       n2: "Tala9",
       n3: "Tlaq",
@@ -38491,6 +41057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90a1fb57",
       n1: "mojtama3",
       n2: null,
       n3: null,
@@ -38506,6 +41073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dee57aaf",
       n1: "7aDara",
       n2: "haDara",
       n3: null,
@@ -38521,6 +41089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee9b49e0",
       n1: "9bila",
       n2: "qbila",
       n3: "9abila",
@@ -38536,6 +41105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88cf592a",
       n1: "moraja3a",
       n2: null,
       n3: null,
@@ -38551,6 +41121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40a19d5e",
       n1: "8owia",
       n2: "8owyya",
       n3: "8owya",
@@ -38566,6 +41137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "956774cf",
       n1: "tSri7",
       n2: "taSri7",
       n3: "teSri7",
@@ -38581,6 +41153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06f7bd23",
       n1: "i3lan",
       n2: null,
       n3: null,
@@ -38596,6 +41169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a33556da",
       n1: "9arar",
       n2: "qarar",
       n3: null,
@@ -38611,6 +41185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d9cd3ab",
       n1: "3aryDa",
       n2: "3ariDa",
       n3: null,
@@ -38626,6 +41201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c204e1a",
       n1: "mobaadara",
       n2: "mobadara",
       n3: null,
@@ -38641,6 +41217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dce144c5",
       n1: "9tira7",
       n2: "i9tira7",
       n3: null,
@@ -38656,6 +41233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f21f38a",
       n1: "khoTTa",
       n2: "5oTTa",
       n3: null,
@@ -38671,6 +41249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d78b9c0c",
       n1: "khtiar",
       n2: "khtyar",
       n3: "ikhtiar",
@@ -38686,6 +41265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4031fc91",
       n1: "SaDaa9a",
       n2: "SaDaaqa",
       n3: null,
@@ -38701,6 +41281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf17b400",
       n1: "SaDa9a",
       n2: "SaDaqa",
       n3: null,
@@ -38716,6 +41297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4652c1d",
       n1: "moSiba",
       n2: "moSyba",
       n3: null,
@@ -38731,6 +41313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c08a455",
       n1: "karita",
       n2: "kaarita",
       n3: null,
@@ -38746,6 +41329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "570d7d08",
       n1: "mo8imma",
       n2: null,
       n3: null,
@@ -38761,6 +41345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "928e8f05",
       n1: "kha2in",
       n2: "khaa2in",
       n3: "5aa2in",
@@ -38776,6 +41361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0759df3c",
       n1: "ir8ab",
       n2: "ir8aab",
       n3: null,
@@ -38791,6 +41377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82753ca3",
       n1: "Daroura",
       n2: "Darora",
       n3: null,
@@ -38806,6 +41393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "447b4011",
       n1: "maw8iba",
       n2: "mo8iba",
       n3: null,
@@ -38821,6 +41409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52270f6b",
       n1: "3o9oba",
       n2: "3o9ouba",
       n3: null,
@@ -38836,6 +41425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e99607e8",
       n1: "ra8ina",
       n2: null,
       n3: null,
@@ -38851,6 +41441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b7c16d2",
       n1: "imkania",
       n2: "imkaania",
       n3: null,
@@ -38866,6 +41457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9bfe210",
       n1: "7timal",
       n2: "i7timal",
       n3: null,
@@ -38881,6 +41473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46e6fa38",
       n1: "mr7ala",
       n2: "mer7ala",
       n3: "mar7ala",
@@ -38896,6 +41489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de050a99",
       n1: "39lia",
       n2: "39lya",
       n3: null,
@@ -38911,6 +41505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "705d2ee8",
       n1: "khl3a",
       n2: "khel3a",
       n3: "5l3a",
@@ -38926,6 +41521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f63c132",
       n1: "miSda9ia",
       n2: "miSdaa9ia",
       n3: "miSdaaqia",
@@ -38941,6 +41537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a010836",
       n1: "som3a",
       n2: "soum3a",
       n3: null,
@@ -38956,6 +41553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "027e3854",
       n1: "m3nawiat",
       n2: "m3nawyat",
       n3: null,
@@ -38971,6 +41569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "373e5cd7",
       n1: "wa3y",
       n2: null,
       n3: null,
@@ -38986,6 +41585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f327f4ce",
       n1: "tchwi8",
       n2: "tchwy8",
       n3: null,
@@ -39001,6 +41601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e40bf04",
       n1: "mzyya",
       n2: "mzia",
       n3: "mzya",
@@ -39016,6 +41617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0dd2a18",
       n1: "fayda",
       n2: "fa2ida",
       n3: null,
@@ -39031,6 +41633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62494258",
       n1: "rb7",
       n2: "rbe7",
       n3: "rba7",
@@ -39046,6 +41649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad5b4f73",
       n1: "nf3",
       n2: "nfe3",
       n3: "nfa3",
@@ -39061,6 +41665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68fdf5be",
       n1: "kimmia",
       n2: "kimmyya",
       n3: "kimmya",
@@ -39076,6 +41681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03f05e03",
       n1: "fkh",
       n2: "f55",
       n3: "fa55",
@@ -39091,6 +41697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81ae610e",
       n1: "tnsi9",
       n2: "tansi9",
       n3: "tnsy9",
@@ -39106,6 +41713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5449c073",
       n1: "nachaaT",
       n2: null,
       n3: null,
@@ -39121,6 +41729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5db5f54c",
       n1: "Da7yya",
       n2: "Da7ya",
       n3: null,
@@ -39136,6 +41745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "316d4063",
       n1: "motta8am",
       n2: null,
       n3: null,
@@ -39151,6 +41761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d620e884",
       n1: "3ti9al",
       n2: "3tiqal",
       n3: "i3ti9al",
@@ -39166,6 +41777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1378a9e1",
       n1: "3tiraf",
       n2: "i3tiraf",
       n3: "3tiraaf",
@@ -39181,6 +41793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43d347e4",
       n1: "mo7akama",
       n2: "mo7aakama",
       n3: "mohakama",
@@ -39196,6 +41809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a05bc1ac",
       n1: "cha8id",
       n2: "chaa8id",
       n3: "chahid",
@@ -39211,6 +41825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dafa16a9",
       n1: "dalil",
       n2: "dalyl",
       n3: null,
@@ -39226,6 +41841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4a7193f",
       n1: "modnib",
       n2: null,
       n3: null,
@@ -39241,6 +41857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8e23b39",
       n1: "bari2",
       n2: "bary2",
       n3: null,
@@ -39256,6 +41873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca3c2168",
       n1: "chfra",
       n2: "chefra",
       n3: "chafra",
@@ -39271,6 +41889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d16285f6",
       n1: "grisaj",
       n2: "grissaj",
       n3: null,
@@ -39286,6 +41905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1bd414d4",
       n1: "sr9a",
       n2: "srqa",
       n3: "ser9a",
@@ -39301,6 +41921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "deb15e3a",
       n1: "ladrog",
       n2: null,
       n3: null,
@@ -39316,6 +41937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33fccc7b",
       n1: "ghtiSab",
       n2: "ightiSab",
       n3: "ghtissab",
@@ -39331,6 +41953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd0a2f7f",
       n1: "9tila",
       n2: "qtila",
       n3: null,
@@ -39346,6 +41969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ff7bf54",
       n1: "rchwa",
       n2: "rechwa",
       n3: "rachwa",
@@ -39361,6 +41985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "faee80bf",
       n1: "7tyal",
       n2: "7tial",
       n3: "i7tial",
@@ -39376,6 +42001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c453504",
       n1: "7okm",
       n2: "7oukm",
       n3: "hokm",
@@ -39391,6 +42017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "17d00efb",
       n1: "i3dam",
       n2: null,
       n3: null,
@@ -39406,6 +42033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32557407",
       n1: "chn9",
       n2: "chen9",
       n3: "chan9",
@@ -39421,6 +42049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8520849a",
       n1: "snsla",
       n2: "sensla",
       n3: "selsla",
@@ -39436,6 +42065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97c7baa9",
       n1: "7okoma",
       n2: "7okouma",
       n3: "hokouma",
@@ -39451,6 +42081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68fc5ef0",
       n1: "syasa",
       n2: "siasa",
       n3: "siassa",
@@ -39466,6 +42097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8c4ae31",
       n1: "7izb",
       n2: "hizb",
       n3: null,
@@ -39481,6 +42113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd9dec3a",
       n1: "7rrag",
       n2: "7errag",
       n3: "7arrag",
@@ -39496,6 +42129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "067db289",
       n1: "mo8ajir",
       n2: null,
       n3: null,
@@ -39511,6 +42145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3c14ff6",
       n1: "sti3mar",
       n2: "isti3mar",
       n3: null,
@@ -39526,6 +42161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fca95c2",
       n1: "3omda",
       n2: "3oumda",
       n3: null,
@@ -39541,6 +42177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96b94b8f",
       n1: "amir",
       n2: "amyr",
       n3: null,
@@ -39556,6 +42193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7dbdf6d5",
       n1: "wfd",
       n2: "wefd",
       n3: "wafd",
@@ -39571,6 +42209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92acb111",
       n1: "jm3ia",
       n2: "jm3ya",
       n3: "jam3ia",
@@ -39586,6 +42225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "835de389",
       n1: "wizara",
       n2: null,
       n3: null,
@@ -39601,6 +42241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3692a7cd",
       n1: "chi3ar",
       n2: "chi3aar",
       n3: null,
@@ -39616,6 +42257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddf63fbe",
       n1: "ra2y",
       n2: null,
       n3: null,
@@ -39631,6 +42273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8791621f",
       n1: "nSS",
       n2: "neSS",
       n3: "naSS",
@@ -39646,6 +42289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ea64a18",
       n1: "fasad",
       n2: "fassad",
       n3: "fasaad",
@@ -39661,6 +42305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf45f140",
       n1: "amn",
       n2: "aman",
       n3: "2amn",
@@ -39676,6 +42321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c85de03f",
       n1: "salama",
       n2: "salaama",
       n3: null,
@@ -39691,6 +42337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "301961e4",
       n1: "7imaya",
       n2: null,
       n3: null,
@@ -39706,6 +42353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23b41e34",
       n1: "mosawat",
       n2: "mosaawaat",
       n3: "mosaawat",
@@ -39721,6 +42369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "428ce858",
       n1: "sti9lal",
       n2: "isti9lal",
       n3: null,
@@ -39736,6 +42385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78b23ad9",
       n1: "syada",
       n2: "siada",
       n3: null,
@@ -39751,6 +42401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0df7a018",
       n1: "3adaala",
       n2: null,
       n3: null,
@@ -39766,6 +42417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00a4b067",
       n1: "tasamo7",
       n2: "tasaamo7",
       n3: null,
@@ -39781,6 +42433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9cfd77f",
       n1: "ta3ayouch",
       n2: "ta3ayoch",
       n3: null,
@@ -39796,6 +42449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff81ada1",
       n1: "7orria",
       n2: "7orrya",
       n3: null,
@@ -39811,6 +42465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22940988",
       n1: "karama",
       n2: "karaama",
       n3: null,
@@ -39826,6 +42481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dfb27810",
       n1: "Damir",
       n2: "Damyr",
       n3: null,
@@ -39841,6 +42497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9d875a2",
       n1: "mbde2",
       n2: "mabda2",
       n3: "mebde2",
@@ -39856,6 +42513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ffdd18b",
       n1: "akhla9",
       n2: "a5la9",
       n3: null,
@@ -39871,6 +42529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4219f7fa",
       n1: "mi3yar",
       n2: "mi3iar",
       n3: null,
@@ -39886,6 +42545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06c54adc",
       n1: "m3your",
       n2: "m3yor",
       n3: "me3your",
@@ -39901,6 +42561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b500f7f",
       n1: "Dolm",
       n2: null,
       n3: null,
@@ -39916,6 +42577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7af78b50",
       n1: "9m3",
       n2: "9em3",
       n3: "9am3",
@@ -39931,6 +42593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "643a4c86",
       n1: "tmyiz",
       n2: "tamyiz",
       n3: "temyiz",
@@ -39946,6 +42609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb5d67fd",
       n1: "3onSoria",
       n2: null,
       n3: null,
@@ -39961,6 +42625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9692f591",
       n1: "t3dib",
       n2: "t3dyb",
       n3: "ta3dib",
@@ -39976,6 +42641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b84ee007",
       n1: "mjzara",
       n2: "mejzara",
       n3: "majzara",
@@ -39991,6 +42657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a32d2bc",
       n1: "mdba7a",
       n2: "medba7a",
       n3: "madba7a",
@@ -40006,6 +42673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97ea7dae",
       n1: "ibada",
       n2: "ibaada",
       n3: null,
@@ -40021,6 +42689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc4648a1",
       n1: "da3ara",
       n2: "da3aara",
       n3: null,
@@ -40036,6 +42705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e13db66",
       n1: "nggan",
       n2: "neggan",
       n3: "noggan",
@@ -40051,6 +42721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ee54b54",
       n1: "3oboudia",
       n2: "3obodia",
       n3: null,
@@ -40066,6 +42737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "656c1a4a",
       n1: "n9ilab",
       n2: "in9ilab",
       n3: null,
@@ -40081,6 +42753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae4ed8b2",
       n1: "Sira3",
       n2: "Sera3",
       n3: "Siraa3",
@@ -40096,6 +42769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2531fd9f",
       n1: "mo9awama",
       n2: "mo9aawama",
       n3: "moqawama",
@@ -40111,6 +42785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7fd54f4",
       n1: "7tilal",
       n2: "i7tilal",
       n3: "7tilaal",
@@ -40126,6 +42801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b2bbffb",
       n1: "sla7",
       n2: null,
       n3: null,
@@ -40141,6 +42817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9579d3d7",
       n1: "sif",
       n2: "syf",
       n3: "sayf",
@@ -40156,6 +42833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55407e42",
       n1: "8rawa",
       n2: "hrawa",
       n3: null,
@@ -40171,6 +42849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cffa4d94",
       n1: "nawawi",
       n2: "nnawani",
       n3: null,
@@ -40186,6 +42865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97a92b07",
       n1: "9nbola",
       n2: "9nboula",
       n3: "9anbola",
@@ -40201,6 +42881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec2d542d",
       n1: "tfrgi3",
       n2: "tfergui3",
       n3: "tfargi3a",
@@ -40216,6 +42897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "842b03ca",
       n1: "nti7ar",
       n2: "inti7ar",
       n3: null,
@@ -40231,6 +42913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c45741d",
       n1: "ch8id",
       n2: "ch8yd",
       n3: "chahid",
@@ -40246,6 +42929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea309b10",
       n1: "9br",
       n2: "9ber",
       n3: "9bar",
@@ -40261,6 +42945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ccf9a20",
       n1: "dbbaba",
       n2: "debbaba",
       n3: null,
@@ -40276,6 +42961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7c4abca",
       n1: "khasara",
       n2: "khasaara",
       n3: "5asaara",
@@ -40291,6 +42977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac770e6b",
       n1: "stistlam",
       n2: "istislam",
       n3: "stislaam",
@@ -40306,6 +42993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68321daf",
       n1: "7ll",
       n2: "7ell",
       n3: "7all",
@@ -40321,6 +43009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f20deb7a",
       n1: "we9t",
       n2: "wa9t",
       n3: "w9t",
@@ -40336,6 +43025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27198c2a",
       n1: "khdma",
       n2: "khedma",
       n3: null,
@@ -40351,6 +43041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd7e5524",
       n1: "3alam",
       n2: null,
       n3: null,
@@ -40366,6 +43057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b1089bc",
       n1: "Terf",
       n2: "Trf",
       n3: null,
@@ -40381,6 +43073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a20c46c5",
       n1: "system",
       n2: null,
       n3: null,
@@ -40396,6 +43089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "28bb46af",
       n1: "mjmo3a",
       n2: null,
       n3: null,
@@ -40411,6 +43105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2207bbf",
       n1: "m3loma",
       n2: "ma3loma",
       n3: null,
@@ -40426,6 +43121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89260f5e",
       n1: "7a9i9a",
       n2: null,
       n3: null,
@@ -40441,6 +43137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f24ce86",
       n1: "khdma",
       n2: "khedma",
       n3: "khadma",
@@ -40456,6 +43153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dc8491c",
       n1: "gharad",
       n2: null,
       n3: null,
@@ -40471,6 +43169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02728fd3",
       n1: "jiha",
       n2: null,
       n3: null,
@@ -40486,6 +43185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21df58f1",
       n1: "7aja",
       n2: "haja",
       n3: null,
@@ -40501,6 +43201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "525807e3",
       n1: "3a2ila",
       n2: null,
       n3: null,
@@ -40516,6 +43217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f320e97",
       n1: "yed",
       n2: "yd",
       n3: "id",
@@ -40531,6 +43233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11c41934",
       n1: "tertib",
       n2: null,
       n3: null,
@@ -40546,6 +43249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "646156ac",
       n1: "niDam",
       n2: null,
       n3: null,
@@ -40561,6 +43265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "680d0613",
       n1: "jiha",
       n2: null,
       n3: null,
@@ -40576,6 +43281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96d74b36",
       n1: "Dar",
       n2: null,
       n3: null,
@@ -40591,6 +43297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23f4db21",
       n1: "TaTawwor",
       n2: null,
       n3: null,
@@ -40606,6 +43313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5d9f7c8",
       n1: "tanmia",
       n2: null,
       n3: null,
@@ -40621,6 +43329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "337bd530",
       n1: "majliss",
       n2: null,
       n3: null,
@@ -40636,6 +43345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e99f5acb",
       n1: "sti3mal",
       n2: null,
       n3: null,
@@ -40651,6 +43361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e5ded4e",
       n1: "khidma",
       n2: null,
       n3: null,
@@ -40666,6 +43377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62719333",
       n1: "me7kama",
       n2: null,
       n3: null,
@@ -40681,6 +43393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fefeb966",
       n1: "jma3a",
       n2: null,
       n3: null,
@@ -40696,6 +43409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90eb5fb3",
       n1: "boliss",
       n2: null,
       n3: null,
@@ -40711,6 +43425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c311592c",
       n1: "formulaire",
       n2: null,
       n3: null,
@@ -40726,6 +43441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01990a35",
       n1: "terbia",
       n2: null,
       n3: null,
@@ -40741,6 +43457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59c5efa8",
       n1: "siyassa",
       n2: null,
       n3: null,
@@ -40756,6 +43473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ed82043",
       n1: "ba7t",
       n2: "be7t",
       n3: "b7t",
@@ -40771,6 +43489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a523a0b",
       n1: "tartib",
       n2: "trtib",
       n3: "tertib",
@@ -40786,6 +43505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "416d441b",
       n1: "mekteb",
       n2: "mktb",
       n3: null,
@@ -40801,6 +43521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d17f3824",
       n1: "jism",
       n2: null,
       n3: null,
@@ -40816,6 +43537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6062ca7d",
       n1: "chakhS",
       n2: null,
       n3: null,
@@ -40831,6 +43553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c819161a",
       n1: "se77a",
       n2: "si77a",
       n3: null,
@@ -40846,6 +43569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9369b0c3",
       n1: "oum",
       n2: "om",
       n3: null,
@@ -40861,6 +43585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c325503",
       n1: "walida",
       n2: null,
       n3: null,
@@ -40876,6 +43601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9a37cf8",
       n1: "mer7ala",
       n2: null,
       n3: null,
@@ -40891,6 +43617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95aa0c1d",
       n1: "smia",
       n2: null,
       n3: null,
@@ -40906,6 +43633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82da89e0",
       n1: "mostawa",
       n2: null,
       n3: null,
@@ -40921,6 +43649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8053beb",
       n1: "derri sghir",
       n2: null,
       n3: null,
@@ -40936,6 +43665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e911c1e",
       n1: "berhouch",
       n2: null,
       n3: null,
@@ -40951,6 +43681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c75b056",
       n1: "ta7akkom",
       n2: null,
       n3: null,
@@ -40966,6 +43697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e05dad94",
       n1: "menDer",
       n2: "mnDer",
       n3: "mnDr",
@@ -40981,6 +43713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36a7eb67",
       n1: "Str",
       n2: null,
       n3: null,
@@ -40996,6 +43729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e59c6452",
       n1: "mojtama3",
       n2: null,
       n3: null,
@@ -41011,6 +43745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb550c68",
       n1: "allah",
       n2: null,
       n3: null,
@@ -41026,6 +43761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6c24728",
       n1: "ilah",
       n2: null,
       n3: null,
@@ -41041,6 +43777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b66808d0",
       n1: "reb",
       n2: "rb",
       n3: null,
@@ -41056,6 +43793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45466573",
       n1: "ab",
       n2: "2ab",
       n3: null,
@@ -41071,6 +43809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07cb9454",
       n1: "walid",
       n2: null,
       n3: null,
@@ -41086,6 +43825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a59acef4",
       n1: "merkez",
       n2: "mrkz",
       n3: "merkz",
@@ -41101,6 +43841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62abdf0d",
       n1: "lkheddama",
       n2: null,
       n3: null,
@@ -41116,6 +43857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f23fa46",
       n1: "nou3",
       n2: null,
       n3: null,
@@ -41131,6 +43873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d900d83",
       n1: "7araka",
       n2: null,
       n3: null,
@@ -41146,6 +43889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f649ef8",
       n1: "idara",
       n2: null,
       n3: null,
@@ -41161,6 +43905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e88bca4a",
       n1: "tasyir",
       n2: null,
       n3: null,
@@ -41176,6 +43921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3790212",
       n1: "f3la",
       n2: "fe3la",
       n3: "fi3l",
@@ -41191,6 +43937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe0448e4",
       n1: "3amalia",
       n2: null,
       n3: null,
@@ -41206,6 +43953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15f95f5b",
       n1: "dalil",
       n2: null,
       n3: null,
@@ -41221,6 +43969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ef27726",
       n1: "la7da",
       n2: "l7da",
       n3: null,
@@ -41236,6 +43985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e288adc",
       n1: "t9rir",
       n2: "ta9rir",
       n3: null,
@@ -41251,6 +44001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88dbe0f3",
       n1: "39el",
       n2: "39l",
       n3: null,
@@ -41266,6 +44017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67c94ca9",
       n1: "sba7",
       n2: null,
       n3: null,
@@ -41281,6 +44033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "008275ab",
       n1: "2ard",
       n2: null,
       n3: null,
@@ -41296,6 +44049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df3b4c2b",
       n1: "3inaya",
       n2: null,
       n3: null,
@@ -41311,6 +44065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac6d3aeb",
       n1: "llour",
       n2: "llor",
       n3: null,
@@ -41326,6 +44081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73936959",
       n1: "tabadol",
       n2: "tbdal",
       n3: null,
@@ -41341,6 +44097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "851a48eb",
       n1: "9raya",
       n2: null,
       n3: null,
@@ -41356,6 +44113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec8fec1e",
       n1: "zen9a",
       n2: "zn9a",
       n3: null,
@@ -41371,6 +44129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bc7201e",
       n1: "no9ta",
       n2: "n9ta",
       n3: null,
@@ -41386,6 +44145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4560edc7",
       n1: "makla",
       n2: null,
       n3: null,
@@ -41401,6 +44161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be241b49",
       n1: "natija",
       n2: null,
       n3: null,
@@ -41416,6 +44177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88aed0a2",
       n1: "akhor",
       n2: null,
       n3: null,
@@ -41431,6 +44193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85d8dc14",
       n1: "ssi",
       n2: null,
       n3: null,
@@ -41446,6 +44209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11656f17",
       n1: "SolTa",
       n2: null,
       n3: null,
@@ -41461,6 +44225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc4cfbfb",
       n1: "dawr",
       n2: "dour",
       n3: null,
@@ -41476,6 +44241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1eca2f03",
       n1: "sabab",
       n2: null,
       n3: null,
@@ -41491,6 +44257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb799e0d",
       n1: "taman",
       n2: null,
       n3: null,
@@ -41506,6 +44273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78941daa",
       n1: "mdina",
       n2: null,
       n3: null,
@@ -41521,6 +44289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07c1ff42",
       n1: "classe",
       n2: null,
       n3: null,
@@ -41536,6 +44305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f421c8c",
       n1: "mawdo3",
       n2: null,
       n3: null,
@@ -41551,6 +44321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a759485b",
       n1: "9ism",
       n2: null,
       n3: null,
@@ -41566,6 +44337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "460f412b",
       n1: "itti7ad",
       n2: null,
       n3: null,
@@ -41581,6 +44353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d676306b",
       n1: "banka",
       n2: null,
       n3: null,
@@ -41596,6 +44369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7192b60",
       n1: "3oDw",
       n2: null,
       n3: null,
@@ -41611,6 +44385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f403ccc2",
       n1: "i7tiyaj",
       n2: null,
       n3: null,
@@ -41626,6 +44401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "122f648d",
       n1: "tdrib",
       n2: "tadrib",
       n3: null,
@@ -41641,6 +44417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8bdb49d1",
       n1: "kaghit",
       n2: "9a3it",
       n3: "kaght",
@@ -41656,6 +44433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89df6760",
       n1: "tmer",
       n2: null,
       n3: null,
@@ -41671,6 +44449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66ee5114",
       n1: "rendez vous",
       n2: null,
       n3: null,
@@ -41686,6 +44465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40018452",
       n1: "ra9m",
       n2: null,
       n3: null,
@@ -41701,6 +44481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2c33bb7",
       n1: "mra",
       n2: null,
       n3: null,
@@ -41716,6 +44497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53e03c8b",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -41731,6 +44513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "172bebbd",
       n1: "nadi",
       n2: null,
       n3: null,
@@ -41746,6 +44529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da0022f1",
       n1: "jawda",
       n2: "jaouda",
       n3: null,
@@ -41761,6 +44545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c97f9417",
       n1: "moulay",
       n2: null,
       n3: null,
@@ -41776,6 +44561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d37bffa6",
       n1: "mer7ala",
       n2: "mar7ala",
       n3: "mr7ala",
@@ -41791,6 +44577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "efa7ef6c",
       n1: "khachaba",
       n2: null,
       n3: null,
@@ -41806,6 +44593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bca0b77a",
       n1: "7na",
       n2: null,
       n3: null,
@@ -41821,6 +44609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e782ee9",
       n1: "maw9if",
       n2: "mo9if",
       n3: null,
@@ -41836,6 +44625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "044b0c61",
       n1: "intaj",
       n2: null,
       n3: null,
@@ -41851,6 +44641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74b78a36",
       n1: "massira",
       n2: null,
       n3: null,
@@ -41866,6 +44657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00bfe597",
       n1: "sekritira",
       n2: "secritira",
       n3: null,
@@ -41881,6 +44673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b1d42d9",
       n1: "fen",
       n2: "fn",
       n3: "fnn",
@@ -41896,6 +44689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51b15f6b",
       n1: "taman",
       n2: null,
       n3: null,
@@ -41911,6 +44705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4609d771",
       n1: "2ard fila7ia",
       n2: null,
       n3: null,
@@ -41926,6 +44721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "013b5cb4",
       n1: "tiran",
       n2: null,
       n3: null,
@@ -41941,6 +44737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9fa5a2a",
       n1: "ja2iza",
       n2: null,
       n3: null,
@@ -41956,6 +44753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08ac1587",
       n1: "mochkil",
       n2: null,
       n3: null,
@@ -41971,6 +44769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29cdf889",
       n1: "ms2ala",
       n2: "mas2ala",
       n3: null,
@@ -41986,6 +44785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67bf8553",
       n1: "faSl",
       n2: null,
       n3: null,
@@ -42001,6 +44801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d5e0789",
       n1: "kimmiya",
       n2: "kimmia",
       n3: null,
@@ -42016,6 +44817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b27d80f",
       n1: "2asas",
       n2: null,
       n3: null,
@@ -42031,6 +44833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cb3a3b5",
       n1: "ma3rifa",
       n2: "m3rifa",
       n3: null,
@@ -42046,6 +44849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0037ad80",
       n1: "mo9araba",
       n2: null,
       n3: null,
@@ -42061,6 +44865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d44a2c34",
       n1: "7ob",
       n2: null,
       n3: null,
@@ -42076,6 +44881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c1c6f476",
       n1: "lfo9",
       n2: null,
       n3: null,
@@ -42091,6 +44897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb3b2664",
       n1: "goddam",
       n2: "9oddam",
       n3: null,
@@ -42106,6 +44913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "809071b6",
       n1: "modir",
       n2: null,
       n3: null,
@@ -42121,6 +44929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95e92a29",
       n1: "7isab",
       n2: "7sab",
       n3: null,
@@ -42136,6 +44945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb88272e",
       n1: "pc",
       n2: null,
       n3: null,
@@ -42151,6 +44961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25e566e2",
       n1: "ordinateur",
       n2: null,
       n3: null,
@@ -42166,6 +44977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb728d57",
       n1: "ra7a",
       n2: null,
       n3: null,
@@ -42181,6 +44993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edac52c5",
       n1: "khedma",
       n2: "khdma",
       n3: null,
@@ -42196,6 +45009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29230e20",
       n1: "binaya",
       n2: null,
       n3: null,
@@ -42211,6 +45025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9f4af23",
       n1: "mchro3 9anon",
       n2: "mchrou3 9anoun",
       n3: "mchro3 9anoun",
@@ -42226,6 +45041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66cf4503",
       n1: "se77a",
       n2: "s77a",
       n3: null,
@@ -42241,6 +45057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b9473e2",
       n1: "3ndak",
       n2: "3endak",
       n3: null,
@@ -42256,6 +45073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a27296a",
       n1: "naja7",
       n2: null,
       n3: null,
@@ -42271,6 +45089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "406c2ee7",
       n1: "risala",
       n2: null,
       n3: null,
@@ -42286,6 +45105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "746ffdf3",
       n1: "ittifa9",
       n2: null,
       n3: null,
@@ -42301,6 +45121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb3a3969",
       n1: "sokkan",
       n2: null,
       n3: null,
@@ -42316,6 +45137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd635eea",
       n1: "mo7it",
       n2: null,
       n3: null,
@@ -42331,6 +45153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0056217f",
       n1: "2ada2",
       n2: null,
       n3: null,
@@ -42346,6 +45169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd983045",
       n1: "model",
       n2: null,
       n3: null,
@@ -42361,6 +45185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ebeb974",
       n1: "materiel",
       n2: null,
       n3: null,
@@ -42376,6 +45201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "44d66237",
       n1: "naDaria",
       n2: null,
       n3: null,
@@ -42391,6 +45217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69e368cf",
       n1: "nomow",
       n2: null,
       n3: null,
@@ -42406,6 +45233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "daaa8f68",
       n1: "zher",
       n2: null,
       n3: null,
@@ -42421,6 +45249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b255617",
       n1: "3ala9a",
       n2: null,
       n3: null,
@@ -42436,6 +45265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe16c0c9",
       n1: "wld",
       n2: "weld",
       n3: "wald",
@@ -42451,6 +45281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2dccfc8c",
       n1: "b7er",
       n2: "b7ar",
       n3: "b7r",
@@ -42466,6 +45297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "136bc0d3",
       n1: "tsjil",
       n2: null,
       n3: null,
@@ -42481,6 +45313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "385be27c",
       n1: "9yas",
       n2: null,
       n3: null,
@@ -42496,6 +45329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "083b7d16",
       n1: "mlk",
       n2: "milk",
       n3: null,
@@ -42511,6 +45345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf8fb8eb",
       n1: "missa7a",
       n2: null,
       n3: null,
@@ -42526,6 +45361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b814cc3",
       n1: "moSTala7",
       n2: null,
       n3: null,
@@ -42541,6 +45377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40c19d5c",
       n1: "modir",
       n2: null,
       n3: null,
@@ -42556,6 +45393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49481c30",
       n1: "taSarrof",
       n2: "taSarrouf",
       n3: null,
@@ -42571,6 +45409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81b97683",
       n1: "3ilaj",
       n2: null,
       n3: null,
@@ -42586,6 +45425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbd15e51",
       n1: "mo3amala",
       n2: null,
       n3: null,
@@ -42601,6 +45441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83589849",
       n1: "Ta9a",
       n2: null,
       n3: null,
@@ -42616,6 +45457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fabc1222",
       n1: "dakhl",
       n2: null,
       n3: null,
@@ -42631,6 +45473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c47b829",
       n1: "mokhTaT",
       n2: "mokhaTaT",
       n3: null,
@@ -42646,6 +45489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96fc4a6d",
       n1: "design",
       n2: null,
       n3: null,
@@ -42661,6 +45505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e417556",
       n1: "jawab",
       n2: null,
       n3: null,
@@ -42676,6 +45521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21633e42",
       n1: "DaghT",
       n2: "DghT",
       n3: null,
@@ -42691,6 +45537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2013761f",
       n1: "Sala",
       n2: null,
       n3: null,
@@ -42706,6 +45553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cadda15",
       n1: "couple",
       n2: null,
       n3: null,
@@ -42721,6 +45569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76e005f8",
       n1: "tiknologia",
       n2: null,
       n3: null,
@@ -42736,6 +45585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2295093",
       n1: "difa3",
       n2: null,
       n3: null,
@@ -42751,6 +45601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c3e3599",
       n1: "la2i7a",
       n2: null,
       n3: null,
@@ -42766,6 +45617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61210813",
       n1: "modir",
       n2: null,
       n3: null,
@@ -42781,6 +45633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09d0f10c",
       n1: "contra",
       n2: null,
       n3: null,
@@ -42796,6 +45649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac064b67",
       n1: "3a9d",
       n2: null,
       n3: null,
@@ -42811,6 +45665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55f93eca",
       n1: "mo9aTa3a",
       n2: null,
       n3: null,
@@ -42826,6 +45681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a3c6103",
       n1: "fer9",
       n2: null,
       n3: null,
@@ -42841,6 +45697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b11576fb",
       n1: "2oTil",
       n2: null,
       n3: null,
@@ -42856,6 +45713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f32698d",
       n1: "chmch",
       n2: "chms",
       n3: null,
@@ -42871,6 +45729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e27dd15",
       n1: "produit",
       n2: null,
       n3: null,
@@ -42886,6 +45745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1aaddf7",
       n1: "SSif",
       n2: null,
       n3: null,
@@ -42901,6 +45761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a11ef618",
       n1: "loun",
       n2: null,
       n3: null,
@@ -42916,6 +45777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5950621e",
       n1: "faSl",
       n2: null,
       n3: null,
@@ -42931,6 +45793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59b07d93",
       n1: "w7da",
       n2: "wa7da",
       n3: null,
@@ -42946,6 +45809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cc51687",
       n1: "jerDa",
       n2: "jrDa",
       n3: null,
@@ -42961,6 +45825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f73a20b5",
       n1: "stitmar",
       n2: null,
       n3: null,
@@ -42976,6 +45841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be6c8150",
       n1: "khtibar",
       n2: null,
       n3: null,
@@ -42991,6 +45857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "38f3b086",
       n1: "rajl",
       n2: null,
       n3: null,
@@ -43006,6 +45873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e05d52f0",
       n1: "khdma",
       n2: null,
       n3: null,
@@ -43021,6 +45889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcef1bf3",
       n1: "style",
       n2: null,
       n3: null,
@@ -43036,6 +45905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "985f1dd0",
       n1: "2osloub",
       n2: null,
       n3: null,
@@ -43051,6 +45921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "169b2b8c",
       n1: "choufa",
       n2: null,
       n3: null,
@@ -43066,6 +45937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06dd452a",
       n1: "meDher",
       n2: "mDher",
       n3: "mDhr",
@@ -43081,6 +45953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f4b7a8a",
       n1: "Sf9a",
       n2: "Saf9a",
       n3: "Sef9a",
@@ -43096,6 +45969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e594a19",
       n1: "cho7na",
       n2: null,
       n3: null,
@@ -43111,6 +45985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7134cd95",
       n1: "mosa3ada",
       n2: null,
       n3: null,
@@ -43126,6 +46001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8921dbed",
       n1: "jdid",
       n2: "jadid",
       n3: null,
@@ -43141,6 +46017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5653fe68",
       n1: "khaTar",
       n2: null,
       n3: null,
@@ -43156,6 +46033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8a80a4e",
       n1: "7adath",
       n2: null,
       n3: null,
@@ -43171,6 +46049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe1c0d62",
       n1: "tSwira",
       n2: null,
       n3: null,
@@ -43186,6 +46065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d2f1eb7",
       n1: "commission",
       n2: null,
       n3: null,
@@ -43201,6 +46081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f356755a",
       n1: "je3ba",
       n2: "j3ba",
       n3: "ja3ba",
@@ -43216,6 +46097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0e6adc2",
       n1: "7outa",
       n2: null,
       n3: null,
@@ -43231,6 +46113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "458bbe08",
       n1: "kollia",
       n2: null,
       n3: null,
@@ -43246,6 +46129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbdcef55",
       n1: "forSa",
       n2: null,
       n3: null,
@@ -43261,6 +46145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df67e79d",
       n1: "forSa",
       n2: null,
       n3: null,
@@ -43276,6 +46161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1a51cc8",
       n1: "forSa",
       n2: null,
       n3: null,
@@ -43291,6 +46177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36fbff92",
       n1: "film",
       n2: null,
       n3: null,
@@ -43306,6 +46193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cb4148c",
       n1: "mo7aDara",
       n2: null,
       n3: null,
@@ -43321,6 +46209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbf1f8f2",
       n1: "application",
       n2: null,
       n3: null,
@@ -43336,6 +46225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1eb30019",
       n1: "TaTbi9",
       n2: null,
       n3: null,
@@ -43351,6 +46241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed528c07",
       n1: "Sa7afa",
       n2: null,
       n3: null,
@@ -43366,6 +46257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "923f1cb0",
       n1: "jem3",
       n2: "jam3",
       n3: "jm3",
@@ -43381,6 +46273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c61b06ba",
       n1: "station",
       n2: null,
       n3: null,
@@ -43396,6 +46289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0038b0ec",
       n1: "ma7al",
       n2: null,
       n3: null,
@@ -43411,6 +46305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4a540f8",
       n1: "aghlabia",
       n2: null,
       n3: null,
@@ -43426,6 +46321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e204b09",
       n1: "daraja",
       n2: null,
       n3: null,
@@ -43441,6 +46337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8cf67df1",
       n1: "maw9i3",
       n2: null,
       n3: null,
@@ -43456,6 +46353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca97a280",
       n1: "ahammia",
       n2: null,
       n3: null,
@@ -43471,6 +46369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae3d4c8c",
       n1: "3onwan",
       n2: null,
       n3: null,
@@ -43486,6 +46385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ecaa102f",
       n1: "la9ab",
       n2: null,
       n3: null,
@@ -43501,6 +46401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03b61998",
       n1: "faSila",
       n2: null,
       n3: null,
@@ -43516,6 +46417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "490f5bee",
       n1: "zyada",
       n2: "ziyada",
       n3: null,
@@ -43531,6 +46433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da30c4bd",
       n1: "ihtimam",
       n2: null,
       n3: null,
@@ -43546,6 +46449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f234621",
       n1: "moSaba9a",
       n2: null,
       n3: null,
@@ -43561,6 +46465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b0a3939",
       n1: "bernamaj",
       n2: null,
       n3: null,
@@ -43576,6 +46481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4be0b45a",
       n1: "siyda",
       n2: null,
       n3: null,
@@ -43591,6 +46497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "659dbcaf",
       n1: "2ard",
       n2: null,
       n3: null,
@@ -43606,6 +46513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c270715",
       n1: "bent",
       n2: null,
       n3: null,
@@ -43621,6 +46529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e6a9c02",
       n1: "hadaf",
       n2: null,
       n3: null,
@@ -43636,6 +46545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b7f0bd7",
       n1: "ms2oulia",
       n2: "mas2oulia",
       n3: null,
@@ -43651,6 +46561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4198c8ad",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -43666,6 +46577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5a5b964",
       n1: "9oDra",
       n2: null,
       n3: null,
@@ -43681,6 +46593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8573d9e9",
       n1: "jadibia",
       n2: null,
       n3: null,
@@ -43696,6 +46609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11dda3a7",
       n1: "jadibia",
       n2: null,
       n3: null,
@@ -43711,6 +46625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2b3c472",
       n1: "mo3arada",
       n2: null,
       n3: null,
@@ -43726,6 +46641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ac7c2c5",
       n1: "7amla",
       n2: "7emla",
       n3: "7mla",
@@ -43741,6 +46657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dac46ffa",
       n1: "7tiram",
       n2: null,
       n3: null,
@@ -43756,6 +46673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "233ec5ce",
       n1: "mohimma",
       n2: null,
       n3: null,
@@ -43771,6 +46689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf6fcfed",
       n1: "solde",
       n2: null,
       n3: null,
@@ -43786,6 +46705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d8c6ee5",
       n1: "tkhfiD",
       n2: null,
       n3: null,
@@ -43801,6 +46721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4e4c836",
       n1: "kaml",
       n2: null,
       n3: null,
@@ -43816,6 +46737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b08b186",
       n1: "DabiT",
       n2: null,
       n3: null,
@@ -43831,6 +46753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f552011",
       n1: "9ism",
       n2: null,
       n3: null,
@@ -43846,6 +46769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20317444",
       n1: "biasa",
       n2: "piasa",
       n3: null,
@@ -43861,6 +46785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f1e17d2",
       n1: "na9S",
       n2: null,
       n3: null,
@@ -43876,6 +46801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "893ca94f",
       n1: "materiel",
       n2: null,
       n3: null,
@@ -43891,6 +46817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f97f44c",
       n1: "misa7a",
       n2: null,
       n3: null,
@@ -43906,6 +46833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24df9f7e",
       n1: "oxford",
       n2: null,
       n3: null,
@@ -43921,6 +46849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffaecf33",
       n1: "Talab",
       n2: null,
       n3: null,
@@ -43936,6 +46865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ee20bf7",
       n1: "boSTa",
       n2: null,
       n3: null,
@@ -43951,6 +46881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6342dfdc",
       n1: "radio",
       n2: null,
       n3: null,
@@ -43966,6 +46897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34fa4b0e",
       n1: "mo7awala",
       n2: null,
       n3: null,
@@ -43981,6 +46913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d66c7bc9",
       n1: "9iTa3",
       n2: null,
       n3: null,
@@ -43996,6 +46929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cdd96613",
       n1: "charika",
       n2: null,
       n3: null,
@@ -44011,6 +46945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "102b198b",
       n1: "7ala",
       n2: null,
       n3: null,
@@ -44026,6 +46961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76eb650a",
       n1: "salam",
       n2: null,
       n3: null,
@@ -44041,6 +46977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5981f963",
       n1: "tanawwo3",
       n2: null,
       n3: null,
@@ -44056,6 +46993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8dfcee0b",
       n1: "ostad",
       n2: "stad",
       n3: null,
@@ -44071,6 +47009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aff9edd5",
       n1: "mo3llim",
       n2: "mo3allim",
       n3: null,
@@ -44086,6 +47025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b9e4c9d",
       n1: "barnamaj",
       n2: null,
       n3: null,
@@ -44101,6 +47041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29251666",
       n1: "naTi9",
       n2: null,
       n3: null,
@@ -44116,6 +47057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61722d6f",
       n1: "trebia",
       n2: "tribia",
       n3: null,
@@ -44131,6 +47073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6168c8de",
       n1: "9a3ida",
       n2: null,
       n3: null,
@@ -44146,6 +47089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc48450f",
       n1: "anisa",
       n2: "2anisa",
       n3: null,
@@ -44161,6 +47105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1023a497",
       n1: "mochkil",
       n2: null,
       n3: null,
@@ -44176,6 +47121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c43a99f3",
       n1: "ta9afa",
       n2: null,
       n3: null,
@@ -44191,6 +47137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "426d5250",
       n1: "ittijah",
       n2: null,
       n3: null,
@@ -44206,6 +47153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a584525",
       n1: "siya9",
       n2: null,
       n3: null,
@@ -44221,6 +47169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ed742cd",
       n1: "chakhSiya",
       n2: "chkhSiya",
       n3: null,
@@ -44236,6 +47185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45dc0d85",
       n1: "7arf",
       n2: "7rf",
       n3: null,
@@ -44251,6 +47201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e950d17",
       n1: "mo7adata",
       n2: null,
       n3: null,
@@ -44266,6 +47217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bb4fbeb7",
       n1: "maDi",
       n2: null,
       n3: null,
@@ -44281,6 +47233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9633038d",
       n1: "wazn",
       n2: null,
       n3: null,
@@ -44296,6 +47249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26941f62",
       n1: "monaDDama",
       n2: null,
       n3: null,
@@ -44311,6 +47265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f66f21e9",
       n1: "akh",
       n2: null,
       n3: null,
@@ -44326,6 +47281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "78a1dfea",
       n1: "dawri",
       n2: null,
       n3: null,
@@ -44341,6 +47297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "37d2f6ea",
       n1: "3oSba",
       n2: null,
       n3: null,
@@ -44356,6 +47313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cef1c729",
       n1: "charT",
       n2: null,
       n3: null,
@@ -44371,6 +47329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52f18ef5",
       n1: "makina",
       n2: null,
       n3: null,
@@ -44386,6 +47345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc11d2ac",
       n1: "ni9ach",
       n2: null,
       n3: null,
@@ -44401,6 +47361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "492535c2",
       n1: "dalil",
       n2: null,
       n3: null,
@@ -44416,6 +47377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4637cf32",
       n1: "jins",
       n2: null,
       n3: null,
@@ -44431,6 +47393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bccc3c85",
       n1: "nglizia",
       n2: null,
       n3: null,
@@ -44446,6 +47409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a403e62e",
       n1: "transpor",
       n2: null,
       n3: null,
@@ -44461,6 +47425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54c16ffe",
       n1: "9sem",
       n2: "9sm",
       n3: null,
@@ -44476,6 +47441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45d2afba",
       n1: "walida",
       n2: null,
       n3: null,
@@ -44491,6 +47457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1d3c052",
       n1: "flous cash",
       n2: null,
       n3: null,
@@ -44506,6 +47473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39671c28",
       n1: "tabadol",
       n2: null,
       n3: null,
@@ -44521,6 +47489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "783cb8ca",
       n1: "mosa3ada",
       n2: null,
       n3: null,
@@ -44536,6 +47505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e01a7b7b",
       n1: "mktaba",
       n2: "maktaba",
       n3: null,
@@ -44551,6 +47521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e309842",
       n1: "noskha",
       n2: "nskha",
       n3: null,
@@ -44566,6 +47537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e78fddeb",
       n1: "9a3ida",
       n2: null,
       n3: null,
@@ -44581,6 +47553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cde18195",
       n1: "atay",
       n2: null,
       n3: null,
@@ -44596,6 +47569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72dcc733",
       n1: "tawazon",
       n2: null,
       n3: null,
@@ -44611,6 +47585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b283baa1",
       n1: "mizan",
       n2: null,
       n3: null,
@@ -44626,6 +47601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "28fd930a",
       n1: "3chia",
       n2: null,
       n3: null,
@@ -44641,6 +47617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06f624fa",
       n1: "mnTa9a",
       n2: "minTa9a",
       n3: null,
@@ -44656,6 +47633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b8ea544",
       n1: "Dora",
       n2: null,
       n3: null,
@@ -44671,6 +47649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09f2c660",
       n1: "mohimma",
       n2: null,
       n3: null,
@@ -44686,6 +47665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d78879e1",
       n1: "stiTla3",
       n2: null,
       n3: null,
@@ -44701,6 +47681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88a477cf",
       n1: "t2tir",
       n2: "ta2tir",
       n3: "te2tir",
@@ -44716,6 +47697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9570fe10",
       n1: "7jra",
       n2: "7ajra",
       n3: "7ejra",
@@ -44731,6 +47713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec55be52",
       n1: "mjmo3a",
       n2: null,
       n3: null,
@@ -44746,6 +47729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34c1b0a6",
       n1: "modir",
       n2: null,
       n3: null,
@@ -44761,6 +47745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdaf58cb",
       n1: "khiTab",
       n2: null,
       n3: null,
@@ -44776,6 +47761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33f3ff5b",
       n1: "waDifa",
       n2: null,
       n3: null,
@@ -44791,6 +47777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fec5235",
       n1: "malika",
       n2: null,
       n3: null,
@@ -44806,6 +47793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01350397",
       n1: "jwaj",
       n2: null,
       n3: null,
@@ -44821,6 +47809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a99ead45",
       n1: "STok",
       n2: null,
       n3: null,
@@ -44836,6 +47825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf6a89cb",
       n1: "fachal",
       n2: null,
       n3: null,
@@ -44851,6 +47841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "189c7b2c",
       n1: "tlmid",
       n2: "tilmid",
       n3: null,
@@ -44866,6 +47857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3bbf0f0",
       n1: "Talib",
       n2: null,
       n3: null,
@@ -44881,6 +47873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14b82c0c",
       n1: "mjhoud",
       n2: "majhoud",
       n3: "mejhoud",
@@ -44896,6 +47889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbab6193",
       n1: "carriere",
       n2: null,
       n3: null,
@@ -44911,6 +47905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee443c8a",
       n1: "hojom",
       n2: "hojoum",
       n3: "8ojoum",
@@ -44926,6 +47921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdb9a5d3",
       n1: "3awd",
       n2: null,
       n3: null,
@@ -44941,6 +47937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "abd9871b",
       n1: "ta9addom",
       n2: null,
       n3: null,
@@ -44956,6 +47953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94d5ae10",
       n1: "3ala9a",
       n2: null,
       n3: null,
@@ -44971,6 +47969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0695ceef",
       n1: "kora",
       n2: null,
       n3: null,
@@ -44986,6 +47985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9de10ab",
       n1: "dakira",
       n2: null,
       n3: null,
@@ -45001,6 +48001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9edb2536",
       n1: "bar",
       n2: null,
       n3: null,
@@ -45016,6 +48017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "539d9e85",
       n1: "t2tir",
       n2: null,
       n3: null,
@@ -45031,6 +48033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "946f37e6",
       n1: "race",
       n2: null,
       n3: null,
@@ -45046,6 +48049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77e57348",
       n1: "Sora",
       n2: "tSwira",
       n3: null,
@@ -45061,6 +48065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02f23fec",
       n1: "ti9a",
       n2: null,
       n3: null,
@@ -45076,6 +48081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ab21b92",
       n1: "gaz",
       n2: null,
       n3: null,
@@ -45091,6 +48097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "959f3d14",
       n1: "sekka",
       n2: "skka",
       n3: null,
@@ -45106,6 +48113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2304ef5e",
       n1: "momayyiza",
       n2: null,
       n3: null,
@@ -45121,6 +48129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d4f799d",
       n1: "avantage",
       n2: null,
       n3: null,
@@ -45136,6 +48145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d489c47",
       n1: "rizo",
       n2: null,
       n3: null,
@@ -45151,6 +48161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95ee12c5",
       n1: "text",
       n2: null,
       n3: null,
@@ -45166,6 +48177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f0d12ab",
       n1: "okht",
       n2: "kht",
       n3: null,
@@ -45181,6 +48193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e8bce55",
       n1: "Tl3",
       n2: null,
       n3: null,
@@ -45196,6 +48209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f5cdb78",
       n1: "chta",
       n2: "chtwa",
       n3: null,
@@ -45211,6 +48225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3582bb9e",
       n1: "9nt",
       n2: "9ent",
       n3: "9ont",
@@ -45226,6 +48241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eeb8b847",
       n1: "9nt",
       n2: "9ent",
       n3: "9ont",
@@ -45241,6 +48257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46241a1b",
       n1: "aSoranS",
       n2: null,
       n3: null,
@@ -45256,6 +48273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f42ef2d",
       n1: "Darar",
       n2: null,
       n3: null,
@@ -45271,6 +48289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aba1a320",
       n1: "2alam",
       n2: null,
       n3: null,
@@ -45286,6 +48305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62768bef",
       n1: "tchri3",
       n2: "tachri3",
       n3: null,
@@ -45301,6 +48321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58b24736",
       n1: "Se77a",
       n2: "S77a",
       n3: null,
@@ -45316,6 +48337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d171a171",
       n1: "sor3a",
       n2: null,
       n3: null,
@@ -45331,6 +48353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c09d77a1",
       n1: "kdia",
       n2: "kodia",
       n3: null,
@@ -45346,6 +48369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ebf10a0",
       n1: "ni9ach",
       n2: null,
       n3: null,
@@ -45361,6 +48385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f099efbb",
       n1: "irada",
       n2: null,
       n3: null,
@@ -45376,6 +48401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61058031",
       n1: "ti9a",
       n2: null,
       n3: null,
@@ -45391,6 +48417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db13f29a",
       n1: "Sebbar",
       n2: null,
       n3: null,
@@ -45406,6 +48433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "683466b3",
       n1: "mriD",
       n2: null,
       n3: null,
@@ -45421,6 +48449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d48f941c",
       n1: "mt7af",
       n2: "mot7af",
       n3: null,
@@ -45436,6 +48465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9232269a",
       n1: "firma",
       n2: null,
       n3: null,
@@ -45451,6 +48481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62cfc856",
       n1: "jonayh",
       n2: null,
       n3: null,
@@ -45466,6 +48497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c74c11fe",
       n1: "match",
       n2: null,
       n3: null,
@@ -45481,6 +48513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fa2dba8",
       n1: "t9Dir",
       n2: "ta9Dir",
       n3: null,
@@ -45496,6 +48529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "997e1c08",
       n1: "risala",
       n2: null,
       n3: null,
@@ -45511,6 +48545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f273ed54",
       n1: "miSaj",
       n2: null,
       n3: null,
@@ -45526,6 +48561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5cea0b7",
       n1: "kora",
       n2: null,
       n3: null,
@@ -45541,6 +48577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec2dd060",
       n1: "lla",
       n2: null,
       n3: null,
@@ -45556,6 +48593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8200fe7",
       n1: "mshhed",
       n2: "mashhad",
       n3: "mash8ad",
@@ -45571,6 +48609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9b2a940",
       n1: "materiel",
       n2: null,
       n3: null,
@@ -45586,6 +48625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "55fc0b37",
       n1: "mo9addima",
       n2: null,
       n3: null,
@@ -45601,6 +48641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ceef433",
       n1: "msra7ia",
       n2: null,
       n3: null,
@@ -45616,6 +48657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26db7971",
       n1: "ab",
       n2: "2ab",
       n3: null,
@@ -45631,6 +48673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d4ae2ec",
       n1: "nisba",
       n2: null,
       n3: null,
@@ -45646,6 +48689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87438595",
       n1: "jazira",
       n2: null,
       n3: null,
@@ -45661,6 +48705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d54913b",
       n1: "kontakt",
       n2: null,
       n3: null,
@@ -45676,6 +48721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1d9b0a9",
       n1: "yaban",
       n2: null,
       n3: null,
@@ -45691,6 +48737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c66ef92",
       n1: "jappon",
       n2: null,
       n3: null,
@@ -45706,6 +48753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df8dac2d",
       n1: "moTalaba",
       n2: null,
       n3: null,
@@ -45721,6 +48769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cec6a4cf",
       n1: "vidio",
       n2: null,
       n3: null,
@@ -45736,6 +48785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8a69219",
       n1: "tlfaza",
       n2: null,
       n3: null,
@@ -45751,6 +48801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41e15fc9",
       n1: "wojoud",
       n2: null,
       n3: null,
@@ -45766,6 +48817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5579e6c2",
       n1: "tilifoun",
       n2: null,
       n3: null,
@@ -45781,6 +48833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "658c75bf",
       n1: "7araka",
       n2: null,
       n3: null,
@@ -45796,6 +48849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2f76e6a",
       n1: "rtiya7",
       n2: null,
       n3: null,
@@ -45811,6 +48865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f600cb9f",
       n1: "3iyada",
       n2: null,
       n3: null,
@@ -45826,6 +48881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3d6b3c6",
       n1: "khizana",
       n2: null,
       n3: null,
@@ -45841,6 +48897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f30127f9",
       n1: "biTala",
       n2: null,
       n3: null,
@@ -45856,6 +48913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca5b5c7f",
       n1: "wa9i3",
       n2: null,
       n3: null,
@@ -45871,6 +48929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f1d56846",
       n1: "hadaf",
       n2: null,
       n3: null,
@@ -45886,6 +48945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af978119",
       n1: "7jra",
       n2: "7ajra",
       n3: "7ejra",
@@ -45901,6 +48961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7ace406",
       n1: "fikra",
       n2: null,
       n3: null,
@@ -45916,6 +48977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a395dfa3",
       n1: "monaDDama",
       n2: null,
       n3: null,
@@ -45931,6 +48993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b550aa2a",
       n1: "bni",
       n2: null,
       n3: null,
@@ -45946,6 +49009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a5b88e4",
       n1: "tilifoun",
       n2: null,
       n3: null,
@@ -45961,6 +49025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2e5e13b",
       n1: "tawzi3",
       n2: null,
       n3: null,
@@ -45976,6 +49041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7bf6bfd",
       n1: "9iTar",
       n2: null,
       n3: null,
@@ -45991,6 +49057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a647f9f",
       n1: "mnDr",
       n2: "mnDer",
       n3: "menDer",
@@ -46006,6 +49073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3ba7cb1",
       n1: "So3oba",
       n2: null,
       n3: null,
@@ -46021,6 +49089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a98a532",
       n1: "3amil",
       n2: null,
       n3: null,
@@ -46036,6 +49105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eeca1025",
       n1: "wikand",
       n2: null,
       n3: null,
@@ -46051,6 +49121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d27fcf4c",
       n1: "m3raka",
       n2: "ma3raka",
       n3: "me3raka",
@@ -46066,6 +49137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "900d5f43",
       n1: "bourse",
       n2: null,
       n3: null,
@@ -46081,6 +49153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9e26fbb",
       n1: "min7a",
       n2: null,
       n3: null,
@@ -46096,6 +49169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2103a6ff",
       n1: "Tiyyara",
       n2: null,
       n3: null,
@@ -46111,6 +49185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c577135",
       n1: "9nTra",
       n2: "9enTra",
       n3: "9anTra",
@@ -46126,6 +49201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f035141",
       n1: "guenTra",
       n2: "gunTra",
       n3: "guanTra",
@@ -46141,6 +49217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2ad3517",
       n1: "stratijia",
       n2: null,
       n3: null,
@@ -46156,6 +49233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80e6752b",
       n1: "tawaSol",
       n2: null,
       n3: null,
@@ -46171,6 +49249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de7775cb",
       n1: "khlfia",
       n2: "khalfia",
       n3: "khelfia",
@@ -46186,6 +49265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "877a9cc5",
       n1: "vin",
       n2: null,
       n3: null,
@@ -46201,6 +49281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e47dd753",
       n1: "amal",
       n2: null,
       n3: null,
@@ -46216,6 +49297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb170ba2",
       n1: "khtiyar",
       n2: null,
       n3: null,
@@ -46231,6 +49313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b76d9259",
       n1: "tafaSil",
       n2: "tfSil",
       n3: null,
@@ -46246,6 +49329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6310ad1c",
       n1: "mosta3mil",
       n2: "most3mil",
       n3: null,
@@ -46261,6 +49345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b6c45f2",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -46276,6 +49361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c97194dc",
       n1: "3arD",
       n2: "3rD",
       n3: "3erD",
@@ -46291,6 +49377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "132196e1",
       n1: "maw9if",
       n2: null,
       n3: null,
@@ -46306,6 +49393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0e52c92",
       n1: "wakala",
       n2: null,
       n3: null,
@@ -46321,6 +49409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "136c4442",
       n1: "m93ed",
       n2: "m93ad",
       n3: "ma93ad",
@@ -46336,6 +49425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f7cd175",
       n1: "Tari9a",
       n2: null,
       n3: null,
@@ -46351,6 +49441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09ab5514",
       n1: "kermoS",
       n2: "kermouS",
       n3: null,
@@ -46366,6 +49457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "da84303b",
       n1: "azma",
       n2: null,
       n3: null,
@@ -46381,6 +49473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c3cab3a9",
       n1: "de7ka",
       n2: "d7ka",
       n3: null,
@@ -46396,6 +49489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ed7df25",
       n1: "intaj",
       n2: null,
       n3: null,
@@ -46411,6 +49505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e004164",
       n1: "ml7oDa",
       n2: null,
       n3: null,
@@ -46426,6 +49521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bbbb8b7",
       n1: "modakkira",
       n2: null,
       n3: null,
@@ -46441,6 +49537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "437e54b0",
       n1: "nota",
       n2: null,
       n3: null,
@@ -46456,6 +49553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3eca48c",
       n1: "ijra2",
       n2: null,
       n3: null,
@@ -46471,6 +49569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b24a0a16",
       n1: "msre7",
       n2: null,
       n3: null,
@@ -46486,6 +49585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3863bd4a",
       n1: "Dora",
       n2: null,
       n3: null,
@@ -46501,6 +49601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2e52bc0",
       n1: "3tiraf",
       n2: null,
       n3: null,
@@ -46516,6 +49617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec6668ae",
       n1: "wsT",
       n2: null,
       n3: null,
@@ -46531,6 +49633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39fefe8b",
       n1: "bakia",
       n2: null,
       n3: null,
@@ -46546,6 +49649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "863d4440",
       n1: "masar",
       n2: null,
       n3: null,
@@ -46561,6 +49665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99d37805",
       n1: "biTa9a",
       n2: null,
       n3: null,
@@ -46576,6 +49681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa22fe69",
       n1: "3alama",
       n2: null,
       n3: null,
@@ -46591,6 +49697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7bfd9a6",
       n1: "ichara",
       n2: null,
       n3: null,
@@ -46606,6 +49713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81ddc30e",
       n1: "ramz",
       n2: null,
       n3: null,
@@ -46621,6 +49729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0092dc3a",
       n1: "ltizam",
       n2: null,
       n3: null,
@@ -46636,6 +49745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b4be139e",
       n1: "la3ib",
       n2: "le33ab",
       n3: null,
@@ -46651,6 +49761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "942151f2",
       n1: "tahdid",
       n2: "thdid",
       n3: "t8did",
@@ -46666,6 +49777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21f872ff",
       n1: "jow",
       n2: "jaw",
       n3: null,
@@ -46681,6 +49793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "415ddd38",
       n1: "tnbih",
       n2: "tanbih",
       n3: "tnbi8",
@@ -46696,6 +49809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d9b96186",
       n1: "ntiSar",
       n2: null,
       n3: null,
@@ -46711,6 +49825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c501279",
       n1: "te7t",
       n2: "ta7t",
       n3: null,
@@ -46726,6 +49841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34546052",
       n1: "malia",
       n2: null,
       n3: null,
@@ -46741,6 +49857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "336f2a33",
       n1: "flous",
       n2: null,
       n3: null,
@@ -46756,6 +49873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39ef764e",
       n1: "milaf",
       n2: "milef",
       n3: "milf",
@@ -46771,6 +49889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4e2cb08",
       n1: "rbe7",
       n2: "rb7",
       n3: "rba7",
@@ -46786,6 +49905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fff17646",
       n1: "priz",
       n2: null,
       n3: null,
@@ -46801,6 +49921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54e5efce",
       n1: "Tri9",
       n2: null,
       n3: null,
@@ -46816,6 +49937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8943382d",
       n1: "mSrof",
       n2: null,
       n3: null,
@@ -46831,6 +49953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81ae180c",
       n1: "tani",
       n2: null,
       n3: null,
@@ -46846,6 +49969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7c08fe7",
       n1: "nDibaT",
       n2: null,
       n3: null,
@@ -46861,6 +49985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7b2268f",
       n1: "siloun",
       n2: null,
       n3: null,
@@ -46876,6 +50001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c3094ba",
       n1: "zinzana",
       n2: null,
       n3: null,
@@ -46891,6 +50017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a1f55c22",
       n1: "raddat lfi3l",
       n2: null,
       n3: null,
@@ -46906,6 +50033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b4bfb99",
       n1: "9l3a",
       n2: "9al3a",
       n3: "9el3a",
@@ -46921,6 +50049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64616868",
       n1: "mo2tamar",
       n2: null,
       n3: null,
@@ -46936,6 +50065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d306e2a2",
       n1: "fard",
       n2: "ferd",
       n3: null,
@@ -46951,6 +50081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b807f1d9",
       n1: "9iyada",
       n2: null,
       n3: null,
@@ -46966,6 +50097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e495801f",
       n1: "3tibar",
       n2: null,
       n3: null,
@@ -46981,6 +50113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "799288c3",
       n1: "din",
       n2: "dine",
       n3: null,
@@ -46996,6 +50129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3d498ac",
       n1: "khtiyar",
       n2: null,
       n3: null,
@@ -47011,6 +50145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11ec381b",
       n1: "teshdid",
       n2: "tshdid",
       n3: "tashdid",
@@ -47026,6 +50161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d2d9435",
       n1: "rabi3",
       n2: null,
       n3: null,
@@ -47041,6 +50177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "658dc966",
       n1: "jmhor",
       n2: "jomhor",
       n3: "jom8our",
@@ -47056,6 +50193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e23209f",
       n1: "khaSSia",
       n2: null,
       n3: null,
@@ -47071,6 +50209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7381abb4",
       n1: "miza",
       n2: "myza",
       n3: null,
@@ -47086,6 +50225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "def34a16",
       n1: "lmsa",
       n2: "lamsa",
       n3: "lemsa",
@@ -47101,6 +50241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77f12859",
       n1: "milkia",
       n2: null,
       n3: null,
@@ -47116,6 +50257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e296f65a",
       n1: "majliss",
       n2: "mjliss",
       n3: null,
@@ -47131,6 +50273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73c95611",
       n1: "mocharaka",
       n2: null,
       n3: null,
@@ -47146,6 +50289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "973aaae0",
       n1: "program",
       n2: null,
       n3: null,
@@ -47161,6 +50305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5e3b4c4",
       n1: "maDhar",
       n2: "mDhar",
       n3: "mDher",
@@ -47176,6 +50321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a9161a8",
       n1: "mo2assasa",
       n2: "mo2ssasa",
       n3: null,
@@ -47191,6 +50337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "515e19ef",
       n1: "3oDwia",
       n2: null,
       n3: null,
@@ -47206,6 +50353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be175a6d",
       n1: "zbel",
       n2: "zbl",
       n3: "zbal",
@@ -47221,6 +50369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aad24eb3",
       n1: "3ng",
       n2: "3ong",
       n3: null,
@@ -47236,6 +50385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a099796a",
       n1: "mawDo3",
       n2: null,
       n3: null,
@@ -47251,6 +50401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "829ce16a",
       n1: "capitin",
       n2: null,
       n3: null,
@@ -47266,6 +50417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6d4a82d",
       n1: "9obTan",
       n2: null,
       n3: null,
@@ -47281,6 +50433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fcb0c46",
       n1: "ta7addi",
       n2: null,
       n3: null,
@@ -47296,6 +50449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68fb4178",
       n1: "mo7adata",
       n2: null,
       n3: null,
@@ -47311,6 +50465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e374dbc",
       n1: "7dit",
       n2: "7tit",
       n3: null,
@@ -47326,6 +50481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e843c26f",
       n1: "kod",
       n2: null,
       n3: null,
@@ -47341,6 +50497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51006193",
       n1: "taj",
       n2: null,
       n3: null,
@@ -47356,6 +50513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a6c2621",
       n1: "skat",
       n2: null,
       n3: null,
@@ -47371,6 +50529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7589c81b",
       n1: "adab",
       n2: null,
       n3: null,
@@ -47386,6 +50545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e503dd8",
       n1: "imane",
       n2: null,
       n3: null,
@@ -47401,6 +50561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b1eb0b4",
       n1: "jahennam",
       n2: "jahannam",
       n3: null,
@@ -47416,6 +50577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f23bd38",
       n1: "mdkhl",
       n2: "mdkhal",
       n3: null,
@@ -47431,6 +50593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59b20dec",
       n1: "dkhla",
       n2: null,
       n3: null,
@@ -47446,6 +50609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92280f42",
       n1: "nti9al",
       n2: null,
       n3: null,
@@ -47461,6 +50625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6496e0ff",
       n1: "ssiyed",
       n2: "ssiyd",
       n3: null,
@@ -47476,6 +50641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "adaf83de",
       n1: "mi7faDa",
       n2: null,
       n3: null,
@@ -47491,6 +50657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fdf9b4d1",
       n1: "fakhr",
       n2: "fakher",
       n3: null,
@@ -47506,6 +50673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4bb75836",
       n1: "t79i9",
       n2: "ta79i9",
       n3: null,
@@ -47521,6 +50689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96435610",
       n1: "sa9",
       n2: null,
       n3: null,
@@ -47536,6 +50705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "762d079e",
       n1: "3ti9ad",
       n2: null,
       n3: null,
@@ -47551,6 +50721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "58f56bbc",
       n1: "majmo3",
       n2: "majmou3",
       n3: null,
@@ -47566,6 +50737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e967bff6",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -47581,6 +50753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "260746c3",
       n1: "9a2id",
       n2: null,
       n3: null,
@@ -47596,6 +50769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b0c0603",
       n1: "wati9a",
       n2: null,
       n3: null,
@@ -47611,6 +50785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8244839",
       n1: "waSf",
       n2: null,
       n3: null,
@@ -47626,6 +50801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc899f6e",
       n1: "hadaf",
       n2: null,
       n3: null,
@@ -47641,6 +50817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a61c833f",
       n1: "gharaD",
       n2: null,
       n3: null,
@@ -47656,6 +50833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0709a70e",
       n1: "vol",
       n2: null,
       n3: null,
@@ -47671,6 +50849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cf2cef2",
       n1: "khatima",
       n2: null,
       n3: null,
@@ -47686,6 +50865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d28cfe2a",
       n1: "ta9lid",
       n2: "t9lid",
       n3: null,
@@ -47701,6 +50881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4dd656a3",
       n1: "plizir",
       n2: null,
       n3: null,
@@ -47716,6 +50897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "978a32a0",
       n1: "moul",
       n2: null,
       n3: null,
@@ -47731,6 +50913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "439a6529",
       n1: "mo3ahada",
       n2: "mo3a8ada",
       n3: null,
@@ -47746,6 +50929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0de5c22",
       n1: "professor",
       n2: null,
       n3: null,
@@ -47761,6 +50945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65c71b9c",
       n1: "nskha",
       n2: "noskha",
       n3: null,
@@ -47776,6 +50961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e0ea3a2",
       n1: "7amD",
       n2: null,
       n3: null,
@@ -47791,6 +50977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a35fadb",
       n1: "9Ser",
       n2: "9Sr",
       n3: null,
@@ -47806,6 +50993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d3b5017",
       n1: "adrissa",
       n2: null,
       n3: null,
@@ -47821,6 +51009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49b0d6c5",
       n1: "mo2ssasa",
       n2: "mo2assasa",
       n3: null,
@@ -47836,6 +51025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a258467a",
       n1: "jil",
       n2: null,
       n3: null,
@@ -47851,6 +51041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5eb586b1",
       n1: "chrik",
       n2: "charik",
       n3: null,
@@ -47866,6 +51057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "383c4bff",
       n1: "moTor",
       n2: null,
       n3: null,
@@ -47881,6 +51073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a53981cb",
       n1: "jornan",
       n2: null,
       n3: null,
@@ -47896,6 +51089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96b059f0",
       n1: "tkhfiD",
       n2: "takhfiD",
       n3: null,
@@ -47911,6 +51105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1021b4c7",
       n1: "rafahia",
       n2: null,
       n3: null,
@@ -47926,6 +51121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a611b474",
       n1: "t3rif",
       n2: "ta3rif",
       n3: "te3rif",
@@ -47941,6 +51137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83fe0b6f",
       n1: "Tl9",
       n2: "Tle9",
       n3: null,
@@ -47956,6 +51153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2f44bc4",
       n1: "tSwit",
       n2: null,
       n3: null,
@@ -47971,6 +51169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "373e8ac8",
       n1: "fa7S",
       n2: null,
       n3: null,
@@ -47986,6 +51185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a677b48",
       n1: "ghilaf jawwi",
       n2: null,
       n3: null,
@@ -48001,6 +51201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92f7fd7a",
       n1: "9iyada",
       n2: null,
       n3: null,
@@ -48016,6 +51217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02b558bb",
       n1: "nefs",
       n2: "nfs",
       n3: "nafs",
@@ -48031,6 +51233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27e29612",
       n1: "khal9",
       n2: "khl9",
       n3: "khel9",
@@ -48046,6 +51249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b23e9a5",
       n1: "Sf",
       n2: "Saf",
       n3: "Sef",
@@ -48061,6 +51265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0c80bb2",
       n1: "guide",
       n2: null,
       n3: null,
@@ -48076,6 +51281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "63336828",
       n1: "tghTia",
       n2: null,
       n3: null,
@@ -48091,6 +51297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c91f5d79",
       n1: "hadaf",
       n2: null,
       n3: null,
@@ -48106,6 +51313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84e148dc",
       n1: "na9d",
       n2: null,
       n3: null,
@@ -48121,6 +51329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c46045c8",
       n1: "ne9ra",
       n2: "no9ra",
       n3: "n9ra",
@@ -48136,6 +51345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5265379",
       n1: "kliyan",
       n2: "klian",
       n3: null,
@@ -48151,6 +51361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eee0130f",
       n1: "ri7la",
       n2: null,
       n3: null,
@@ -48166,6 +51377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b4f9adf",
       n1: "tfsir",
       n2: "tafsir",
       n3: "tefsir",
@@ -48181,6 +51393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a0942ec9",
       n1: "khDr",
       n2: "khDer",
       n3: null,
@@ -48196,6 +51409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbe840e8",
       n1: "3bar",
       n2: null,
       n3: null,
@@ -48211,6 +51425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43146011",
       n1: "m3na",
       n2: "me3na",
       n3: null,
@@ -48226,6 +51441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2dc401e5",
       n1: "iSaba",
       n2: null,
       n3: null,
@@ -48241,6 +51457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e2f6038",
       n1: "jria",
       n2: "jrya",
       n3: "jeria",
@@ -48256,6 +51473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ae56c54",
       n1: "plage",
       n2: null,
       n3: null,
@@ -48271,6 +51489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d238afd6",
       n1: "wad",
       n2: "ouad",
       n3: null,
@@ -48286,6 +51505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9d3a731",
       n1: "mchroub",
       n2: "mchrob",
       n3: "machrob",
@@ -48301,6 +51521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8818533",
       n1: "majalla",
       n2: null,
       n3: null,
@@ -48316,6 +51537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9222bfd9",
       n1: "imkania",
       n2: null,
       n3: null,
@@ -48331,6 +51553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0a15625",
       n1: "tawra",
       n2: null,
       n3: null,
@@ -48346,6 +51569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fad689ef",
       n1: "mostawTana",
       n2: null,
       n3: null,
@@ -48361,6 +51585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "961026d9",
       n1: "3isa",
       n2: null,
       n3: null,
@@ -48376,6 +51601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d8994b10",
       n1: "ma3din",
       n2: "m3dn",
       n3: null,
@@ -48391,6 +51617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9833a272",
       n1: "9tira7",
       n2: null,
       n3: null,
@@ -48406,6 +51633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aebae55e",
       n1: "mo2ashshir",
       n2: "mo2chir",
       n3: null,
@@ -48421,6 +51649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32595d4f",
       n1: "baligh",
       n2: null,
       n3: null,
@@ -48436,6 +51665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4875da92",
       n1: "taDakhkhom",
       n2: null,
       n3: null,
@@ -48451,6 +51681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c4bf281",
       n1: "ta9a3od",
       n2: null,
       n3: null,
@@ -48466,6 +51697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0b30d07c",
       n1: "m3ml",
       n2: "ma3mal",
       n3: "me3mel",
@@ -48481,6 +51713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "197d4d9e",
       n1: "shariT",
       n2: null,
       n3: null,
@@ -48496,6 +51729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b29eaea8",
       n1: "kaSiTa",
       n2: null,
       n3: null,
@@ -48511,6 +51745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1da93dd",
       n1: "tayyar",
       n2: null,
       n3: null,
@@ -48526,6 +51761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8504ef0a",
       n1: "khaT",
       n2: null,
       n3: null,
@@ -48541,6 +51777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "127a8637",
       n1: "Tri9",
       n2: null,
       n3: null,
@@ -48556,6 +51793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f13189d6",
       n1: "piscine",
       n2: null,
       n3: null,
@@ -48571,6 +51809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85db42d8",
       n1: "7fra",
       n2: "7ofra",
       n3: "7efra",
@@ -48586,6 +51825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "880b8b30",
       n1: "parTma",
       n2: null,
       n3: null,
@@ -48601,6 +51841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0eac962",
       n1: "mo7tawa",
       n2: null,
       n3: null,
@@ -48616,6 +51857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4946e43",
       n1: "mazij",
       n2: null,
       n3: null,
@@ -48631,6 +51873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f81c041a",
       n1: "tkhliTa",
       n2: null,
       n3: null,
@@ -48646,6 +51889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99f5d7c0",
       n1: "jelsa",
       n2: "jlsa",
       n3: "jalsa",
@@ -48661,6 +51905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f92147fd",
       n1: "maw3id",
       n2: "mo3id",
       n3: null,
@@ -48676,6 +51921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8440d3a",
       n1: "lamoD",
       n2: null,
       n3: null,
@@ -48691,6 +51937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c6d802e1",
       n1: "mostahlik",
       n2: null,
       n3: null,
@@ -48706,6 +51953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afb53cfc",
       n1: "klian",
       n2: null,
       n3: null,
@@ -48721,6 +51969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02c6be9b",
       n1: "sokna",
       n2: "skna",
       n3: null,
@@ -48736,6 +51985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f5eeae9",
       n1: "darajat l7arara",
       n2: null,
       n3: null,
@@ -48751,6 +52001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fceeaff1",
       n1: "din",
       n2: "dine",
       n3: null,
@@ -48766,6 +52017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95516773",
       n1: "katib",
       n2: null,
       n3: null,
@@ -48781,6 +52033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c08cf88e",
       n1: "mo2allif",
       n2: null,
       n3: null,
@@ -48796,6 +52049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80b08b9e",
       n1: "omma",
       n2: "2omma",
       n3: null,
@@ -48811,6 +52065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4ae34a1",
       n1: "chamali",
       n2: "shamali",
       n3: null,
@@ -48826,6 +52081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "305dd0e6",
       n1: "3ayyina",
       n2: null,
       n3: null,
@@ -48841,6 +52097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebd21a13",
       n1: "mosa3ada",
       n2: null,
       n3: null,
@@ -48856,6 +52113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aad06a49",
       n1: "tarjama",
       n2: "terjama",
       n3: "trjama",
@@ -48871,6 +52129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96f23634",
       n1: "ta2wil",
       n2: "t2wil",
       n3: null,
@@ -48886,6 +52145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc50009d",
       n1: "janib",
       n2: null,
       n3: null,
@@ -48901,6 +52161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e2e40cf",
       n1: "3arD",
       n2: null,
       n3: null,
@@ -48916,6 +52177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e58d495",
       n1: "wakil",
       n2: null,
       n3: null,
@@ -48931,6 +52193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96dc38a2",
       n1: "Salon",
       n2: null,
       n3: null,
@@ -48946,6 +52209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93a6ceda",
       n1: "i9tira7",
       n2: "9tira7",
       n3: "2i9tira7",
@@ -48961,6 +52225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d214c83b",
       n1: "tasalsol",
       n2: null,
       n3: null,
@@ -48976,6 +52241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48c0e5c4",
       n1: "bakhira",
       n2: null,
       n3: null,
@@ -48991,6 +52257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73eeff3b",
       n1: "entretiyan",
       n2: null,
       n3: null,
@@ -49006,6 +52273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c81d1b7",
       n1: "markaba",
       n2: "merkaba",
       n3: null,
@@ -49021,6 +52289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d5babb0",
       n1: "dimo9raTia",
       n2: null,
       n3: null,
@@ -49036,6 +52305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "503ef7bf",
       n1: "ta7sin",
       n2: "t7sin",
       n3: null,
@@ -49051,6 +52321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "642eed2d",
       n1: "TaTwir",
       n2: null,
       n3: null,
@@ -49066,6 +52337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75634211",
       n1: "tawarroT",
       n2: null,
       n3: null,
@@ -49081,6 +52353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89f814f8",
       n1: "3am",
       n2: null,
       n3: null,
@@ -49096,6 +52369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2447052e",
       n1: "jiniral",
       n2: null,
       n3: null,
@@ -49111,6 +52385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e680a59",
       n1: "wjba",
       n2: "wajba",
       n3: null,
@@ -49126,6 +52401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5a2bef0",
       n1: "moTor",
       n2: null,
       n3: null,
@@ -49141,6 +52417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84609666",
       n1: "ida3a",
       n2: null,
       n3: null,
@@ -49156,6 +52433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f30ead3",
       n1: "nTiba3",
       n2: null,
       n3: null,
@@ -49171,6 +52449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f5e3b28",
       n1: "Sonri",
       n2: null,
       n3: null,
@@ -49186,6 +52465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d5e6264",
       n1: "wer9a",
       n2: "war9a",
       n3: "wr9a",
@@ -49201,6 +52481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6b106f0",
       n1: "talawwoth",
       n2: null,
       n3: null,
@@ -49216,6 +52497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ecc81f7",
       n1: "ljamal",
       n2: null,
       n3: null,
@@ -49231,6 +52513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "354150fd",
       n1: "alzzine",
       n2: null,
       n3: null,
@@ -49246,6 +52529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69011545",
       n1: "ro2ya",
       n2: null,
       n3: null,
@@ -49261,6 +52545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8145da0",
       n1: "bo93a",
       n2: null,
       n3: null,
@@ -49276,6 +52561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "005cc8d4",
       n1: "tmyiz",
       n2: "tamyiz",
       n3: null,
@@ -49291,6 +52577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8124ee26",
       n1: "9ehwi",
       n2: "9ahwi",
       n3: "9hwi",
@@ -49306,6 +52593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "28a0c75e",
       n1: "jma3a",
       n2: null,
       n3: null,
@@ -49321,6 +52609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5760fd11",
       n1: "mazoT",
       n2: null,
       n3: null,
@@ -49336,6 +52625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec19207d",
       n1: "mjmo3",
       n2: "majmo3",
       n3: null,
@@ -49351,6 +52641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94c61368",
       n1: "nkhifaD",
       n2: null,
       n3: null,
@@ -49366,6 +52657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ba9536f",
       n1: "mdkhol",
       n2: "madkhol",
       n3: "madkhoul",
@@ -49381,6 +52673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6478ad7",
       n1: "lkhrif",
       n2: null,
       n3: null,
@@ -49396,6 +52689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7839c468",
       n1: "Ti7a",
       n2: null,
       n3: null,
@@ -49411,6 +52705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6298a558",
       n1: "9ari2",
       n2: null,
       n3: null,
@@ -49426,6 +52721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5bee9754",
       n1: "fakiha",
       n2: null,
       n3: null,
@@ -49441,6 +52737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc473880",
       n1: "b anniyaba",
       n2: null,
       n3: null,
@@ -49456,6 +52753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee5f6a0d",
       n1: "mnkher",
       n2: "mankher",
       n3: "mnkhar",
@@ -49471,6 +52769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f85d086",
       n1: "7did",
       n2: null,
       n3: null,
@@ -49486,6 +52785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a0930fd",
       n1: "fennan",
       n2: "fannan",
       n3: null,
@@ -49501,6 +52801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2bf849d9",
       n1: "oughnia",
       n2: "oghnia",
       n3: null,
@@ -49516,6 +52817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c256e838",
       n1: "disk",
       n2: null,
       n3: null,
@@ -49531,6 +52833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "655c9471",
       n1: "Siyana",
       n2: null,
       n3: null,
@@ -49546,6 +52849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "553f872b",
       n1: "tekwin",
       n2: "takwin",
       n3: "tkwin",
@@ -49561,6 +52865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68641f2a",
       n1: "gazon",
       n2: null,
       n3: null,
@@ -49576,6 +52881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f3ce7d5",
       n1: "naTi9 bi ism",
       n2: null,
       n3: null,
@@ -49591,6 +52897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0c3f9ee",
       n1: "telj",
       n2: "talj",
       n3: "tlj",
@@ -49606,6 +52913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72e544d3",
       n1: "7adith",
       n2: null,
       n3: null,
@@ -49621,6 +52929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec999a96",
       n1: "rabiT",
       n2: null,
       n3: null,
@@ -49636,6 +52945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54b3bdd3",
       n1: "khabir",
       n2: null,
       n3: null,
@@ -49651,6 +52961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73d75508",
       n1: "ikspir",
       n2: null,
       n3: null,
@@ -49666,6 +52977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a58e6c3f",
       n1: "mo2assasa",
       n2: "mo2ssasa",
       n3: null,
@@ -49681,6 +52993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e26aaecf",
       n1: "mika",
       n2: null,
       n3: null,
@@ -49696,6 +53009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b65b1e00",
       n1: "plastic",
       n2: null,
       n3: null,
@@ -49711,6 +53025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e9652ac8",
       n1: "morsha7",
       n2: "morcha7",
       n3: null,
@@ -49726,6 +53041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36580bd9",
       n1: "mamarr",
       n2: null,
       n3: null,
@@ -49741,6 +53057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdf6955c",
       n1: "kanisa",
       n2: null,
       n3: null,
@@ -49756,6 +53073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb19ef44",
       n1: "marji3",
       n2: "merji3",
       n3: "mrji3",
@@ -49771,6 +53089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdb7bca0",
       n1: "Tawari2",
       n2: null,
       n3: null,
@@ -49786,6 +53105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5acc4800",
       n1: "mas2oulia",
       n2: "ms2oulia",
       n3: null,
@@ -49801,6 +53121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95682f99",
       n1: "maw9i3",
       n2: null,
       n3: null,
@@ -49816,6 +53137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62d805be",
       n1: "iTar",
       n2: null,
       n3: null,
@@ -49831,6 +53153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c66bf84f",
       n1: "iDrab",
       n2: null,
       n3: null,
@@ -49846,6 +53169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afeb5582",
       n1: "l3robia",
       n2: null,
       n3: null,
@@ -49861,6 +53185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3f1a282",
       n1: "khariTa",
       n2: null,
       n3: null,
@@ -49876,6 +53201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "242af233",
       n1: "manzili",
       n2: "mnzili",
       n3: "menzili",
@@ -49891,6 +53217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45e99fdb",
       n1: "mowafa9a",
       n2: null,
       n3: null,
@@ -49906,6 +53233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4524fd74",
       n1: "7odoud",
       n2: null,
       n3: null,
@@ -49921,6 +53249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed005a6a",
       n1: "Tayr",
       n2: "Tir",
       n3: "Twiyer",
@@ -49936,6 +53265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fa433a5",
       n1: "dostour",
       n2: null,
       n3: null,
@@ -49951,6 +53281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0767997c",
       n1: "khrif",
       n2: "kharif",
       n3: null,
@@ -49966,6 +53297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7311f2f7",
       n1: "fla7a",
       n2: "fila7a",
       n3: null,
@@ -49981,6 +53313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b15a68a",
       n1: "tarkiz",
       n2: "trkiz",
       n3: "terkiz",
@@ -49996,6 +53329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebabb8d6",
       n1: "shab",
       n2: null,
       n3: null,
@@ -50011,6 +53345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8bfdac55",
       n1: "derri",
       n2: null,
       n3: null,
@@ -50026,6 +53361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46640219",
       n1: "ra2is ta7rir",
       n2: "ra2is t7rir",
       n3: "ra2is te7rir",
@@ -50041,6 +53377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5141477",
       n1: "mowDo3",
       n2: "mwDo3",
       n3: "mawDo3",
@@ -50056,6 +53393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1787d4e",
       n1: "ghalaT",
       n2: null,
       n3: null,
@@ -50071,6 +53409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4174a3e",
       n1: "khaTa2",
       n2: null,
       n3: null,
@@ -50086,6 +53425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4be770b8",
       n1: "kridi",
       n2: null,
       n3: null,
@@ -50101,6 +53441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f39ab80c",
       n1: "TanSio",
       n2: "TonSio",
       n3: null,
@@ -50116,6 +53457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14c0f069",
       n1: "ta3afi",
       n2: null,
       n3: null,
@@ -50131,6 +53473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "477745c1",
       n1: "DDo",
       n2: null,
       n3: null,
@@ -50146,6 +53489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef3cfbb3",
       n1: "rokod 9tiSadi",
       n2: null,
       n3: null,
@@ -50161,6 +53505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b485ff60",
       n1: "tarwa",
       n2: null,
       n3: null,
@@ -50176,6 +53521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "808eefd8",
       n1: "Talab",
       n2: null,
       n3: null,
@@ -50191,6 +53537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b28aa4b",
       n1: "mo9arana",
       n2: null,
       n3: null,
@@ -50206,6 +53553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4070bbd2",
       n1: "byeD",
       n2: "byaD",
       n3: null,
@@ -50221,6 +53569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "252a0fc0",
       n1: "mechya",
       n2: "mchya",
       n3: null,
@@ -50236,6 +53585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57253f34",
       n1: "terkiz",
       n2: "tarkiz",
       n3: "trkiz",
@@ -50251,6 +53601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ef83e07",
       n1: "chef",
       n2: null,
       n3: null,
@@ -50266,6 +53617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d4c3240",
       n1: "ra2is",
       n2: null,
       n3: null,
@@ -50281,6 +53633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "876778eb",
       n1: "lwalid",
       n2: null,
       n3: null,
@@ -50296,6 +53649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4610c85",
       n1: "lwalida",
       n2: null,
       n3: null,
@@ -50311,6 +53665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5119d1ef",
       n1: "3shba",
       n2: "3oshb",
       n3: null,
@@ -50326,6 +53681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ea55ddb",
       n1: "sas",
       n2: null,
       n3: null,
@@ -50341,6 +53697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "063e897f",
       n1: "7emmam",
       n2: "7ammam",
       n3: "7mmam",
@@ -50356,6 +53713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4ec1b23",
       n1: "mwDo3",
       n2: "mawDo3",
       n3: "moDo3",
@@ -50371,6 +53729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "381e5c75",
       n1: "nachr",
       n2: null,
       n3: null,
@@ -50386,6 +53745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83071929",
       n1: "3chr snin",
       n2: "3achr snin",
       n3: null,
@@ -50401,6 +53761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f62ca71c",
       n1: "plage",
       n2: null,
       n3: null,
@@ -50416,6 +53777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff2cc731",
       n1: "skar",
       n2: "sokkar",
       n3: null,
@@ -50431,6 +53793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e9d0529",
       n1: "3lou",
       n2: "3low",
       n3: null,
@@ -50446,6 +53809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4dc7f8b4",
       n1: "rtifa3",
       n2: null,
       n3: null,
@@ -50461,6 +53825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fc287cbb",
       n1: "blaka",
       n2: null,
       n3: null,
@@ -50476,6 +53841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96bf7d09",
       n1: "Sira3",
       n2: null,
       n3: null,
@@ -50491,6 +53857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c7e0635",
       n1: "natija",
       n2: null,
       n3: null,
@@ -50506,6 +53873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a764138",
       n1: "kafa2a",
       n2: null,
       n3: null,
@@ -50521,6 +53889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "17934eef",
       n1: "jarima",
       n2: null,
       n3: null,
@@ -50536,6 +53905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "332f8599",
       n1: "addi99a",
       n2: null,
       n3: null,
@@ -50551,6 +53921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "792cbc42",
       n1: "khabir",
       n2: null,
       n3: null,
@@ -50566,6 +53937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "003c8c3b",
       n1: "bar",
       n2: null,
       n3: null,
@@ -50581,6 +53953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2b97024",
       n1: "ta3awon",
       n2: null,
       n3: null,
@@ -50596,6 +53969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2924aeaf",
       n1: "merSa",
       n2: null,
       n3: null,
@@ -50611,6 +53985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db7e4cb8",
       n1: "7adita",
       n2: null,
       n3: null,
@@ -50626,6 +54001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07a18476",
       n1: "tamtil",
       n2: null,
       n3: null,
@@ -50641,6 +54017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "596a534d",
       n1: "charT",
       n2: "sharT",
       n3: "shrT",
@@ -50656,6 +54033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66849732",
       n1: "khata2",
       n2: null,
       n3: null,
@@ -50671,6 +54049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8dd72fef",
       n1: "ghalaT",
       n2: null,
       n3: null,
@@ -50686,6 +54065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "070975a8",
       n1: "kheddam",
       n2: null,
       n3: null,
@@ -50701,6 +54081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3812328",
       n1: "ta9addom",
       n2: null,
       n3: null,
@@ -50716,6 +54097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de742ab2",
       n1: "imbraToria",
       n2: null,
       n3: null,
@@ -50731,6 +54113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fccc7ada",
       n1: "mfhoum",
       n2: "mafhoum",
       n3: null,
@@ -50746,6 +54129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96e100a5",
       n1: "tawSil",
       n2: null,
       n3: null,
@@ -50761,6 +54145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "62263ba8",
       n1: "sndo9",
       n2: null,
       n3: null,
@@ -50776,6 +54161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00de6b97",
       n1: "rokhSa",
       n2: "rkhSa",
       n3: null,
@@ -50791,6 +54177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0dd41c49",
       n1: "motawaSSiT",
       n2: null,
       n3: null,
@@ -50806,6 +54193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8168d22a",
       n1: "tawsi3",
       n2: "twsi3",
       n3: "tousi3",
@@ -50821,6 +54209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a7e4339",
       n1: "majmo3a",
       n2: "mjmo3a",
       n3: null,
@@ -50836,6 +54225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f4e2640f",
       n1: "badil",
       n2: null,
       n3: null,
@@ -50851,6 +54241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0b7948e",
       n1: "mostashar",
       n2: null,
       n3: null,
@@ -50866,6 +54257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f87ae542",
       n1: "ma7all",
       n2: null,
       n3: null,
@@ -50881,6 +54273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c242929",
       n1: "magaza",
       n2: null,
       n3: null,
@@ -50896,6 +54289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66fead89",
       n1: "ddat",
       n2: null,
       n3: null,
@@ -50911,6 +54305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "32f7c439",
       n1: "stira7a",
       n2: null,
       n3: null,
@@ -50926,6 +54321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6aae9afc",
       n1: "drama",
       n2: null,
       n3: null,
@@ -50941,6 +54337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee981804",
       n1: "charika",
       n2: null,
       n3: null,
@@ -50956,6 +54353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d502780d",
       n1: "tawsi3",
       n2: "tousi3",
       n3: null,
@@ -50971,6 +54369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10e575bf",
       n1: "mo2tamar",
       n2: null,
       n3: null,
@@ -50986,6 +54385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad26dd7a",
       n1: "mo3ahada",
       n2: null,
       n3: null,
@@ -51001,6 +54401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59a70e6c",
       n1: "sharaka",
       n2: "charaka",
       n3: "charaaka",
@@ -51016,6 +54417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a939ea5",
       n1: "mahara",
       n2: null,
       n3: null,
@@ -51031,6 +54433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4aac6aac",
       n1: "tam3elmit",
       n2: null,
       n3: null,
@@ -51046,6 +54449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "931f242c",
       n1: "jawla",
       n2: null,
       n3: null,
@@ -51061,6 +54465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b80c72dc",
       n1: "mDowwer",
       n2: null,
       n3: null,
@@ -51076,6 +54481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb6446fd",
       n1: "nniDam dial l7okm",
       n2: null,
       n3: null,
@@ -51091,6 +54497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cdfd1522",
       n1: "t79i9",
       n2: "ta79i9",
       n3: null,
@@ -51106,6 +54513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ef9e1b4b",
       n1: "stifsar",
       n2: null,
       n3: null,
@@ -51121,6 +54529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f2e4810",
       n1: "majal",
       n2: null,
       n3: null,
@@ -51136,6 +54545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af68a03e",
       n1: "bab",
       n2: null,
       n3: null,
@@ -51151,6 +54561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e596552",
       n1: "a9allia",
       n2: null,
       n3: null,
@@ -51166,6 +54577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c07d19a4",
       n1: "daka2",
       n2: null,
       n3: null,
@@ -51181,6 +54593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1055cef3",
       n1: "risTora",
       n2: null,
       n3: null,
@@ -51196,6 +54609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccab48f3",
       n1: "natija",
       n2: null,
       n3: null,
@@ -51211,6 +54625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "16180c77",
       n1: "mT7ana",
       n2: null,
       n3: null,
@@ -51226,6 +54641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd736ad0",
       n1: "golf",
       n2: null,
       n3: null,
@@ -51241,6 +54657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "727b7d82",
       n1: "asba9ia",
       n2: null,
       n3: null,
@@ -51256,6 +54673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "761d0c28",
       n1: "awlawia",
       n2: null,
       n3: null,
@@ -51271,6 +54689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "82f8da90",
       n1: "Tiyara",
       n2: null,
       n3: null,
@@ -51286,6 +54705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d0f7fce",
       n1: "far9",
       n2: "fer9",
       n3: null,
@@ -51301,6 +54721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66206546",
       n1: "9elb",
       n2: "9alb",
       n3: null,
@@ -51316,6 +54737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2f34ba82",
       n1: "khal",
       n2: null,
       n3: null,
@@ -51331,6 +54753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20ec0d06",
       n1: "3mm",
       n2: "3em",
       n3: null,
@@ -51346,6 +54769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "524d04c4",
       n1: "nachat",
       n2: "nashat",
       n3: null,
@@ -51361,6 +54785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6216b867",
       n1: "woSol",
       n2: null,
       n3: null,
@@ -51376,6 +54801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab9ac2a3",
       n1: "Darf",
       n2: "Derf",
       n3: null,
@@ -51391,6 +54817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d50fede",
       n1: "amer",
       n2: null,
       n3: null,
@@ -51406,6 +54833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c877b493",
       n1: "ta3assof",
       n2: "ta3ssof",
       n3: null,
@@ -51421,6 +54849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b027e117",
       n1: "isa2a",
       n2: null,
       n3: null,
@@ -51436,6 +54865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4044a136",
       n1: "7gra",
       n2: "7ogra",
       n3: null,
@@ -51451,6 +54881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e228167d",
       n1: "7ed",
       n2: "7d",
       n3: null,
@@ -51466,6 +54897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e11320c",
       n1: "ma9am",
       n2: "ma9aam",
       n3: "maqam",
@@ -51481,6 +54913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e892f88",
       n1: "garanTi",
       n2: "garanti",
       n3: null,
@@ -51496,6 +54929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a53dd3d0",
       n1: "sllom",
       n2: "slloum",
       n3: "sellom",
@@ -51511,6 +54945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d877d7a5",
       n1: "9zziba",
       n2: null,
       n3: null,
@@ -51526,6 +54961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b96cda2",
       n1: "akhbar",
       n2: "a5bar",
       n3: "akhbaar",
@@ -51541,6 +54977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a035b26",
       n1: "jornan",
       n2: "journal",
       n3: "journan",
@@ -51556,6 +54993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d174c2a2",
       n1: "jarida",
       n2: null,
       n3: null,
@@ -51571,6 +55009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a4d2f24",
       n1: "ghech",
       n2: "ghechch",
       n3: "ghch",
@@ -51586,6 +55025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa0d3374",
       n1: "li9a7",
       n2: null,
       n3: null,
@@ -51601,6 +55041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f04e50c",
       n1: "nfijar",
       n2: "infijar",
       n3: null,
@@ -51616,6 +55057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc27724f",
       n1: "tajmmo3",
       n2: "tajemmo3",
       n3: "tajammo3",
@@ -51631,6 +55073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9111dab3",
       n1: "jtima3",
       n2: "ljtima3",
       n3: null,
@@ -51646,6 +55089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3189823",
       n1: "Soura",
       n2: "Sora",
       n3: null,
@@ -51661,6 +55105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23669f9e",
       n1: "9edd",
       n2: "9dd",
       n3: null,
@@ -51676,6 +55121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd77e069",
       n1: "chikaya",
       n2: null,
       n3: null,
@@ -51691,6 +55137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c826a6c",
       n1: "mjerr",
       n2: "mjrr",
       n3: "mjarr",
@@ -51706,6 +55153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9685befe",
       n1: "program",
       n2: null,
       n3: null,
@@ -51721,6 +55169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bcdae140",
       n1: "sinyal",
       n2: "sinial",
       n3: "siniyal",
@@ -51736,6 +55185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47b6c363",
       n1: "sdd",
       n2: "sedd",
       n3: "sedd",
@@ -51751,6 +55201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7058eb9c",
       n1: "Tlila",
       n2: null,
       n3: null,
@@ -51766,6 +55217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "facff3cb",
       n1: "kaDo",
       n2: null,
       n3: null,
@@ -51781,6 +55233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0ca69ed4",
       n1: "karTa",
       n2: "carta",
       n3: "carTa",
@@ -51796,6 +55249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79bf6926",
       n1: "3odr",
       n2: null,
       n3: null,
@@ -51811,6 +55265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1bf1bc7d",
       n1: "t3li9",
       n2: "ta3li9",
       n3: "te3li9",
@@ -51826,6 +55281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c99ea32f",
       n1: "tilifon",
       n2: null,
       n3: null,
@@ -51841,6 +55297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50c1934c",
       n1: "kabl",
       n2: "cable",
       n3: null,
@@ -51856,6 +55313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a5ba988",
       n1: "priz",
       n2: "prise",
       n3: null,
@@ -51871,6 +55329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25fd4130",
       n1: "charjour",
       n2: "charjor",
       n3: null,
@@ -51886,6 +55345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e50f8d88",
       n1: "internet",
       n2: "intirnit",
       n3: "antirnit",
@@ -51901,6 +55361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "676d65b4",
       n1: "odio",
       n2: "audio",
       n3: "odyo",
@@ -51916,6 +55377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53d5284c",
       n1: "watsap",
       n2: null,
       n3: null,
@@ -51931,6 +55393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9534c279",
       n1: "fisbok",
       n2: "fisbouk",
       n3: "faysbouk",
@@ -51946,6 +55409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f086a7d",
       n1: "bla slk",
       n2: "bla selk",
       n3: "bla salk",
@@ -51961,6 +55425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e34e3183",
       n1: "slk",
       n2: "selk",
       n3: "salk",
@@ -51976,6 +55441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5dfb2cdc",
       n1: "batri",
       n2: "batterie",
       n3: null,
@@ -51991,6 +55457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f063283",
       n1: "boton",
       n2: "bouton",
       n3: "botona",
@@ -52006,6 +55473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53f6ac6f",
       n1: "tilicomand",
       n2: "telecomand",
       n3: "telecommande",
@@ -52021,6 +55489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7bd08df",
       n1: "nitflix",
       n2: "netflix",
       n3: null,
@@ -52036,6 +55505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b962dc1c",
       n1: "parabol",
       n2: "parabole",
       n3: null,
@@ -52051,6 +55521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95fee45f",
       n1: "pici",
       n2: "pc",
       n3: null,
@@ -52066,6 +55537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39e47f5b",
       n1: "lizyat",
       n2: "liziat",
       n3: null,
@@ -52081,6 +55553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b94f4cc9",
       n1: "lizikottour",
       n2: "lizikotour",
       n3: "lizikotor",
@@ -52096,6 +55569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c2c444c2",
       n1: "matiryal",
       n2: "mataryan",
       n3: "materiel",
@@ -52111,6 +55585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1271b26d",
       n1: "portabl",
       n2: "portable",
       n3: null,
@@ -52126,6 +55601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fc05aea",
       n1: "reveil",
       n2: "revey",
       n3: "rrevey",
@@ -52141,6 +55617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f2fe35c",
       n1: "gddam",
       n2: "godam",
       n3: "goddam",
@@ -52156,6 +55633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c953a13f",
       n1: "mora",
       n2: "moura",
       n3: null,
@@ -52171,6 +55649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5d15adb",
       n1: "fog",
       n2: "foug",
       n3: null,
@@ -52186,6 +55665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "babe8c83",
       n1: "t7t",
       n2: "taht",
       n3: "ta7t",
@@ -52201,6 +55681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "412dcbf6",
       n1: "3la",
       n2: "aala",
       n3: null,
@@ -52216,6 +55697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eae22033",
       n1: "b3d",
       n2: "be3d",
       n3: "ba3d",
@@ -52231,6 +55713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34fd6d26",
       n1: "Dedd",
       n2: "Dadd",
       n3: null,
@@ -52246,6 +55729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0bb3de43",
       n1: "fost",
       n2: null,
       n3: null,
@@ -52261,6 +55745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c29633f",
       n1: "b7al",
       n2: "bhal",
       n3: null,
@@ -52276,6 +55761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7589cae",
       n1: "b7al",
       n2: "bhal",
       n3: null,
@@ -52291,6 +55777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92f6f14c",
       n1: "f",
       n2: "fi",
       n3: null,
@@ -52306,6 +55793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1e47bff",
       n1: "bsbab",
       n2: "bsabab",
       n3: null,
@@ -52321,6 +55809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "209ef435",
       n1: "9bl",
       n2: "9bel",
       n3: "qbel",
@@ -52336,6 +55825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fa7bea7",
       n1: "t7t",
       n2: "lt7t",
       n3: "te7t",
@@ -52351,6 +55841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5a857aec",
       n1: "7da",
       n2: "hda",
       n3: null,
@@ -52366,6 +55857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8fea6e45",
       n1: "bin",
       n2: null,
       n3: null,
@@ -52381,6 +55873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ac99959",
       n1: "b",
       n2: "bi",
       n3: null,
@@ -52396,6 +55889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2efd93fc",
       n1: "bwasiTat",
       n2: "b wasiTat",
       n3: null,
@@ -52411,6 +55905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f47de1c",
       n1: "t7t",
       n2: "ta7t",
       n3: "te7T",
@@ -52426,6 +55921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46405c34",
       n1: "fou9t",
       n2: "f w9t",
       n3: "fw9t",
@@ -52441,6 +55937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c64113c0",
       n1: "ma3ada",
       n2: "ma 3ada",
       n3: null,
@@ -52456,6 +55953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6356b815",
       n1: "tab3",
       n2: "taab3",
       n3: "tabaa",
@@ -52471,6 +55969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6247259a",
       n1: "l",
       n2: "li",
       n3: null,
@@ -52486,6 +55985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50f4f3ca",
       n1: "l",
       n2: "li",
       n3: null,
@@ -52501,6 +56001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e43b2dc1",
       n1: "mn",
       n2: "men",
       n3: null,
@@ -52516,6 +56017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1cf8e0ce",
       n1: "f",
       n2: "fi",
       n3: null,
@@ -52531,6 +56033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8844d72c",
       n1: "za2id",
       n2: null,
       n3: null,
@@ -52546,6 +56049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a58a15aa",
       n1: "ila",
       n2: null,
       n3: null,
@@ -52561,6 +56065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68c5e9ff",
       n1: "bima fiha",
       n2: null,
       n3: null,
@@ -52576,6 +56081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "592aa08e",
       n1: "daakhl",
       n2: "daa5l",
       n3: "dakhl",
@@ -52591,6 +56097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d65c354",
       n1: "khaarj",
       n2: "5aarj",
       n3: "kharj",
@@ -52606,6 +56113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61bf36d6",
       n1: "mn",
       n2: "men",
       n3: null,
@@ -52621,6 +56129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a340fb39",
       n1: "3la",
       n2: "aala",
       n3: null,
@@ -52636,6 +56145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56e1d6a8",
       n1: "bnnisba",
       n2: "bnisba",
       n3: "b nnisba",
@@ -52651,6 +56161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4295dd3c",
       n1: "mn",
       n2: "men",
       n3: null,
@@ -52666,6 +56177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f3578aa",
       n1: "f ttija8",
       n2: "f tijah",
       n3: "fttijah",
@@ -52681,6 +56193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b350be6",
       n1: "7tal",
       n2: null,
       n3: null,
@@ -52696,6 +56209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72a57fce",
       n1: "m3a",
       n2: "maa",
       n3: null,
@@ -52711,6 +56225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8e2e37c",
       n1: "7it",
       n2: "7int",
       n3: "7itach",
@@ -52726,6 +56241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2474682e",
       n1: "bach",
       n2: null,
       n3: null,
@@ -52741,6 +56257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2202c27",
       n1: "ana",
       n2: null,
       n3: null,
@@ -52756,6 +56273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d016a07",
       n1: "ana",
       n2: null,
       n3: null,
@@ -52771,6 +56289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b362dbb7",
       n1: "nta",
       n2: null,
       n3: null,
@@ -52786,6 +56305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "198380fe",
       n1: "nti",
       n2: null,
       n3: null,
@@ -52801,6 +56321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d341339f",
       n1: "hoa",
       n2: "howa",
       n3: "8owa",
@@ -52816,6 +56337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61c84639",
       n1: "hia",
       n2: "hya",
       n3: "8ya",
@@ -52831,6 +56353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bca0b77a",
       n1: "7na",
       n2: null,
       n3: null,
@@ -52846,6 +56369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0de9cdbc",
       n1: "7na",
       n2: null,
       n3: null,
@@ -52861,6 +56385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de69f588",
       n1: "ntoma",
       n2: "ntouma",
       n3: null,
@@ -52876,6 +56401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4403809",
       n1: "homa",
       n2: "houma",
       n3: "8ouma",
@@ -52891,6 +56417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "847d9f21",
       n1: "ayy wahd",
       n2: null,
       n3: null,
@@ -52906,6 +56433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f9de86b2",
       n1: "tta wahd",
       n2: null,
       n3: null,
@@ -52921,6 +56449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "28c48328",
       n1: "ayyatoha haja",
       n2: null,
       n3: null,
@@ -52936,6 +56465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21b857c5",
       n1: "kolchi",
       n2: "koulchi",
       n3: "kollchi",
@@ -52951,6 +56481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "948c0d68",
       n1: "hada",
       n2: "hadi",
       n3: "hadchi",
@@ -52966,6 +56497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2c5aaf0",
       n1: "dak",
       n2: null,
       n3: null,
@@ -52981,6 +56513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52058347",
       n1: "hadak",
       n2: null,
       n3: null,
@@ -52996,6 +56529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4c00b5d",
       n1: "hadik",
       n2: null,
       n3: null,
@@ -53011,6 +56545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e60fa6f4",
       n1: "hado",
       n2: "hadou",
       n3: null,
@@ -53026,6 +56561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f42ab5ef",
       n1: "hado",
       n2: "hadou",
       n3: null,
@@ -53041,6 +56577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b913ce3",
       n1: "imta",
       n2: null,
       n3: null,
@@ -53056,6 +56593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "172c31f7",
       n1: "fo9ach",
       n2: "foqach",
       n3: null,
@@ -53071,6 +56609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95a3e900",
       n1: "fine",
       n2: "fin",
       n3: null,
@@ -53086,6 +56625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "070d377d",
       n1: "w9tach",
       n2: "wa9tach",
       n3: "we9tach",
@@ -53101,6 +56641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8eb144a8",
       n1: "3lach",
       n2: "aalach",
       n3: null,
@@ -53116,6 +56657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bedc653",
       n1: "kifach",
       n2: null,
       n3: null,
@@ -53131,6 +56673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbda6990",
       n1: "ach",
       n2: null,
       n3: null,
@@ -53146,6 +56689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2576582a",
       n1: "chno",
       n2: null,
       n3: null,
@@ -53161,6 +56705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0538455e",
       n1: "chkon",
       n2: null,
       n3: null,
@@ -53176,6 +56721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c422acc4",
       n1: "kifach",
       n2: null,
       n3: null,
@@ -53191,6 +56737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f60ae084",
       n1: "ktr",
       n2: "kter",
       n3: "ktar",
@@ -53206,6 +56753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b5d65c2",
       n1: "aktar",
       n2: null,
       n3: null,
@@ -53221,6 +56769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11161254",
       n1: "a9al",
       n2: null,
       n3: null,
@@ -53236,6 +56785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c9c7967",
       n1: "9el",
       n2: "9al",
       n3: null,
@@ -53251,6 +56801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e636952b",
       n1: "chi 7edd",
       n2: "chi 7ed",
       n3: "chi7ed",
@@ -53266,6 +56817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0079a21a",
       n1: "dyali",
       n2: "diali",
       n3: null,
@@ -53281,6 +56833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d75b208e",
       n1: "dyalo",
       n2: "dialo",
       n3: "dialou",
@@ -53296,6 +56849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "760b3dc5",
       n1: "dyalha",
       n2: "dialha",
       n3: "dial8a",
@@ -53311,6 +56865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8170872",
       n1: "dyalha",
       n2: "dialha",
       n3: "dial8a",
@@ -53326,6 +56881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea0fd4b9",
       n1: "dyalhom",
       n2: "dialhom",
       n3: "dial8om",
@@ -53341,6 +56897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d886d40",
       n1: "dyalhom",
       n2: "dialhom",
       n3: "dial8om",
@@ -53356,6 +56913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbc0dd96",
       n1: "dyalna",
       n2: "dialna",
       n3: null,
@@ -53371,6 +56929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a129d190",
       n1: "dyalna",
       n2: "dialna",
       n3: null,
@@ -53386,6 +56945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12d56dfb",
       n1: "dyawli",
       n2: "diawli",
       n3: null,
@@ -53401,6 +56961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fe67bb8",
       n1: "dyawlo",
       n2: "diawlo",
       n3: "diawlou",
@@ -53416,6 +56977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7ac9e5e",
       n1: "dyawlha",
       n2: "diawlha",
       n3: "diawl8a",
@@ -53431,6 +56993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9553cada",
       n1: "dyawlha",
       n2: "diawlha",
       n3: "diawl8a",
@@ -53446,6 +57009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ce59db0",
       n1: "dyawlhom",
       n2: "diawlhom",
       n3: "diawl8om",
@@ -53461,6 +57025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "852adc86",
       n1: "dyawlhom",
       n2: "diawlhom",
       n3: "diawl8om",
@@ -53476,6 +57041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7668ad2a",
       n1: "dyawlna",
       n2: "dialna",
       n3: null,
@@ -53491,6 +57057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "309a55ec",
       n1: "dyawlna",
       n2: "dialna",
       n3: null,
@@ -53506,6 +57073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc7781c8",
       n1: "b7al",
       n2: "bhal",
       n3: null,
@@ -53521,6 +57089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6d43765",
       n1: "3rram",
       n2: "3erram",
       n3: null,
@@ -53536,6 +57105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8710c488",
       n1: "kla",
       n2: null,
       n3: null,
@@ -53551,6 +57121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b0989d8d",
       n1: "chrb",
       n2: "chreb",
       n3: null,
@@ -53566,6 +57137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ab6689f",
       n1: "dkhel",
       n2: "dkhl",
       n3: "dkhal",
@@ -53581,6 +57153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a451fda",
       n1: "khrj",
       n2: "khraj",
       n3: "khrej",
@@ -53596,6 +57169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a4fd67b",
       n1: "fhem",
       n2: "fhm",
       n3: "fham",
@@ -53611,6 +57185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "07900ef2",
       n1: "chr7",
       n2: "chra7",
       n3: "chre7",
@@ -53626,6 +57201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92ffad49",
       n1: "9ra",
       n2: "qra",
       n3: null,
@@ -53641,6 +57217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "10634ca9",
       n1: "9rra",
       n2: "9erra",
       n3: "qrra",
@@ -53656,6 +57233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c1db14d",
       n1: "sm3",
       n2: "sme3",
       n3: "sma3",
@@ -53671,6 +57249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0bb36476",
       n1: "chaf",
       n2: "chaaf",
       n3: null,
@@ -53686,6 +57265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6e9986c",
       n1: "chm",
       n2: "chemm",
       n3: "chmm",
@@ -53701,6 +57281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61cbed8f",
       n1: "da9",
       n2: "daq",
       n3: null,
@@ -53716,6 +57297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fd7852c",
       n1: "9as",
       n2: "qas",
       n3: null,
@@ -53731,6 +57313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f2a3bdc",
       n1: "mcha",
       n2: null,
       n3: null,
@@ -53746,6 +57329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "249b2884",
       n1: "ja",
       n2: null,
       n3: null,
@@ -53761,6 +57345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9861e3c",
       n1: "tl3",
       n2: "tla3",
       n3: "tle3",
@@ -53776,6 +57361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f6579b2",
       n1: "nzl",
       n2: "nzel",
       n3: null,
@@ -53791,6 +57377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "626ac6c7",
       n1: "3am",
       n2: null,
       n3: null,
@@ -53806,6 +57393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b93053a0",
       n1: "ghr9",
       n2: "ghra9",
       n3: "ghre9",
@@ -53821,6 +57409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "595274ce",
       n1: "lbs",
       n2: "lbes",
       n3: null,
@@ -53836,6 +57425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "17a1bd71",
       n1: "slt",
       n2: "slet",
       n3: "slat",
@@ -53851,6 +57441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e22ba99",
       n1: "chra",
       n2: null,
       n3: null,
@@ -53866,6 +57457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb640d67",
       n1: "ba3",
       n2: "baa3",
       n3: null,
@@ -53881,6 +57473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b26d4987",
       n1: "ttawa",
       n2: null,
       n3: null,
@@ -53896,6 +57489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3311b359",
       n1: "ktb",
       n2: "kteb",
       n3: null,
@@ -53911,6 +57505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "111cb09a",
       n1: "ms7",
       n2: "msa7",
       n3: "msah",
@@ -53926,6 +57521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f83ec346",
       n1: "drab",
       n2: "dreb",
       n3: null,
@@ -53941,6 +57537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be482a08",
       n1: "tsalm",
       n2: "tsalem",
       n3: null,
@@ -53956,6 +57553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31fa6c7d",
       n1: "3ya",
       n2: "3ia",
       n3: null,
@@ -53971,6 +57569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fbf5bf1c",
       n1: "tskhskh",
       n2: "tsakhsakh",
       n3: "tsa5sa5",
@@ -53986,6 +57585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4264630e",
       n1: "D7k",
       n2: "D7ek",
       n3: "D7ak",
@@ -54001,6 +57601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66430edc",
       n1: "ghdb",
       n2: "ghdab",
       n3: null,
@@ -54016,6 +57617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97a0f67f",
       n1: "jab",
       n2: null,
       n3: null,
@@ -54031,6 +57633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e0eaa40",
       n1: "kan",
       n2: null,
       n3: null,
@@ -54046,6 +57649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "784da483",
       n1: "dar",
       n2: null,
       n3: null,
@@ -54061,6 +57665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "336aca5d",
       n1: "gal",
       n2: null,
       n3: null,
@@ -54076,6 +57681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba13b726",
       n1: "9al",
       n2: null,
       n3: null,
@@ -54091,6 +57697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddcd18b5",
       n1: "3ndo",
       n2: "3ando",
       n3: "3endo",
@@ -54106,6 +57713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "46e1c105",
       n1: "chedd",
       n2: "chdd",
       n3: null,
@@ -54121,6 +57729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf09ec93",
       n1: "fkkr",
       n2: "fkker",
       n3: "fkkar",
@@ -54136,6 +57745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e8108d5",
       n1: "ba",
       n2: "bgha",
       n3: null,
@@ -54151,6 +57761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d8b2cb82",
       n1: "l9a",
       n2: "lqa",
       n3: null,
@@ -54166,6 +57777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b881c6f3",
       n1: "3Ta",
       n2: null,
       n3: null,
@@ -54181,6 +57793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60ddbf47",
       n1: "khdm",
       n2: "khdam",
       n3: "khdem",
@@ -54196,6 +57809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bdfe2f2f",
       n1: "3yeT",
       n2: "3ayyaT",
       n3: "3eyyeT",
@@ -54211,6 +57825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b10ece4",
       n1: "khass",
       n2: "5ass",
       n3: "khess",
@@ -54226,6 +57841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30bbec57",
       n1: "7ess",
       n2: "7ass",
       n3: "hass",
@@ -54241,6 +57857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f007d3f",
       n1: "wlla",
       n2: "wella",
       n3: null,
@@ -54256,6 +57873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7dc46dbd",
       n1: "7TT",
       n2: "7aTT",
       n3: "7aT",
@@ -54271,6 +57889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "929e448f",
       n1: "3na",
       n2: null,
       n3: null,
@@ -54286,6 +57905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f806b3e",
       n1: "bda",
       n2: null,
       n3: null,
@@ -54301,6 +57921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccb704a7",
       n1: "khss",
       n2: null,
       n3: null,
@@ -54316,6 +57937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51d5f1b2",
       n1: "3jb",
       n2: "3jeb",
       n3: "3jab",
@@ -54331,6 +57953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4945e1c3",
       n1: "khbr",
       n2: "khber",
       n3: "5br",
@@ -54346,6 +57969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc82f900",
       n1: "3awn",
       n2: "3awen",
       n3: "aawen",
@@ -54361,6 +57985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0fc99aa0",
       n1: "3t9",
       n2: "3te9",
       n3: null,
@@ -54376,6 +58001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8063e48",
       n1: "wjjd",
       n2: "wjjed",
       n3: "wajjad",
@@ -54391,6 +58017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea4a86e4",
       n1: "2amn",
       n2: "aamn",
       n3: null,
@@ -54406,6 +58033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64518fe2",
       n1: "7awl",
       n2: "7awel",
       n3: "hawel",
@@ -54421,6 +58049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77dd4dd9",
       n1: "jrrb",
       n2: "jarreb",
       n3: "jerreb",
@@ -54436,6 +58065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ade85058",
       n1: "swwl",
       n2: "swwel",
       n3: "sawwel",
@@ -54451,6 +58081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4dfcb7f5",
       n1: "tfkkr",
       n2: "tfekker",
       n3: "tfakkar",
@@ -54466,6 +58097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0f884b1",
       n1: "mcha",
       n2: null,
       n3: null,
@@ -54481,6 +58113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "965b25fc",
       n1: "byyen",
       n2: "beyyen",
       n3: "biyyen",
@@ -54496,6 +58129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a37b05a9",
       n1: "l3b",
       n2: "l3eb",
       n3: "l3ab",
@@ -54511,6 +58145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3e1fad6",
       n1: "jra",
       n2: null,
       n3: null,
@@ -54526,6 +58161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d903f1ec",
       n1: "jrra",
       n2: "jerra",
       n3: "jarra",
@@ -54541,6 +58177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f369fc62",
       n1: "9ra",
       n2: "qra",
       n3: null,
@@ -54556,6 +58193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e77fa05",
       n1: "bda",
       n2: null,
       n3: null,
@@ -54571,6 +58209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c76a1bb",
       n1: "sala",
       n2: null,
       n3: null,
@@ -54586,6 +58225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33aae837",
       n1: "9TT3",
       n2: "9aTTe3",
       n3: "qattaa",
@@ -54601,6 +58241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df9f8101",
       n1: "8Dr",
       n2: "8Der",
       n3: "8Dar",
@@ -54616,6 +58257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d90b4bf",
       n1: "chker",
       n2: "chkar",
       n3: "chkor",
@@ -54631,6 +58273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ded3e07f",
       n1: "bddel",
       n2: "bddal",
       n3: null,
@@ -54646,6 +58289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9bcc875e",
       n1: "kmmel",
       n2: "kmmal",
       n3: null,
@@ -54661,6 +58305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d098de6",
       n1: "ftarD",
       n2: null,
       n3: null,
@@ -54676,6 +58321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9d77eef",
       n1: "tmnna",
       n2: "tmenna",
       n3: null,
@@ -54691,6 +58337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff7b1446",
       n1: "tb3",
       n2: "tbe3",
       n3: "tba3",
@@ -54706,6 +58353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6486be8",
       n1: "9bl",
       n2: "9bel",
       n3: "9bel",
@@ -54721,6 +58369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c05bc51f",
       n1: "rfD",
       n2: "rfaD",
       n3: "rfeD",
@@ -54736,6 +58385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "385edebd",
       n1: "w93",
       n2: "w9e3",
       n3: "w9e3",
@@ -54751,6 +58401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edfcd26e",
       n1: "gls",
       n2: "gles",
       n3: "glas",
@@ -54766,6 +58417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c69b436",
       n1: "rb7",
       n2: "rbe7",
       n3: "rba7",
@@ -54781,6 +58433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd064b80",
       n1: "zad",
       n2: null,
       n3: null,
@@ -54796,6 +58449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed1cb095",
       n1: "t3llm",
       n2: "t3allam",
       n3: "t3ellem",
@@ -54811,6 +58465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83096197",
       n1: "tsnna",
       n2: null,
       n3: null,
@@ -54826,6 +58481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99997ea2",
       n1: "sifT",
       n2: "SifT",
       n3: null,
@@ -54841,6 +58497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34f3fdb9",
       n1: "7ell",
       n2: "7all",
       n3: null,
@@ -54856,6 +58513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "647cf7c2",
       n1: "bna",
       n2: null,
       n3: null,
@@ -54871,6 +58529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "063dc9ae",
       n1: "khtar",
       n2: "5tar",
       n3: null,
@@ -54886,6 +58545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fd824e2",
       n1: "wSl",
       n2: "wSal",
       n3: "wSel",
@@ -54901,6 +58561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f9747bf",
       n1: "9rrer",
       n2: "9arrar",
       n3: "9arrer",
@@ -54916,6 +58577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b600965a",
       n1: "nchT",
       n2: "nchaT",
       n3: "ncheT",
@@ -54931,6 +58593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45c800cd",
       n1: "tfrrj",
       n2: "itfrrej",
       n3: "tfarraj",
@@ -54946,6 +58609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f791bd31",
       n1: "khsr",
       n2: "khsar",
       n3: "khser",
@@ -54961,6 +58625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9929e8bc",
       n1: "tmchcha",
       n2: "tmecha",
       n3: null,
@@ -54976,6 +58641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5944786",
       n1: "kbbr",
       n2: "kebber",
       n3: "kabber",
@@ -54991,6 +58657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c1eac5cf",
       n1: "tkhyyl",
       n2: "tkheyyel",
       n3: "tkhayel",
@@ -55006,6 +58673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "844ab453",
       n1: "sbbeb",
       n2: "sabbeb",
       n3: null,
@@ -55021,6 +58689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8f57b921",
       n1: "8rrs",
       n2: "harrass",
       n3: "8arres",
@@ -55036,6 +58705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "896b74ff",
       n1: "sme3",
       n2: "smaa",
       n3: "sma3",
@@ -55051,6 +58721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd8a52a9",
       n1: "kbr",
       n2: "kber",
       n3: null,
@@ -55066,6 +58737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d8ed46e",
       n1: "mat",
       n2: null,
       n3: null,
@@ -55081,6 +58753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee1281c0",
       n1: "twffa",
       n2: "tweffa",
       n3: "toueffa",
@@ -55096,6 +58769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e6071ec",
       n1: "zar",
       n2: "zaar",
       n3: null,
@@ -55111,6 +58785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "91145038",
       n1: "chjje3",
       n2: "chajja3",
       n3: null,
@@ -55126,6 +58801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4cfc096",
       n1: "7ama",
       n2: "hama",
       n3: null,
@@ -55141,6 +58817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c7220d2",
       n1: "nchr",
       n2: "ncher",
       n3: "nchar",
@@ -55156,6 +58833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12edeb24",
       n1: "9tl",
       n2: "9tal",
       n3: "9tel",
@@ -55171,6 +58849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bcf40105",
       n1: "sag",
       n2: "Sag",
       n3: "Saag",
@@ -55186,6 +58865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab929425",
       n1: "kdb",
       n2: "kdeb",
       n3: "kdab",
@@ -55201,6 +58881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "421a3567",
       n1: "t9aj7",
       n2: "t9aje7",
       n3: "tqajeh",
@@ -55216,6 +58897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "01d95a92",
       n1: "7yyed",
       n2: "7ayyad",
       n3: "7ayyed",
@@ -55231,6 +58913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d365aa8",
       n1: "ddabz",
       n2: null,
       n3: null,
@@ -55246,6 +58929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93ac616f",
       n1: "3mmr",
       n2: "3emmer",
       n3: "3emmar",
@@ -55261,6 +58945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75051e1f",
       n1: "safr",
       n2: "saafr",
       n3: null,
@@ -55276,6 +58961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "74942dba",
       n1: "7Dr",
       n2: "7Dar",
       n3: "7Der",
@@ -55291,6 +58977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f82295c",
       n1: "9sse7",
       n2: "9ssa7",
       n3: null,
@@ -55306,6 +58993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "135ee68e",
       n1: "3ana",
       n2: "3aana",
       n3: null,
@@ -55321,6 +59009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "91d47e64",
       n1: "zgl",
       n2: "zguel",
       n3: "zgal",
@@ -55336,6 +59025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b69ca8c",
       n1: "l9a",
       n2: null,
       n3: null,
@@ -55351,6 +59041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76c17edc",
       n1: "lga",
       n2: null,
       n3: null,
@@ -55366,6 +59057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb79a0b2",
       n1: "3bbr",
       n2: "3bber",
       n3: "3bbar",
@@ -55381,6 +59073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aedc7f3a",
       n1: "rkkz",
       n2: "rekkez",
       n3: "rakkaz",
@@ -55396,6 +59089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9f7c627",
       n1: "la7",
       n2: null,
       n3: null,
@@ -55411,6 +59105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67e8beb3",
       n1: "Sawb",
       n2: "Saweb",
       n3: null,
@@ -55426,6 +59121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3d69f00",
       n1: "9ra",
       n2: "qra",
       n3: null,
@@ -55441,6 +59137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d51e07e",
       n1: "df3",
       n2: "dfe3",
       n3: "dfaa",
@@ -55456,6 +59153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "192b9576",
       n1: "wrrk",
       n2: "werrek",
       n3: null,
@@ -55471,6 +59169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ace8dd50",
       n1: "wSl",
       n2: "wSel",
       n3: "wSal",
@@ -55486,6 +59185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3ab0d7d",
       n1: "Sona",
       n2: "Souna",
       n3: null,
@@ -55501,6 +59201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c3bd6ac8",
       n1: "jm3",
       n2: "jme3",
       n3: "jma3",
@@ -55516,6 +59217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6763abc",
       n1: "8rb",
       n2: "8reb",
       n3: "8rab",
@@ -55531,6 +59233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1db0983",
       n1: "r77b",
       n2: "r77eb",
       n3: "r77ab",
@@ -55546,6 +59249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "123c276f",
       n1: "3wwl",
       n2: "3owwel",
       n3: "3awwel",
@@ -55561,6 +59265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f67c33a",
       n1: "ta9",
       n2: "taq",
       n3: null,
@@ -55576,6 +59281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bc3dba59",
       n1: "3awd",
       n2: "3awed",
       n3: "3awad",
@@ -55591,6 +59297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cffd0893",
       n1: "khTTeT",
       n2: "khaTTeT",
       n3: "5aTTeT",
@@ -55606,6 +59313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6798920a",
       n1: "frch",
       n2: "frech",
       n3: "frach",
@@ -55621,6 +59329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1afac866",
       n1: "2kkd",
       n2: "2akkad",
       n3: "akked",
@@ -55636,6 +59345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2ecd8af9",
       n1: "kr8",
       n2: "kre8",
       n3: null,
@@ -55651,6 +59361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c02f19c5",
       n1: "tjwj",
       n2: "tjwwej",
       n3: "tjawwaj",
@@ -55666,6 +59377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76c32e97",
       n1: "9sm",
       n2: "9sam",
       n3: "9sem",
@@ -55681,6 +59393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ed41eec",
       n1: "tbnna",
       n2: "tbenna",
       n3: "tbanna",
@@ -55696,6 +59409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68083b69",
       n1: "tja8l",
       n2: "tjahl",
       n3: "tja8el",
@@ -55711,6 +59425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aba6ee61",
       n1: "3rrf",
       n2: "3rref",
       n3: "3erref",
@@ -55726,6 +59441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc5af52f",
       n1: "9ddm",
       n2: "9ddem",
       n3: null,
@@ -55741,6 +59457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c7fc673",
       n1: "ttrina",
       n2: "trina",
       n3: null,
@@ -55756,6 +59473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4466f6e",
       n1: "br8n",
       n2: "ber8en",
       n3: "bar8an",
@@ -55771,6 +59489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebcab604",
       n1: "9n3",
       n2: "9ne3",
       n3: "9na3",
@@ -55786,6 +59505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1ca88d4",
       n1: "9ll3",
       n2: "9elle3",
       n3: "9alle3",
@@ -55801,6 +59521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aa7876ec",
       n1: "Swwt",
       n2: "Sawwt",
       n3: "Sawwat",
@@ -55816,6 +59537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ddc1cec",
       n1: "nkr",
       n2: "nker",
       n3: "nkar",
@@ -55831,6 +59553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3b53596",
       n1: "khbba",
       n2: "khebba",
       n3: "khabba",
@@ -55846,6 +59569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27f13df7",
       n1: "nj7",
       n2: "nje7",
       n3: "nja7",
@@ -55861,6 +59585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c18f13a6",
       n1: "Tlb",
       n2: "Tleb",
       n3: "Tlab",
@@ -55876,6 +59601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80f87afb",
       n1: "3tarf",
       n2: "3taref",
       n3: "aataref",
@@ -55891,6 +59617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d891755c",
       n1: "7sb",
       n2: "7seb",
       n3: "hseb",
@@ -55906,6 +59633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3566b5b4",
       n1: "ntama",
       n2: "intami",
       n3: null,
@@ -55921,6 +59649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2623bec0",
       n1: "chekk",
       n2: "chakk",
       n3: null,
@@ -55936,6 +59665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "38fc1e70",
       n1: "ghnna",
       n2: "ghenna",
       n3: "ghanna",
@@ -55951,6 +59681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec113e7a",
       n1: "nwa",
       n2: null,
       n3: null,
@@ -55966,6 +59697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a4c4002",
       n1: "brrer",
       n2: "berrer",
       n3: "barrar",
@@ -55981,6 +59713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd533ccf",
       n1: "daf3",
       n2: "daaf3",
       n3: null,
@@ -55996,6 +59729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1a68097",
       n1: "z3m",
       n2: "z3em",
       n3: "z3am",
@@ -56011,6 +59745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d2de3e8",
       n1: "tsara7",
       n2: null,
       n3: null,
@@ -56026,6 +59761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cfd8040",
       n1: "7km",
       n2: "7kem",
       n3: "7kam",
@@ -56041,6 +59777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11466927",
       n1: "chark",
       n2: "chaark",
       n3: null,
@@ -56056,6 +59793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "407a6348",
       n1: "ghsl",
       n2: "ghsel",
       n3: "ghsal",
@@ -56071,6 +59809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d5d14597",
       n1: "la7D",
       n2: null,
       n3: null,
@@ -56086,6 +59825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e26dc73",
       n1: "khddm",
       n2: "khddem",
       n3: "5ddem",
@@ -56101,6 +59841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b20cf3c8",
       n1: "jm3",
       n2: "jme3",
       n3: "jma3",
@@ -56116,6 +59857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee339998",
       n1: "l77",
       n2: "le77",
       n3: null,
@@ -56131,6 +59873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d46f608",
       n1: "tla7",
       n2: "tlah",
       n3: null,
@@ -56146,6 +59889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c241ae07",
       n1: "Tyyb",
       n2: "Tyyeb",
       n3: null,
@@ -56161,6 +59905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de1325de",
       n1: "bka",
       n2: null,
       n3: null,
@@ -56176,6 +59921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96127cf3",
       n1: "n3s",
       n2: "n3es",
       n3: null,
@@ -56191,6 +59937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce270d65",
       n1: "fa9",
       n2: "faq",
       n3: null,
@@ -56206,6 +59953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67dcf1f1",
       n1: "jm3",
       n2: "jme3",
       n3: "jma3",
@@ -56221,6 +59969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ba497009",
       n1: "nsa7b",
       n2: "nsahab",
       n3: "nsa7ab",
@@ -56236,6 +59985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71d7e026",
       n1: "7ll",
       n2: "7ell",
       n3: "7all",
@@ -56251,6 +60001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c1b76d47",
       n1: "khbr",
       n2: "khber",
       n3: null,
@@ -56266,6 +60017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e07a090",
       n1: "stalzem",
       n2: null,
       n3: null,
@@ -56281,6 +60033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "64979a14",
       n1: "tsllf",
       n2: "tsellef",
       n3: "tsallaf",
@@ -56296,6 +60049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf20341c",
       n1: "swwl",
       n2: "sowwel",
       n3: "swwel",
@@ -56311,6 +60065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4c8c3ea",
       n1: "khaTr",
       n2: "5aTer",
       n3: null,
@@ -56326,6 +60081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f630c355",
       n1: "sm7",
       n2: "sme7",
       n3: "sma7",
@@ -56341,6 +60097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "950335b8",
       n1: "sam7",
       n2: "same7",
       n3: "sameh",
@@ -56356,6 +60113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6962d72",
       n1: "9tar7",
       n2: "9tare7",
       n3: "9tara7",
@@ -56371,6 +60129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3db6b3ee",
       n1: "7tafl",
       n2: "7tafel",
       n3: "7tafal",
@@ -56386,6 +60145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a945a6ba",
       n1: "Dyy3",
       n2: "Dyye3",
       n3: "Dyya3",
@@ -56401,6 +60161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8cd3b07c",
       n1: "ghbr",
       n2: "ghber",
       n3: "ghbar",
@@ -56416,6 +60177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31a9471a",
       n1: "tw993",
       n2: "twe99a3",
       n3: "twe99e3",
@@ -56431,6 +60193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87fb83f8",
       n1: "ngr",
       n2: "ngor",
       n3: "nguer",
@@ -56446,6 +60209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d3a95ae",
       n1: "9bT",
       n2: "9baT",
       n3: "9beT",
@@ -56461,6 +60225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e61f2915",
       n1: "gbD",
       n2: "gbeD",
       n3: "gbaD",
@@ -56476,6 +60241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a858b8a",
       n1: "naD",
       n2: "naaD",
       n3: null,
@@ -56491,6 +60257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e45f27b",
       n1: "daz",
       n2: "daaz",
       n3: null,
@@ -56506,6 +60273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67277c72",
       n1: "7bes",
       n2: "7bas",
       n3: "hbas",
@@ -56521,6 +60289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d54b14c1",
       n1: "9yyd",
       n2: "9ayyad",
       n3: "9eyyed",
@@ -56536,6 +60305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a8155f0b",
       n1: "wllf",
       n2: "wellef",
       n3: "wllaf",
@@ -56551,6 +60321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ceff0996",
       n1: "khllT",
       n2: "khallaT",
       n3: "khelleT",
@@ -56566,6 +60337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "902e12e7",
       n1: "gyyd",
       n2: "gyyed",
       n3: null,
@@ -56581,6 +60353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "880fbff0",
       n1: "7rg",
       n2: "7reg",
       n3: "7rag",
@@ -56596,6 +60369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "70c9371b",
       n1: "7r9",
       n2: "7re9",
       n3: "7ra9",
@@ -56611,6 +60385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c179aeea",
       n1: "staghl",
       n2: "staghell",
       n3: "staghall",
@@ -56626,6 +60401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e44a04c",
       n1: "kma",
       n2: null,
       n3: null,
@@ -56641,6 +60417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3561dfc9",
       n1: "7ddr",
       n2: "7edder",
       n3: "7addar",
@@ -56656,6 +60433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d7123f9e",
       n1: "baas",
       n2: "bas",
       n3: null,
@@ -56671,6 +60449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "845351c0",
       n1: "3ln",
       n2: "3len",
       n3: "3lan",
@@ -56686,6 +60465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe87ff39",
       n1: "khtabr",
       n2: "5taber",
       n3: "khtabar",
@@ -56701,6 +60481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60363558",
       n1: "tnffs",
       n2: "tneffes",
       n3: "tnaffas",
@@ -56716,6 +60497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "740a1e7e",
       n1: "fat",
       n2: "faat",
       n3: null,
@@ -56731,6 +60513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e8972f6",
       n1: "Saad9",
       n2: "Saade9",
       n3: null,
@@ -56746,6 +60529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4b538223",
       n1: "7tell",
       n2: "7tall",
       n3: null,
@@ -56761,6 +60545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb074053",
       n1: "7arrar",
       n2: "7errer",
       n3: "7arrer",
@@ -56776,6 +60561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f0468b74",
       n1: "btasm",
       n2: "btasem",
       n3: "btassem",
@@ -56791,6 +60577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39752b42",
       n1: "7fr",
       n2: "7fer",
       n3: "7far",
@@ -56806,6 +60593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d154f9a",
       n1: "7tarm",
       n2: "htarm",
       n3: "7tarem",
@@ -56821,6 +60609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15488ae6",
       n1: "8dded",
       n2: "i8dded",
       n3: "8addad",
@@ -56836,6 +60625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0433bc46",
       n1: "lgha",
       n2: null,
       n3: null,
@@ -56851,6 +60641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d39fe1e1",
       n1: "khzn",
       n2: "5zn",
       n3: "khzen",
@@ -56866,6 +60657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39802ee9",
       n1: "nDDm",
       n2: "nDDem",
       n3: "naDDam",
@@ -56881,6 +60673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8fc5fd69",
       n1: "nwwr",
       n2: "nwwer",
       n3: "nwwar",
@@ -56896,6 +60689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cc3ca87",
       n1: "7lf",
       n2: "7lef",
       n3: "hlef",
@@ -56911,6 +60705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbf0264f",
       n1: "7lm",
       n2: "7lem",
       n3: "7lam",
@@ -56926,6 +60721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c997b164",
       n1: "SrT",
       n2: "SreT",
       n3: "SraT",
@@ -56941,6 +60737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "16c10b77",
       n1: "bloka",
       n2: null,
       n3: null,
@@ -56956,6 +60753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1f99d5d",
       n1: "stab9",
       n2: "stabe9",
       n3: "staba9",
@@ -56971,6 +60769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "60f38460",
       n1: "tta8m",
       n2: "tta8em",
       n3: "ttahem",
@@ -56986,6 +60785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45eb5675",
       n1: "ghwwt",
       n2: "ghwwet",
       n3: "ghowwet",
@@ -57001,6 +60801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6791d842",
       n1: "2ttr",
       n2: "2atter",
       n3: "2etter",
@@ -57016,6 +60817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "136c3b86",
       n1: "rttb",
       n2: "rtteb",
       n3: "ratteb",
@@ -57031,6 +60833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c849f427",
       n1: "3ta9l",
       n2: "3ta9el",
       n3: "3ta9al",
@@ -57046,6 +60849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd42f8ae",
       n1: "nb7",
       n2: "nba7",
       n3: "nbe7",
@@ -57061,6 +60865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e3f24cb",
       n1: "khan",
       n2: "5an",
       n3: null,
@@ -57076,6 +60881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7dc8b505",
       n1: "t7aTT",
       n2: null,
       n3: null,
@@ -57091,6 +60897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f40869d",
       n1: "khtalf",
       n2: "khtalaf",
       n3: "5talef",
@@ -57106,6 +60913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "827cc7ce",
       n1: "7tafD",
       n2: "7tafeD",
       n3: null,
@@ -57121,6 +60929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e3be8ad0",
       n1: "Tar",
       n2: "Taar",
       n3: null,
@@ -57136,6 +60945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8f2f172",
       n1: "ban",
       n2: null,
       n3: null,
@@ -57151,6 +60961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0eae10c9",
       n1: "jrr",
       n2: "jarr",
       n3: "jerr",
@@ -57166,6 +60977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c00d922a",
       n1: "8zz",
       n2: "hezz",
       n3: "8ezz",
@@ -57181,6 +60993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f5a3ae4",
       n1: "rj3",
       n2: "rje3",
       n3: "rja3",
@@ -57196,6 +61009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6255278f",
       n1: "Ta7",
       n2: null,
       n3: null,
@@ -57211,6 +61025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8835148",
       n1: "3rf",
       n2: "3ref",
       n3: "3raf",
@@ -57226,6 +61041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a9e0d8c",
       n1: "nsa",
       n2: null,
       n3: null,
@@ -57241,6 +61057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43ce9e7a",
       n1: "wSf",
       n2: "wSef",
       n3: "wSaf",
@@ -57256,6 +61073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d92c927f",
       n1: "trjm",
       n2: "tarjem",
       n3: "terjem",
@@ -57271,6 +61089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d09d4fee",
       n1: "w3ed",
       n2: "w3ad",
       n3: "w3d",
@@ -57286,6 +61105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "066e6b30",
       n1: "9llb",
       n2: "9elleb",
       n3: "9allab",
@@ -57301,6 +61121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "308ae55e",
       n1: "7bb",
       n2: "7ebb",
       n3: null,
@@ -57316,6 +61137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41001328",
       n1: "3ach",
       n2: "3aach",
       n3: null,
@@ -57331,6 +61153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e01b8fe4",
       n1: "skn",
       n2: "sken",
       n3: "skan",
@@ -57346,6 +61169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4388769a",
       n1: "khllS",
       n2: "khalleS",
       n3: "khallaS",
@@ -57361,6 +61185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c4a3d968",
       n1: "sdd",
       n2: "sedd",
       n3: null,
@@ -57376,6 +61201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f2ab114",
       n1: "w9f",
       n2: "w9ef",
       n3: "w9af",
@@ -57391,6 +61217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0284671f",
       n1: "stkhdm",
       n2: "stekhdem",
       n3: "stakhdam",
@@ -57406,6 +61233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00bb5593",
       n1: "stalm",
       n2: "stalem",
       n3: null,
@@ -57421,6 +61249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "773a13d2",
       n1: "fchl",
       n2: "fchel",
       n3: "fchal",
@@ -57436,6 +61265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd90591c",
       n1: "sbb",
       n2: "sebb",
       n3: "sabb",
@@ -57451,6 +61281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee36b84c",
       n1: "chka",
       n2: null,
       n3: null,
@@ -57466,6 +61297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f132ee4d",
       n1: "fD7",
       n2: "fDa7",
       n3: "fDe7",
@@ -57481,6 +61313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fbb5178",
       n1: "3tadr",
       n2: "3tader",
       n3: "3tadar",
@@ -57496,6 +61329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0d022a89",
       n1: "3nng",
       n2: "3nn9",
       n3: "3nneg",
@@ -57511,6 +61345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e5c7c1c",
       n1: "ndm",
       n2: "ndem",
       n3: null,
@@ -57526,6 +61361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "021f3e90",
       n1: "t3wwd",
       n2: "t3wwed",
       n3: "t3awwad",
@@ -57541,6 +61377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34871030",
       n1: "3Tas",
       n2: "3Tes",
       n3: "3Tes",
@@ -57556,6 +61393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22bafc45",
       n1: "k7ob",
       n2: "k7eb",
       n3: null,
@@ -57571,6 +61409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ba9be0b",
       n1: "2ejjel",
       n2: "ajjal",
       n3: "2ajjal",
@@ -57586,6 +61425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1bf490a0",
       n1: "t3awn",
       n2: "t3awen",
       n3: "t3aawan",
@@ -57601,6 +61441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61a96977",
       n1: "tbadl",
       n2: "tbaadel",
       n3: "tbaadl",
@@ -57616,6 +61457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a04296a7",
       n1: "9aaT3",
       n2: "9aaTe3",
       n3: "9aaTa3",
@@ -57631,6 +61473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08969637",
       n1: "tTwwe3",
       n2: "TTowe3",
       n3: "taTawwa3",
@@ -57646,6 +61489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f93d38e3",
       n1: "9oulb",
       n2: "9ouleb",
       n3: null,
@@ -57661,6 +61505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "83054c19",
       n1: "tjnnb",
       n2: "tjannab",
       n3: "tjenneb",
@@ -57676,6 +61521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3f67d5b1",
       n1: "8ml",
       n2: "8mel",
       n3: "8mal",
@@ -57691,6 +61537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48ea496d",
       n1: "tla9a",
       n2: "tlaqa",
       n3: null,
@@ -57706,6 +61553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68c77ef8",
       n1: "tjsses",
       n2: "tjassas",
       n3: null,
@@ -57721,6 +61569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a3afcc7",
       n1: "nta9m",
       n2: null,
       n3: null,
@@ -57736,6 +61585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d475133",
       n1: "dfn",
       n2: "dfen",
       n3: "dfan",
@@ -57751,6 +61601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "716a417b",
       n1: "ghlb",
       n2: "ghleb",
       n3: "ghlab",
@@ -57766,6 +61617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9f6fd01e",
       n1: "kan",
       n2: null,
       n3: null,
@@ -57781,6 +61633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bae86b18",
       n1: "bgha",
       n2: null,
       n3: null,
@@ -57796,6 +61649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dfa1c87",
       n1: "9der",
       n2: "9dr",
       n3: null,
@@ -57811,6 +61665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23355371",
       n1: "gdd",
       n2: "guedd",
       n3: "gedd",
@@ -57826,6 +61681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce251f86",
       n1: "imkn",
       n2: null,
       n3: null,
@@ -57841,6 +61697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1feb656",
       n1: "dar",
       n2: null,
       n3: null,
@@ -57856,6 +61713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6984720",
       n1: "khsso",
       n2: "khesso",
       n3: null,
@@ -57871,6 +61729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40dd6260",
       n1: "khda",
       n2: "5da",
       n3: null,
@@ -57886,6 +61745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76300c61",
       n1: "chaf",
       n2: null,
       n3: null,
@@ -57901,6 +61761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "469cf1f7",
       n1: "7TT",
       n2: "7eTT",
       n3: null,
@@ -57916,6 +61777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "154a7c1b",
       n1: "khlla",
       n2: "khella",
       n3: null,
@@ -57931,6 +61793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57f3a03c",
       n1: "3Ta",
       n2: null,
       n3: null,
@@ -57946,6 +61809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8efbacd9",
       n1: "khsso",
       n2: "khesso",
       n3: null,
@@ -57961,6 +61825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "febb589b",
       n1: "ban",
       n2: null,
       n3: null,
@@ -57976,6 +61841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6eb566d7",
       n1: "tDmmen",
       n2: "tDemmen",
       n3: null,
@@ -57991,6 +61857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6c429fa6",
       n1: "t7rrek",
       n2: "t7arrak",
       n3: null,
@@ -58006,6 +61873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c3d45b9",
       n1: "Dar",
       n2: "Daar",
       n3: null,
@@ -58021,6 +61889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f06d1396",
       n1: "3tabr",
       n2: "3taber",
       n3: null,
@@ -58036,6 +61905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b7093ae",
       n1: "khlla",
       n2: "khella",
       n3: null,
@@ -58051,6 +61921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9215149",
       n1: "tmenna",
       n2: "tmnna",
       n3: null,
@@ -58066,6 +61937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34245fb7",
       n1: "ntej",
       n2: "ntj",
       n3: null,
@@ -58081,6 +61953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "145657f6",
       n1: "b9a",
       n2: null,
       n3: null,
@@ -58096,6 +61969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c6dedde",
       n1: "chdd",
       n2: "chedd",
       n3: null,
@@ -58111,6 +61985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "596b63f7",
       n1: "to99e3",
       n2: "twe99e3",
       n3: "twe99a3",
@@ -58126,6 +62001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "65d2dd23",
       n1: "Dmen",
       n2: "Dmn",
       n3: "Dman",
@@ -58141,6 +62017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d856f135",
       n1: "8ezz",
       n2: "hezz",
       n3: null,
@@ -58156,6 +62033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d6ec7c2",
       n1: "3reD",
       n2: "3rD",
       n3: "3raD",
@@ -58171,6 +62049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d346893c",
       n1: "d3em",
       n2: "d3m",
       n3: "d3am",
@@ -58186,6 +62065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95f06b3d",
       n1: "hDer",
       n2: "hDr",
       n3: "hDar",
@@ -58201,6 +62081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af07d39c",
       n1: "dwa",
       n2: null,
       n3: null,
@@ -58216,6 +62097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7fbb7268",
       n1: "9aad",
       n2: null,
       n3: null,
@@ -58231,6 +62113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51f4b972",
       n1: "b9a",
       n2: null,
       n3: null,
@@ -58246,6 +62129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d08774e",
       n1: "w9ef",
       n2: "w9af",
       n3: "w9f",
@@ -58261,6 +62145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "90e7a208",
       n1: "wgef",
       n2: "wgaf",
       n3: "wgf",
@@ -58276,6 +62161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "487ec1f6",
       n1: "9tar7",
       n2: "9tare7",
       n3: null,
@@ -58291,6 +62177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e87c5c46",
       n1: "Twwer",
       n2: "Towwer",
       n3: null,
@@ -58306,6 +62193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8cca4ebb",
       n1: "gles",
       n2: "glas",
       n3: "gls",
@@ -58321,6 +62209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d65b95f2",
       n1: "gadd",
       n2: null,
       n3: null,
@@ -58336,6 +62225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fd25af3",
       n1: "Sawb",
       n2: null,
       n3: null,
@@ -58351,6 +62241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9bab50d",
       n1: "ttaf9",
       n2: "ttafe9",
       n3: null,
@@ -58366,6 +62257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e908e7c",
       n1: "Tbbe9",
       n2: "Tbba9",
       n3: null,
@@ -58381,6 +62273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d67eab64",
       n1: "kowwen",
       n2: "kowwn",
       n3: "kwwn",
@@ -58396,6 +62289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cbafa4b",
       n1: "zad",
       n2: null,
       n3: null,
@@ -58411,6 +62305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd2c0bb2",
       n1: "3bber",
       n2: null,
       n3: null,
@@ -58426,6 +62321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f4eac37",
       n1: "Dyye3",
       n2: null,
       n3: null,
@@ -58441,6 +62337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57a4ba47",
       n1: "lta79",
       n2: null,
       n3: null,
@@ -58456,6 +62353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69ea14d6",
       n1: "n99eS",
       n2: "n99es",
       n3: "n99s",
@@ -58471,6 +62369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7096e727",
       n1: "n9ed",
       n2: "n9d",
       n3: "n9ad",
@@ -58486,6 +62385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a354e674",
       n1: "tTelleb",
       n2: "tTallab",
       n3: "tTellab",
@@ -58501,6 +62401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ae2456b0",
       n1: "799e9",
       n2: "h99e9",
       n3: "hqqeq",
@@ -58516,6 +62417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5044e7cb",
       n1: "7bes",
       n2: null,
       n3: null,
@@ -58531,6 +62433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51210024",
       n1: "t3amel",
       n2: "t3aml",
       n3: "t3aamel",
@@ -58546,6 +62449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "76f15708",
       n1: "twaj8",
       n2: "twajh",
       n3: "twajeh",
@@ -58561,6 +62465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c6186c9",
       n1: "ghTTa",
       n2: "gheTTa",
       n3: null,
@@ -58576,6 +62481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb1b4ebb",
       n1: "Twwer",
       n2: "Towwer",
       n3: null,
@@ -58591,6 +62497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09763227",
       n1: "maal",
       n2: "mal",
       n3: null,
@@ -58606,6 +62513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48290b34",
       n1: "rsem",
       n2: "rsam",
       n3: null,
@@ -58621,6 +62529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7111a929",
       n1: "t7errek",
       n2: null,
       n3: null,
@@ -58636,6 +62545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11e468f3",
       n1: "3zel",
       n2: "3zl",
       n3: null,
@@ -58651,6 +62561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85c6ef3b",
       n1: "khtar",
       n2: "5tar",
       n3: "khtaar",
@@ -58666,6 +62577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "603d0e34",
       n1: "kllef",
       n2: null,
       n3: null,
@@ -58681,6 +62593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26283910",
       n1: "swa",
       n2: null,
       n3: null,
@@ -58696,6 +62609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8fb31385",
       n1: "br8en",
       n2: "ber8en",
       n3: null,
@@ -58711,6 +62625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e738a406",
       n1: "w9e3",
       n2: "w93",
       n3: "w9a3",
@@ -58726,6 +62641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bb1ce28",
       n1: "tna9ch",
       n2: "tna9ech",
       n3: null,
@@ -58741,6 +62657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9bc3d469",
       n1: "gabl",
       n2: "gabel",
       n3: "gaabel",
@@ -58756,6 +62673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aef065da",
       n1: "sala",
       n2: null,
       n3: null,
@@ -58771,6 +62689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "027d29f9",
       n1: "kmmel",
       n2: "kemmel",
       n3: "kammel",
@@ -58786,6 +62705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1491ce02",
       n1: "kayn",
       n2: "kayen",
       n3: null,
@@ -58801,6 +62721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24ed5ff5",
       n1: "9Sed",
       n2: null,
       n3: null,
@@ -58816,6 +62737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "040c2df7",
       n1: "9lleb",
       n2: "9elleb",
       n3: null,
@@ -58831,6 +62753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08294d02",
       n1: "nfe3",
       n2: null,
       n3: null,
@@ -58846,6 +62769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54c16ffe",
       n1: "9sem",
       n2: null,
       n3: null,
@@ -58861,6 +62785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53bd0e58",
       n1: "partaja",
       n2: null,
       n3: null,
@@ -58876,6 +62801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a920be53",
       n1: "nche2",
       n2: "nch2",
       n3: null,
@@ -58891,6 +62817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c69e2e4",
       n1: "2esses",
       n2: "2assas",
       n3: "asses",
@@ -58906,6 +62833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6db9e400",
       n1: "t7kkem",
       n2: "t7kkm",
       n3: "t7ekkem",
@@ -58921,6 +62849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5bc320b",
       n1: "jawb",
       n2: "jaweb",
       n3: null,
@@ -58936,6 +62865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a32123c1",
       n1: "7edded",
       n2: "7added",
       n3: "7dded",
@@ -58951,6 +62881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "963daeed",
       n1: "3tana",
       n2: null,
       n3: null,
@@ -58966,6 +62897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a99c0ee3",
       n1: "mkken",
       n2: "mekken",
       n3: "makken",
@@ -58981,6 +62913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f54fa2f",
       n1: "Taalb",
       n2: "Taaleb",
       n3: null,
@@ -58996,6 +62929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "947081fe",
       n1: "kseb",
       n2: "ksb",
       n3: null,
@@ -59011,6 +62945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb3514ed",
       n1: "mttel",
       n2: "mettel",
       n3: null,
@@ -59026,6 +62961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04168aba",
       n1: "tDemmen",
       n2: null,
       n3: null,
@@ -59041,6 +62977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f05013e",
       n1: "ghleb",
       n2: null,
       n3: null,
@@ -59056,6 +62993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aae4e125",
       n1: "tchTen",
       n2: "techTen",
       n3: "tchTan",
@@ -59071,6 +63009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4d4582c",
       n1: "t7mmel",
       n2: "t7emmel",
       n3: null,
@@ -59086,6 +63025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53561fe4",
       n1: "sedd",
       n2: "sdd",
       n3: null,
@@ -59101,6 +63041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6604a479",
       n1: "tsa2el",
       n2: "tsa2l",
       n3: null,
@@ -59116,6 +63057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "010d0317",
       n1: "naaseb",
       n2: "naasb",
       n3: null,
@@ -59131,6 +63073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b758208",
       n1: "t3elle9",
       n2: "t3ll9",
       n3: null,
@@ -59146,6 +63089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "afbf9e36",
       n1: "7eTT",
       n2: "7TT",
       n3: null,
@@ -59161,6 +63105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f67b3548",
       n1: "chmel",
       n2: null,
       n3: null,
@@ -59176,6 +63121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c278ca8",
       n1: "ttaSel",
       n2: "ttaSl",
       n3: null,
@@ -59191,6 +63137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1debb71c",
       n1: "ftarD",
       n2: "ftareD",
       n3: null,
@@ -59206,6 +63153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dcebacb9",
       n1: "achaar",
       n2: null,
       n3: null,
@@ -59221,6 +63169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ffddc992",
       n1: "khdem",
       n2: "khdm",
       n3: null,
@@ -59236,6 +63185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40ac1f11",
       n1: "tSerref",
       n2: null,
       n3: null,
@@ -59251,6 +63201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22b6a97b",
       n1: "t2e9lem",
       n2: "t2a9lam",
       n3: "t29lm",
@@ -59266,6 +63217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a10066a0",
       n1: "7edded",
       n2: "7dded",
       n3: null,
@@ -59281,6 +63233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24fbb0b0",
       n1: "3kes",
       n2: null,
       n3: null,
@@ -59296,6 +63249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4963ebe",
       n1: "achaar",
       n2: null,
       n3: null,
@@ -59311,6 +63265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "05ad90ce",
       n1: "rbe7",
       n2: "rb7",
       n3: null,
@@ -59326,6 +63281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "def34fc7",
       n1: "f7eS",
       n2: null,
       n3: null,
@@ -59341,6 +63297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "16f97cef",
       n1: "fDDel",
       n2: null,
       n3: null,
@@ -59356,6 +63313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cafd3eb9",
       n1: "3tarf",
       n2: "3taref",
       n3: null,
@@ -59371,6 +63329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61ab4d7d",
       n1: "redd",
       n2: "rdd",
       n3: null,
@@ -59386,6 +63345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b1525e9",
       n1: "jawb",
       n2: "jaweb",
       n3: null,
@@ -59401,6 +63361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57b5798c",
       n1: "3tamd",
       n2: "3tamed",
       n3: null,
@@ -59416,6 +63377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ff495242",
       n1: "nja",
       n2: null,
       n3: null,
@@ -59431,6 +63393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7fa91ba",
       n1: "la7D",
       n2: "laa7D",
       n3: null,
@@ -59446,6 +63409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "317b9005",
       n1: "ntej",
       n2: "ntj",
       n3: null,
@@ -59461,6 +63425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c30d13a",
       n1: "bddel",
       n2: null,
       n3: null,
@@ -59476,6 +63441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98f7da42",
       n1: "kemmel",
       n2: "kmmel",
       n3: null,
@@ -59491,6 +63457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47fafea4",
       n1: "rtaf3",
       n2: "rtafe3",
       n3: null,
@@ -59506,6 +63473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d6c9264",
       n1: "9ddem",
       n2: "9eddem",
       n3: null,
@@ -59521,6 +63489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bd028ca",
       n1: "nche2",
       n2: null,
       n3: null,
@@ -59536,6 +63505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a37d300",
       n1: "achaar",
       n2: null,
       n3: null,
@@ -59551,6 +63521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cc39d36",
       n1: "rowwej",
       n2: null,
       n3: null,
@@ -59566,6 +63537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0208f8fe",
       n1: "chejje3",
       n2: "chjje3",
       n3: null,
@@ -59581,6 +63553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d48eebd",
       n1: "2edda",
       n2: "2adda",
       n3: null,
@@ -59596,6 +63569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "216db2d5",
       n1: "medded",
       n2: "madded",
       n3: "mdded",
@@ -59611,6 +63585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d7c01d8",
       n1: "achaar",
       n2: null,
       n3: null,
@@ -59626,6 +63601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec6748c9",
       n1: "khtalef",
       n2: "khtalf",
       n3: "5talf",
@@ -59641,6 +63617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1b3bc03",
       n1: "fad",
       n2: "faad",
       n3: null,
@@ -59656,6 +63633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cff708a",
       n1: "3aalj",
       n2: "3aalej",
       n3: null,
@@ -59671,6 +63649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6473f359",
       n1: "3elle9",
       n2: "3lle9",
       n3: "3ll9",
@@ -59686,6 +63665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b117e5e6",
       n1: "Tyye7",
       n2: null,
       n3: null,
@@ -59701,6 +63681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee8bc3ce",
       n1: "bellegh",
       n2: "bllegh",
       n3: "ballagh",
@@ -59716,6 +63697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e4c9f069",
       n1: "Sbb",
       n2: "Sebb",
       n3: null,
@@ -59731,6 +63713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df7bcee0",
       n1: "khtaber",
       n2: "khtabr",
       n3: null,
@@ -59746,6 +63729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85e27b0b",
       n1: "2emmen",
       n2: "2mmen",
       n3: null,
@@ -59761,6 +63745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bf42475",
       n1: "Towwel",
       n2: "Towwl",
       n3: null,
@@ -59776,6 +63761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa6e299e",
       n1: "waaf9",
       n2: null,
       n3: null,
@@ -59791,6 +63777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b22979bd",
       n1: "9dder",
       n2: "9edder",
       n3: null,
@@ -59806,6 +63793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5c3c0a0",
       n1: "saa8em",
       n2: "sa8em",
       n3: "saa8m",
@@ -59821,6 +63809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8a0f986c",
       n1: "medd",
       n2: null,
       n3: null,
@@ -59836,6 +63825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "374d5ac5",
       n1: "3len",
       n2: null,
       n3: null,
@@ -59851,6 +63841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce4bffcc",
       n1: "9dder",
       n2: "9edder",
       n3: null,
@@ -59866,6 +63857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7b9bdd1",
       n1: "rtabeT",
       n2: "rtabT",
       n3: null,
@@ -59881,6 +63873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "475482f1",
       n1: "tghelleb",
       n2: null,
       n3: null,
@@ -59896,6 +63889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e394ae68",
       n1: "tkhelleS",
       n2: null,
       n3: null,
@@ -59911,6 +63905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "444add43",
       n1: "7awel",
       n2: "7aawel",
       n3: "7awl",
@@ -59926,6 +63921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d1067ed",
       n1: "7tafD",
       n2: null,
       n3: null,
@@ -59941,6 +63937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e88f054f",
       n1: "tkellef",
       n2: null,
       n3: null,
@@ -59956,6 +63953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7280d5e3",
       n1: "jdeb",
       n2: null,
       n3: null,
@@ -59971,6 +63969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "529c7457",
       n1: "saa3d",
       n2: "sa3d",
       n3: null,
@@ -59986,6 +63985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00569329",
       n1: "3awen",
       n2: "3aawen",
       n3: "3awn",
@@ -60001,6 +64001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4f0c03d6",
       n1: "2etter",
       n2: "2tter",
       n3: null,
@@ -60016,6 +64017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bfc1a57d",
       n1: "7edded",
       n2: null,
       n3: null,
@@ -60031,6 +64033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6cb22567",
       n1: "fkker",
       n2: null,
       n3: null,
@@ -60046,6 +64049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bd8cd0b3",
       n1: "sina",
       n2: null,
       n3: null,
@@ -60061,6 +64065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ac6b9d37",
       n1: "khaf",
       n2: null,
       n3: null,
@@ -60076,6 +64081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f95e5d5b",
       n1: "lSe9",
       n2: "lse9",
       n3: null,
@@ -60091,6 +64097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "659e2acd",
       n1: "swwa",
       n2: null,
       n3: null,
@@ -60106,6 +64113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3795a07b",
       n1: "rigl",
       n2: null,
       n3: null,
@@ -60121,6 +64129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "84f0510d",
       n1: "9aaren",
       n2: "9aren",
       n3: null,
@@ -60136,6 +64145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2fe28b6f",
       n1: "7seb",
       n2: "7sb",
       n3: null,
@@ -60151,6 +64161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c791c8b0",
       n1: "7e99e9",
       n2: null,
       n3: null,
@@ -60166,6 +64177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0988dd52",
       n1: "n99a",
       n2: null,
       n3: null,
@@ -60181,6 +64193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e4562bd",
       n1: "sjjel",
       n2: "sejjel",
       n3: null,
@@ -60196,6 +64209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b9b1544a",
       n1: "chjjel",
       n2: "chjjl",
       n3: null,
@@ -60211,6 +64225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ad5b669",
       n1: "ktachf",
       n2: "ktachef",
       n3: null,
@@ -60226,6 +64241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cbcdd97b",
       n1: "laam",
       n2: "lam",
       n3: null,
@@ -60241,6 +64257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22467ff9",
       n1: "3ber",
       n2: null,
       n3: null,
@@ -60256,6 +64273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2716fd1",
       n1: "3a9",
       n2: null,
       n3: null,
@@ -60271,6 +64289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "347b581f",
       n1: "rkkez",
       n2: "rekkez",
       n3: null,
@@ -60286,6 +64305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fcb63d94",
       n1: "wSSel",
       n2: "wSSl",
       n3: null,
@@ -60301,6 +64321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "964c2cf6",
       n1: "chre3",
       n2: null,
       n3: null,
@@ -60316,6 +64337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e5687742",
       n1: "z3ej",
       n2: null,
       n3: null,
@@ -60331,6 +64353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f57c508f",
       n1: "brzeT",
       n2: "berzeT",
       n3: null,
@@ -60346,6 +64369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7381d62b",
       n1: "rfeD",
       n2: "rfaD",
       n3: null,
@@ -60361,6 +64385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "231631af",
       n1: "freD",
       n2: "fraD",
       n3: null,
@@ -60376,6 +64401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75d6769d",
       n1: "3ta9ed",
       n2: "3ta9d",
       n3: null,
@@ -60391,6 +64417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48ac2c12",
       n1: "ban",
       n2: null,
       n3: null,
@@ -60406,6 +64433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00465569",
       n1: "3zem",
       n2: null,
       n3: null,
@@ -60421,6 +64449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57d122c0",
       n1: "nSe7",
       n2: "nS7",
       n3: null,
@@ -60436,6 +64465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e5fd8bf",
       n1: "ktaseb",
       n2: "ktasb",
       n3: null,
@@ -60451,6 +64481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f16100f",
       n1: "strje3",
       n2: "sterje3",
       n3: null,
@@ -60466,6 +64497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d685cc7",
       n1: "nche2",
       n2: null,
       n3: null,
@@ -60481,6 +64513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a739c56c",
       n1: "tmiyyez",
       n2: null,
       n3: null,
@@ -60496,6 +64529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d13400f4",
       n1: "chtabe8",
       n2: "chtab8",
       n3: null,
@@ -60511,6 +64545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca7e970f",
       n1: "kseb",
       n2: "ksb",
       n3: null,
@@ -60526,6 +64561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "711a159c",
       n1: "mowwel",
       n2: null,
       n3: null,
@@ -60541,6 +64577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "565713b0",
       n1: "8dem",
       n2: "8dm",
       n3: null,
@@ -60556,6 +64593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cff9bb93",
       n1: "tbe3",
       n2: "tb3",
       n3: null,
@@ -60571,6 +64609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72f37003",
       n1: "3elle9",
       n2: null,
       n3: null,
@@ -60586,6 +64625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7b20405d",
       n1: "rDa",
       n2: null,
       n3: null,
@@ -60601,6 +64641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cdb426e",
       n1: "tnafs",
       n2: "tnaafs",
       n3: "tnafes",
@@ -60616,6 +64657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc13b80a",
       n1: "9aawem",
       n2: "9aawm",
       n3: "9awm",
@@ -60631,6 +64673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2d53e422",
       n1: "laa2em",
       n2: "la2em",
       n3: null,
@@ -60646,6 +64689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "889e8a63",
       n1: "khaaTeb",
       n2: null,
       n3: null,
@@ -60661,6 +64705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a7bdc87",
       n1: "7ell",
       n2: null,
       n3: null,
@@ -60676,6 +64721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7849b381",
       n1: "bddel",
       n2: null,
       n3: null,
@@ -60691,6 +64737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2c3314a",
       n1: "freD",
       n2: "frD",
       n3: null,
@@ -60706,6 +64753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a8f0797",
       n1: "3reD",
       n2: null,
       n3: null,
@@ -60721,6 +64769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccfcb520",
       n1: "naachd",
       n2: null,
       n3: null,
@@ -60736,6 +64785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "59ff8478",
       n1: "Tle9",
       n2: null,
       n3: null,
@@ -60751,6 +64801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19a86049",
       n1: "frez",
       n2: null,
       n3: null,
@@ -60766,6 +64817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9fe4f396",
       n1: "rtteb",
       n2: "retteb",
       n3: null,
@@ -60781,6 +64833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b3affed0",
       n1: "khtar",
       n2: null,
       n3: null,
@@ -60796,6 +64849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04ee449b",
       n1: "3ber",
       n2: null,
       n3: null,
@@ -60811,6 +64865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00c4e81a",
       n1: "wSSa",
       n2: "weSSa",
       n3: null,
@@ -60826,6 +64881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "310e364f",
       n1: "Tleb",
       n2: null,
       n3: null,
@@ -60841,6 +64897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "621a4368",
       n1: "2amer",
       n2: null,
       n3: null,
@@ -60856,6 +64913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68328ca7",
       n1: "n9el",
       n2: null,
       n3: null,
@@ -60871,6 +64929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a652e154",
       n1: "8jem",
       n2: "hjem",
       n3: null,
@@ -60886,6 +64945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2000b570",
       n1: "twesse3",
       n2: "ttosse3",
       n3: null,
@@ -60901,6 +64961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47fef0da",
       n1: "tkerkeb",
       n2: "tkrkb",
       n3: null,
@@ -60916,6 +64977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b7760fd0",
       n1: "nfajer",
       n2: "nfajr",
       n3: null,
@@ -60931,6 +64993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7f33f28",
       n1: "t3e88ed",
       n2: null,
       n3: null,
@@ -60946,6 +65009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71b38640",
       n1: "tsara7",
       n2: null,
       n3: null,
@@ -60961,6 +65025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "880e6e21",
       n1: "tSerref",
       n2: null,
       n3: null,
@@ -60976,6 +65041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "591b46bc",
       n1: "dkker",
       n2: null,
       n3: null,
@@ -60991,6 +65057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e16221ca",
       n1: "fekker",
       n2: "fkker",
       n3: null,
@@ -61006,6 +65073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbcc8eb0",
       n1: "raaj3",
       n2: null,
       n3: null,
@@ -61021,6 +65089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "265f1202",
       n1: "n8ej",
       n2: null,
       n3: null,
@@ -61036,6 +65105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "956a8811",
       n1: "rejje3",
       n2: "rjje3",
       n3: null,
@@ -61051,6 +65121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a557864e",
       n1: "Sder",
       n2: null,
       n3: null,
@@ -61066,6 +65137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c12af72",
       n1: "Sag",
       n2: null,
       n3: null,
@@ -61081,6 +65153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a643b7d",
       n1: "chkkel",
       n2: "chekkel",
       n3: null,
@@ -61096,6 +65169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a04ad378",
       n1: "gleb",
       n2: null,
       n3: null,
@@ -61111,6 +65185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c07732f2",
       n1: "derreb",
       n2: "drreb",
       n3: null,
@@ -61126,6 +65201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dce5f6c8",
       n1: "stetmer",
       n2: null,
       n3: null,
@@ -61141,6 +65217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "207a46f8",
       n1: "khTa",
       n2: null,
       n3: null,
@@ -61156,6 +65233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a882f3b5",
       n1: "7edd",
       n2: null,
       n3: null,
@@ -61171,6 +65249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33e22462",
       n1: "weDDe7",
       n2: null,
       n3: null,
@@ -61186,6 +65265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "834f8c21",
       n1: "mlek",
       n2: null,
       n3: null,
@@ -61201,6 +65281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2635bc2d",
       n1: "3aalj",
       n2: "3alj",
       n3: "3alej",
@@ -61216,6 +65297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "edffa06a",
       n1: "t7edda",
       n2: null,
       n3: null,
@@ -61231,6 +65313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d39522e",
       n1: "chaf",
       n2: null,
       n3: null,
@@ -61246,6 +65329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e4e4c96",
       n1: "mlek",
       n2: null,
       n3: null,
@@ -61261,6 +65345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "80023ffd",
       n1: "7aawer",
       n2: "7awr",
       n3: "7awer",
@@ -61276,6 +65361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2b7c9be",
       n1: "tselle9",
       n2: "tsll9",
       n3: null,
@@ -61291,6 +65377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a4bb640",
       n1: "fSel",
       n2: null,
       n3: null,
@@ -61306,6 +65393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b5537855",
       n1: "7aafD",
       n2: null,
       n3: null,
@@ -61321,6 +65409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aaa1e5b0",
       n1: "nffed",
       n2: "neffed",
       n3: null,
@@ -61336,6 +65425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "caa03ff8",
       n1: "7wwel",
       n2: "7owwel",
       n3: null,
@@ -61351,6 +65441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11911607",
       n1: "a9arr",
       n2: null,
       n3: null,
@@ -61366,6 +65457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4897be04",
       n1: "stentej",
       n2: "stntj",
       n3: null,
@@ -61381,6 +65473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e7f82ea",
       n1: "tira",
       n2: null,
       n3: null,
@@ -61396,6 +65489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "108f65ef",
       n1: "mtatel",
       n2: "mtatl",
       n3: null,
@@ -61411,6 +65505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a998a7f",
       n1: "7essen",
       n2: null,
       n3: null,
@@ -61426,6 +65521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04e51a13",
       n1: "ra9b",
       n2: "raa9b",
       n3: null,
@@ -61441,6 +65537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7e01b79",
       n1: "gabl",
       n2: "gaabl",
       n3: "gabel",
@@ -61456,6 +65553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2bd0b55",
       n1: "chra",
       n2: null,
       n3: null,
@@ -61471,6 +65569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c94ac8e",
       n1: "charja",
       n2: null,
       n3: null,
@@ -61486,6 +65585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0963d70a",
       n1: "b7et",
       n2: null,
       n3: null,
@@ -61501,6 +65601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c31d351e",
       n1: "bgha",
       n2: null,
       n3: null,
@@ -61516,6 +65617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0cd9b94c",
       n1: "stow3eb",
       n2: "sto3eb",
       n3: "sto3b",
@@ -61531,6 +65633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e8ead046",
       n1: "chTe7",
       n2: "chT7",
       n3: null,
@@ -61546,6 +65649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e52bffd",
       n1: "fa9",
       n2: null,
       n3: null,
@@ -61561,6 +65665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61c32c85",
       n1: "Slla",
       n2: "Sella",
       n3: null,
@@ -61576,6 +65681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "092008b4",
       n1: "dowwer",
       n2: null,
       n3: null,
@@ -61591,6 +65697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f5500658",
       n1: "marka",
       n2: null,
       n3: null,
@@ -61606,6 +65713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "944cab1f",
       n1: "zle9",
       n2: "zl9",
       n3: null,
@@ -61621,6 +65729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "077db61f",
       n1: "rtakb",
       n2: "rtakeb",
       n3: null,
@@ -61636,6 +65745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51bbbaf9",
       n1: "kchef",
       n2: null,
       n3: null,
@@ -61651,6 +65761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "312db8dc",
       n1: "steb3ed",
       n2: "stb3ed",
       n3: "steb3ad",
@@ -61666,6 +65777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2e572d1",
       n1: "3der",
       n2: null,
       n3: null,
@@ -61681,6 +65793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f6886ed1",
       n1: "fsser",
       n2: null,
       n3: null,
@@ -61696,6 +65809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c0fe5492",
       n1: "ncher",
       n2: null,
       n3: null,
@@ -61711,6 +65825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf39e247",
       n1: "laa9a",
       n2: "la9a",
       n3: null,
@@ -61726,6 +65841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "784a67ac",
       n1: "tfawD",
       n2: null,
       n3: null,
@@ -61741,6 +65857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eba6e069",
       n1: "7ellel",
       n2: null,
       n3: null,
@@ -61756,6 +65873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fa38288",
       n1: "smma",
       n2: "semma",
       n3: null,
@@ -61771,6 +65889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccd1334f",
       n1: "mtedd",
       n2: null,
       n3: null,
@@ -61786,6 +65905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94d3cdfe",
       n1: "t9elle9",
       n2: "t9lle9",
       n3: "t9alle9",
@@ -61801,6 +65921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "25187e28",
       n1: "2e88el",
       n2: null,
       n3: null,
@@ -61816,6 +65937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "51d35611",
       n1: "khsser",
       n2: "khesser",
       n3: "5esser",
@@ -61831,6 +65953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "929311c9",
       n1: "Tle9",
       n2: null,
       n3: null,
@@ -61846,6 +65969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d3d4236f",
       n1: "bda",
       n2: null,
       n3: null,
@@ -61861,6 +65985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "894de2a2",
       n1: "Sbegh",
       n2: "Sbgh",
       n3: "Sbagh",
@@ -61876,6 +66001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67d64e50",
       n1: "7edded",
       n2: null,
       n3: null,
@@ -61891,6 +66017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "696081b8",
       n1: "mne7",
       n2: null,
       n3: null,
@@ -61906,6 +66033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e4545b4",
       n1: "sellef",
       n2: null,
       n3: null,
@@ -61921,6 +66049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4dc0f72",
       n1: "bna",
       n2: null,
       n3: null,
@@ -61936,6 +66065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45855111",
       n1: "tfa3l",
       n2: "tfaa3l",
       n3: "tfa3el",
@@ -61951,6 +66081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "645e28b5",
       n1: "sta7e99",
       n2: "sta799",
       n3: null,
@@ -61966,6 +66097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d621212",
       n1: "sta8el",
       n2: "stahel",
       n3: "stahal",
@@ -61981,6 +66113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36e5b524",
       n1: "tre22es",
       n2: "tr22s",
       n3: "tre22s",
@@ -61996,6 +66129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d334c5c",
       n1: "wjje8",
       n2: null,
       n3: null,
@@ -62011,6 +66145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20b4e678",
       n1: "8beT",
       n2: null,
       n3: null,
@@ -62026,6 +66161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb9122a2",
       n1: "9aad",
       n2: null,
       n3: null,
@@ -62041,6 +66177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "beb90cad",
       n1: "tkebbed",
       n2: null,
       n3: null,
@@ -62056,6 +66193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40bb0a37",
       n1: "sifT",
       n2: null,
       n3: null,
@@ -62071,6 +66209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1dbb9adf",
       n1: "tkowwen",
       n2: null,
       n3: null,
@@ -62086,6 +66225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "33a0c789",
       n1: "3Sef",
       n2: null,
       n3: null,
@@ -62101,6 +66241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7d7c645c",
       n1: "rched",
       n2: null,
       n3: null,
@@ -62116,6 +66257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2a34f2e",
       n1: "9ne3",
       n2: null,
       n3: null,
@@ -62131,6 +66273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fa63e5ca",
       n1: "maars",
       n2: "mares",
       n3: "maares",
@@ -62146,6 +66289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5201acc6",
       n1: "9wwa",
       n2: null,
       n3: null,
@@ -62161,6 +66305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb9cd31a",
       n1: "do99",
       n2: "d99",
       n3: null,
@@ -62176,6 +66321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b2fa89a",
       n1: "3reD",
       n2: null,
       n3: null,
@@ -62191,6 +66337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "707f66e6",
       n1: "tkhella",
       n2: "tkhlla",
       n3: null,
@@ -62206,6 +66353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "711a8d36",
       n1: "jaweb",
       n2: null,
       n3: null,
@@ -62221,6 +66369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a34aeb0a",
       n1: "7errek",
       n2: "7rrek",
       n3: "7rrk",
@@ -62236,6 +66385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04a21140",
       n1: "Sle7",
       n2: null,
       n3: null,
@@ -62251,6 +66401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "99ffe3e7",
       n1: "tDaa8er",
       n2: null,
       n3: null,
@@ -62266,6 +66417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2adcb18",
       n1: "chawer",
       n2: null,
       n3: null,
@@ -62281,6 +66433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89ec4e83",
       n1: "9sem",
       n2: null,
       n3: null,
@@ -62296,6 +66449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d9829568",
       n1: "nkhareT",
       n2: "nkharT",
       n3: null,
@@ -62311,6 +66465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5d9267f4",
       n1: "7e99e9",
       n2: null,
       n3: null,
@@ -62326,6 +66481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "69948cb7",
       n1: "7kem",
       n2: null,
       n3: null,
@@ -62341,6 +66497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1144cb8a",
       n1: "3aalj",
       n2: "3alj",
       n3: "3aalej",
@@ -62356,6 +66513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "237fcef8",
       n1: "jab",
       n2: null,
       n3: null,
@@ -62371,6 +66529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "636da598",
       n1: "n9el",
       n2: null,
       n3: null,
@@ -62386,6 +66545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "987e779d",
       n1: "dfe3",
       n2: null,
       n3: null,
@@ -62401,6 +66561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d54d2f90",
       n1: "jessed",
       n2: "jssd",
       n3: "jssed",
@@ -62416,6 +66577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "257b66f5",
       n1: "7Ser",
       n2: null,
       n3: null,
@@ -62431,6 +66593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b56b98c6",
       n1: "steb3ed",
       n2: "stb3ed",
       n3: null,
@@ -62446,6 +66609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4a898314",
       n1: "zowwel",
       n2: "zwwel",
       n3: null,
@@ -62461,6 +66625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c1cb4ee0",
       n1: "lgha",
       n2: null,
       n3: null,
@@ -62476,6 +66641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddcf059c",
       n1: "7owwel",
       n2: "7wwel",
       n3: null,
@@ -62491,6 +66657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c7079ae9",
       n1: "t9a3d",
       n2: "t9a3ed",
       n3: null,
@@ -62506,6 +66673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2432789b",
       n1: "DbeT",
       n2: null,
       n3: null,
@@ -62521,6 +66689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1da5b87b",
       n1: "3ddel",
       n2: null,
       n3: null,
@@ -62536,6 +66705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03571fab",
       n1: "s88el",
       n2: null,
       n3: null,
@@ -62551,6 +66721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68f03725",
       n1: "kobb",
       n2: null,
       n3: null,
@@ -62566,6 +66737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "89e7e71c",
       n1: "Sebb",
       n2: null,
       n3: null,
@@ -62581,6 +66753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "642d8826",
       n1: "nsej",
       n2: null,
       n3: null,
@@ -62596,6 +66769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "697a8876",
       n1: "d3em",
       n2: null,
       n3: null,
@@ -62611,6 +66785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6099a739",
       n1: "Trassa",
       n2: null,
       n3: null,
@@ -62626,6 +66801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8c0461cf",
       n1: "sejjel",
       n2: "sjjel",
       n3: null,
@@ -62641,6 +66817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3a0ea2c",
       n1: "7seb",
       n2: "7sb",
       n3: "hseb",
@@ -62656,6 +66833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0887544e",
       n1: "7ffez",
       n2: "7affez",
       n3: "7effez",
@@ -62671,6 +66849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "efaf2938",
       n1: "Tbe3",
       n2: null,
       n3: null,
@@ -62686,6 +66865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39292d05",
       n1: "imprima",
       n2: null,
       n3: null,
@@ -62701,6 +66881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "06dcf929",
       n1: "twetter",
       n2: "totter",
       n3: "twatter",
@@ -62716,6 +66897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f85c16d6",
       n1: "3yyen",
       n2: "3iyyen",
       n3: null,
@@ -62731,6 +66913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de0d9c53",
       n1: "tdkhkhel",
       n2: "tdekhel",
       n3: "tdkhl",
@@ -62746,6 +66929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e88c1eb9",
       n1: "3tarD",
       n2: "3tareD",
       n3: null,
@@ -62761,6 +66945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54a6eaa4",
       n1: "9wwa",
       n2: "9owwa",
       n3: null,
@@ -62776,6 +66961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd68d11c",
       n1: "dfe3",
       n2: null,
       n3: null,
@@ -62791,6 +66977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "18981cf8",
       n1: "ysser",
       n2: "yesser",
       n3: null,
@@ -62806,6 +66993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ee1373ae",
       n1: "s88el",
       n2: "se88el",
       n3: "sehhel",
@@ -62821,6 +67009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d952e5ad",
       n1: "7taj",
       n2: null,
       n3: null,
@@ -62836,6 +67025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cd58810c",
       n1: "7bes",
       n2: null,
       n3: null,
@@ -62851,6 +67041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc9ad1b9",
       n1: "nffed",
       n2: "neffed",
       n3: null,
@@ -62866,6 +67057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2081b771",
       n1: "t2e9lem",
       n2: "t2a9lam",
       n3: "t29lm",
@@ -62881,6 +67073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "20caafeb",
       n1: "3god",
       n2: "3gd",
       n3: "3ged",
@@ -62896,6 +67089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fe854c44",
       n1: "9tabs",
       n2: null,
       n3: null,
@@ -62911,6 +67105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2aa5585c",
       n1: "syTer",
       n2: "siyTer",
       n3: "syTr",
@@ -62926,6 +67121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "927e55b2",
       n1: "frg3",
       n2: "ferge3",
       n3: null,
@@ -62941,6 +67137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "41b36ff0",
       n1: "3jeb",
       n2: null,
       n3: null,
@@ -62956,6 +67153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "316674b7",
       n1: "Semmem",
       n2: "Sammem",
       n3: "Smmem",
@@ -62971,6 +67169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dfc50fa3",
       n1: "tdkhkhel",
       n2: "tdekhel",
       n3: "tdkhl",
@@ -62986,6 +67185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d0bd3df0",
       n1: "Tlle3",
       n2: "Tll3",
       n3: "Telle3",
@@ -63001,6 +67201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87dbf5ac",
       n1: "sta9al",
       n2: "sta9aal",
       n3: null,
@@ -63016,6 +67217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c9d19fea",
       n1: "t8ejja",
       n2: null,
       n3: null,
@@ -63031,6 +67233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c07bf535",
       n1: "7errek",
       n2: "7rrk",
       n3: "7rrek",
@@ -63046,6 +67249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48239320",
       n1: "khSSeS",
       n2: "kheSSeS",
       n3: null,
@@ -63061,6 +67265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "95a61b61",
       n1: "9dder",
       n2: "9edder",
       n3: null,
@@ -63076,6 +67281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d31ad8d1",
       n1: "Dreb",
       n2: "Drb",
       n3: null,
@@ -63091,6 +67297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc7cf5b7",
       n1: "rkel",
       n2: "rkl",
       n3: null,
@@ -63106,6 +67313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1b375604",
       n1: "3dded",
       n2: "3edded",
       n3: null,
@@ -63121,6 +67329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1e689fac",
       n1: "lbes",
       n2: "lbs",
       n3: null,
@@ -63136,6 +67345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "405912ee",
       n1: "3len",
       n2: "3ln",
       n3: null,
@@ -63151,6 +67361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddcc3d83",
       n1: "diklara",
       n2: null,
       n3: null,
@@ -63166,6 +67377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9bde986f",
       n1: "2ekked",
       n2: "2kked",
       n3: "akked",
@@ -63181,6 +67393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "451fd0e5",
       n1: "stamdd",
       n2: null,
       n3: null,
@@ -63196,6 +67409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c5a1345",
       n1: "dkhel",
       n2: null,
       n3: null,
@@ -63211,6 +67425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "16c081be",
       n1: "2ejjel",
       n2: "2jjel",
       n3: "ajjel",
@@ -63226,6 +67441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "19f843b5",
       n1: "wDDe7",
       n2: "weDDe7",
       n3: "wDD7",
@@ -63241,6 +67457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec0a80f5",
       n1: "n9el",
       n2: "n9l",
       n3: "n9ol",
@@ -63256,6 +67473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6fa1eb3e",
       n1: "nsekh",
       n2: "nskh",
       n3: "nse5",
@@ -63271,6 +67489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "491605bb",
       n1: "fDDel",
       n2: "fDDl",
       n3: null,
@@ -63286,6 +67505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79162663",
       n1: "medd",
       n2: "mdd",
       n3: null,
@@ -63301,6 +67521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2371bfe4",
       n1: "9beT",
       n2: "9bT",
       n3: "9baT",
@@ -63316,6 +67537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "67c9fb6f",
       n1: "3zzez",
       n2: null,
       n3: null,
@@ -63331,6 +67553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ab0b3316",
       n1: "7owwel",
       n2: "7wwl",
       n3: "7wwel",
@@ -63346,6 +67569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bcc75f82",
       n1: "fhem",
       n2: "f8em",
       n3: null,
@@ -63361,6 +67585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b23bbbfe",
       n1: "khdem",
       n2: null,
       n3: null,
@@ -63376,6 +67601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3b45ef58",
       n1: "ghaader",
       n2: "ghadr",
       n3: "ghader",
@@ -63391,6 +67617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3e58f873",
       n1: "raaf9",
       n2: "raafe9",
       n3: "raf9",
@@ -63406,6 +67633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "39aa695e",
       n1: "mowwel",
       n2: "mmwel",
       n3: "mwwl",
@@ -63421,6 +67649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "604ce4f2",
       n1: "jme3",
       n2: null,
       n3: null,
@@ -63436,6 +67665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c45c8c3d",
       n1: "S77e7",
       n2: "Se77e7",
       n3: null,
@@ -63451,6 +67681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce306331",
       n1: "ab7ar",
       n2: null,
       n3: null,
@@ -63466,6 +67697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f89518a4",
       n1: "3owweD",
       n2: null,
       n3: null,
@@ -63481,6 +67713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "66701fa6",
       n1: "sre9",
       n2: "sr9",
       n3: "sra9",
@@ -63496,6 +67729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30329507",
       n1: "chfer",
       n2: "chfr",
       n3: "chfar",
@@ -63511,6 +67745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6dd9e35b",
       n1: "9owweD",
       n2: null,
       n3: null,
@@ -63526,6 +67761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c5ae349b",
       n1: "mtedd",
       n2: null,
       n3: null,
@@ -63541,6 +67777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7e2a44d7",
       n1: "3aareD",
       n2: "3arD",
       n3: "3aarD",
@@ -63556,6 +67793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f504b22",
       n1: "7edded",
       n2: null,
       n3: null,
@@ -63571,6 +67809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb7b7640",
       n1: "zreb",
       n2: "zrb",
       n3: "zrab",
@@ -63586,6 +67825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "96883e49",
       n1: "ncher",
       n2: "nchr",
       n3: null,
@@ -63601,6 +67841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6bc4b453",
       n1: "9aaDaa",
       n2: null,
       n3: null,
@@ -63616,6 +67857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8e5bacc5",
       n1: "miza",
       n2: null,
       n3: null,
@@ -63631,6 +67873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71c8775e",
       n1: "Dowwa",
       n2: "Dwwa",
       n3: null,
@@ -63646,6 +67889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1041da2",
       n1: "tbaT2",
       n2: "tbaaTe2",
       n3: "tbaaT2",
@@ -63661,6 +67905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ac8f08f",
       n1: "8emm",
       n2: null,
       n3: null,
@@ -63676,6 +67921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "907d4c3b",
       n1: "rfeD",
       n2: null,
       n3: null,
@@ -63691,6 +67937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d6663dbc",
       n1: "rkkez",
       n2: null,
       n3: null,
@@ -63706,6 +67953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e08f9ae",
       n1: "Sle7",
       n2: null,
       n3: null,
@@ -63721,6 +67969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a5f1569",
       n1: "Taabe9",
       n2: "Taab9",
       n3: "Tab9",
@@ -63736,6 +67985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "101103e6",
       n1: "rbeT",
       n2: null,
       n3: null,
@@ -63751,6 +68001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ed2780be",
       n1: "zrreb",
       n2: "zrrb",
       n3: null,
@@ -63766,6 +68017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5f62ea5d",
       n1: "ghre9",
       n2: null,
       n3: null,
@@ -63781,6 +68033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1ad95b33",
       n1: "ntaz3",
       n2: null,
       n3: null,
@@ -63796,6 +68049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "014473c9",
       n1: "kalma",
       n2: null,
       n3: null,
@@ -63811,6 +68065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e7dc73b",
       n1: "7tejj",
       n2: "7tjj",
       n3: null,
@@ -63826,6 +68081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "98bd0acf",
       n1: "waazen",
       n2: "wazn",
       n3: "waazn",
@@ -63841,6 +68097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1f49d873",
       n1: "Tleb",
       n2: null,
       n3: null,
@@ -63856,6 +68113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8de34304",
       n1: "tbbet",
       n2: "tebbet",
       n3: null,
@@ -63871,6 +68129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c564f28",
       n1: "Towwer",
       n2: null,
       n3: null,
@@ -63886,6 +68145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a3b19cbd",
       n1: "Tred",
       n2: null,
       n3: null,
@@ -63901,6 +68161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ce9c73fa",
       n1: "3awn",
       n2: "3aawn",
       n3: "3aawen",
@@ -63916,6 +68177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d7c508d",
       n1: "tdffe9",
       n2: null,
       n3: null,
@@ -63931,6 +68193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6eb1e7d",
       n1: "jerr",
       n2: "jrr",
       n3: null,
@@ -63946,6 +68209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "27e2a696",
       n1: "tTaab9",
       n2: "tTab9",
       n3: null,
@@ -63961,6 +68225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5770b236",
       n1: "chkkel",
       n2: null,
       n3: null,
@@ -63976,6 +68241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8484ede6",
       n1: "tt3jeb",
       n2: null,
       n3: null,
@@ -63991,6 +68257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7bd0f133",
       n1: "khffef",
       n2: null,
       n3: null,
@@ -64006,6 +68273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf229756",
       n1: "3kes",
       n2: null,
       n3: null,
@@ -64021,6 +68289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3fb9b400",
       n1: "ddabz",
       n2: null,
       n3: null,
@@ -64036,6 +68305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e58226c0",
       n1: "ndamj",
       n2: "ndamej",
       n3: null,
@@ -64051,6 +68321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e7b407f8",
       n1: "mattaf9ch",
       n2: null,
       n3: null,
@@ -64066,6 +68337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "94d452eb",
       n1: "ttaSel",
       n2: null,
       n3: null,
@@ -64081,6 +68353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "370c0bbf",
       n1: "7iyyen",
       n2: null,
       n3: null,
@@ -64096,6 +68369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db9cfe57",
       n1: "ghiyyer",
       n2: null,
       n3: null,
@@ -64111,6 +68385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8cce8a27",
       n1: "khtar",
       n2: null,
       n3: null,
@@ -64126,6 +68401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d6a0b6f",
       n1: "2amer",
       n2: null,
       n3: null,
@@ -64141,6 +68417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e890e92",
       n1: "mtatel",
       n2: "mtatl",
       n3: null,
@@ -64156,6 +68433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b3d3001",
       n1: "stkhrej",
       n2: "stekhrej",
       n3: "stakhrej",
@@ -64171,6 +68449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e510430c",
       n1: "3aarD",
       n2: null,
       n3: null,
@@ -64186,6 +68465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "847d7ed1",
       n1: "ste2nef",
       n2: "st2nf",
       n3: "sta2nef",
@@ -64201,6 +68481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03fbf333",
       n1: "chedd",
       n2: null,
       n3: null,
@@ -64216,6 +68497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a27ba419",
       n1: "stow3eb",
       n2: "stou3eb",
       n3: "sto3eb",
@@ -64231,6 +68513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "48951671",
       n1: "tze3lel",
       n2: "tz3lel",
       n3: null,
@@ -64246,6 +68529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "108639e2",
       n1: "sllem",
       n2: "sellem",
       n3: null,
@@ -64261,6 +68545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f8e34e02",
       n1: "zreb",
       n2: null,
       n3: null,
@@ -64276,6 +68561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b8d5e02c",
       n1: "waaj8",
       n2: "wajh",
       n3: "waajh",
@@ -64291,6 +68577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eabbd619",
       n1: "mne3",
       n2: null,
       n3: null,
@@ -64306,6 +68593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a6514066",
       n1: "mse7",
       n2: null,
       n3: null,
@@ -64321,6 +68609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "caa3557c",
       n1: "Doubl",
       n2: "Dobl",
       n3: "Double",
@@ -64336,6 +68625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c37a5181",
       n1: "chtamel",
       n2: "chtaml",
       n3: null,
@@ -64351,6 +68641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6991336",
       n1: "ch8ed",
       n2: null,
       n3: null,
@@ -64366,6 +68657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e74a4f80",
       n1: "ghres",
       n2: null,
       n3: null,
@@ -64381,6 +68673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f38ad380",
       n1: "jzem",
       n2: null,
       n3: null,
@@ -64396,6 +68689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "367ad5e3",
       n1: "kchef",
       n2: null,
       n3: null,
@@ -64411,6 +68705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea74d810",
       n1: "3Ser",
       n2: "3Sr",
       n3: null,
@@ -64426,6 +68721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "259d8117",
       n1: "bjegh",
       n2: "bjgh",
       n3: "bjagh",
@@ -64441,6 +68737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a5647b9d",
       n1: "rbeT",
       n2: null,
       n3: null,
@@ -64456,6 +68753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6885c0a2",
       n1: "Derr",
       n2: null,
       n3: null,
@@ -64471,6 +68769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1fe8855f",
       n1: "2aada",
       n2: "aada",
       n3: "ada",
@@ -64486,6 +68785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4b16121",
       n1: "tla9a",
       n2: null,
       n3: null,
@@ -64501,6 +68801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "97e15eed",
       n1: "Tleb",
       n2: null,
       n3: null,
@@ -64516,6 +68817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1a400a71",
       n1: "3aana",
       n2: null,
       n3: null,
@@ -64531,6 +68833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eac9fcee",
       n1: "khddem",
       n2: null,
       n3: null,
@@ -64546,6 +68849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6296235",
       n1: "khbba",
       n2: "khebba",
       n3: null,
@@ -64561,6 +68865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0a40851e",
       n1: "khddem",
       n2: null,
       n3: null,
@@ -64576,6 +68881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "12c1ffe9",
       n1: "t3awen",
       n2: "t3awn",
       n3: null,
@@ -64591,6 +68897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "db8fd50f",
       n1: "sre7",
       n2: null,
       n3: null,
@@ -64606,6 +68913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "75b9ce49",
       n1: "chdded",
       n2: "chedded",
       n3: null,
@@ -64621,6 +68929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9ec3dcd",
       n1: "3ber",
       n2: null,
       n3: null,
@@ -64636,6 +68945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3db92bb",
       n1: "wzen",
       n2: null,
       n3: null,
@@ -64651,6 +68961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eb43a362",
       n1: "tzaamn",
       n2: "tzamn",
       n3: "tzamen",
@@ -64666,6 +68977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "38539253",
       n1: "7na",
       n2: null,
       n3: null,
@@ -64681,6 +68993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f308bf7f",
       n1: "tna",
       n2: null,
       n3: null,
@@ -64696,6 +69009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "38d1f201",
       n1: "nDDem",
       n2: null,
       n3: null,
@@ -64711,6 +69025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e26b3fd1",
       n1: "n9ed",
       n2: null,
       n3: null,
@@ -64726,6 +69041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4299f6a8",
       n1: "rffe8",
       n2: null,
       n3: null,
@@ -64741,6 +69057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2616383e",
       n1: "twe99e3",
       n2: null,
       n3: null,
@@ -64756,6 +69073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "45f0bf28",
       n1: "f7eS",
       n2: null,
       n3: null,
@@ -64771,6 +69089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a29cac01",
       n1: "Sdder",
       n2: null,
       n3: null,
@@ -64786,6 +69105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd10250a",
       n1: "le77",
       n2: null,
       n3: null,
@@ -64801,6 +69121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a402516f",
       n1: "stentej",
       n2: null,
       n3: null,
@@ -64816,6 +69137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9095f2b3",
       n1: "sedd",
       n2: null,
       n3: null,
@@ -64831,6 +69153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "81d860d8",
       n1: "3reD",
       n2: null,
       n3: null,
@@ -64846,6 +69169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "31e9e838",
       n1: "skhkhen",
       n2: "skhen",
       n3: "s55en",
@@ -64861,6 +69185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c059e6c9",
       n1: "dffa",
       n2: "deffa",
       n3: null,
@@ -64876,6 +69201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "243ac975",
       n1: "3tarf",
       n2: null,
       n3: null,
@@ -64891,6 +69217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6ce36113",
       n1: "sme7",
       n2: null,
       n3: null,
@@ -64906,6 +69233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd0c5f14",
       n1: "Tmmer",
       n2: null,
       n3: null,
@@ -64921,6 +69249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "137c0d91",
       n1: "tselle9",
       n2: null,
       n3: null,
@@ -64936,6 +69265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b039974",
       n1: "mse7",
       n2: null,
       n3: null,
@@ -64951,6 +69281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "92c287a8",
       n1: "ntej",
       n2: null,
       n3: null,
@@ -64966,6 +69297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f7fbcafb",
       n1: "khDe3",
       n2: null,
       n3: null,
@@ -64981,6 +69313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e725e306",
       n1: "b8er",
       n2: null,
       n3: null,
@@ -64996,6 +69329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2c9c7e62",
       n1: "nkhafD",
       n2: null,
       n3: null,
@@ -65011,6 +69345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7989358e",
       n1: "frek",
       n2: null,
       n3: null,
@@ -65026,6 +69361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d9f82c4",
       n1: "wkkel",
       n2: null,
       n3: null,
@@ -65041,6 +69377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2852ab8",
       n1: "dar",
       n2: null,
       n3: null,
@@ -65056,6 +69393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "357b1d24",
       n1: "wzze3",
       n2: null,
       n3: null,
@@ -65071,6 +69409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "91b04037",
       n1: "7ess",
       n2: null,
       n3: null,
@@ -65086,6 +69425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d4ba0d44",
       n1: "khlleS",
       n2: null,
       n3: null,
@@ -65101,6 +69441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b549984b",
       n1: "rjje3",
       n2: null,
       n3: null,
@@ -65116,6 +69457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "defd7dcf",
       n1: "sta3aad",
       n2: null,
       n3: null,
@@ -65131,6 +69473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "00a9fb5a",
       n1: "9ellel",
       n2: null,
       n3: null,
@@ -65146,6 +69489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "394b73df",
       n1: "w99ef",
       n2: null,
       n3: null,
@@ -65161,6 +69505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "346464d5",
       n1: "chkkel",
       n2: null,
       n3: null,
@@ -65176,6 +69521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "eba6d99b",
       n1: "z3ej",
       n2: null,
       n3: null,
@@ -65191,6 +69537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1d98fbf0",
       n1: "3eDD",
       n2: "3aDD",
       n3: "3DD",
@@ -65206,6 +69553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "577b4c62",
       n1: "t9ddem",
       n2: null,
       n3: null,
@@ -65221,6 +69569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b32d63c7",
       n1: "kerres",
       n2: "karres",
       n3: "krrs",
@@ -65236,6 +69585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c14cd093",
       n1: "stafzz",
       n2: "stafezz",
       n3: null,
@@ -65251,6 +69601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "879d6a97",
       n1: "Tem2en",
       n2: null,
       n3: null,
@@ -65266,6 +69617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d5da26c",
       n1: "t2emmel",
       n2: null,
       n3: null,
@@ -65281,6 +69633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5466a29e",
       n1: "7dder",
       n2: null,
       n3: null,
@@ -65296,6 +69649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8d91e568",
       n1: "tfa3el",
       n2: "tfa3l",
       n3: null,
@@ -65311,6 +69665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ce97c14",
       n1: "skhkhen",
       n2: "skhen",
       n3: null,
@@ -65326,6 +69681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ca3f606e",
       n1: "btaker",
       n2: null,
       n3: null,
@@ -65341,6 +69697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4534acd8",
       n1: "7kem",
       n2: null,
       n3: null,
@@ -65356,6 +69713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "56645605",
       n1: "3aan9",
       n2: "3an9",
       n3: null,
@@ -65371,6 +69729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7c8d13a4",
       n1: "3zza",
       n2: null,
       n3: null,
@@ -65386,6 +69745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "582ee059",
       n1: "7jez",
       n2: null,
       n3: null,
@@ -65401,6 +69761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a063cd08",
       n1: "dowweb",
       n2: null,
       n3: null,
@@ -65416,6 +69777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5ddc20d2",
       n1: "zad",
       n2: null,
       n3: null,
@@ -65431,6 +69793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0922329b",
       n1: "ttekka",
       n2: null,
       n3: null,
@@ -65446,6 +69809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c8f4c05f",
       n1: "Tbbe9",
       n2: null,
       n3: null,
@@ -65461,6 +69825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e2e22b77",
       n1: "7tars",
       n2: "7tares",
       n3: null,
@@ -65476,6 +69841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0463cc04",
       n1: "tchab8",
       n2: "tchaab8",
       n3: "tchabh",
@@ -65491,6 +69857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4624af9c",
       n1: "mne3",
       n2: null,
       n3: null,
@@ -65506,6 +69873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50e5c3c4",
       n1: "tjowwej",
       n2: "tjwwj",
       n3: "tjowej",
@@ -65521,6 +69889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a46f9fe",
       n1: "8rres",
       n2: null,
       n3: null,
@@ -65536,6 +69905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad578d1c",
       n1: "9me3",
       n2: null,
       n3: null,
@@ -65551,6 +69921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "85ecc58b",
       n1: "gabl",
       n2: null,
       n3: null,
@@ -65566,6 +69937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebceb71c",
       n1: "faje2",
       n2: "faaj2",
       n3: "faj2",
@@ -65581,6 +69953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "daef14d0",
       n1: "tredded",
       n2: null,
       n3: null,
@@ -65596,6 +69969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13e518f1",
       n1: "ch7en",
       n2: null,
       n3: null,
@@ -65611,6 +69985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "50386a18",
       n1: "sreT",
       n2: null,
       n3: null,
@@ -65626,6 +70001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "893c5850",
       n1: "bda",
       n2: null,
       n3: null,
@@ -65641,6 +70017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8496f1e8",
       n1: "Tfaa",
       n2: null,
       n3: null,
@@ -65656,6 +70033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "566ae08f",
       n1: "2etter",
       n2: null,
       n3: null,
@@ -65671,6 +70049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "30ccdf6f",
       n1: "t7ekkem",
       n2: null,
       n3: null,
@@ -65686,6 +70065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dc2be672",
       n1: "rde3",
       n2: null,
       n3: null,
@@ -65701,6 +70081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f5c21c6",
       n1: "rtabeT",
       n2: null,
       n3: null,
@@ -65716,6 +70097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "77b83da3",
       n1: "adaar",
       n2: null,
       n3: null,
@@ -65731,6 +70113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c87bd28c",
       n1: "9tel",
       n2: null,
       n3: null,
@@ -65746,6 +70129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24b9af1f",
       n1: "taabr",
       n2: null,
       n3: null,
@@ -65761,6 +70145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4840288b",
       n1: "7eyya",
       n2: null,
       n3: null,
@@ -65776,6 +70161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd97dca2",
       n1: "dmme3",
       n2: null,
       n3: null,
@@ -65791,6 +70177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8443ab8e",
       n1: "Taared",
       n2: null,
       n3: null,
@@ -65806,6 +70193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cc9cc8e",
       n1: "fsed",
       n2: null,
       n3: null,
@@ -65821,6 +70209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4ed886f5",
       n1: "sTTer",
       n2: null,
       n3: null,
@@ -65836,6 +70225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d5e322d",
       n1: "baark",
       n2: null,
       n3: null,
@@ -65851,6 +70241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "47fc0cc3",
       n1: "khtar9",
       n2: null,
       n3: null,
@@ -65866,6 +70257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "518a2d50",
       n1: "Daa3ef",
       n2: null,
       n3: null,
@@ -65881,6 +70273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9d77a3e",
       n1: "dmej",
       n2: null,
       n3: null,
@@ -65896,6 +70289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73adedd8",
       n1: "derreb",
       n2: null,
       n3: null,
@@ -65911,6 +70305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a7fba5b0",
       n1: "jeff",
       n2: "jffef",
       n3: null,
@@ -65926,6 +70321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4d21e8d2",
       n1: "stenzef",
       n2: "stnzef",
       n3: null,
@@ -65941,6 +70337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a196e15a",
       n1: "kfa",
       n2: null,
       n3: null,
@@ -65956,6 +70353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d007dbd3",
       n1: "ftarD",
       n2: null,
       n3: null,
@@ -65971,6 +70369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b753e1ce",
       n1: "Syyed",
       n2: null,
       n3: null,
@@ -65986,6 +70385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d701736",
       n1: "t9dda",
       n2: null,
       n3: null,
@@ -66001,6 +70401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd12dc57",
       n1: "tsab9",
       n2: null,
       n3: null,
@@ -66016,6 +70417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c0eda72",
       n1: "chrref",
       n2: null,
       n3: null,
@@ -66031,6 +70433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1539313",
       n1: "jemmed",
       n2: null,
       n3: null,
@@ -66046,6 +70449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5cdfad1d",
       n1: "daawa",
       n2: null,
       n3: null,
@@ -66061,6 +70465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "22e14300",
       n1: "3alj",
       n2: null,
       n3: null,
@@ -66076,6 +70481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b18d51ba",
       n1: "tbadel",
       n2: null,
       n3: null,
@@ -66091,6 +70497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3a691cbd",
       n1: "t7emmel",
       n2: null,
       n3: null,
@@ -66106,6 +70513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f2c217c5",
       n1: "Taard",
       n2: null,
       n3: null,
@@ -66121,6 +70529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e809e95f",
       n1: "ste8lek",
       n2: null,
       n3: null,
@@ -66136,6 +70545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9310b854",
       n1: "khcha",
       n2: null,
       n3: null,
@@ -66151,6 +70561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dbcd4e48",
       n1: "tsenna",
       n2: null,
       n3: null,
@@ -66166,6 +70577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b87f93da",
       n1: "njarf",
       n2: null,
       n3: null,
@@ -66181,6 +70593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "394af61d",
       n1: "bddel",
       n2: null,
       n3: null,
@@ -66196,6 +70609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c53260a",
       n1: "steslem",
       n2: null,
       n3: null,
@@ -66211,6 +70625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7ba76bd0",
       n1: "ziyyer",
       n2: null,
       n3: null,
@@ -66226,6 +70641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2884ceec",
       n1: "9elleS",
       n2: null,
       n3: null,
@@ -66241,6 +70657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e0f4bb85",
       n1: "miyyez",
       n2: null,
       n3: null,
@@ -66256,6 +70673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "604b94e8",
       n1: "3len",
       n2: null,
       n3: null,
@@ -66271,6 +70689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b31fa3df",
       n1: "Saal7",
       n2: null,
       n3: null,
@@ -66286,6 +70705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc1dfb80",
       n1: "tSowwer",
       n2: null,
       n3: null,
@@ -66301,6 +70721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4e590e04",
       n1: "nsse9",
       n2: null,
       n3: null,
@@ -66316,6 +70737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc248199",
       n1: "frg3",
       n2: null,
       n3: null,
@@ -66331,6 +70753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "29247dbd",
       n1: "l3en",
       n2: null,
       n3: null,
@@ -66346,6 +70769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b473a68d",
       n1: "Teyyeb",
       n2: null,
       n3: null,
@@ -66361,6 +70785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f222a96",
       n1: "Twa",
       n2: null,
       n3: null,
@@ -66376,6 +70801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "21d82bce",
       n1: "tnazl",
       n2: null,
       n3: null,
@@ -66391,6 +70817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0cf40225",
       n1: "jdded",
       n2: null,
       n3: null,
@@ -66406,6 +70833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "965c8130",
       n1: "Saagh",
       n2: null,
       n3: null,
@@ -66421,6 +70849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ccf03ee0",
       n1: "khelleT",
       n2: null,
       n3: null,
@@ -66436,6 +70865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2a5f7a54",
       n1: "7edd",
       n2: null,
       n3: null,
@@ -66451,6 +70881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ec8fc978",
       n1: "mse7",
       n2: null,
       n3: null,
@@ -66466,6 +70897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd609dc4",
       n1: "wjjeh",
       n2: null,
       n3: null,
@@ -66481,6 +70913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6b765ed1",
       n1: "rkkez",
       n2: null,
       n3: null,
@@ -66496,6 +70929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "05cb663e",
       n1: "tsa8el",
       n2: null,
       n3: null,
@@ -66511,6 +70945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0e68b642",
       n1: "khffeD",
       n2: null,
       n3: null,
@@ -66526,6 +70961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e1f9b029",
       n1: "7jez",
       n2: null,
       n3: null,
@@ -66541,6 +70977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14c7c7b8",
       n1: "rezerva",
       n2: null,
       n3: null,
@@ -66556,6 +70993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8b6e26ed",
       n1: "st9bel",
       n2: null,
       n3: null,
@@ -66571,6 +71009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "737078ce",
       n1: "tTowwer",
       n2: null,
       n3: null,
@@ -66586,6 +71025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "54649142",
       n1: "r3a",
       n2: null,
       n3: null,
@@ -66601,6 +71041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fe56fce",
       n1: "3ggez",
       n2: null,
       n3: null,
@@ -66616,6 +71057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9dd55106",
       n1: "Towwe9",
       n2: null,
       n3: null,
@@ -66631,6 +71073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c54a7eb3",
       n1: "khSSeS",
       n2: null,
       n3: null,
@@ -66646,6 +71089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a2dc168a",
       n1: "chref",
       n2: null,
       n3: null,
@@ -66661,6 +71105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3bdf8744",
       n1: "tlacha",
       n2: null,
       n3: null,
@@ -66676,6 +71121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ebebde1b",
       n1: "d3em",
       n2: null,
       n3: null,
@@ -66691,6 +71137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fd563340",
       n1: "adaan",
       n2: null,
       n3: null,
@@ -66706,6 +71153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5e24097a",
       n1: "7jez",
       n2: null,
       n3: null,
@@ -66721,6 +71169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "68e2f3c1",
       n1: "Sle7",
       n2: null,
       n3: null,
@@ -66736,6 +71185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6e33dfc0",
       n1: "kmmel",
       n2: null,
       n3: null,
@@ -66751,6 +71201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4c641eab",
       n1: "3a9b",
       n2: null,
       n3: null,
@@ -66766,6 +71217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "02d5217c",
       n1: "frg3",
       n2: null,
       n3: null,
@@ -66781,6 +71233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd765180",
       n1: "st3reD",
       n2: null,
       n3: null,
@@ -66796,6 +71249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "49d94a75",
       n1: "9ellel",
       n2: null,
       n3: null,
@@ -66811,6 +71265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a0c7394",
       n1: "saad",
       n2: null,
       n3: null,
@@ -66826,6 +71281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3cbcbf74",
       n1: "n99ez",
       n2: null,
       n3: null,
@@ -66841,6 +71297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "87fb498c",
       n1: "lwa",
       n2: null,
       n3: null,
@@ -66856,6 +71313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "24c7b251",
       n1: "tfa8em",
       n2: null,
       n3: null,
@@ -66871,6 +71329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ad4c3919",
       n1: "n8aar",
       n2: null,
       n3: null,
@@ -66886,6 +71345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1c3a99bf",
       n1: "raab",
       n2: null,
       n3: null,
@@ -66901,6 +71361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f51231f9",
       n1: "7ma",
       n2: null,
       n3: null,
@@ -66916,6 +71377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4cc443c9",
       n1: "mne3",
       n2: null,
       n3: null,
@@ -66931,6 +71393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3dc55f54",
       n1: "ghowwet",
       n2: null,
       n3: null,
@@ -66946,6 +71409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf241965",
       n1: "twa3d",
       n2: null,
       n3: null,
@@ -66961,6 +71425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1418188b",
       n1: "mse7",
       n2: null,
       n3: null,
@@ -66976,6 +71441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "fb01d775",
       n1: "799e9",
       n2: null,
       n3: null,
@@ -66991,6 +71457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40774db5",
       n1: "kre8",
       n2: null,
       n3: null,
@@ -67006,6 +71473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5fa90176",
       n1: "tSowwer",
       n2: null,
       n3: null,
@@ -67021,6 +71489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0351fc4f",
       n1: "mla",
       n2: null,
       n3: null,
@@ -67036,6 +71505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "226f7ae7",
       n1: "w77ed",
       n2: null,
       n3: null,
@@ -67051,6 +71521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "368a1f6e",
       n1: "stowred",
       n2: null,
       n3: null,
@@ -67066,6 +71537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1414cd0b",
       n1: "bna",
       n2: null,
       n3: null,
@@ -67081,6 +71553,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b1fc9ad4",
       n1: "zda8er",
       n2: null,
       n3: null,
@@ -67096,6 +71569,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d819311b",
       n1: "nta9ed",
       n2: null,
       n3: null,
@@ -67111,6 +71585,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "069ff7b6",
       n1: "Tiyyeb",
       n2: null,
       n3: null,
@@ -67126,6 +71601,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4fa3019a",
       n1: "ghla",
       n2: null,
       n3: null,
@@ -67141,6 +71617,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6a35834",
       n1: "ghla",
       n2: null,
       n3: null,
@@ -67156,6 +71633,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f3afb3ea",
       n1: "8reb",
       n2: null,
       n3: null,
@@ -67171,6 +71649,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "961642e0",
       n1: "bda",
       n2: null,
       n3: null,
@@ -67186,6 +71665,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "702185b3",
       n1: "mde7",
       n2: null,
       n3: null,
@@ -67201,6 +71681,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "91b1dba9",
       n1: "blaSa",
       n2: null,
       n3: null,
@@ -67216,6 +71697,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "79018a9d",
       n1: "miyyez",
       n2: null,
       n3: null,
@@ -67231,6 +71713,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5c1aa24c",
       n1: "tbe3",
       n2: null,
       n3: null,
@@ -67246,6 +71729,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9807bd44",
       n1: "Towwe9",
       n2: null,
       n3: null,
@@ -67261,6 +71745,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43a62ece",
       n1: "9aabel",
       n2: null,
       n3: null,
@@ -67276,6 +71761,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d1ba8da4",
       n1: "chedded",
       n2: null,
       n3: null,
@@ -67291,6 +71777,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f340a60",
       n1: "lowwen",
       n2: null,
       n3: null,
@@ -67306,6 +71793,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "71ecc4d2",
       n1: "ghaamer",
       n2: null,
       n3: null,
@@ -67321,6 +71809,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "df03db2d",
       n1: "khemmen",
       n2: null,
       n3: null,
@@ -67336,6 +71825,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3245e5cf",
       n1: "9edder",
       n2: null,
       n3: null,
@@ -67351,6 +71841,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d4566b3",
       n1: "ghader",
       n2: null,
       n3: null,
@@ -67366,6 +71857,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40f92726",
       n1: "9aaTe3",
       n2: null,
       n3: null,
@@ -67381,6 +71873,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3af90a2a",
       n1: "mowwe8",
       n2: null,
       n3: null,
@@ -67396,6 +71889,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bbd957a3",
       n1: "ntakheb",
       n2: null,
       n3: null,
@@ -67411,6 +71905,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "52160e61",
       n1: "t7emmel",
       n2: null,
       n3: null,
@@ -67426,6 +71921,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04a25822",
       n1: "kbe7",
       n2: null,
       n3: null,
@@ -67441,6 +71937,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e6e9984a",
       n1: "nma",
       n2: null,
       n3: null,
@@ -67456,6 +71953,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c437ba9b",
       n1: "3awed",
       n2: null,
       n3: null,
@@ -67471,6 +71969,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8512dbd7",
       n1: "n7arf",
       n2: null,
       n3: null,
@@ -67486,6 +71985,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "4aee31b2",
       n1: "9la",
       n2: null,
       n3: null,
@@ -67501,6 +72001,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f00549d6",
       n1: "dab",
       n2: null,
       n3: null,
@@ -67516,6 +72017,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ddd3e0e0",
       n1: "3ddel",
       n2: null,
       n3: null,
@@ -67531,6 +72033,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0748b6c8",
       n1: "jmme3",
       n2: null,
       n3: null,
@@ -67546,6 +72049,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b2769a06",
       n1: "khrreb",
       n2: null,
       n3: null,
@@ -67561,6 +72065,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "93b93ca8",
       n1: "srre3",
       n2: null,
       n3: null,
@@ -67576,6 +72081,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "bf08cf4b",
       n1: "tSower",
       n2: null,
       n3: null,
@@ -67591,6 +72097,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6f941f09",
       n1: "8enne2",
       n2: null,
       n3: null,
@@ -67606,6 +72113,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d769e98b",
       n1: "staredd",
       n2: null,
       n3: null,
@@ -67621,6 +72129,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cc2523cf",
       n1: "8beT",
       n2: null,
       n3: null,
@@ -67636,6 +72145,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9a33893e",
       n1: "wggef",
       n2: null,
       n3: null,
@@ -67651,6 +72161,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d2981c7a",
       n1: "jerreb",
       n2: "jrreb",
       n3: "jrrb",
@@ -67666,6 +72177,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "13998d7c",
       n1: "khle3",
       n2: null,
       n3: null,
@@ -67681,6 +72193,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a08d97a5",
       n1: "9oulb",
       n2: null,
       n3: null,
@@ -67696,6 +72209,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04a6530e",
       n1: "al8am",
       n2: null,
       n3: null,
@@ -67711,6 +72225,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e25a489c",
       n1: "chaafa",
       n2: null,
       n3: null,
@@ -67726,6 +72241,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3076266d",
       n1: "DbeT",
       n2: null,
       n3: null,
@@ -67741,6 +72257,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9e3646e9",
       n1: "kemmel",
       n2: null,
       n3: null,
@@ -67756,6 +72273,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3d6a1762",
       n1: "3ddel",
       n2: null,
       n3: null,
@@ -67771,6 +72289,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "246da09e",
       n1: "khdech",
       n2: null,
       n3: null,
@@ -67786,6 +72305,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "26beccb7",
       n1: "stelzem",
       n2: null,
       n3: null,
@@ -67801,6 +72321,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1acbd8e2",
       n1: "nffed",
       n2: null,
       n3: null,
@@ -67816,6 +72337,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c51527fc",
       n1: "3dem",
       n2: null,
       n3: null,
@@ -67831,6 +72353,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d73b72e",
       n1: "wTTed",
       n2: null,
       n3: null,
@@ -67846,6 +72369,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "15813fa8",
       n1: "dowwer",
       n2: null,
       n3: null,
@@ -67861,6 +72385,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f330558b",
       n1: "3zel",
       n2: null,
       n3: null,
@@ -67876,6 +72401,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ae374fc",
       n1: "berrer",
       n2: null,
       n3: null,
@@ -67891,6 +72417,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "899690b0",
       n1: "D33ef",
       n2: null,
       n3: null,
@@ -67906,6 +72433,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "ea457170",
       n1: "tmechcha",
       n2: null,
       n3: null,
@@ -67921,6 +72449,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3ac7688e",
       n1: "bgha",
       n2: null,
       n3: null,
@@ -67936,6 +72465,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6d6648d",
       n1: "wsse3",
       n2: null,
       n3: null,
@@ -67951,6 +72481,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a4a78fc7",
       n1: "drdech",
       n2: null,
       n3: null,
@@ -67966,6 +72497,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "0f3d9c8b",
       n1: "rkeb",
       n2: null,
       n3: null,
@@ -67981,6 +72513,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9923451a",
       n1: "khtar3",
       n2: null,
       n3: null,
@@ -67996,6 +72529,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "53ba7c25",
       n1: "Sne3",
       n2: null,
       n3: null,
@@ -68011,6 +72545,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "43f8f09b",
       n1: "sedd",
       n2: null,
       n3: null,
@@ -68026,6 +72561,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6a91c348",
       n1: "raaj3",
       n2: null,
       n3: null,
@@ -68041,6 +72577,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "73813032",
       n1: "mSS",
       n2: null,
       n3: null,
@@ -68056,6 +72593,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "af132173",
       n1: "Sowwer",
       n2: null,
       n3: null,
@@ -68071,6 +72609,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "dd138b89",
       n1: "STadem",
       n2: null,
       n3: null,
@@ -68086,6 +72625,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "186eb096",
       n1: "frchekh",
       n2: null,
       n3: null,
@@ -68101,6 +72641,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cb5febf3",
       n1: "n9el",
       n2: null,
       n3: null,
@@ -68116,6 +72657,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9ccbce4e",
       n1: "bloka",
       n2: null,
       n3: null,
@@ -68131,6 +72673,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cf7b9bda",
       n1: "3iyyen",
       n2: null,
       n3: null,
@@ -68146,6 +72689,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f96e3fdc",
       n1: "stfser",
       n2: null,
       n3: null,
@@ -68161,6 +72705,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "896504ff",
       n1: "Syyed",
       n2: null,
       n3: null,
@@ -68176,6 +72721,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "40d150f6",
       n1: "dowwer",
       n2: null,
       n3: null,
@@ -68191,6 +72737,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9b61d004",
       n1: "tna9ch",
       n2: null,
       n3: null,
@@ -68206,6 +72753,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f02367e3",
       n1: "Towwer",
       n2: null,
       n3: null,
@@ -68221,6 +72769,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9d70b67a",
       n1: "zyyen",
       n2: null,
       n3: null,
@@ -68236,6 +72785,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "36f1678c",
       n1: "jme3",
       n2: null,
       n3: null,
@@ -68251,6 +72801,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "23a3970c",
       n1: "staghell",
       n2: null,
       n3: null,
@@ -68266,6 +72817,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "04c570e3",
       n1: "wret",
       n2: null,
       n3: null,
@@ -68281,6 +72833,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "88242d88",
       n1: "khrbe9",
       n2: null,
       n3: null,
@@ -68296,6 +72849,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfa56334",
       n1: "khne9",
       n2: null,
       n3: null,
@@ -68311,6 +72865,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f424500",
       n1: "daaf3",
       n2: null,
       n3: null,
@@ -68326,6 +72881,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "aedd960a",
       n1: "ghmmes",
       n2: null,
       n3: null,
@@ -68341,6 +72897,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "be7b6237",
       n1: "chtark",
       n2: null,
       n3: null,
@@ -68356,6 +72913,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "1805f290",
       n1: "3llem",
       n2: null,
       n3: null,
@@ -68371,6 +72929,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "09065dde",
       n1: "Tlle9",
       n2: null,
       n3: null,
@@ -68386,6 +72945,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d848ec8f",
       n1: "ghzel",
       n2: null,
       n3: null,
@@ -68401,6 +72961,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "9c22759a",
       n1: "chowwech",
       n2: null,
       n3: null,
@@ -68416,6 +72977,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c49bdaa6",
       n1: "tsellel",
       n2: null,
       n3: null,
@@ -68431,6 +72993,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "72edcede",
       n1: "7rref",
       n2: null,
       n3: null,
@@ -68446,6 +73009,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "14865ec2",
       n1: "mzej",
       n2: null,
       n3: null,
@@ -68461,6 +73025,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d49eb22f",
       n1: "raaj3",
       n2: null,
       n3: null,
@@ -68476,6 +73041,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "e859d69b",
       n1: "nseb",
       n2: null,
       n3: null,
@@ -68491,6 +73057,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "690cd017",
       n1: "nfajer",
       n2: null,
       n3: null,
@@ -68506,6 +73073,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f565458",
       n1: "sken",
       n2: null,
       n3: null,
@@ -68521,6 +73089,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7a26ad40",
       n1: "khffef",
       n2: null,
       n3: null,
@@ -68536,6 +73105,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "de5bd126",
       n1: "3alj",
       n2: null,
       n3: null,
@@ -68551,6 +73121,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "d358f277",
       n1: "rched",
       n2: null,
       n3: null,
@@ -68566,6 +73137,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61bf45c6",
       n1: "tserreb",
       n2: null,
       n3: null,
@@ -68581,6 +73153,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "f986ce8e",
       n1: "f8em",
       n2: null,
       n3: null,
@@ -68596,6 +73169,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "57f3c835",
       n1: "rTTeb",
       n2: null,
       n3: null,
@@ -68611,6 +73185,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "818d92ab",
       n1: "chiyyer",
       n2: null,
       n3: null,
@@ -68626,6 +73201,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "cfae5857",
       n1: "sToka",
       n2: "stoka",
       n3: null,
@@ -68641,6 +73217,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "03167d72",
       n1: "wDe3",
       n2: null,
       n3: null,
@@ -68656,6 +73233,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "5b813ffd",
       n1: "2emmen",
       n2: null,
       n3: null,
@@ -68671,6 +73249,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "716f8954",
       n1: "nkharT",
       n2: null,
       n3: null,
@@ -68686,6 +73265,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "320658f9",
       n1: "tchbbet",
       n2: null,
       n3: null,
@@ -68701,6 +73281,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "c95ec194",
       n1: "sted3a",
       n2: null,
       n3: null,
@@ -68716,6 +73297,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "b6c95c8c",
       n1: "wgf",
       n2: null,
       n3: null,
@@ -68731,6 +73313,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "7f21f5c6",
       n1: "w9ef",
       n2: null,
       n3: null,
@@ -68746,6 +73329,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "607f9239",
       n1: "khwa",
       n2: null,
       n3: null,
@@ -68761,6 +73345,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "781e0d53",
       n1: "rtteb",
       n2: null,
       n3: null,
@@ -68776,6 +73361,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2b77a47e",
       n1: "t7emmel",
       n2: null,
       n3: null,
@@ -68791,6 +73377,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "08e5caac",
       n1: "tsme3",
       n2: null,
       n3: null,
@@ -68806,6 +73393,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "61f4163b",
       n1: "n99eT",
       n2: null,
       n3: null,
@@ -68821,6 +73409,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "34ecd979",
       n1: "rje3",
       n2: null,
       n3: null,
@@ -68836,6 +73425,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "11eea349",
       n1: "9iyyem",
       n2: null,
       n3: null,
@@ -68851,6 +73441,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "6d6a33d8",
       n1: "jaaza",
       n2: null,
       n3: null,
@@ -68866,6 +73457,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "a9201f20",
       n1: "kaf7",
       n2: null,
       n3: null,
@@ -68881,6 +73473,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "605e97a0",
       n1: "bllegh",
       n2: null,
       n3: null,
@@ -68896,6 +73489,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "8ab68d06",
       n1: "Tfa",
       n2: null,
       n3: null,
@@ -68911,6 +73505,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "3c9b521d",
       n1: "ryye7",
       n2: "riye7",
       n3: "ryy7",
@@ -68926,6 +73521,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "823863e9",
       n1: "ghech",
       n2: "ghechch",
       n3: "ghch",
@@ -68941,6 +73537,7 @@ export interface DictionaryEntry {
       de_by: "gpt-4o-mini",
     },
     {
+      id: "2e0b7057",
       n1: "9chcher",
       n2: "9cher",
       n3: "qcher",

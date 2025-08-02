@@ -1,23 +1,67 @@
 'use client';
 
 import { useState } from 'react';
+import { SearchField } from '../utils/search';
 
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
   placeholder?: string;
-  onSearchTypeChange?: (type: 'all' | 'darija' | 'arabic' | 'english' | 'german') => void;
-  searchType?: 'all' | 'darija' | 'arabic' | 'english' | 'german';
+  onFieldFilterChange?: (fields: SearchField[]) => void;
+  selectedFields?: SearchField[];
 }
 
 export default function SearchBar({ 
   value, 
   onChange, 
   placeholder = "Search in Darija, Arabic, English, or German...",
-  onSearchTypeChange,
-  searchType = 'all'
+  onFieldFilterChange,
+  selectedFields = ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de']
 }: SearchBarProps) {
   const [isFocused, setIsFocused] = useState(false);
+
+  const fieldOptions = [
+    { 
+      key: 'all', 
+      label: 'All', 
+      fields: ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de'] as SearchField[]
+    },
+    { 
+      key: 'darija_latin', 
+      label: 'Darija Latin', 
+      fields: ['n1', 'n2', 'n3', 'n4'] as SearchField[]
+    },
+    { 
+      key: 'darija_ar', 
+      label: 'Darija Arabic', 
+      fields: ['darija_ar'] as SearchField[]
+    },
+    { 
+      key: 'eng', 
+      label: 'English', 
+      fields: ['eng'] as SearchField[]
+    },
+    { 
+      key: 'de', 
+      label: 'German', 
+      fields: ['de'] as SearchField[]
+    }
+  ];
+
+  const handleFieldToggle = (optionFields: SearchField[]) => {
+    if (!onFieldFilterChange) return;
+    onFieldFilterChange(optionFields);
+  };
+
+  const isOptionSelected = (optionFields: SearchField[]) => {
+    if (optionFields.length === 7) {
+      // For "All" option
+      return selectedFields.length === 7;
+    }
+    // For specific field options
+    return selectedFields.length === optionFields.length && 
+           optionFields.every(field => selectedFields.includes(field));
+  };
 
   return (
     <div className="relative w-full max-w-2xl mx-auto">
@@ -46,6 +90,7 @@ export default function SearchBar({
             />
           </svg>
         </div>
+
         {value && (
           <button
             onClick={() => onChange('')}
@@ -68,41 +113,46 @@ export default function SearchBar({
         )}
       </div>
 
-      {/* Search Type Filter */}
-      {onSearchTypeChange && (
-        <div className="mt-4 flex flex-wrap justify-center gap-2">
-          {[
-            { key: 'all', label: 'All', icon: '🌐' },
-            { key: 'darija', label: 'Darija', icon: '🔤' },
-            { key: 'arabic', label: 'Arabic', icon: '📝' },
-            { key: 'english', label: 'English', icon: '🇺🇸' },
-            { key: 'german', label: 'German', icon: '🇩🇪' }
-          ].map((type) => (
-            <button
-              key={type.key}
-              onClick={() => onSearchTypeChange(type.key as any)}
-              className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                searchType === type.key
-                  ? 'bg-blue-500 text-white'
-                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-              }`}
-            >
-              <span className="mr-1">{type.icon}</span>
-              {type.label}
-            </button>
-          ))}
+      {/* Field Filters - Compact horizontal layout */}
+      <div className="mt-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg p-3">
+        <div className="flex items-center justify-between space-x-4">
+          <span className="text-sm font-medium text-gray-700 dark:text-gray-300 whitespace-nowrap">Search in:</span>
+          <div className="flex items-center space-x-3 flex-wrap">
+            {fieldOptions.map((option) => {
+              const isSelected = isOptionSelected(option.fields);
+              return (
+                <div key={option.key} className="flex items-center space-x-2">
+                  <button
+                    onClick={() => handleFieldToggle(option.fields)}
+                    className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 ${
+                      isSelected 
+                        ? 'bg-blue-600' 
+                        : 'bg-gray-200 dark:bg-gray-700'
+                    }`}
+                  >
+                    <span
+                      className={`inline-block h-3 w-3 transform rounded-full bg-white transition duration-200 ease-in-out ${
+                        isSelected ? 'translate-x-5' : 'translate-x-1'
+                      }`}
+                    />
+                  </button>
+                  <span className="text-xs text-gray-600 dark:text-gray-400 whitespace-nowrap">{option.label}</span>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      )}
+      </div>
 
       {/* Search Tips */}
       {isFocused && !value && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-4 z-10">
           <h4 className="font-medium text-gray-900 dark:text-white mb-2">Search Tips:</h4>
           <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
-            <li>• Search in Darija (Latin script), Arabic, English, or German</li>
-            <li>• Fuzzy search finds similar words even with typos</li>
-            <li>• Try partial words or different spellings</li>
-            <li>• Use the filter buttons to search in specific languages</li>
+            <li>• Exact matches: "haus" finds "haus"</li>
+            <li>• Prefix matches: "hau" finds "haus", "haushalt"</li>
+            <li>• Contains matches: "leb" finds "lebensmittel"</li>
+            <li>• Use toggles to search in specific fields only</li>
           </ul>
         </div>
       )}

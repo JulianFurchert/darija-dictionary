@@ -1,50 +1,70 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { dictionaryData } from '../data/dictionary';
-import { enhancedSearch, customSearch } from '../utils/search';
+import { simpleSearch, SearchField } from '../utils/search';
 import SearchBar from '../components/SearchBar';
 import DictionaryCard from '../components/DictionaryCard';
 
-type SearchType = 'all' | 'darija' | 'arabic' | 'english' | 'german';
-
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchType, setSearchType] = useState<SearchType>('all');
-  const [searchThreshold, setSearchThreshold] = useState(0.3);
+  const router = useRouter();
+  const searchParams = useSearchParams();
   
-  const filteredEntries = useMemo(() => {
-    if (!searchQuery.trim()) return dictionaryData;
-    
-    // Filter by search type first
-    let filteredData = dictionaryData;
-    if (searchType !== 'all') {
-      filteredData = dictionaryData.filter(entry => {
-        switch (searchType) {
-          case 'darija':
-            return entry.n1.toLowerCase().includes(searchQuery.toLowerCase());
-          case 'arabic':
-            return entry.darija_ar.includes(searchQuery);
-          case 'english':
-            return entry.eng.toLowerCase().includes(searchQuery.toLowerCase());
-          case 'german':
-            return entry.de.toLowerCase().includes(searchQuery.toLowerCase());
-          default:
-            return true;
-        }
-      });
+  // Initialize state from URL parameters
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '');
+  const [debouncedQuery, setDebouncedQuery] = useState(searchParams.get('q') || '');
+  const [selectedFields, setSelectedFields] = useState<SearchField[]>(
+    searchParams.get('fields') ? searchParams.get('fields')!.split(',') as SearchField[] : 
+    ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de']
+  );
+  
+  // Debounce function to improve performance
+  const debounce = useCallback((func: Function, delay: number) => {
+    let timeoutId: NodeJS.Timeout;
+    return (...args: any[]) => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => func.apply(null, args), delay);
+    };
+  }, []);
+
+  // Debounced search query update
+  const debouncedSetQuery = useMemo(
+    () => debounce((query: string) => setDebouncedQuery(query), 300),
+    [debounce]
+  );
+
+  // Update URL when search parameters change
+  const updateURL = useCallback((query: string, fields: SearchField[]) => {
+    const params = new URLSearchParams();
+    if (query) params.set('q', query);
+    if (fields.length > 0 && fields.length < 7) {
+      params.set('fields', fields.join(','));
     }
     
-    // Then apply fuzzy search
-    return enhancedSearch(searchQuery, filteredData);
-  }, [searchQuery, searchType]);
+    const newURL = params.toString() ? `/?${params.toString()}` : '/';
+    router.replace(newURL, { scroll: false });
+  }, [router]);
 
-  const handleSearchTypeChange = (type: SearchType) => {
-    setSearchType(type);
+  // Update search query with debouncing and URL update
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    debouncedSetQuery(query);
+    updateURL(query, selectedFields);
   };
 
+  // Handle field filter changes with URL update
+  const handleFieldFilterChange = (fields: SearchField[]) => {
+    setSelectedFields(fields);
+    updateURL(searchQuery, fields);
+  };
+  
+  const filteredEntries = useMemo(() => {
+    return simpleSearch(debouncedQuery, dictionaryData, selectedFields, 52);
+  }, [debouncedQuery, selectedFields]);
+
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col">
       {/* Header */}
       <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -60,52 +80,29 @@ export default function Home() {
       </header>
 
       {/* Search Section */}
-      <section className="py-8 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <SearchBar
             value={searchQuery}
-            onChange={setSearchQuery}
-            onSearchTypeChange={handleSearchTypeChange}
-            searchType={searchType}
+            onChange={handleSearchChange}
+            placeholder="Search in Darija, Arabic, English, or German..."
+            onFieldFilterChange={handleFieldFilterChange}
+            selectedFields={selectedFields}
           />
-          
-          {/* Search Settings */}
-          <div className="mt-6 flex flex-wrap justify-center items-center gap-4 text-sm text-gray-600 dark:text-gray-300">
-            <div className="flex items-center gap-2">
-              <label htmlFor="threshold" className="font-medium">Search Sensitivity:</label>
-              <input
-                id="threshold"
-                type="range"
-                min="0.1"
-                max="0.8"
-                step="0.1"
-                value={searchThreshold}
-                onChange={(e) => setSearchThreshold(parseFloat(e.target.value))}
-                className="w-24"
-              />
-              <span className="w-8 text-center">{searchThreshold}</span>
-            </div>
-            <div className="text-xs">
-              {searchThreshold <= 0.2 && "Very Strict"}
-              {searchThreshold > 0.2 && searchThreshold <= 0.4 && "Strict"}
-              {searchThreshold > 0.4 && searchThreshold <= 0.6 && "Normal"}
-              {searchThreshold > 0.6 && "Loose"}
-            </div>
-          </div>
         </div>
       </section>
 
       {/* Results Section */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
         {/* Results Info */}
         <div className="mb-6 text-center">
           <p className="text-gray-600 dark:text-gray-300">
-            {searchQuery ? (
+            {debouncedQuery ? (
               <>
-                Found <span className="font-semibold text-gray-900 dark:text-white">{filteredEntries.length}</span> result{filteredEntries.length !== 1 ? 's' : ''} for "{searchQuery}"
-                {searchType !== 'all' && (
+                Found <span className="font-semibold text-gray-900 dark:text-white">{filteredEntries.length}</span> result{filteredEntries.length !== 1 ? 's' : ''} for "{debouncedQuery}"
+                {selectedFields.length < 7 && (
                   <span className="ml-2 text-blue-600 dark:text-blue-400">
-                    (filtered by {searchType})
+                    (filtered by {selectedFields.length} field{selectedFields.length !== 1 ? 's' : ''})
                   </span>
                 )}
               </>
@@ -121,7 +118,7 @@ export default function Home() {
         {filteredEntries.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredEntries.map((entry, index) => (
-              <DictionaryCard key={`${entry.n1}-${index}`} entry={entry} />
+              <DictionaryCard key={`${entry.id}-${index}`} entry={entry} />
             ))}
           </div>
         ) : (
@@ -150,10 +147,10 @@ export default function Home() {
             <div className="text-sm text-gray-400 dark:text-gray-500">
               <p>Search tips:</p>
               <ul className="mt-2 space-y-1">
-                <li>• Try shorter or partial words</li>
-                <li>• Check different spellings</li>
-                <li>• Use the language filters</li>
-                <li>• Adjust search sensitivity</li>
+                <li>• Try exact matches: "haus"</li>
+                <li>• Try prefix matches: "hau" for "haus"</li>
+                <li>• Try partial matches: "leb" for "lebensmittel"</li>
+                <li>• Use field filters to narrow your search</li>
               </ul>
             </div>
           </div>
@@ -161,10 +158,10 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-6">
+      <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-6 mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-500 dark:text-gray-400">
-            © 2024 Darija Dictionary. Built with Next.js, Tailwind CSS, and Fuse.js for powerful fuzzy search.
+            © 2024 Darija Dictionary. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>
