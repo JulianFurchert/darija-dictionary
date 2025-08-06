@@ -1,13 +1,13 @@
 import { DictionaryEntry } from '../data/dictionary';
 
-export type SearchField = 'n1' | 'n2' | 'n3' | 'n4' | 'darija_ar' | 'eng' | 'de';
+export type SearchField = 'darija_latin' | 'darija_latin_alt' | 'n1' | 'n2' | 'n3' | 'n4' | 'darija_ar' | 'eng' | 'eng2' | 'eng3' | 'eng4' | 'de' | 'de2' | 'de3' | 'de4';
 
 // Simple prefix and exact search function
 export function simpleSearch(
   query: string, 
   entries: DictionaryEntry[], 
-  searchFields: SearchField[] = ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de'],
-  maxResults: number = 50
+  searchFields: SearchField[] = ['darija_latin', 'darija_latin_alt', 'n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'eng2', 'eng3', 'eng4', 'de', 'de2', 'de3', 'de4'],
+  maxResults: number = 52
 ): DictionaryEntry[] {
   if (!query.trim()) return entries.slice(0, maxResults);
   
@@ -66,8 +66,8 @@ function getRelevanceScore(entry: DictionaryEntry, searchTerm: string, searchFie
 }
 
 // Enhanced search (keeping for backward compatibility)
-export function enhancedSearch(query: string, entries: DictionaryEntry[], maxResults: number = 50): DictionaryEntry[] {
-  return simpleSearch(query, entries, ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de'], maxResults);
+export function enhancedSearch(query: string, entries: DictionaryEntry[], maxResults: number = 52): DictionaryEntry[] {
+  return simpleSearch(query, entries, ['darija_latin', 'darija_latin_alt', 'n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'eng2', 'eng3', 'eng4', 'de', 'de2', 'de3', 'de4'], maxResults);
 }
 
 // Simple fuzzy search (keeping for backward compatibility)
@@ -90,7 +90,7 @@ export function getSearchResultsWithScore(query: string, entries: DictionaryEntr
   
   const searchTerm = query.toLowerCase().trim();
   const results = entries.map(entry => {
-    const score = getRelevanceScore(entry, searchTerm, ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de']);
+    const score = getRelevanceScore(entry, searchTerm, ['darija_latin', 'darija_latin_alt', 'n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'eng2', 'eng3', 'eng4', 'de', 'de2', 'de3', 'de4']);
     return { entry, score };
   }).filter(result => result.score > 0);
   
@@ -98,11 +98,11 @@ export function getSearchResultsWithScore(query: string, entries: DictionaryEntr
 }
 
 // Search with custom threshold (not really needed for simple search, but keeping for compatibility)
-export function customSearch(query: string, entries: DictionaryEntry[], maxResults: number = 50): DictionaryEntry[] {
-  return simpleSearch(query, entries, ['n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'de'], maxResults);
+export function customSearch(query: string, entries: DictionaryEntry[], maxResults: number = 52): DictionaryEntry[] {
+  return simpleSearch(query, entries, ['darija_latin', 'darija_latin_alt', 'n1', 'n2', 'n3', 'n4', 'darija_ar', 'eng', 'eng2', 'eng3', 'eng4', 'de', 'de2', 'de3', 'de4'], maxResults);
 }
 
-// Clear the cached instance (not needed for simple search, but keeping for compatibility)
+// Clear any cached search instances (keeping for compatibility)
 export function clearFuseCache() {
-  // No cache to clear for simple search
+  // No-op for simple search
 } 

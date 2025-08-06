@@ -2,56 +2,28 @@
 
 import { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { dictionaryData, DictionaryEntry } from '../../../data/dictionary';
-
-// Language detection and translations
-const getLanguage = () => {
-  if (typeof window !== 'undefined') {
-    const path = window.location.pathname;
-    if (path.startsWith('/de')) return 'de';
-    if (path.startsWith('/en')) return 'en';
-  }
-  return 'en'; // default
-};
+import { dictionaryData, DictionaryEntry } from '../../../../data/dictionary';
 
 const translations = {
-  de: {
-    backToSearch: 'Zurück zur Suche',
-    favorite: 'Favorit',
-    share: 'Teilen',
-    darijaLatinPrimary: 'Darija Latein (Primär)',
-    alternativeSpelling: 'Alternative Schreibweise',
-    darijaArabic: 'Darija Arabisch',
-    english: 'Englisch',
-    german: 'Deutsch',
-    also: 'Auch',
-    entryNotFound: 'Eintrag nicht gefunden',
-    backToDictionary: 'Zurück zum Wörterbuch',
-    source: 'Quelle',
-    dodLink: 'Darija Open Dataset (DODa) auf GitHub'
-  },
-  en: {
-    backToSearch: 'Back to Search',
-    favorite: 'Favorite',
-    share: 'Share',
-    darijaLatinPrimary: 'Darija Latin (Primary)',
-    alternativeSpelling: 'Alternative Spelling',
-    darijaArabic: 'Darija Arabic',
-    english: 'English',
-    german: 'German',
-    also: 'Also',
-    entryNotFound: 'Entry not found',
-    backToDictionary: 'Back to Dictionary',
-    source: 'Source',
-    dodLink: 'Darija Open Dataset (DODa) on GitHub'
-  }
+  backToSearch: 'Back to Search',
+  favorite: 'Favorite',
+  share: 'Share',
+  darijaLatinPrimary: 'Darija Latin (Primary)',
+  alternativeSpelling: 'Alternative Spelling',
+  darijaArabic: 'Darija Arabic',
+  english: 'English',
+  german: 'German',
+  also: 'Also',
+  entryNotFound: 'Entry not found',
+  backToDictionary: 'Back to Dictionary',
+  source: 'Source',
+  dodLink: 'Darija Open Dataset (DODa) on GitHub'
 };
 
-export default function EntryPage() {
+export default function EnglishEntryPage() {
   const params = useParams();
   const router = useRouter();
-  const language = getLanguage();
-  const t = translations[language as keyof typeof translations] || translations.en;
+  const t = translations;
   
   const [entry, setEntry] = useState<DictionaryEntry | null>(null);
 
@@ -66,15 +38,14 @@ export default function EntryPage() {
   }, [params.id]);
 
   const handleBackClick = () => {
-    const basePath = language === 'de' ? '/de' : language === 'en' ? '/en' : '';
-    router.push(basePath || '/');
+    router.push('/en');
   };
 
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
         title: `${entry?.darija_latin} - ${t.darijaLatinPrimary}`,
-        text: `${entry?.darija_latin}: ${entry?.eng || entry?.de}`,
+        text: `${entry?.darija_latin}: ${entry?.eng || entry?.eng2 || entry?.eng3 || entry?.eng4}`,
         url: window.location.href
       });
     } else {
@@ -102,18 +73,12 @@ export default function EntryPage() {
     );
   }
 
-  // Get translations based on language
+  // Get English translations
   const getPrimaryTranslation = () => {
-    if (language === 'de') {
-      return entry.de || entry.de2 || entry.de3 || entry.de4 || '';
-    }
     return entry.eng || entry.eng2 || entry.eng3 || entry.eng4 || '';
   };
 
   const getAdditionalTranslations = () => {
-    if (language === 'de') {
-      return [entry.de2, entry.de3, entry.de4].filter(t => t);
-    }
     return [entry.eng2, entry.eng3, entry.eng4].filter(t => t);
   };
 
@@ -210,7 +175,7 @@ export default function EntryPage() {
             {/* Translation */}
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
               <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-3 uppercase tracking-wide">
-                {language === 'de' ? t.german : t.english}
+                {t.english}
               </h3>
               <div className="text-2xl font-semibold text-gray-900 dark:text-white mb-3">
                 {primaryTranslation}

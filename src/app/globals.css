@@ -71,3 +71,13 @@ html {
     background: #9ca3af;
   }
 }
+
+/* Hide scrollbar for mobile alphabet navigation */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
